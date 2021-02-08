@@ -18,7 +18,12 @@ class UserSeeder extends Seeder
     public function run()
     {
         $user = User::create([
-            
+            'surname' => 'Шишунов',
+            'name' => 'Тимофей',
+            'middle_name' => 'Олегович',
+            'email' => 'devkreo@gmail.com',
+            'phone_number' => '+380714643428',
+            'password' => Hash::make('548261379')   
         ]);
         $user->assignRole('user');
         $admin = User::create([
@@ -26,7 +31,7 @@ class UserSeeder extends Seeder
             'name' => 'Эдуард',
             'middle_name' => 'Валерьевич',
             'email' => 'ed.ambidexter@gmail.com',
-            'phone_number' => '+80713314795',
+            'phone_number' => '+380713314795',
             'password' => Hash::make('123456789')
         ]);
         $admin->assignRole('admin');
