@@ -8,8 +8,8 @@
 
         <form @submit.prevent="submit">
             <div>
-                <jet-label for="name" value="Name" />
-                <jet-input id="name" type="text" class="mt-1 block w-full" v-model="form.name" required autofocus autocomplete="name" />
+                <jet-label for="nickname" value="Nickname" />
+                <jet-input id="nickname" type="text" class="mt-1 block w-full" v-model="form.nickname" required autofocus autocomplete="nickname" />
             </div>
 
             <div class="mt-4">
@@ -25,6 +25,25 @@
             <div class="mt-4">
                 <jet-label for="password_confirmation" value="Confirm Password" />
                 <jet-input id="password_confirmation" type="password" class="mt-1 block w-full" v-model="form.password_confirmation" required autocomplete="new-password" />
+            </div>
+            <div class="mt-4">
+                <jet-label for="name" value="Name" />
+                <jet-input id="name" type="text" class="mt-1 block w-full" v-model="form.name" required autofocus autocomplete="name" />
+            </div>
+
+            <div class="mt-4">
+                <jet-label for="surname" value="Surname" />
+                <jet-input id="surname" type="text" class="mt-1 block w-full" v-model="form.surname" required autocomplete="surname" />
+            </div>
+
+            <div class="mt-4">
+                <jet-label for="middle_name" value="Middle name" />
+                <jet-input id="middle_name" type="text" class="mt-1 block w-full" v-model="form.middle_name" required autocomplete="middle_name" />
+            </div>
+
+            <div class="mt-4">
+                <jet-label for="phone_number" value="Phone number" />
+                <jet-input id="phone_number" type="tel" class="mt-1 block w-full" v-model="form.phone_number" required autocomplete="phone_number" />
             </div>
 
             <div class="mt-4" v-if="$page.props.jetstream.hasTermsAndPrivacyPolicyFeature">
@@ -75,7 +94,11 @@
         data() {
             return {
                 form: this.$inertia.form({
+                    nickname: '',
                     name: '',
+                    surname: '',
+                    middle_name: '',
+                    phone_number: '',
                     email: '',
                     password: '',
                     password_confirmation: '',

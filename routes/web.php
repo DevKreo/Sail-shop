@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\RegisterStepTwoController;
+use App\Models\Role;
 use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
@@ -33,3 +35,5 @@ Route::group(['middleware' => ['role:admin']],function(){
         return Inertia::render('Admin');
     })->name('admin');
 });
+
+
