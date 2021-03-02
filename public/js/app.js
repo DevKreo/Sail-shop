@@ -31852,7 +31852,13 @@ var render = function() {
           _c(
             "div",
             { staticClass: "bg-white overflow-hidden shadow-xl sm:rounded-lg" },
-            [_c("h1", [_vm._v("Ебать работает")])]
+            [
+              _c("h1", [
+                _vm._v(
+                  "Админ страница, доступна только для пользователей с правами администратора"
+                )
+              ])
+            ]
           )
         ])
       ])
