@@ -13,6 +13,12 @@ module.exports = {
             fontFamily: {
                 sans: ['Nunito', ...defaultTheme.fontFamily.sans],
             },
+            backgroundImage: theme => ({
+                'logo-texture': "url('D:/Projects/Work/Git_repo/Sail-shop/resources/img/logo.png')",
+            }),
+            spacing: {
+                '24': '6.25rem'
+            },
         },
     },
 

@@ -2261,14 +2261,14 @@ select {
 
 .space-y-24 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
-  margin-top: calc(6rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(6rem * var(--tw-space-y-reverse));
+  margin-top: calc(6.25rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(6.25rem * var(--tw-space-y-reverse));
 }
 
 .space-x-24 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
-  margin-right: calc(6rem * var(--tw-space-x-reverse));
-  margin-left: calc(6rem * calc(1 - var(--tw-space-x-reverse)));
+  margin-right: calc(6.25rem * var(--tw-space-x-reverse));
+  margin-left: calc(6.25rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
 .space-y-28 > :not([hidden]) ~ :not([hidden]) {
@@ -2681,14 +2681,14 @@ select {
 
 .-space-y-24 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
-  margin-top: calc(-6rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(-6rem * var(--tw-space-y-reverse));
+  margin-top: calc(-6.25rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(-6.25rem * var(--tw-space-y-reverse));
 }
 
 .-space-x-24 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
-  margin-right: calc(-6rem * var(--tw-space-x-reverse));
-  margin-left: calc(-6rem * calc(1 - var(--tw-space-x-reverse)));
+  margin-right: calc(-6.25rem * var(--tw-space-x-reverse));
+  margin-left: calc(-6.25rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
 .-space-y-28 > :not([hidden]) ~ :not([hidden]) {
@@ -5709,6 +5709,10 @@ select {
 
 .bg-gradient-to-tl {
   background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+}
+
+.bg-logo-texture {
+  background-image: url(/images/logo.png?52a0afc934d028bf0d6a6ae7b787c964);
 }
 
 .from-transparent {
@@ -12810,7 +12814,7 @@ select {
 }
 
 .h-24 {
-  height: 6rem;
+  height: 6.25rem;
 }
 
 .h-28 {
@@ -13163,7 +13167,7 @@ select {
 }
 
 .m-24 {
-  margin: 6rem;
+  margin: 6.25rem;
 }
 
 .m-28 {
@@ -13307,7 +13311,7 @@ select {
 }
 
 .-m-24 {
-  margin: -6rem;
+  margin: -6.25rem;
 }
 
 .-m-28 {
@@ -13543,13 +13547,13 @@ select {
 }
 
 .my-24 {
-  margin-top: 6rem;
-  margin-bottom: 6rem;
+  margin-top: 6.25rem;
+  margin-bottom: 6.25rem;
 }
 
 .mx-24 {
-  margin-left: 6rem;
-  margin-right: 6rem;
+  margin-left: 6.25rem;
+  margin-right: 6.25rem;
 }
 
 .my-28 {
@@ -13903,13 +13907,13 @@ select {
 }
 
 .-my-24 {
-  margin-top: -6rem;
-  margin-bottom: -6rem;
+  margin-top: -6.25rem;
+  margin-bottom: -6.25rem;
 }
 
 .-mx-24 {
-  margin-left: -6rem;
-  margin-right: -6rem;
+  margin-left: -6.25rem;
+  margin-right: -6.25rem;
 }
 
 .-my-28 {
@@ -14349,19 +14353,19 @@ select {
 }
 
 .mt-24 {
-  margin-top: 6rem;
+  margin-top: 6.25rem;
 }
 
 .mr-24 {
-  margin-right: 6rem;
+  margin-right: 6.25rem;
 }
 
 .mb-24 {
-  margin-bottom: 6rem;
+  margin-bottom: 6.25rem;
 }
 
 .ml-24 {
-  margin-left: 6rem;
+  margin-left: 6.25rem;
 }
 
 .mt-28 {
@@ -14925,19 +14929,19 @@ select {
 }
 
 .-mt-24 {
-  margin-top: -6rem;
+  margin-top: -6.25rem;
 }
 
 .-mr-24 {
-  margin-right: -6rem;
+  margin-right: -6.25rem;
 }
 
 .-mb-24 {
-  margin-bottom: -6rem;
+  margin-bottom: -6.25rem;
 }
 
 .-ml-24 {
-  margin-left: -6rem;
+  margin-left: -6.25rem;
 }
 
 .-mt-28 {
@@ -15293,7 +15297,7 @@ select {
 }
 
 .max-h-24 {
-  max-height: 6rem;
+  max-height: 6.25rem;
 }
 
 .max-h-28 {
@@ -16127,7 +16131,7 @@ select {
 }
 
 .p-24 {
-  padding: 6rem;
+  padding: 6.25rem;
 }
 
 .p-28 {
@@ -16363,13 +16367,13 @@ select {
 }
 
 .py-24 {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
+  padding-top: 6.25rem;
+  padding-bottom: 6.25rem;
 }
 
 .px-24 {
-  padding-left: 6rem;
-  padding-right: 6rem;
+  padding-left: 6.25rem;
+  padding-right: 6.25rem;
 }
 
 .py-28 {
@@ -16809,19 +16813,19 @@ select {
 }
 
 .pt-24 {
-  padding-top: 6rem;
+  padding-top: 6.25rem;
 }
 
 .pr-24 {
-  padding-right: 6rem;
+  padding-right: 6.25rem;
 }
 
 .pb-24 {
-  padding-bottom: 6rem;
+  padding-bottom: 6.25rem;
 }
 
 .pl-24 {
-  padding-left: 6rem;
+  padding-left: 6.25rem;
 }
 
 .pt-28 {
@@ -20122,10 +20126,10 @@ select {
 }
 
 .inset-24 {
-  top: 6rem;
-  right: 6rem;
-  bottom: 6rem;
-  left: 6rem;
+  top: 6.25rem;
+  right: 6.25rem;
+  bottom: 6.25rem;
+  left: 6.25rem;
 }
 
 .inset-28 {
@@ -20374,10 +20378,10 @@ select {
 }
 
 .-inset-24 {
-  top: -6rem;
-  right: -6rem;
-  bottom: -6rem;
-  left: -6rem;
+  top: -6.25rem;
+  right: -6.25rem;
+  bottom: -6.25rem;
+  left: -6.25rem;
 }
 
 .-inset-28 {
@@ -20765,13 +20769,13 @@ select {
 }
 
 .inset-y-24 {
-  top: 6rem;
-  bottom: 6rem;
+  top: 6.25rem;
+  bottom: 6.25rem;
 }
 
 .inset-x-24 {
-  right: 6rem;
-  left: 6rem;
+  right: 6.25rem;
+  left: 6.25rem;
 }
 
 .inset-y-28 {
@@ -21125,13 +21129,13 @@ select {
 }
 
 .-inset-y-24 {
-  top: -6rem;
-  bottom: -6rem;
+  top: -6.25rem;
+  bottom: -6.25rem;
 }
 
 .-inset-x-24 {
-  right: -6rem;
-  left: -6rem;
+  right: -6.25rem;
+  left: -6.25rem;
 }
 
 .-inset-y-28 {
@@ -21711,19 +21715,19 @@ select {
 }
 
 .top-24 {
-  top: 6rem;
+  top: 6.25rem;
 }
 
 .right-24 {
-  right: 6rem;
+  right: 6.25rem;
 }
 
 .bottom-24 {
-  bottom: 6rem;
+  bottom: 6.25rem;
 }
 
 .left-24 {
-  left: 6rem;
+  left: 6.25rem;
 }
 
 .top-28 {
@@ -22287,19 +22291,19 @@ select {
 }
 
 .-top-24 {
-  top: -6rem;
+  top: -6.25rem;
 }
 
 .-right-24 {
-  right: -6rem;
+  right: -6.25rem;
 }
 
 .-bottom-24 {
-  bottom: -6rem;
+  bottom: -6.25rem;
 }
 
 .-left-24 {
-  left: -6rem;
+  left: -6.25rem;
 }
 
 .-top-28 {
@@ -28433,7 +28437,7 @@ select {
 }
 
 .w-24 {
-  width: 6rem;
+  width: 6.25rem;
 }
 
 .w-28 {
@@ -28785,7 +28789,7 @@ select {
 }
 
 .gap-24 {
-  gap: 6rem;
+  gap: 6.25rem;
 }
 
 .gap-28 {
@@ -28941,8 +28945,8 @@ select {
 }
 
 .gap-x-24 {
-  -moz-column-gap: 6rem;
-       column-gap: 6rem;
+  -moz-column-gap: 6.25rem;
+       column-gap: 6.25rem;
 }
 
 .gap-x-28 {
@@ -29100,7 +29104,7 @@ select {
 }
 
 .gap-y-24 {
-  row-gap: 6rem;
+  row-gap: 6.25rem;
 }
 
 .gap-y-28 {
@@ -30292,7 +30296,7 @@ select {
 }
 
 .translate-x-24 {
-  --tw-translate-x: 6rem;
+  --tw-translate-x: 6.25rem;
 }
 
 .translate-x-28 {
@@ -30432,7 +30436,7 @@ select {
 }
 
 .-translate-x-24 {
-  --tw-translate-x: -6rem;
+  --tw-translate-x: -6.25rem;
 }
 
 .-translate-x-28 {
@@ -30628,7 +30632,7 @@ select {
 }
 
 .translate-y-24 {
-  --tw-translate-y: 6rem;
+  --tw-translate-y: 6.25rem;
 }
 
 .translate-y-28 {
@@ -30768,7 +30772,7 @@ select {
 }
 
 .-translate-y-24 {
-  --tw-translate-y: -6rem;
+  --tw-translate-y: -6.25rem;
 }
 
 .-translate-y-28 {
@@ -30964,7 +30968,7 @@ select {
 }
 
 .hover\:translate-x-24:hover {
-  --tw-translate-x: 6rem;
+  --tw-translate-x: 6.25rem;
 }
 
 .hover\:translate-x-28:hover {
@@ -31104,7 +31108,7 @@ select {
 }
 
 .hover\:-translate-x-24:hover {
-  --tw-translate-x: -6rem;
+  --tw-translate-x: -6.25rem;
 }
 
 .hover\:-translate-x-28:hover {
@@ -31300,7 +31304,7 @@ select {
 }
 
 .hover\:translate-y-24:hover {
-  --tw-translate-y: 6rem;
+  --tw-translate-y: 6.25rem;
 }
 
 .hover\:translate-y-28:hover {
@@ -31440,7 +31444,7 @@ select {
 }
 
 .hover\:-translate-y-24:hover {
-  --tw-translate-y: -6rem;
+  --tw-translate-y: -6.25rem;
 }
 
 .hover\:-translate-y-28:hover {
@@ -31636,7 +31640,7 @@ select {
 }
 
 .focus\:translate-x-24:focus {
-  --tw-translate-x: 6rem;
+  --tw-translate-x: 6.25rem;
 }
 
 .focus\:translate-x-28:focus {
@@ -31776,7 +31780,7 @@ select {
 }
 
 .focus\:-translate-x-24:focus {
-  --tw-translate-x: -6rem;
+  --tw-translate-x: -6.25rem;
 }
 
 .focus\:-translate-x-28:focus {
@@ -31972,7 +31976,7 @@ select {
 }
 
 .focus\:translate-y-24:focus {
-  --tw-translate-y: 6rem;
+  --tw-translate-y: 6.25rem;
 }
 
 .focus\:translate-y-28:focus {
@@ -32112,7 +32116,7 @@ select {
 }
 
 .focus\:-translate-y-24:focus {
-  --tw-translate-y: -6rem;
+  --tw-translate-y: -6.25rem;
 }
 
 .focus\:-translate-y-28:focus {
@@ -34232,14 +34236,14 @@ select {
 
   .sm\:space-y-24 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-y-reverse: 0;
-    margin-top: calc(6rem * calc(1 - var(--tw-space-y-reverse)));
-    margin-bottom: calc(6rem * var(--tw-space-y-reverse));
+    margin-top: calc(6.25rem * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(6.25rem * var(--tw-space-y-reverse));
   }
 
   .sm\:space-x-24 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-x-reverse: 0;
-    margin-right: calc(6rem * var(--tw-space-x-reverse));
-    margin-left: calc(6rem * calc(1 - var(--tw-space-x-reverse)));
+    margin-right: calc(6.25rem * var(--tw-space-x-reverse));
+    margin-left: calc(6.25rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
   .sm\:space-y-28 > :not([hidden]) ~ :not([hidden]) {
@@ -34652,14 +34656,14 @@ select {
 
   .sm\:-space-y-24 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-y-reverse: 0;
-    margin-top: calc(-6rem * calc(1 - var(--tw-space-y-reverse)));
-    margin-bottom: calc(-6rem * var(--tw-space-y-reverse));
+    margin-top: calc(-6.25rem * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(-6.25rem * var(--tw-space-y-reverse));
   }
 
   .sm\:-space-x-24 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-x-reverse: 0;
-    margin-right: calc(-6rem * var(--tw-space-x-reverse));
-    margin-left: calc(-6rem * calc(1 - var(--tw-space-x-reverse)));
+    margin-right: calc(-6.25rem * var(--tw-space-x-reverse));
+    margin-left: calc(-6.25rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
   .sm\:-space-y-28 > :not([hidden]) ~ :not([hidden]) {
@@ -37680,6 +37684,10 @@ select {
 
   .sm\:bg-gradient-to-tl {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+  }
+
+  .sm\:bg-logo-texture {
+    background-image: url(/images/logo.png?52a0afc934d028bf0d6a6ae7b787c964);
   }
 
   .sm\:from-transparent {
@@ -44781,7 +44789,7 @@ select {
   }
 
   .sm\:h-24 {
-    height: 6rem;
+    height: 6.25rem;
   }
 
   .sm\:h-28 {
@@ -45134,7 +45142,7 @@ select {
   }
 
   .sm\:m-24 {
-    margin: 6rem;
+    margin: 6.25rem;
   }
 
   .sm\:m-28 {
@@ -45278,7 +45286,7 @@ select {
   }
 
   .sm\:-m-24 {
-    margin: -6rem;
+    margin: -6.25rem;
   }
 
   .sm\:-m-28 {
@@ -45514,13 +45522,13 @@ select {
   }
 
   .sm\:my-24 {
-    margin-top: 6rem;
-    margin-bottom: 6rem;
+    margin-top: 6.25rem;
+    margin-bottom: 6.25rem;
   }
 
   .sm\:mx-24 {
-    margin-left: 6rem;
-    margin-right: 6rem;
+    margin-left: 6.25rem;
+    margin-right: 6.25rem;
   }
 
   .sm\:my-28 {
@@ -45874,13 +45882,13 @@ select {
   }
 
   .sm\:-my-24 {
-    margin-top: -6rem;
-    margin-bottom: -6rem;
+    margin-top: -6.25rem;
+    margin-bottom: -6.25rem;
   }
 
   .sm\:-mx-24 {
-    margin-left: -6rem;
-    margin-right: -6rem;
+    margin-left: -6.25rem;
+    margin-right: -6.25rem;
   }
 
   .sm\:-my-28 {
@@ -46320,19 +46328,19 @@ select {
   }
 
   .sm\:mt-24 {
-    margin-top: 6rem;
+    margin-top: 6.25rem;
   }
 
   .sm\:mr-24 {
-    margin-right: 6rem;
+    margin-right: 6.25rem;
   }
 
   .sm\:mb-24 {
-    margin-bottom: 6rem;
+    margin-bottom: 6.25rem;
   }
 
   .sm\:ml-24 {
-    margin-left: 6rem;
+    margin-left: 6.25rem;
   }
 
   .sm\:mt-28 {
@@ -46896,19 +46904,19 @@ select {
   }
 
   .sm\:-mt-24 {
-    margin-top: -6rem;
+    margin-top: -6.25rem;
   }
 
   .sm\:-mr-24 {
-    margin-right: -6rem;
+    margin-right: -6.25rem;
   }
 
   .sm\:-mb-24 {
-    margin-bottom: -6rem;
+    margin-bottom: -6.25rem;
   }
 
   .sm\:-ml-24 {
-    margin-left: -6rem;
+    margin-left: -6.25rem;
   }
 
   .sm\:-mt-28 {
@@ -47264,7 +47272,7 @@ select {
   }
 
   .sm\:max-h-24 {
-    max-height: 6rem;
+    max-height: 6.25rem;
   }
 
   .sm\:max-h-28 {
@@ -48098,7 +48106,7 @@ select {
   }
 
   .sm\:p-24 {
-    padding: 6rem;
+    padding: 6.25rem;
   }
 
   .sm\:p-28 {
@@ -48334,13 +48342,13 @@ select {
   }
 
   .sm\:py-24 {
-    padding-top: 6rem;
-    padding-bottom: 6rem;
+    padding-top: 6.25rem;
+    padding-bottom: 6.25rem;
   }
 
   .sm\:px-24 {
-    padding-left: 6rem;
-    padding-right: 6rem;
+    padding-left: 6.25rem;
+    padding-right: 6.25rem;
   }
 
   .sm\:py-28 {
@@ -48780,19 +48788,19 @@ select {
   }
 
   .sm\:pt-24 {
-    padding-top: 6rem;
+    padding-top: 6.25rem;
   }
 
   .sm\:pr-24 {
-    padding-right: 6rem;
+    padding-right: 6.25rem;
   }
 
   .sm\:pb-24 {
-    padding-bottom: 6rem;
+    padding-bottom: 6.25rem;
   }
 
   .sm\:pl-24 {
-    padding-left: 6rem;
+    padding-left: 6.25rem;
   }
 
   .sm\:pt-28 {
@@ -52093,10 +52101,10 @@ select {
   }
 
   .sm\:inset-24 {
-    top: 6rem;
-    right: 6rem;
-    bottom: 6rem;
-    left: 6rem;
+    top: 6.25rem;
+    right: 6.25rem;
+    bottom: 6.25rem;
+    left: 6.25rem;
   }
 
   .sm\:inset-28 {
@@ -52345,10 +52353,10 @@ select {
   }
 
   .sm\:-inset-24 {
-    top: -6rem;
-    right: -6rem;
-    bottom: -6rem;
-    left: -6rem;
+    top: -6.25rem;
+    right: -6.25rem;
+    bottom: -6.25rem;
+    left: -6.25rem;
   }
 
   .sm\:-inset-28 {
@@ -52736,13 +52744,13 @@ select {
   }
 
   .sm\:inset-y-24 {
-    top: 6rem;
-    bottom: 6rem;
+    top: 6.25rem;
+    bottom: 6.25rem;
   }
 
   .sm\:inset-x-24 {
-    right: 6rem;
-    left: 6rem;
+    right: 6.25rem;
+    left: 6.25rem;
   }
 
   .sm\:inset-y-28 {
@@ -53096,13 +53104,13 @@ select {
   }
 
   .sm\:-inset-y-24 {
-    top: -6rem;
-    bottom: -6rem;
+    top: -6.25rem;
+    bottom: -6.25rem;
   }
 
   .sm\:-inset-x-24 {
-    right: -6rem;
-    left: -6rem;
+    right: -6.25rem;
+    left: -6.25rem;
   }
 
   .sm\:-inset-y-28 {
@@ -53682,19 +53690,19 @@ select {
   }
 
   .sm\:top-24 {
-    top: 6rem;
+    top: 6.25rem;
   }
 
   .sm\:right-24 {
-    right: 6rem;
+    right: 6.25rem;
   }
 
   .sm\:bottom-24 {
-    bottom: 6rem;
+    bottom: 6.25rem;
   }
 
   .sm\:left-24 {
-    left: 6rem;
+    left: 6.25rem;
   }
 
   .sm\:top-28 {
@@ -54258,19 +54266,19 @@ select {
   }
 
   .sm\:-top-24 {
-    top: -6rem;
+    top: -6.25rem;
   }
 
   .sm\:-right-24 {
-    right: -6rem;
+    right: -6.25rem;
   }
 
   .sm\:-bottom-24 {
-    bottom: -6rem;
+    bottom: -6.25rem;
   }
 
   .sm\:-left-24 {
-    left: -6rem;
+    left: -6.25rem;
   }
 
   .sm\:-top-28 {
@@ -60391,7 +60399,7 @@ select {
   }
 
   .sm\:w-24 {
-    width: 6rem;
+    width: 6.25rem;
   }
 
   .sm\:w-28 {
@@ -60743,7 +60751,7 @@ select {
   }
 
   .sm\:gap-24 {
-    gap: 6rem;
+    gap: 6.25rem;
   }
 
   .sm\:gap-28 {
@@ -60899,8 +60907,8 @@ select {
   }
 
   .sm\:gap-x-24 {
-    -moz-column-gap: 6rem;
-         column-gap: 6rem;
+    -moz-column-gap: 6.25rem;
+         column-gap: 6.25rem;
   }
 
   .sm\:gap-x-28 {
@@ -61058,7 +61066,7 @@ select {
   }
 
   .sm\:gap-y-24 {
-    row-gap: 6rem;
+    row-gap: 6.25rem;
   }
 
   .sm\:gap-y-28 {
@@ -62250,7 +62258,7 @@ select {
   }
 
   .sm\:translate-x-24 {
-    --tw-translate-x: 6rem;
+    --tw-translate-x: 6.25rem;
   }
 
   .sm\:translate-x-28 {
@@ -62390,7 +62398,7 @@ select {
   }
 
   .sm\:-translate-x-24 {
-    --tw-translate-x: -6rem;
+    --tw-translate-x: -6.25rem;
   }
 
   .sm\:-translate-x-28 {
@@ -62586,7 +62594,7 @@ select {
   }
 
   .sm\:translate-y-24 {
-    --tw-translate-y: 6rem;
+    --tw-translate-y: 6.25rem;
   }
 
   .sm\:translate-y-28 {
@@ -62726,7 +62734,7 @@ select {
   }
 
   .sm\:-translate-y-24 {
-    --tw-translate-y: -6rem;
+    --tw-translate-y: -6.25rem;
   }
 
   .sm\:-translate-y-28 {
@@ -62922,7 +62930,7 @@ select {
   }
 
   .sm\:hover\:translate-x-24:hover {
-    --tw-translate-x: 6rem;
+    --tw-translate-x: 6.25rem;
   }
 
   .sm\:hover\:translate-x-28:hover {
@@ -63062,7 +63070,7 @@ select {
   }
 
   .sm\:hover\:-translate-x-24:hover {
-    --tw-translate-x: -6rem;
+    --tw-translate-x: -6.25rem;
   }
 
   .sm\:hover\:-translate-x-28:hover {
@@ -63258,7 +63266,7 @@ select {
   }
 
   .sm\:hover\:translate-y-24:hover {
-    --tw-translate-y: 6rem;
+    --tw-translate-y: 6.25rem;
   }
 
   .sm\:hover\:translate-y-28:hover {
@@ -63398,7 +63406,7 @@ select {
   }
 
   .sm\:hover\:-translate-y-24:hover {
-    --tw-translate-y: -6rem;
+    --tw-translate-y: -6.25rem;
   }
 
   .sm\:hover\:-translate-y-28:hover {
@@ -63594,7 +63602,7 @@ select {
   }
 
   .sm\:focus\:translate-x-24:focus {
-    --tw-translate-x: 6rem;
+    --tw-translate-x: 6.25rem;
   }
 
   .sm\:focus\:translate-x-28:focus {
@@ -63734,7 +63742,7 @@ select {
   }
 
   .sm\:focus\:-translate-x-24:focus {
-    --tw-translate-x: -6rem;
+    --tw-translate-x: -6.25rem;
   }
 
   .sm\:focus\:-translate-x-28:focus {
@@ -63930,7 +63938,7 @@ select {
   }
 
   .sm\:focus\:translate-y-24:focus {
-    --tw-translate-y: 6rem;
+    --tw-translate-y: 6.25rem;
   }
 
   .sm\:focus\:translate-y-28:focus {
@@ -64070,7 +64078,7 @@ select {
   }
 
   .sm\:focus\:-translate-y-24:focus {
-    --tw-translate-y: -6rem;
+    --tw-translate-y: -6.25rem;
   }
 
   .sm\:focus\:-translate-y-28:focus {
@@ -66125,14 +66133,14 @@ select {
 
   .md\:space-y-24 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-y-reverse: 0;
-    margin-top: calc(6rem * calc(1 - var(--tw-space-y-reverse)));
-    margin-bottom: calc(6rem * var(--tw-space-y-reverse));
+    margin-top: calc(6.25rem * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(6.25rem * var(--tw-space-y-reverse));
   }
 
   .md\:space-x-24 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-x-reverse: 0;
-    margin-right: calc(6rem * var(--tw-space-x-reverse));
-    margin-left: calc(6rem * calc(1 - var(--tw-space-x-reverse)));
+    margin-right: calc(6.25rem * var(--tw-space-x-reverse));
+    margin-left: calc(6.25rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
   .md\:space-y-28 > :not([hidden]) ~ :not([hidden]) {
@@ -66545,14 +66553,14 @@ select {
 
   .md\:-space-y-24 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-y-reverse: 0;
-    margin-top: calc(-6rem * calc(1 - var(--tw-space-y-reverse)));
-    margin-bottom: calc(-6rem * var(--tw-space-y-reverse));
+    margin-top: calc(-6.25rem * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(-6.25rem * var(--tw-space-y-reverse));
   }
 
   .md\:-space-x-24 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-x-reverse: 0;
-    margin-right: calc(-6rem * var(--tw-space-x-reverse));
-    margin-left: calc(-6rem * calc(1 - var(--tw-space-x-reverse)));
+    margin-right: calc(-6.25rem * var(--tw-space-x-reverse));
+    margin-left: calc(-6.25rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
   .md\:-space-y-28 > :not([hidden]) ~ :not([hidden]) {
@@ -69573,6 +69581,10 @@ select {
 
   .md\:bg-gradient-to-tl {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+  }
+
+  .md\:bg-logo-texture {
+    background-image: url(/images/logo.png?52a0afc934d028bf0d6a6ae7b787c964);
   }
 
   .md\:from-transparent {
@@ -76674,7 +76686,7 @@ select {
   }
 
   .md\:h-24 {
-    height: 6rem;
+    height: 6.25rem;
   }
 
   .md\:h-28 {
@@ -77027,7 +77039,7 @@ select {
   }
 
   .md\:m-24 {
-    margin: 6rem;
+    margin: 6.25rem;
   }
 
   .md\:m-28 {
@@ -77171,7 +77183,7 @@ select {
   }
 
   .md\:-m-24 {
-    margin: -6rem;
+    margin: -6.25rem;
   }
 
   .md\:-m-28 {
@@ -77407,13 +77419,13 @@ select {
   }
 
   .md\:my-24 {
-    margin-top: 6rem;
-    margin-bottom: 6rem;
+    margin-top: 6.25rem;
+    margin-bottom: 6.25rem;
   }
 
   .md\:mx-24 {
-    margin-left: 6rem;
-    margin-right: 6rem;
+    margin-left: 6.25rem;
+    margin-right: 6.25rem;
   }
 
   .md\:my-28 {
@@ -77767,13 +77779,13 @@ select {
   }
 
   .md\:-my-24 {
-    margin-top: -6rem;
-    margin-bottom: -6rem;
+    margin-top: -6.25rem;
+    margin-bottom: -6.25rem;
   }
 
   .md\:-mx-24 {
-    margin-left: -6rem;
-    margin-right: -6rem;
+    margin-left: -6.25rem;
+    margin-right: -6.25rem;
   }
 
   .md\:-my-28 {
@@ -78213,19 +78225,19 @@ select {
   }
 
   .md\:mt-24 {
-    margin-top: 6rem;
+    margin-top: 6.25rem;
   }
 
   .md\:mr-24 {
-    margin-right: 6rem;
+    margin-right: 6.25rem;
   }
 
   .md\:mb-24 {
-    margin-bottom: 6rem;
+    margin-bottom: 6.25rem;
   }
 
   .md\:ml-24 {
-    margin-left: 6rem;
+    margin-left: 6.25rem;
   }
 
   .md\:mt-28 {
@@ -78789,19 +78801,19 @@ select {
   }
 
   .md\:-mt-24 {
-    margin-top: -6rem;
+    margin-top: -6.25rem;
   }
 
   .md\:-mr-24 {
-    margin-right: -6rem;
+    margin-right: -6.25rem;
   }
 
   .md\:-mb-24 {
-    margin-bottom: -6rem;
+    margin-bottom: -6.25rem;
   }
 
   .md\:-ml-24 {
-    margin-left: -6rem;
+    margin-left: -6.25rem;
   }
 
   .md\:-mt-28 {
@@ -79157,7 +79169,7 @@ select {
   }
 
   .md\:max-h-24 {
-    max-height: 6rem;
+    max-height: 6.25rem;
   }
 
   .md\:max-h-28 {
@@ -79991,7 +80003,7 @@ select {
   }
 
   .md\:p-24 {
-    padding: 6rem;
+    padding: 6.25rem;
   }
 
   .md\:p-28 {
@@ -80227,13 +80239,13 @@ select {
   }
 
   .md\:py-24 {
-    padding-top: 6rem;
-    padding-bottom: 6rem;
+    padding-top: 6.25rem;
+    padding-bottom: 6.25rem;
   }
 
   .md\:px-24 {
-    padding-left: 6rem;
-    padding-right: 6rem;
+    padding-left: 6.25rem;
+    padding-right: 6.25rem;
   }
 
   .md\:py-28 {
@@ -80673,19 +80685,19 @@ select {
   }
 
   .md\:pt-24 {
-    padding-top: 6rem;
+    padding-top: 6.25rem;
   }
 
   .md\:pr-24 {
-    padding-right: 6rem;
+    padding-right: 6.25rem;
   }
 
   .md\:pb-24 {
-    padding-bottom: 6rem;
+    padding-bottom: 6.25rem;
   }
 
   .md\:pl-24 {
-    padding-left: 6rem;
+    padding-left: 6.25rem;
   }
 
   .md\:pt-28 {
@@ -83986,10 +83998,10 @@ select {
   }
 
   .md\:inset-24 {
-    top: 6rem;
-    right: 6rem;
-    bottom: 6rem;
-    left: 6rem;
+    top: 6.25rem;
+    right: 6.25rem;
+    bottom: 6.25rem;
+    left: 6.25rem;
   }
 
   .md\:inset-28 {
@@ -84238,10 +84250,10 @@ select {
   }
 
   .md\:-inset-24 {
-    top: -6rem;
-    right: -6rem;
-    bottom: -6rem;
-    left: -6rem;
+    top: -6.25rem;
+    right: -6.25rem;
+    bottom: -6.25rem;
+    left: -6.25rem;
   }
 
   .md\:-inset-28 {
@@ -84629,13 +84641,13 @@ select {
   }
 
   .md\:inset-y-24 {
-    top: 6rem;
-    bottom: 6rem;
+    top: 6.25rem;
+    bottom: 6.25rem;
   }
 
   .md\:inset-x-24 {
-    right: 6rem;
-    left: 6rem;
+    right: 6.25rem;
+    left: 6.25rem;
   }
 
   .md\:inset-y-28 {
@@ -84989,13 +85001,13 @@ select {
   }
 
   .md\:-inset-y-24 {
-    top: -6rem;
-    bottom: -6rem;
+    top: -6.25rem;
+    bottom: -6.25rem;
   }
 
   .md\:-inset-x-24 {
-    right: -6rem;
-    left: -6rem;
+    right: -6.25rem;
+    left: -6.25rem;
   }
 
   .md\:-inset-y-28 {
@@ -85575,19 +85587,19 @@ select {
   }
 
   .md\:top-24 {
-    top: 6rem;
+    top: 6.25rem;
   }
 
   .md\:right-24 {
-    right: 6rem;
+    right: 6.25rem;
   }
 
   .md\:bottom-24 {
-    bottom: 6rem;
+    bottom: 6.25rem;
   }
 
   .md\:left-24 {
-    left: 6rem;
+    left: 6.25rem;
   }
 
   .md\:top-28 {
@@ -86151,19 +86163,19 @@ select {
   }
 
   .md\:-top-24 {
-    top: -6rem;
+    top: -6.25rem;
   }
 
   .md\:-right-24 {
-    right: -6rem;
+    right: -6.25rem;
   }
 
   .md\:-bottom-24 {
-    bottom: -6rem;
+    bottom: -6.25rem;
   }
 
   .md\:-left-24 {
-    left: -6rem;
+    left: -6.25rem;
   }
 
   .md\:-top-28 {
@@ -92284,7 +92296,7 @@ select {
   }
 
   .md\:w-24 {
-    width: 6rem;
+    width: 6.25rem;
   }
 
   .md\:w-28 {
@@ -92636,7 +92648,7 @@ select {
   }
 
   .md\:gap-24 {
-    gap: 6rem;
+    gap: 6.25rem;
   }
 
   .md\:gap-28 {
@@ -92792,8 +92804,8 @@ select {
   }
 
   .md\:gap-x-24 {
-    -moz-column-gap: 6rem;
-         column-gap: 6rem;
+    -moz-column-gap: 6.25rem;
+         column-gap: 6.25rem;
   }
 
   .md\:gap-x-28 {
@@ -92951,7 +92963,7 @@ select {
   }
 
   .md\:gap-y-24 {
-    row-gap: 6rem;
+    row-gap: 6.25rem;
   }
 
   .md\:gap-y-28 {
@@ -94143,7 +94155,7 @@ select {
   }
 
   .md\:translate-x-24 {
-    --tw-translate-x: 6rem;
+    --tw-translate-x: 6.25rem;
   }
 
   .md\:translate-x-28 {
@@ -94283,7 +94295,7 @@ select {
   }
 
   .md\:-translate-x-24 {
-    --tw-translate-x: -6rem;
+    --tw-translate-x: -6.25rem;
   }
 
   .md\:-translate-x-28 {
@@ -94479,7 +94491,7 @@ select {
   }
 
   .md\:translate-y-24 {
-    --tw-translate-y: 6rem;
+    --tw-translate-y: 6.25rem;
   }
 
   .md\:translate-y-28 {
@@ -94619,7 +94631,7 @@ select {
   }
 
   .md\:-translate-y-24 {
-    --tw-translate-y: -6rem;
+    --tw-translate-y: -6.25rem;
   }
 
   .md\:-translate-y-28 {
@@ -94815,7 +94827,7 @@ select {
   }
 
   .md\:hover\:translate-x-24:hover {
-    --tw-translate-x: 6rem;
+    --tw-translate-x: 6.25rem;
   }
 
   .md\:hover\:translate-x-28:hover {
@@ -94955,7 +94967,7 @@ select {
   }
 
   .md\:hover\:-translate-x-24:hover {
-    --tw-translate-x: -6rem;
+    --tw-translate-x: -6.25rem;
   }
 
   .md\:hover\:-translate-x-28:hover {
@@ -95151,7 +95163,7 @@ select {
   }
 
   .md\:hover\:translate-y-24:hover {
-    --tw-translate-y: 6rem;
+    --tw-translate-y: 6.25rem;
   }
 
   .md\:hover\:translate-y-28:hover {
@@ -95291,7 +95303,7 @@ select {
   }
 
   .md\:hover\:-translate-y-24:hover {
-    --tw-translate-y: -6rem;
+    --tw-translate-y: -6.25rem;
   }
 
   .md\:hover\:-translate-y-28:hover {
@@ -95487,7 +95499,7 @@ select {
   }
 
   .md\:focus\:translate-x-24:focus {
-    --tw-translate-x: 6rem;
+    --tw-translate-x: 6.25rem;
   }
 
   .md\:focus\:translate-x-28:focus {
@@ -95627,7 +95639,7 @@ select {
   }
 
   .md\:focus\:-translate-x-24:focus {
-    --tw-translate-x: -6rem;
+    --tw-translate-x: -6.25rem;
   }
 
   .md\:focus\:-translate-x-28:focus {
@@ -95823,7 +95835,7 @@ select {
   }
 
   .md\:focus\:translate-y-24:focus {
-    --tw-translate-y: 6rem;
+    --tw-translate-y: 6.25rem;
   }
 
   .md\:focus\:translate-y-28:focus {
@@ -95963,7 +95975,7 @@ select {
   }
 
   .md\:focus\:-translate-y-24:focus {
-    --tw-translate-y: -6rem;
+    --tw-translate-y: -6.25rem;
   }
 
   .md\:focus\:-translate-y-28:focus {
@@ -98018,14 +98030,14 @@ select {
 
   .lg\:space-y-24 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-y-reverse: 0;
-    margin-top: calc(6rem * calc(1 - var(--tw-space-y-reverse)));
-    margin-bottom: calc(6rem * var(--tw-space-y-reverse));
+    margin-top: calc(6.25rem * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(6.25rem * var(--tw-space-y-reverse));
   }
 
   .lg\:space-x-24 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-x-reverse: 0;
-    margin-right: calc(6rem * var(--tw-space-x-reverse));
-    margin-left: calc(6rem * calc(1 - var(--tw-space-x-reverse)));
+    margin-right: calc(6.25rem * var(--tw-space-x-reverse));
+    margin-left: calc(6.25rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
   .lg\:space-y-28 > :not([hidden]) ~ :not([hidden]) {
@@ -98438,14 +98450,14 @@ select {
 
   .lg\:-space-y-24 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-y-reverse: 0;
-    margin-top: calc(-6rem * calc(1 - var(--tw-space-y-reverse)));
-    margin-bottom: calc(-6rem * var(--tw-space-y-reverse));
+    margin-top: calc(-6.25rem * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(-6.25rem * var(--tw-space-y-reverse));
   }
 
   .lg\:-space-x-24 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-x-reverse: 0;
-    margin-right: calc(-6rem * var(--tw-space-x-reverse));
-    margin-left: calc(-6rem * calc(1 - var(--tw-space-x-reverse)));
+    margin-right: calc(-6.25rem * var(--tw-space-x-reverse));
+    margin-left: calc(-6.25rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
   .lg\:-space-y-28 > :not([hidden]) ~ :not([hidden]) {
@@ -101466,6 +101478,10 @@ select {
 
   .lg\:bg-gradient-to-tl {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+  }
+
+  .lg\:bg-logo-texture {
+    background-image: url(/images/logo.png?52a0afc934d028bf0d6a6ae7b787c964);
   }
 
   .lg\:from-transparent {
@@ -108567,7 +108583,7 @@ select {
   }
 
   .lg\:h-24 {
-    height: 6rem;
+    height: 6.25rem;
   }
 
   .lg\:h-28 {
@@ -108920,7 +108936,7 @@ select {
   }
 
   .lg\:m-24 {
-    margin: 6rem;
+    margin: 6.25rem;
   }
 
   .lg\:m-28 {
@@ -109064,7 +109080,7 @@ select {
   }
 
   .lg\:-m-24 {
-    margin: -6rem;
+    margin: -6.25rem;
   }
 
   .lg\:-m-28 {
@@ -109300,13 +109316,13 @@ select {
   }
 
   .lg\:my-24 {
-    margin-top: 6rem;
-    margin-bottom: 6rem;
+    margin-top: 6.25rem;
+    margin-bottom: 6.25rem;
   }
 
   .lg\:mx-24 {
-    margin-left: 6rem;
-    margin-right: 6rem;
+    margin-left: 6.25rem;
+    margin-right: 6.25rem;
   }
 
   .lg\:my-28 {
@@ -109660,13 +109676,13 @@ select {
   }
 
   .lg\:-my-24 {
-    margin-top: -6rem;
-    margin-bottom: -6rem;
+    margin-top: -6.25rem;
+    margin-bottom: -6.25rem;
   }
 
   .lg\:-mx-24 {
-    margin-left: -6rem;
-    margin-right: -6rem;
+    margin-left: -6.25rem;
+    margin-right: -6.25rem;
   }
 
   .lg\:-my-28 {
@@ -110106,19 +110122,19 @@ select {
   }
 
   .lg\:mt-24 {
-    margin-top: 6rem;
+    margin-top: 6.25rem;
   }
 
   .lg\:mr-24 {
-    margin-right: 6rem;
+    margin-right: 6.25rem;
   }
 
   .lg\:mb-24 {
-    margin-bottom: 6rem;
+    margin-bottom: 6.25rem;
   }
 
   .lg\:ml-24 {
-    margin-left: 6rem;
+    margin-left: 6.25rem;
   }
 
   .lg\:mt-28 {
@@ -110682,19 +110698,19 @@ select {
   }
 
   .lg\:-mt-24 {
-    margin-top: -6rem;
+    margin-top: -6.25rem;
   }
 
   .lg\:-mr-24 {
-    margin-right: -6rem;
+    margin-right: -6.25rem;
   }
 
   .lg\:-mb-24 {
-    margin-bottom: -6rem;
+    margin-bottom: -6.25rem;
   }
 
   .lg\:-ml-24 {
-    margin-left: -6rem;
+    margin-left: -6.25rem;
   }
 
   .lg\:-mt-28 {
@@ -111050,7 +111066,7 @@ select {
   }
 
   .lg\:max-h-24 {
-    max-height: 6rem;
+    max-height: 6.25rem;
   }
 
   .lg\:max-h-28 {
@@ -111884,7 +111900,7 @@ select {
   }
 
   .lg\:p-24 {
-    padding: 6rem;
+    padding: 6.25rem;
   }
 
   .lg\:p-28 {
@@ -112120,13 +112136,13 @@ select {
   }
 
   .lg\:py-24 {
-    padding-top: 6rem;
-    padding-bottom: 6rem;
+    padding-top: 6.25rem;
+    padding-bottom: 6.25rem;
   }
 
   .lg\:px-24 {
-    padding-left: 6rem;
-    padding-right: 6rem;
+    padding-left: 6.25rem;
+    padding-right: 6.25rem;
   }
 
   .lg\:py-28 {
@@ -112566,19 +112582,19 @@ select {
   }
 
   .lg\:pt-24 {
-    padding-top: 6rem;
+    padding-top: 6.25rem;
   }
 
   .lg\:pr-24 {
-    padding-right: 6rem;
+    padding-right: 6.25rem;
   }
 
   .lg\:pb-24 {
-    padding-bottom: 6rem;
+    padding-bottom: 6.25rem;
   }
 
   .lg\:pl-24 {
-    padding-left: 6rem;
+    padding-left: 6.25rem;
   }
 
   .lg\:pt-28 {
@@ -115879,10 +115895,10 @@ select {
   }
 
   .lg\:inset-24 {
-    top: 6rem;
-    right: 6rem;
-    bottom: 6rem;
-    left: 6rem;
+    top: 6.25rem;
+    right: 6.25rem;
+    bottom: 6.25rem;
+    left: 6.25rem;
   }
 
   .lg\:inset-28 {
@@ -116131,10 +116147,10 @@ select {
   }
 
   .lg\:-inset-24 {
-    top: -6rem;
-    right: -6rem;
-    bottom: -6rem;
-    left: -6rem;
+    top: -6.25rem;
+    right: -6.25rem;
+    bottom: -6.25rem;
+    left: -6.25rem;
   }
 
   .lg\:-inset-28 {
@@ -116522,13 +116538,13 @@ select {
   }
 
   .lg\:inset-y-24 {
-    top: 6rem;
-    bottom: 6rem;
+    top: 6.25rem;
+    bottom: 6.25rem;
   }
 
   .lg\:inset-x-24 {
-    right: 6rem;
-    left: 6rem;
+    right: 6.25rem;
+    left: 6.25rem;
   }
 
   .lg\:inset-y-28 {
@@ -116882,13 +116898,13 @@ select {
   }
 
   .lg\:-inset-y-24 {
-    top: -6rem;
-    bottom: -6rem;
+    top: -6.25rem;
+    bottom: -6.25rem;
   }
 
   .lg\:-inset-x-24 {
-    right: -6rem;
-    left: -6rem;
+    right: -6.25rem;
+    left: -6.25rem;
   }
 
   .lg\:-inset-y-28 {
@@ -117468,19 +117484,19 @@ select {
   }
 
   .lg\:top-24 {
-    top: 6rem;
+    top: 6.25rem;
   }
 
   .lg\:right-24 {
-    right: 6rem;
+    right: 6.25rem;
   }
 
   .lg\:bottom-24 {
-    bottom: 6rem;
+    bottom: 6.25rem;
   }
 
   .lg\:left-24 {
-    left: 6rem;
+    left: 6.25rem;
   }
 
   .lg\:top-28 {
@@ -118044,19 +118060,19 @@ select {
   }
 
   .lg\:-top-24 {
-    top: -6rem;
+    top: -6.25rem;
   }
 
   .lg\:-right-24 {
-    right: -6rem;
+    right: -6.25rem;
   }
 
   .lg\:-bottom-24 {
-    bottom: -6rem;
+    bottom: -6.25rem;
   }
 
   .lg\:-left-24 {
-    left: -6rem;
+    left: -6.25rem;
   }
 
   .lg\:-top-28 {
@@ -124177,7 +124193,7 @@ select {
   }
 
   .lg\:w-24 {
-    width: 6rem;
+    width: 6.25rem;
   }
 
   .lg\:w-28 {
@@ -124529,7 +124545,7 @@ select {
   }
 
   .lg\:gap-24 {
-    gap: 6rem;
+    gap: 6.25rem;
   }
 
   .lg\:gap-28 {
@@ -124685,8 +124701,8 @@ select {
   }
 
   .lg\:gap-x-24 {
-    -moz-column-gap: 6rem;
-         column-gap: 6rem;
+    -moz-column-gap: 6.25rem;
+         column-gap: 6.25rem;
   }
 
   .lg\:gap-x-28 {
@@ -124844,7 +124860,7 @@ select {
   }
 
   .lg\:gap-y-24 {
-    row-gap: 6rem;
+    row-gap: 6.25rem;
   }
 
   .lg\:gap-y-28 {
@@ -126036,7 +126052,7 @@ select {
   }
 
   .lg\:translate-x-24 {
-    --tw-translate-x: 6rem;
+    --tw-translate-x: 6.25rem;
   }
 
   .lg\:translate-x-28 {
@@ -126176,7 +126192,7 @@ select {
   }
 
   .lg\:-translate-x-24 {
-    --tw-translate-x: -6rem;
+    --tw-translate-x: -6.25rem;
   }
 
   .lg\:-translate-x-28 {
@@ -126372,7 +126388,7 @@ select {
   }
 
   .lg\:translate-y-24 {
-    --tw-translate-y: 6rem;
+    --tw-translate-y: 6.25rem;
   }
 
   .lg\:translate-y-28 {
@@ -126512,7 +126528,7 @@ select {
   }
 
   .lg\:-translate-y-24 {
-    --tw-translate-y: -6rem;
+    --tw-translate-y: -6.25rem;
   }
 
   .lg\:-translate-y-28 {
@@ -126708,7 +126724,7 @@ select {
   }
 
   .lg\:hover\:translate-x-24:hover {
-    --tw-translate-x: 6rem;
+    --tw-translate-x: 6.25rem;
   }
 
   .lg\:hover\:translate-x-28:hover {
@@ -126848,7 +126864,7 @@ select {
   }
 
   .lg\:hover\:-translate-x-24:hover {
-    --tw-translate-x: -6rem;
+    --tw-translate-x: -6.25rem;
   }
 
   .lg\:hover\:-translate-x-28:hover {
@@ -127044,7 +127060,7 @@ select {
   }
 
   .lg\:hover\:translate-y-24:hover {
-    --tw-translate-y: 6rem;
+    --tw-translate-y: 6.25rem;
   }
 
   .lg\:hover\:translate-y-28:hover {
@@ -127184,7 +127200,7 @@ select {
   }
 
   .lg\:hover\:-translate-y-24:hover {
-    --tw-translate-y: -6rem;
+    --tw-translate-y: -6.25rem;
   }
 
   .lg\:hover\:-translate-y-28:hover {
@@ -127380,7 +127396,7 @@ select {
   }
 
   .lg\:focus\:translate-x-24:focus {
-    --tw-translate-x: 6rem;
+    --tw-translate-x: 6.25rem;
   }
 
   .lg\:focus\:translate-x-28:focus {
@@ -127520,7 +127536,7 @@ select {
   }
 
   .lg\:focus\:-translate-x-24:focus {
-    --tw-translate-x: -6rem;
+    --tw-translate-x: -6.25rem;
   }
 
   .lg\:focus\:-translate-x-28:focus {
@@ -127716,7 +127732,7 @@ select {
   }
 
   .lg\:focus\:translate-y-24:focus {
-    --tw-translate-y: 6rem;
+    --tw-translate-y: 6.25rem;
   }
 
   .lg\:focus\:translate-y-28:focus {
@@ -127856,7 +127872,7 @@ select {
   }
 
   .lg\:focus\:-translate-y-24:focus {
-    --tw-translate-y: -6rem;
+    --tw-translate-y: -6.25rem;
   }
 
   .lg\:focus\:-translate-y-28:focus {
@@ -129911,14 +129927,14 @@ select {
 
   .xl\:space-y-24 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-y-reverse: 0;
-    margin-top: calc(6rem * calc(1 - var(--tw-space-y-reverse)));
-    margin-bottom: calc(6rem * var(--tw-space-y-reverse));
+    margin-top: calc(6.25rem * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(6.25rem * var(--tw-space-y-reverse));
   }
 
   .xl\:space-x-24 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-x-reverse: 0;
-    margin-right: calc(6rem * var(--tw-space-x-reverse));
-    margin-left: calc(6rem * calc(1 - var(--tw-space-x-reverse)));
+    margin-right: calc(6.25rem * var(--tw-space-x-reverse));
+    margin-left: calc(6.25rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
   .xl\:space-y-28 > :not([hidden]) ~ :not([hidden]) {
@@ -130331,14 +130347,14 @@ select {
 
   .xl\:-space-y-24 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-y-reverse: 0;
-    margin-top: calc(-6rem * calc(1 - var(--tw-space-y-reverse)));
-    margin-bottom: calc(-6rem * var(--tw-space-y-reverse));
+    margin-top: calc(-6.25rem * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(-6.25rem * var(--tw-space-y-reverse));
   }
 
   .xl\:-space-x-24 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-x-reverse: 0;
-    margin-right: calc(-6rem * var(--tw-space-x-reverse));
-    margin-left: calc(-6rem * calc(1 - var(--tw-space-x-reverse)));
+    margin-right: calc(-6.25rem * var(--tw-space-x-reverse));
+    margin-left: calc(-6.25rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
   .xl\:-space-y-28 > :not([hidden]) ~ :not([hidden]) {
@@ -133359,6 +133375,10 @@ select {
 
   .xl\:bg-gradient-to-tl {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+  }
+
+  .xl\:bg-logo-texture {
+    background-image: url(/images/logo.png?52a0afc934d028bf0d6a6ae7b787c964);
   }
 
   .xl\:from-transparent {
@@ -140460,7 +140480,7 @@ select {
   }
 
   .xl\:h-24 {
-    height: 6rem;
+    height: 6.25rem;
   }
 
   .xl\:h-28 {
@@ -140813,7 +140833,7 @@ select {
   }
 
   .xl\:m-24 {
-    margin: 6rem;
+    margin: 6.25rem;
   }
 
   .xl\:m-28 {
@@ -140957,7 +140977,7 @@ select {
   }
 
   .xl\:-m-24 {
-    margin: -6rem;
+    margin: -6.25rem;
   }
 
   .xl\:-m-28 {
@@ -141193,13 +141213,13 @@ select {
   }
 
   .xl\:my-24 {
-    margin-top: 6rem;
-    margin-bottom: 6rem;
+    margin-top: 6.25rem;
+    margin-bottom: 6.25rem;
   }
 
   .xl\:mx-24 {
-    margin-left: 6rem;
-    margin-right: 6rem;
+    margin-left: 6.25rem;
+    margin-right: 6.25rem;
   }
 
   .xl\:my-28 {
@@ -141553,13 +141573,13 @@ select {
   }
 
   .xl\:-my-24 {
-    margin-top: -6rem;
-    margin-bottom: -6rem;
+    margin-top: -6.25rem;
+    margin-bottom: -6.25rem;
   }
 
   .xl\:-mx-24 {
-    margin-left: -6rem;
-    margin-right: -6rem;
+    margin-left: -6.25rem;
+    margin-right: -6.25rem;
   }
 
   .xl\:-my-28 {
@@ -141999,19 +142019,19 @@ select {
   }
 
   .xl\:mt-24 {
-    margin-top: 6rem;
+    margin-top: 6.25rem;
   }
 
   .xl\:mr-24 {
-    margin-right: 6rem;
+    margin-right: 6.25rem;
   }
 
   .xl\:mb-24 {
-    margin-bottom: 6rem;
+    margin-bottom: 6.25rem;
   }
 
   .xl\:ml-24 {
-    margin-left: 6rem;
+    margin-left: 6.25rem;
   }
 
   .xl\:mt-28 {
@@ -142575,19 +142595,19 @@ select {
   }
 
   .xl\:-mt-24 {
-    margin-top: -6rem;
+    margin-top: -6.25rem;
   }
 
   .xl\:-mr-24 {
-    margin-right: -6rem;
+    margin-right: -6.25rem;
   }
 
   .xl\:-mb-24 {
-    margin-bottom: -6rem;
+    margin-bottom: -6.25rem;
   }
 
   .xl\:-ml-24 {
-    margin-left: -6rem;
+    margin-left: -6.25rem;
   }
 
   .xl\:-mt-28 {
@@ -142943,7 +142963,7 @@ select {
   }
 
   .xl\:max-h-24 {
-    max-height: 6rem;
+    max-height: 6.25rem;
   }
 
   .xl\:max-h-28 {
@@ -143777,7 +143797,7 @@ select {
   }
 
   .xl\:p-24 {
-    padding: 6rem;
+    padding: 6.25rem;
   }
 
   .xl\:p-28 {
@@ -144013,13 +144033,13 @@ select {
   }
 
   .xl\:py-24 {
-    padding-top: 6rem;
-    padding-bottom: 6rem;
+    padding-top: 6.25rem;
+    padding-bottom: 6.25rem;
   }
 
   .xl\:px-24 {
-    padding-left: 6rem;
-    padding-right: 6rem;
+    padding-left: 6.25rem;
+    padding-right: 6.25rem;
   }
 
   .xl\:py-28 {
@@ -144459,19 +144479,19 @@ select {
   }
 
   .xl\:pt-24 {
-    padding-top: 6rem;
+    padding-top: 6.25rem;
   }
 
   .xl\:pr-24 {
-    padding-right: 6rem;
+    padding-right: 6.25rem;
   }
 
   .xl\:pb-24 {
-    padding-bottom: 6rem;
+    padding-bottom: 6.25rem;
   }
 
   .xl\:pl-24 {
-    padding-left: 6rem;
+    padding-left: 6.25rem;
   }
 
   .xl\:pt-28 {
@@ -147772,10 +147792,10 @@ select {
   }
 
   .xl\:inset-24 {
-    top: 6rem;
-    right: 6rem;
-    bottom: 6rem;
-    left: 6rem;
+    top: 6.25rem;
+    right: 6.25rem;
+    bottom: 6.25rem;
+    left: 6.25rem;
   }
 
   .xl\:inset-28 {
@@ -148024,10 +148044,10 @@ select {
   }
 
   .xl\:-inset-24 {
-    top: -6rem;
-    right: -6rem;
-    bottom: -6rem;
-    left: -6rem;
+    top: -6.25rem;
+    right: -6.25rem;
+    bottom: -6.25rem;
+    left: -6.25rem;
   }
 
   .xl\:-inset-28 {
@@ -148415,13 +148435,13 @@ select {
   }
 
   .xl\:inset-y-24 {
-    top: 6rem;
-    bottom: 6rem;
+    top: 6.25rem;
+    bottom: 6.25rem;
   }
 
   .xl\:inset-x-24 {
-    right: 6rem;
-    left: 6rem;
+    right: 6.25rem;
+    left: 6.25rem;
   }
 
   .xl\:inset-y-28 {
@@ -148775,13 +148795,13 @@ select {
   }
 
   .xl\:-inset-y-24 {
-    top: -6rem;
-    bottom: -6rem;
+    top: -6.25rem;
+    bottom: -6.25rem;
   }
 
   .xl\:-inset-x-24 {
-    right: -6rem;
-    left: -6rem;
+    right: -6.25rem;
+    left: -6.25rem;
   }
 
   .xl\:-inset-y-28 {
@@ -149361,19 +149381,19 @@ select {
   }
 
   .xl\:top-24 {
-    top: 6rem;
+    top: 6.25rem;
   }
 
   .xl\:right-24 {
-    right: 6rem;
+    right: 6.25rem;
   }
 
   .xl\:bottom-24 {
-    bottom: 6rem;
+    bottom: 6.25rem;
   }
 
   .xl\:left-24 {
-    left: 6rem;
+    left: 6.25rem;
   }
 
   .xl\:top-28 {
@@ -149937,19 +149957,19 @@ select {
   }
 
   .xl\:-top-24 {
-    top: -6rem;
+    top: -6.25rem;
   }
 
   .xl\:-right-24 {
-    right: -6rem;
+    right: -6.25rem;
   }
 
   .xl\:-bottom-24 {
-    bottom: -6rem;
+    bottom: -6.25rem;
   }
 
   .xl\:-left-24 {
-    left: -6rem;
+    left: -6.25rem;
   }
 
   .xl\:-top-28 {
@@ -156070,7 +156090,7 @@ select {
   }
 
   .xl\:w-24 {
-    width: 6rem;
+    width: 6.25rem;
   }
 
   .xl\:w-28 {
@@ -156422,7 +156442,7 @@ select {
   }
 
   .xl\:gap-24 {
-    gap: 6rem;
+    gap: 6.25rem;
   }
 
   .xl\:gap-28 {
@@ -156578,8 +156598,8 @@ select {
   }
 
   .xl\:gap-x-24 {
-    -moz-column-gap: 6rem;
-         column-gap: 6rem;
+    -moz-column-gap: 6.25rem;
+         column-gap: 6.25rem;
   }
 
   .xl\:gap-x-28 {
@@ -156737,7 +156757,7 @@ select {
   }
 
   .xl\:gap-y-24 {
-    row-gap: 6rem;
+    row-gap: 6.25rem;
   }
 
   .xl\:gap-y-28 {
@@ -157929,7 +157949,7 @@ select {
   }
 
   .xl\:translate-x-24 {
-    --tw-translate-x: 6rem;
+    --tw-translate-x: 6.25rem;
   }
 
   .xl\:translate-x-28 {
@@ -158069,7 +158089,7 @@ select {
   }
 
   .xl\:-translate-x-24 {
-    --tw-translate-x: -6rem;
+    --tw-translate-x: -6.25rem;
   }
 
   .xl\:-translate-x-28 {
@@ -158265,7 +158285,7 @@ select {
   }
 
   .xl\:translate-y-24 {
-    --tw-translate-y: 6rem;
+    --tw-translate-y: 6.25rem;
   }
 
   .xl\:translate-y-28 {
@@ -158405,7 +158425,7 @@ select {
   }
 
   .xl\:-translate-y-24 {
-    --tw-translate-y: -6rem;
+    --tw-translate-y: -6.25rem;
   }
 
   .xl\:-translate-y-28 {
@@ -158601,7 +158621,7 @@ select {
   }
 
   .xl\:hover\:translate-x-24:hover {
-    --tw-translate-x: 6rem;
+    --tw-translate-x: 6.25rem;
   }
 
   .xl\:hover\:translate-x-28:hover {
@@ -158741,7 +158761,7 @@ select {
   }
 
   .xl\:hover\:-translate-x-24:hover {
-    --tw-translate-x: -6rem;
+    --tw-translate-x: -6.25rem;
   }
 
   .xl\:hover\:-translate-x-28:hover {
@@ -158937,7 +158957,7 @@ select {
   }
 
   .xl\:hover\:translate-y-24:hover {
-    --tw-translate-y: 6rem;
+    --tw-translate-y: 6.25rem;
   }
 
   .xl\:hover\:translate-y-28:hover {
@@ -159077,7 +159097,7 @@ select {
   }
 
   .xl\:hover\:-translate-y-24:hover {
-    --tw-translate-y: -6rem;
+    --tw-translate-y: -6.25rem;
   }
 
   .xl\:hover\:-translate-y-28:hover {
@@ -159273,7 +159293,7 @@ select {
   }
 
   .xl\:focus\:translate-x-24:focus {
-    --tw-translate-x: 6rem;
+    --tw-translate-x: 6.25rem;
   }
 
   .xl\:focus\:translate-x-28:focus {
@@ -159413,7 +159433,7 @@ select {
   }
 
   .xl\:focus\:-translate-x-24:focus {
-    --tw-translate-x: -6rem;
+    --tw-translate-x: -6.25rem;
   }
 
   .xl\:focus\:-translate-x-28:focus {
@@ -159609,7 +159629,7 @@ select {
   }
 
   .xl\:focus\:translate-y-24:focus {
-    --tw-translate-y: 6rem;
+    --tw-translate-y: 6.25rem;
   }
 
   .xl\:focus\:translate-y-28:focus {
@@ -159749,7 +159769,7 @@ select {
   }
 
   .xl\:focus\:-translate-y-24:focus {
-    --tw-translate-y: -6rem;
+    --tw-translate-y: -6.25rem;
   }
 
   .xl\:focus\:-translate-y-28:focus {
@@ -161804,14 +161824,14 @@ select {
 
   .\32xl\:space-y-24 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-y-reverse: 0;
-    margin-top: calc(6rem * calc(1 - var(--tw-space-y-reverse)));
-    margin-bottom: calc(6rem * var(--tw-space-y-reverse));
+    margin-top: calc(6.25rem * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(6.25rem * var(--tw-space-y-reverse));
   }
 
   .\32xl\:space-x-24 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-x-reverse: 0;
-    margin-right: calc(6rem * var(--tw-space-x-reverse));
-    margin-left: calc(6rem * calc(1 - var(--tw-space-x-reverse)));
+    margin-right: calc(6.25rem * var(--tw-space-x-reverse));
+    margin-left: calc(6.25rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
   .\32xl\:space-y-28 > :not([hidden]) ~ :not([hidden]) {
@@ -162224,14 +162244,14 @@ select {
 
   .\32xl\:-space-y-24 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-y-reverse: 0;
-    margin-top: calc(-6rem * calc(1 - var(--tw-space-y-reverse)));
-    margin-bottom: calc(-6rem * var(--tw-space-y-reverse));
+    margin-top: calc(-6.25rem * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(-6.25rem * var(--tw-space-y-reverse));
   }
 
   .\32xl\:-space-x-24 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-x-reverse: 0;
-    margin-right: calc(-6rem * var(--tw-space-x-reverse));
-    margin-left: calc(-6rem * calc(1 - var(--tw-space-x-reverse)));
+    margin-right: calc(-6.25rem * var(--tw-space-x-reverse));
+    margin-left: calc(-6.25rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
   .\32xl\:-space-y-28 > :not([hidden]) ~ :not([hidden]) {
@@ -165252,6 +165272,10 @@ select {
 
   .\32xl\:bg-gradient-to-tl {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+  }
+
+  .\32xl\:bg-logo-texture {
+    background-image: url(/images/logo.png?52a0afc934d028bf0d6a6ae7b787c964);
   }
 
   .\32xl\:from-transparent {
@@ -172353,7 +172377,7 @@ select {
   }
 
   .\32xl\:h-24 {
-    height: 6rem;
+    height: 6.25rem;
   }
 
   .\32xl\:h-28 {
@@ -172706,7 +172730,7 @@ select {
   }
 
   .\32xl\:m-24 {
-    margin: 6rem;
+    margin: 6.25rem;
   }
 
   .\32xl\:m-28 {
@@ -172850,7 +172874,7 @@ select {
   }
 
   .\32xl\:-m-24 {
-    margin: -6rem;
+    margin: -6.25rem;
   }
 
   .\32xl\:-m-28 {
@@ -173086,13 +173110,13 @@ select {
   }
 
   .\32xl\:my-24 {
-    margin-top: 6rem;
-    margin-bottom: 6rem;
+    margin-top: 6.25rem;
+    margin-bottom: 6.25rem;
   }
 
   .\32xl\:mx-24 {
-    margin-left: 6rem;
-    margin-right: 6rem;
+    margin-left: 6.25rem;
+    margin-right: 6.25rem;
   }
 
   .\32xl\:my-28 {
@@ -173446,13 +173470,13 @@ select {
   }
 
   .\32xl\:-my-24 {
-    margin-top: -6rem;
-    margin-bottom: -6rem;
+    margin-top: -6.25rem;
+    margin-bottom: -6.25rem;
   }
 
   .\32xl\:-mx-24 {
-    margin-left: -6rem;
-    margin-right: -6rem;
+    margin-left: -6.25rem;
+    margin-right: -6.25rem;
   }
 
   .\32xl\:-my-28 {
@@ -173892,19 +173916,19 @@ select {
   }
 
   .\32xl\:mt-24 {
-    margin-top: 6rem;
+    margin-top: 6.25rem;
   }
 
   .\32xl\:mr-24 {
-    margin-right: 6rem;
+    margin-right: 6.25rem;
   }
 
   .\32xl\:mb-24 {
-    margin-bottom: 6rem;
+    margin-bottom: 6.25rem;
   }
 
   .\32xl\:ml-24 {
-    margin-left: 6rem;
+    margin-left: 6.25rem;
   }
 
   .\32xl\:mt-28 {
@@ -174468,19 +174492,19 @@ select {
   }
 
   .\32xl\:-mt-24 {
-    margin-top: -6rem;
+    margin-top: -6.25rem;
   }
 
   .\32xl\:-mr-24 {
-    margin-right: -6rem;
+    margin-right: -6.25rem;
   }
 
   .\32xl\:-mb-24 {
-    margin-bottom: -6rem;
+    margin-bottom: -6.25rem;
   }
 
   .\32xl\:-ml-24 {
-    margin-left: -6rem;
+    margin-left: -6.25rem;
   }
 
   .\32xl\:-mt-28 {
@@ -174836,7 +174860,7 @@ select {
   }
 
   .\32xl\:max-h-24 {
-    max-height: 6rem;
+    max-height: 6.25rem;
   }
 
   .\32xl\:max-h-28 {
@@ -175670,7 +175694,7 @@ select {
   }
 
   .\32xl\:p-24 {
-    padding: 6rem;
+    padding: 6.25rem;
   }
 
   .\32xl\:p-28 {
@@ -175906,13 +175930,13 @@ select {
   }
 
   .\32xl\:py-24 {
-    padding-top: 6rem;
-    padding-bottom: 6rem;
+    padding-top: 6.25rem;
+    padding-bottom: 6.25rem;
   }
 
   .\32xl\:px-24 {
-    padding-left: 6rem;
-    padding-right: 6rem;
+    padding-left: 6.25rem;
+    padding-right: 6.25rem;
   }
 
   .\32xl\:py-28 {
@@ -176352,19 +176376,19 @@ select {
   }
 
   .\32xl\:pt-24 {
-    padding-top: 6rem;
+    padding-top: 6.25rem;
   }
 
   .\32xl\:pr-24 {
-    padding-right: 6rem;
+    padding-right: 6.25rem;
   }
 
   .\32xl\:pb-24 {
-    padding-bottom: 6rem;
+    padding-bottom: 6.25rem;
   }
 
   .\32xl\:pl-24 {
-    padding-left: 6rem;
+    padding-left: 6.25rem;
   }
 
   .\32xl\:pt-28 {
@@ -179665,10 +179689,10 @@ select {
   }
 
   .\32xl\:inset-24 {
-    top: 6rem;
-    right: 6rem;
-    bottom: 6rem;
-    left: 6rem;
+    top: 6.25rem;
+    right: 6.25rem;
+    bottom: 6.25rem;
+    left: 6.25rem;
   }
 
   .\32xl\:inset-28 {
@@ -179917,10 +179941,10 @@ select {
   }
 
   .\32xl\:-inset-24 {
-    top: -6rem;
-    right: -6rem;
-    bottom: -6rem;
-    left: -6rem;
+    top: -6.25rem;
+    right: -6.25rem;
+    bottom: -6.25rem;
+    left: -6.25rem;
   }
 
   .\32xl\:-inset-28 {
@@ -180308,13 +180332,13 @@ select {
   }
 
   .\32xl\:inset-y-24 {
-    top: 6rem;
-    bottom: 6rem;
+    top: 6.25rem;
+    bottom: 6.25rem;
   }
 
   .\32xl\:inset-x-24 {
-    right: 6rem;
-    left: 6rem;
+    right: 6.25rem;
+    left: 6.25rem;
   }
 
   .\32xl\:inset-y-28 {
@@ -180668,13 +180692,13 @@ select {
   }
 
   .\32xl\:-inset-y-24 {
-    top: -6rem;
-    bottom: -6rem;
+    top: -6.25rem;
+    bottom: -6.25rem;
   }
 
   .\32xl\:-inset-x-24 {
-    right: -6rem;
-    left: -6rem;
+    right: -6.25rem;
+    left: -6.25rem;
   }
 
   .\32xl\:-inset-y-28 {
@@ -181254,19 +181278,19 @@ select {
   }
 
   .\32xl\:top-24 {
-    top: 6rem;
+    top: 6.25rem;
   }
 
   .\32xl\:right-24 {
-    right: 6rem;
+    right: 6.25rem;
   }
 
   .\32xl\:bottom-24 {
-    bottom: 6rem;
+    bottom: 6.25rem;
   }
 
   .\32xl\:left-24 {
-    left: 6rem;
+    left: 6.25rem;
   }
 
   .\32xl\:top-28 {
@@ -181830,19 +181854,19 @@ select {
   }
 
   .\32xl\:-top-24 {
-    top: -6rem;
+    top: -6.25rem;
   }
 
   .\32xl\:-right-24 {
-    right: -6rem;
+    right: -6.25rem;
   }
 
   .\32xl\:-bottom-24 {
-    bottom: -6rem;
+    bottom: -6.25rem;
   }
 
   .\32xl\:-left-24 {
-    left: -6rem;
+    left: -6.25rem;
   }
 
   .\32xl\:-top-28 {
@@ -187963,7 +187987,7 @@ select {
   }
 
   .\32xl\:w-24 {
-    width: 6rem;
+    width: 6.25rem;
   }
 
   .\32xl\:w-28 {
@@ -188315,7 +188339,7 @@ select {
   }
 
   .\32xl\:gap-24 {
-    gap: 6rem;
+    gap: 6.25rem;
   }
 
   .\32xl\:gap-28 {
@@ -188471,8 +188495,8 @@ select {
   }
 
   .\32xl\:gap-x-24 {
-    -moz-column-gap: 6rem;
-         column-gap: 6rem;
+    -moz-column-gap: 6.25rem;
+         column-gap: 6.25rem;
   }
 
   .\32xl\:gap-x-28 {
@@ -188630,7 +188654,7 @@ select {
   }
 
   .\32xl\:gap-y-24 {
-    row-gap: 6rem;
+    row-gap: 6.25rem;
   }
 
   .\32xl\:gap-y-28 {
@@ -189822,7 +189846,7 @@ select {
   }
 
   .\32xl\:translate-x-24 {
-    --tw-translate-x: 6rem;
+    --tw-translate-x: 6.25rem;
   }
 
   .\32xl\:translate-x-28 {
@@ -189962,7 +189986,7 @@ select {
   }
 
   .\32xl\:-translate-x-24 {
-    --tw-translate-x: -6rem;
+    --tw-translate-x: -6.25rem;
   }
 
   .\32xl\:-translate-x-28 {
@@ -190158,7 +190182,7 @@ select {
   }
 
   .\32xl\:translate-y-24 {
-    --tw-translate-y: 6rem;
+    --tw-translate-y: 6.25rem;
   }
 
   .\32xl\:translate-y-28 {
@@ -190298,7 +190322,7 @@ select {
   }
 
   .\32xl\:-translate-y-24 {
-    --tw-translate-y: -6rem;
+    --tw-translate-y: -6.25rem;
   }
 
   .\32xl\:-translate-y-28 {
@@ -190494,7 +190518,7 @@ select {
   }
 
   .\32xl\:hover\:translate-x-24:hover {
-    --tw-translate-x: 6rem;
+    --tw-translate-x: 6.25rem;
   }
 
   .\32xl\:hover\:translate-x-28:hover {
@@ -190634,7 +190658,7 @@ select {
   }
 
   .\32xl\:hover\:-translate-x-24:hover {
-    --tw-translate-x: -6rem;
+    --tw-translate-x: -6.25rem;
   }
 
   .\32xl\:hover\:-translate-x-28:hover {
@@ -190830,7 +190854,7 @@ select {
   }
 
   .\32xl\:hover\:translate-y-24:hover {
-    --tw-translate-y: 6rem;
+    --tw-translate-y: 6.25rem;
   }
 
   .\32xl\:hover\:translate-y-28:hover {
@@ -190970,7 +190994,7 @@ select {
   }
 
   .\32xl\:hover\:-translate-y-24:hover {
-    --tw-translate-y: -6rem;
+    --tw-translate-y: -6.25rem;
   }
 
   .\32xl\:hover\:-translate-y-28:hover {
@@ -191166,7 +191190,7 @@ select {
   }
 
   .\32xl\:focus\:translate-x-24:focus {
-    --tw-translate-x: 6rem;
+    --tw-translate-x: 6.25rem;
   }
 
   .\32xl\:focus\:translate-x-28:focus {
@@ -191306,7 +191330,7 @@ select {
   }
 
   .\32xl\:focus\:-translate-x-24:focus {
-    --tw-translate-x: -6rem;
+    --tw-translate-x: -6.25rem;
   }
 
   .\32xl\:focus\:-translate-x-28:focus {
@@ -191502,7 +191526,7 @@ select {
   }
 
   .\32xl\:focus\:translate-y-24:focus {
-    --tw-translate-y: 6rem;
+    --tw-translate-y: 6.25rem;
   }
 
   .\32xl\:focus\:translate-y-28:focus {
@@ -191642,7 +191666,7 @@ select {
   }
 
   .\32xl\:focus\:-translate-y-24:focus {
-    --tw-translate-y: -6rem;
+    --tw-translate-y: -6.25rem;
   }
 
   .\32xl\:focus\:-translate-y-28:focus {
