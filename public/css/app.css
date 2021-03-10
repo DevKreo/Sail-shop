@@ -5715,6 +5715,10 @@ select {
   background-image: url(/images/logo.png?52a0afc934d028bf0d6a6ae7b787c964);
 }
 
+.bg-log-texture {
+  background-image: url(/images/log_texture.png?71f6b1300c216794d616bfe646cc50a2);
+}
+
 .from-transparent {
   --tw-gradient-from: transparent;
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -37690,6 +37694,10 @@ select {
     background-image: url(/images/logo.png?52a0afc934d028bf0d6a6ae7b787c964);
   }
 
+  .sm\:bg-log-texture {
+    background-image: url(/images/log_texture.png?71f6b1300c216794d616bfe646cc50a2);
+  }
+
   .sm\:from-transparent {
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -69585,6 +69593,10 @@ select {
 
   .md\:bg-logo-texture {
     background-image: url(/images/logo.png?52a0afc934d028bf0d6a6ae7b787c964);
+  }
+
+  .md\:bg-log-texture {
+    background-image: url(/images/log_texture.png?71f6b1300c216794d616bfe646cc50a2);
   }
 
   .md\:from-transparent {
@@ -101484,6 +101496,10 @@ select {
     background-image: url(/images/logo.png?52a0afc934d028bf0d6a6ae7b787c964);
   }
 
+  .lg\:bg-log-texture {
+    background-image: url(/images/log_texture.png?71f6b1300c216794d616bfe646cc50a2);
+  }
+
   .lg\:from-transparent {
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -133381,6 +133397,10 @@ select {
     background-image: url(/images/logo.png?52a0afc934d028bf0d6a6ae7b787c964);
   }
 
+  .xl\:bg-log-texture {
+    background-image: url(/images/log_texture.png?71f6b1300c216794d616bfe646cc50a2);
+  }
+
   .xl\:from-transparent {
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -165276,6 +165296,10 @@ select {
 
   .\32xl\:bg-logo-texture {
     background-image: url(/images/logo.png?52a0afc934d028bf0d6a6ae7b787c964);
+  }
+
+  .\32xl\:bg-log-texture {
+    background-image: url(/images/log_texture.png?71f6b1300c216794d616bfe646cc50a2);
   }
 
   .\32xl\:from-transparent {

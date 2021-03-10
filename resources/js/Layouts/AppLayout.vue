@@ -12,6 +12,13 @@
                         </inertia-link>
                     </div>
                 </div>
+                <div class="self-center ml-5">
+                    <div class="flex-shrink-0 flex items-center">
+                        <span class="self-end font-black">
+                            HORECA
+                        </span>
+                    </div>
+                </div>
                 <nav class="bg-white flex-auto">
                     <!-- Primary Navigation Menu -->
                     <div class="mx-auto">
@@ -19,244 +26,207 @@
                             <div class="flex mx-auto">
                                 <!-- Navigation Links -->
                                 <div
-                                    class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex "
+                                    class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex"
                                 >
-                                    <jet-nav-link
+                                    <button
                                         :href="route('dashboard')"
                                         :active="route().current('dashboard')"
+                                        class="rounded-full h-10 mt-8 w-10 bg-black border-0 flex items-center justify-center focus:bg-red-200 text-white focus-within:text-black"
                                     >
                                         <svg
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            fill="none"
-                                            viewBox="0 0 24 24"
-                                            stroke="black"
                                             class="w-9 h-9"
+                                            viewBox="0 0 24 24"
                                         >
                                             <path
-                                                stroke-linecap="round"
-                                                stroke-linejoin="round"
-                                                stroke-width="2"
-                                                d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                                                fill="currentColor"
+                                                d="M 11,4L 13,4L 13,15L 11,15L 11,4 Z M 13,18L 13,20L 11,20L 11,18L 13,18 Z"
                                             />
                                         </svg>
-                                    </jet-nav-link>
+                                    </button>
                                 </div>
                                 <div
                                     class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex"
                                 >
-                                    <jet-nav-link
+                                    <button
                                         :href="route('admin')"
                                         :active="route().current('admin')"
+                                        class="rounded-full h-10 mt-8 w-10 bg-black border-0 flex items-center justify-center focus:bg-red-200 text-white focus-within:text-black"
                                     >
                                         <svg
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            fill="none"
-                                            viewBox="0 0 24 24"
-                                            stroke="black"
                                             class="w-9 h-9"
+                                            viewBox="0 0 24 24"
                                         >
                                             <path
-                                                stroke-linecap="round"
-                                                stroke-linejoin="round"
-                                                stroke-width="2"
-                                                d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
+                                                fill="currentColor"
+                                                d="M12.1,18.55L12,18.65L11.89,18.55C7.14,14.24 4,11.39 4,8.5C4,6.5 5.5,5 7.5,5C9.04,5 10.54,6 11.07,7.36H12.93C13.46,6 14.96,5 16.5,5C18.5,5 20,6.5 20,8.5C20,11.39 16.86,14.24 12.1,18.55M16.5,3C14.76,3 13.09,3.81 12,5.08C10.91,3.81 9.24,3 7.5,3C4.42,3 2,5.41 2,8.5C2,12.27 5.4,15.36 10.55,20.03L12,21.35L13.45,20.03C18.6,15.36 22,12.27 22,8.5C22,5.41 19.58,3 16.5,3Z"
                                             />
                                         </svg>
-                                    </jet-nav-link>
+                                    </button>
                                 </div>
 
                                 <div
                                     class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex"
                                 >
-                                    <jet-nav-link
+                                    <button
                                         :href="route('admin')"
                                         :active="route().current('admin')"
+                                        class="rounded-full h-10 mt-8 w-10 bg-black border-0 flex items-center justify-center focus:bg-red-200 text-white focus-within:text-black"
                                     >
                                         <svg
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            fill="none"
-                                            viewBox="0 0 24 24"
-                                            stroke="black"
                                             class="w-9 h-9"
+                                            viewBox="0 0 24 24"
                                         >
                                             <path
-                                                stroke-linecap="round"
-                                                stroke-linejoin="round"
-                                                stroke-width="2"
-                                                d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"
+                                                fill="currentColor"
+                                                d="M19 6H17C17 3.2 14.8 1 12 1S7 3.2 7 6H5C3.9 6 3 6.9 3 8V20C3 21.1 3.9 22 5 22H19C20.1 22 21 21.1 21 20V8C21 6.9 20.1 6 19 6M12 3C13.7 3 15 4.3 15 6H9C9 4.3 10.3 3 12 3M19 20H5V8H19V20M12 12C10.3 12 9 10.7 9 9H7C7 11.8 9.2 14 12 14S17 11.8 17 9H15C15 10.7 13.7 12 12 12Z"
                                             />
                                         </svg>
-                                    </jet-nav-link>
+                                    </button>
                                 </div>
                                 <div
                                     class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex"
                                 >
-                                    <jet-nav-link
+                                    <button
                                         :href="route('admin')"
                                         :active="route().current('admin')"
+                                        class="rounded-full h-10 mt-8 w-10 bg-black border-0 flex items-center justify-center focus:bg-red-200 text-white focus-within:text-black"
                                     >
                                         <svg
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            fill="none"
+                                            class="w-9 h-9"
                                             viewBox="0 0 24 24"
-                                            stroke="black"
-                                            class="h-9 w-9"
                                         >
                                             <path
-                                                stroke-linecap="round"
-                                                stroke-linejoin="round"
-                                                stroke-width="2"
-                                                d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"
+                                                fill="currentColor"
+                                                d="M12,15.39L8.24,17.66L9.23,13.38L5.91,10.5L10.29,10.13L12,6.09L13.71,10.13L18.09,10.5L14.77,13.38L15.76,17.66M22,9.24L14.81,8.63L12,2L9.19,8.63L2,9.24L7.45,13.97L5.82,21L12,17.27L18.18,21L16.54,13.97L22,9.24Z"
                                             />
                                         </svg>
-                                    </jet-nav-link>
+                                    </button>
                                 </div>
                                 <div
                                     class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex"
                                 >
-                                    <jet-nav-link
+                                    <button
                                         :href="route('admin')"
                                         :active="route().current('admin')"
+                                        class="rounded-full h-10 mt-8 w-10 bg-black border-0 flex items-center justify-center focus:bg-red-200 text-white focus-within:text-black"
                                     >
                                         <svg
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            viewBox="0 0 20 20"
-                                            fill="black"
                                             class="w-9 h-9"
+                                            viewBox="0 0 24 24"
                                         >
                                             <path
-                                                fill-rule="evenodd"
-                                                d="M4.083 9h1.946c.089-1.546.383-2.97.837-4.118A6.004 6.004 0 004.083 9zM10 2a8 8 0 100 16 8 8 0 000-16zm0 2c-.076 0-.232.032-.465.262-.238.234-.497.623-.737 1.182-.389.907-.673 2.142-.766 3.556h3.936c-.093-1.414-.377-2.649-.766-3.556-.24-.56-.5-.948-.737-1.182C10.232 4.032 10.076 4 10 4zm3.971 5c-.089-1.546-.383-2.97-.837-4.118A6.004 6.004 0 0115.917 9h-1.946zm-2.003 2H8.032c.093 1.414.377 2.649.766 3.556.24.56.5.948.737 1.182.233.23.389.262.465.262.076 0 .232-.032.465-.262.238-.234.498-.623.737-1.182.389-.907.673-2.142.766-3.556zm1.166 4.118c.454-1.147.748-2.572.837-4.118h1.946a6.004 6.004 0 01-2.783 4.118zm-6.268 0C6.412 13.97 6.118 12.546 6.03 11H4.083a6.004 6.004 0 002.783 4.118z"
-                                                clip-rule="evenodd"
+                                                fill="currentColor"
+                                                d="M17.9,17.39C17.64,16.59 16.89,16 16,16H15V13A1,1 0 0,0 14,12H8V10H10A1,1 0 0,0 11,9V7H13A2,2 0 0,0 15,5V4.59C17.93,5.77 20,8.64 20,12C20,14.08 19.2,15.97 17.9,17.39M11,19.93C7.05,19.44 4,16.08 4,12C4,11.38 4.08,10.78 4.21,10.21L9,15V16A2,2 0 0,0 11,18M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z"
                                             />
                                         </svg>
-                                    </jet-nav-link>
+                                    </button>
                                 </div>
                                 <div
                                     class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex"
                                 >
-                                    <jet-nav-link
+                                    <button
                                         :href="route('admin')"
                                         :active="route().current('admin')"
+                                        class="rounded-full h-10 mt-8 w-10 bg-black border-0 flex items-center justify-center focus:bg-red-200 text-white focus-within:text-black"
                                     >
                                         <svg
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            fill="black"
-                                            stroke="black"
-                                            viewBox="0 0 24 24"
                                             class="w-9 h-9"
+                                            viewBox="0 0 24 24"
                                         >
                                             <path
-                                                stroke-width="0"
+                                                fill="currentColor"
                                                 d="M4,9H9V4H15V9H20V15H15V20H9V15H4V9M11,13V18H13V13H18V11H13V6H11V11H6V13H11Z"
                                             />
                                         </svg>
-                                    </jet-nav-link>
+                                    </button>
                                 </div>
                                 <div
                                     class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex"
                                 >
-                                    <jet-nav-link
+                                    <button
                                         :href="route('admin')"
                                         :active="route().current('admin')"
+                                        class="rounded-full h-10 mt-8 w-10 bg-black border-0 flex items-center justify-center focus:bg-red-200 text-white focus-within:text-black"
                                     >
                                         <svg
-                                            viewBox="0 0 24 24"
                                             class="w-9 h-9"
+                                            viewBox="0 0 24 24"
                                         >
                                             <path
-                                                fill="black"
+                                                fill="currentColor"
                                                 d="M21,16.5C21,16.88 20.79,17.21 20.47,17.38L12.57,21.82C12.41,21.94 12.21,22 12,22C11.79,22 11.59,21.94 11.43,21.82L3.53,17.38C3.21,17.21 3,16.88 3,16.5V7.5C3,7.12 3.21,6.79 3.53,6.62L11.43,2.18C11.59,2.06 11.79,2 12,2C12.21,2 12.41,2.06 12.57,2.18L20.47,6.62C20.79,6.79 21,7.12 21,7.5V16.5M12,4.15L10.11,5.22L16,8.61L17.96,7.5L12,4.15M6.04,7.5L12,10.85L13.96,9.75L8.08,6.35L6.04,7.5M5,15.91L11,19.29V12.58L5,9.21V15.91M19,15.91V9.21L13,12.58V19.29L19,15.91Z"
                                             />
                                         </svg>
-                                    </jet-nav-link>
+                                    </button>
                                 </div>
                                 <div
                                     class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex"
                                 >
-                                    <jet-nav-link
+                                    <button
                                         :href="route('admin')"
                                         :active="route().current('admin')"
+                                        class="rounded-full h-10 mt-8 w-10 bg-black border-0 flex items-center justify-center focus:bg-red-200 text-white focus-within:text-black"
                                     >
                                         <svg
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            fill="none"
-                                            viewBox="0 0 24 24"
-                                            stroke="black"
                                             class="w-9 h-9"
+                                            viewBox="0 0 24 24"
                                         >
                                             <path
-                                                stroke-linecap="round"
-                                                stroke-linejoin="round"
-                                                stroke-width="2"
-                                                d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
+                                                fill="currentColor"
+                                                d="M20,15.5C18.8,15.5 17.5,15.3 16.4,14.9C16.3,14.9 16.2,14.9 16.1,14.9C15.8,14.9 15.6,15 15.4,15.2L13.2,17.4C10.4,15.9 8,13.6 6.6,10.8L8.8,8.6C9.1,8.3 9.2,7.9 9,7.6C8.7,6.5 8.5,5.2 8.5,4C8.5,3.5 8,3 7.5,3H4C3.5,3 3,3.5 3,4C3,13.4 10.6,21 20,21C20.5,21 21,20.5 21,20V16.5C21,16 20.5,15.5 20,15.5M5,5H6.5C6.6,5.9 6.8,6.8 7,7.6L5.8,8.8C5.4,7.6 5.1,6.3 5,5M19,19C17.7,18.9 16.4,18.6 15.2,18.2L16.4,17C17.2,17.2 18.1,17.4 19,17.4V19Z"
                                             />
                                         </svg>
-                                    </jet-nav-link>
+                                    </button>
                                 </div>
                                 <div
                                     class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex"
                                 >
-                                    <jet-nav-link
-                                    
+                                    <button
                                         :href="route('admin')"
                                         :active="route().current('admin')"
+                                        class="rounded-full h-10 mt-8 w-10 bg-black border-0 flex items-center justify-center focus:bg-red-200 text-white focus-within:text-black"
                                     >
                                         <svg
-                                            class = "w-9 h-9"
+                                            class="w-9 h-9"
                                             viewBox="0 0 24 24"
                                         >
                                             <path
-                                                fill="black"
+                                                fill="currentColor"
                                                 d="M12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5M12,2A7,7 0 0,0 5,9C5,14.25 12,22 12,22C12,22 19,14.25 19,9A7,7 0 0,0 12,2Z"
                                             />
                                         </svg>
-                                    </jet-nav-link>
+                                    </button>
                                 </div>
                             </div>
 
                             <div class="hidden sm:flex sm:items-center sm:ml-6">
                                 <!-- Settings Dropdown -->
-                                <div class="ml-3 relative">
+                                <div class="ml-3 relative mr-28">
                                     <jet-dropdown align="right" width="48">
                                         <template #trigger>
-                                            <button
-                                                v-if="
-                                                    $page.props.jetstream
-                                                        .managesProfilePhotos
-                                                "
-                                                class="flex text-sm border-2 border-transparent rounded-full focus:outline-none focus:border-gray-300 transition duration-150 ease-in-out"
-                                            >
-                                                <img
-                                                    class="h-8 w-8 rounded-full object-cover"
-                                                    :src="
-                                                        $page.props.user
-                                                            .profile_photo_url
-                                                    "
-                                                    :alt="$page.props.user.name"
-                                                />
-                                            </button>
-
                                             <span
-                                                v-else
                                                 class="inline-flex rounded-md"
                                             >
                                                 <button
-                                                    type="button"
-                                                    class="inline-flex items-center px-3 py-2 border border-transparent text-xl leading-4 font-medium rounded-md text-black bg-white hover:text-pink-200 focus:outline-none transition ease-in-out duration-150"
+                                                    @click="
+                                                        showingNavigationDropdown = !showingNavigationDropdown
+                                                    "
+                                                    class="inline-flex rounded-full items-center bg-black justify-center p-2 rounded-md text-white transition duration-150 ease-in-out"
                                                 >
-                                                    {{ $page.props.user.name }}
-
                                                     <svg
-                                                        class="ml-2 -mr-0.5 h-4 w-4"
-                                                        xmlns="http://www.w3.org/2000/svg"
-                                                        viewBox="0 0 20 20"
-                                                        fill="currentColor"
+                                                        class="h-10 w-10"
+                                                        stroke="currentColor"
+                                                        fill="none"
+                                                        viewBox="0 0 24 24"
                                                     >
                                                         <path
-                                                            fill-rule="evenodd"
-                                                            d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                                                            clip-rule="evenodd"
+                                                            :class="{
+                                                                'inline-flex': !showingNavigationDropdown
+                                                            }"
+                                                            stroke-linecap="round"
+                                                            stroke-linejoin="round"
+                                                            stroke-width="2"
+                                                            d="M4 6h16M4 12h16M4 18h16"
                                                         />
                                                     </svg>
                                                 </button>
@@ -293,42 +263,7 @@
                             </div>
 
                             <!-- Hamburger -->
-                            <div class="-mr-2 flex items-center sm:hidden">
-                                <button
-                                    @click="
-                                        showingNavigationDropdown = !showingNavigationDropdown
-                                    "
-                                    class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out"
-                                >
-                                    <svg
-                                        class="h-6 w-6"
-                                        stroke="currentColor"
-                                        fill="none"
-                                        viewBox="0 0 24 24"
-                                    >
-                                        <path
-                                            :class="{
-                                                hidden: showingNavigationDropdown,
-                                                'inline-flex': !showingNavigationDropdown
-                                            }"
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"
-                                            stroke-width="2"
-                                            d="M4 6h16M4 12h16M4 18h16"
-                                        />
-                                        <path
-                                            :class="{
-                                                hidden: !showingNavigationDropdown,
-                                                'inline-flex': showingNavigationDropdown
-                                            }"
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"
-                                            stroke-width="2"
-                                            d="M6 18L18 6M6 6l12 12"
-                                        />
-                                    </svg>
-                                </button>
-                            </div>
+                            
                         </div>
                     </div>
 
@@ -409,7 +344,10 @@
             </div>
 
             <!-- Page Content -->
-            <main>
+            <main class="relative">
+                <div
+                    class="object-contain block h-full min-h-full w-24 bg-log-texture absolute "
+                ></div>
                 <slot></slot>
             </main>
         </div>

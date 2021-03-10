@@ -14,7 +14,8 @@ module.exports = {
                 sans: ['Nunito', ...defaultTheme.fontFamily.sans],
             },
             backgroundImage: theme => ({
-                'logo-texture': "url('D:/Projects/Work/Git_repo/Sail-shop/resources/img/logo.png')",
+                'logo-texture': "url('../img/logo.png')",
+                'log-texture': "url('../img/log_texture.png')"
             }),
             spacing: {
                 '24': '6.25rem'
