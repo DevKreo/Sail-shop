@@ -2984,153 +2984,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   components: {
@@ -3138,7 +2991,8 @@ __webpack_require__.r(__webpack_exports__);
   },
   data: function data() {
     return {
-      showAboutCompany: false
+      showAboutCompany: false,
+      showPartners: false
     };
   }
 });
@@ -30497,26 +30351,88 @@ var render = function() {
                 expression: "showAboutCompany"
               }
             ],
-            staticClass: "p-6 sm:px-20 bg-white border-b border-gray-200"
+            staticClass:
+              "px-20 bg-white grid grid-cols-1 divide-y-2 divide-black"
           },
           [
-            _c(
-              "div",
-              [
-                _c("jet-application-logo", { staticClass: "block h-12 w-auto" })
-              ],
-              1
-            ),
-            _vm._v(" "),
-            _c("div", { staticClass: "mt-8 text-2xl" }, [
+            _c("span", { staticClass: "mb-4" }, [
               _vm._v(
-                "\n                Welcome to your Jetstream application!\n            "
+                '\n                Компания "Белый Парус" предоставляет комплексное\n                обслуживание в сегменте HoReCa и B2B. В нашем ассортименте:\n                профессиональные моющие средства для всех типов\n                поверхностей, хозяйственные товары, бумажная продукция,\n                барная продукция, одноразовая пищевая упаковка и другое.\n            '
               )
             ]),
             _vm._v(" "),
-            _c("div", { staticClass: "mt-6 text-gray-500" }, [
-              _vm._v("\n                d\n            ")
-            ])
+            _c(
+              "div",
+              {
+                staticClass:
+                  "py-3 bg-white flex items-center justify-between mb-2"
+              },
+              [
+                _c(
+                  "div",
+                  {
+                    staticClass:
+                      "text-black inline-flex space-x-10 items-center"
+                  },
+                  [
+                    _c("span", {}, [
+                      _vm._v(
+                        "\n                        С нами сотрудничают лучшие\n                    "
+                      )
+                    ])
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "button",
+                  {
+                    staticClass: "text-black",
+                    on: {
+                      click: function($event) {
+                        _vm.showPartners = !_vm.showPartners
+                      }
+                    }
+                  },
+                  [
+                    !_vm.showPartners
+                      ? _c(
+                          "svg",
+                          {
+                            staticClass: "w-6 h-6",
+                            attrs: { viewBox: "0 0 24 24" }
+                          },
+                          [
+                            _c("path", {
+                              attrs: {
+                                fill: "currentColor",
+                                d: "M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z"
+                              }
+                            })
+                          ]
+                        )
+                      : _vm._e(),
+                    _vm._v(" "),
+                    _vm.showPartners
+                      ? _c(
+                          "svg",
+                          {
+                            staticClass: "w-5 h-5",
+                            attrs: { viewBox: "0 0 24 24" }
+                          },
+                          [
+                            _c("path", {
+                              attrs: {
+                                fill: "currentColor",
+                                d: "M19,13H5V11H19V13Z"
+                              }
+                            })
+                          ]
+                        )
+                      : _vm._e()
+                  ]
+                )
+              ]
+            )
           ]
         )
       ]),
@@ -30529,293 +30445,13 @@ var render = function() {
               {
                 name: "show",
                 rawName: "v-show",
-                value: _vm.showAboutCompany,
-                expression: "showAboutCompany"
+                value: _vm.showPartners,
+                expression: "showPartners"
               }
             ],
-            staticClass:
-              "bg-gray-200 bg-opacity-25 grid grid-cols-1 md:grid-cols-2"
+            staticClass: "pl-20 bg-white"
           },
-          [
-            _c("div", { staticClass: "p-6" }, [
-              _c("div", { staticClass: "flex items-center" }, [
-                _c(
-                  "svg",
-                  {
-                    staticClass: "w-8 h-8 text-gray-400",
-                    attrs: {
-                      fill: "none",
-                      stroke: "currentColor",
-                      "stroke-linecap": "round",
-                      "stroke-linejoin": "round",
-                      "stroke-width": "2",
-                      viewBox: "0 0 24 24"
-                    }
-                  },
-                  [
-                    _c("path", {
-                      attrs: {
-                        d:
-                          "M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"
-                      }
-                    })
-                  ]
-                ),
-                _vm._v(" "),
-                _c(
-                  "div",
-                  {
-                    staticClass:
-                      "ml-4 text-lg text-gray-600 leading-7 font-semibold"
-                  },
-                  [
-                    _c("a", { attrs: { href: "https://laravel.com/docs" } }, [
-                      _vm._v("Documentation")
-                    ])
-                  ]
-                )
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "ml-12" }, [
-                _c("div", { staticClass: "mt-2 text-sm text-gray-500" }, [
-                  _vm._v(
-                    "\n                        Laravel has wonderful documentation covering every\n                        aspect of the framework. Whether you're new to the\n                        framework or have previous experience, we recommend\n                        reading all of the documentation from beginning to\n                        end.\n                    "
-                  )
-                ]),
-                _vm._v(" "),
-                _c("a", { attrs: { href: "https://laravel.com/docs" } }, [
-                  _c(
-                    "div",
-                    {
-                      staticClass:
-                        "mt-3 flex items-center text-sm font-semibold text-indigo-700"
-                    },
-                    [
-                      _c("div", [_vm._v("Explore the documentation")]),
-                      _vm._v(" "),
-                      _c("div", { staticClass: "ml-1 text-indigo-500" }, [
-                        _c(
-                          "svg",
-                          {
-                            staticClass: "w-4 h-4",
-                            attrs: {
-                              viewBox: "0 0 20 20",
-                              fill: "currentColor"
-                            }
-                          },
-                          [
-                            _c("path", {
-                              attrs: {
-                                "fill-rule": "evenodd",
-                                d:
-                                  "M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z",
-                                "clip-rule": "evenodd"
-                              }
-                            })
-                          ]
-                        )
-                      ])
-                    ]
-                  )
-                ])
-              ])
-            ]),
-            _vm._v(" "),
-            _c(
-              "div",
-              {
-                staticClass:
-                  "p-6 border-t border-gray-200 md:border-t-0 md:border-l"
-              },
-              [
-                _c("div", { staticClass: "flex items-center" }, [
-                  _c(
-                    "svg",
-                    {
-                      staticClass: "w-8 h-8 text-gray-400",
-                      attrs: {
-                        fill: "none",
-                        stroke: "currentColor",
-                        "stroke-linecap": "round",
-                        "stroke-linejoin": "round",
-                        "stroke-width": "2",
-                        viewBox: "0 0 24 24"
-                      }
-                    },
-                    [
-                      _c("path", {
-                        attrs: {
-                          d:
-                            "M3 9a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 0110.07 4h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0018.07 7H19a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2V9z"
-                        }
-                      }),
-                      _vm._v(" "),
-                      _c("path", {
-                        attrs: { d: "M15 13a3 3 0 11-6 0 3 3 0 016 0z" }
-                      })
-                    ]
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "div",
-                    {
-                      staticClass:
-                        "ml-4 text-lg text-gray-600 leading-7 font-semibold"
-                    },
-                    [
-                      _c("a", { attrs: { href: "https://laracasts.com" } }, [
-                        _vm._v("Laracasts")
-                      ])
-                    ]
-                  )
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "ml-12" }, [
-                  _c("div", { staticClass: "mt-2 text-sm text-gray-500" }, [
-                    _vm._v(
-                      "\n                        Laracasts offers thousands of video tutorials on\n                        Laravel, PHP, and JavaScript development. Check them\n                        out, see for yourself, and massively level up your\n                        development skills in the process.\n                    "
-                    )
-                  ]),
-                  _vm._v(" "),
-                  _c("a", { attrs: { href: "https://laracasts.com" } }, [
-                    _c(
-                      "div",
-                      {
-                        staticClass:
-                          "mt-3 flex items-center text-sm font-semibold text-indigo-700"
-                      },
-                      [
-                        _c("div", [_vm._v("Start watching Laracasts")]),
-                        _vm._v(" "),
-                        _c("div", { staticClass: "ml-1 text-indigo-500" }, [
-                          _c(
-                            "svg",
-                            {
-                              staticClass: "w-4 h-4",
-                              attrs: {
-                                viewBox: "0 0 20 20",
-                                fill: "currentColor"
-                              }
-                            },
-                            [
-                              _c("path", {
-                                attrs: {
-                                  "fill-rule": "evenodd",
-                                  d:
-                                    "M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z",
-                                  "clip-rule": "evenodd"
-                                }
-                              })
-                            ]
-                          )
-                        ])
-                      ]
-                    )
-                  ])
-                ])
-              ]
-            ),
-            _vm._v(" "),
-            _c("div", { staticClass: "p-6 border-t border-gray-200" }, [
-              _c("div", { staticClass: "flex items-center" }, [
-                _c(
-                  "svg",
-                  {
-                    staticClass: "w-8 h-8 text-gray-400",
-                    attrs: {
-                      fill: "none",
-                      stroke: "currentColor",
-                      "stroke-linecap": "round",
-                      "stroke-linejoin": "round",
-                      "stroke-width": "2",
-                      viewBox: "0 0 24 24"
-                    }
-                  },
-                  [
-                    _c("path", {
-                      attrs: {
-                        d:
-                          "M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"
-                      }
-                    })
-                  ]
-                ),
-                _vm._v(" "),
-                _c(
-                  "div",
-                  {
-                    staticClass:
-                      "ml-4 text-lg text-gray-600 leading-7 font-semibold"
-                  },
-                  [
-                    _c("a", { attrs: { href: "https://tailwindcss.com/" } }, [
-                      _vm._v("Tailwind")
-                    ])
-                  ]
-                )
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "ml-12" }, [
-                _c("div", { staticClass: "mt-2 text-sm text-gray-500" }, [
-                  _vm._v(
-                    "\n                        Laravel Jetstream is built with Tailwind, an amazing\n                        utility first CSS framework that doesn't get in your\n                        way. You'll be amazed how easily you can build and\n                        maintain fresh, modern designs with this wonderful\n                        framework at your fingertips.\n                    "
-                  )
-                ])
-              ])
-            ]),
-            _vm._v(" "),
-            _c(
-              "div",
-              { staticClass: "p-6 border-t border-gray-200 md:border-l" },
-              [
-                _c("div", { staticClass: "flex items-center" }, [
-                  _c(
-                    "svg",
-                    {
-                      staticClass: "w-8 h-8 text-gray-400",
-                      attrs: {
-                        fill: "none",
-                        stroke: "currentColor",
-                        "stroke-linecap": "round",
-                        "stroke-linejoin": "round",
-                        "stroke-width": "2",
-                        viewBox: "0 0 24 24"
-                      }
-                    },
-                    [
-                      _c("path", {
-                        attrs: {
-                          d:
-                            "M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"
-                        }
-                      })
-                    ]
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "div",
-                    {
-                      staticClass:
-                        "ml-4 text-lg text-gray-600 leading-7 font-semibold"
-                    },
-                    [
-                      _vm._v(
-                        "\n                        Authentication\n                    "
-                      )
-                    ]
-                  )
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "ml-12" }, [
-                  _c("div", { staticClass: "mt-2 text-sm text-gray-500" }, [
-                    _vm._v(
-                      "\n                        Authentication and registration views are included\n                        with Laravel Jetstream, as well as support for user\n                        email verification and resetting forgotten\n                        passwords. So, you're free to get started what\n                        matters most: building your application.\n                    "
-                    )
-                  ])
-                ])
-              ]
-            )
-          ]
+          [_c("div", { staticClass: "grid gap-4 grid-cols-4" })]
         )
       ])
     ],
