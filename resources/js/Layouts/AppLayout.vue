@@ -1,6 +1,5 @@
 <template>
     <div>
-        <jet-banner />
         <div class="min-h-screen">
             <div class="flex">
                 <div class="flex-initial">

@@ -49,9 +49,7 @@
                     поверхностей, хозяйственные товары, бумажная продукция,
                     барная продукция, одноразовая пищевая упаковка и другое.
                 </span>
-                <div
-                    class="py-3 bg-white flex items-center justify-between mb-2"
-                >
+                <div class="py-3 bg-white flex items-center justify-between">
                     <div class="text-black inline-flex space-x-10 items-center">
                         <span class="">
                             С нами сотрудничают лучшие
@@ -84,10 +82,23 @@
         </transition>
 
         <transition name="fade">
-            <div class="pl-20 bg-white" v-show="showPartners">
-                <div class="grid gap-4 grid-cols-4">
-                    
+            <div v-show="showPartners && showAboutCompany">
+                <div class="origin-center transform -rotate-90 w-min">
+                    <span>clients</span>
                 </div>
+                <div
+                    id="partners"
+                    class="px-20 h-screen bg-white flex flex-wrap justify-center mb-5"   
+                >
+                    <div
+                        class="w-72 h-72 mb-1 mr-1"
+                        v-for="item in partners"
+                        :key="item.id"
+                    >
+                        <img :src="item.src" />
+                    </div>
+                </div>
+                
             </div>
         </transition>
     </div>
@@ -103,7 +114,89 @@ export default {
     data() {
         return {
             showAboutCompany: false,
-            showPartners: false
+            showPartners: false,
+            partners: [
+                {
+                    id: "1",
+                    name: "RaveBistro",
+                    src: "images/partners/RaveBistro.png"
+                },
+                {
+                    id: "2",
+                    name: "BStarBurger",
+                    src: "images/partners/B.Burger.png"
+                },
+                {
+                    id: "3",
+                    name: "DonMak",
+                    src: "images/partners/Mac.png"
+                },
+                {
+                    id: "4",
+                    name: "Robusto",
+                    src: "images/partners/Robusto.png"
+                },
+                {
+                    id: "5",
+                    name: "STM",
+                    src: "images/partners/STM.png"
+                },
+                {
+                    id: "6",
+                    name: "Doner",
+                    src: "images/partners/Doner.png"
+                },
+                {
+                    id: "7",
+                    name: "Diner",
+                    src: "images/partners/Diner.png"
+                },
+                {
+                    id: "8",
+                    name: "Balcon",
+                    src: "images/partners/Balcon.png"
+                },
+                {
+                    id: "9",
+                    name: "BeerKing",
+                    src: "images/partners/BeerKing.png"
+                },
+                {
+                    id: "10",
+                    name: "Cocos",
+                    src: "images/partners/Cocos.png"
+                },
+                {
+                    id: "11",
+                    name: "Chelentano",
+                    src: "images/partners/Chelentano.png"
+                },
+                {
+                    id: "12",
+                    name: "Konfeterra",
+                    src: "images/partners/Konfeterra.png"
+                },
+                {
+                    id: "13",
+                    name: "LaCoffee",
+                    src: "images/partners/LaCoffee.png"
+                },
+                {
+                    id: "14",
+                    name: "Galactic",
+                    src: "images/partners/Galactic.png"
+                },
+                {
+                    id: "15",
+                    name: "Kakdoma.png",
+                    src: "images/partners/Kakdoma.png"
+                },
+                {
+                    id: "16",
+                    name: "CoffeWithWinds",
+                    src: "images/partners/CoffeWithWinds.png"
+                }
+            ]
         };
     }
 };
@@ -115,5 +208,11 @@ export default {
 }
 .fade-enter, .fade-leave-to /* .fade-leave-active до версии 2.1.8 */ {
     opacity: 0;
+}
+
+#partners {
+    overflow-y: scroll;
+    scrollbar-color: #000000 #ff8080;
+    scrollbar-width: thin;
 }
 </style>

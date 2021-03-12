@@ -1,25 +1,23 @@
 <template>
     <div>
         <div class="rounded-full py-3 px-6 bg-black flex items-center justify-between">
-            <div class="text-white">
+            <div class="text-white inline-flex space-x-10 items-center">
                 <svg class="w-6 h-6" viewBox="0 0 24 24">
                     <path
                         fill="currentColor"
                         d="M 11,4L 13,4L 13,15L 11,15L 11,4 Z M 13,18L 13,20L 11,20L 11,18L 13,18 Z"
                     />
                 </svg>
-            </div>
-            <div class="text-white">
                 <span>
                     ПРОГРАММА ЛОЯЛЬНОСТИ
                 </span>
             </div>
             <button
-                v-on:click="showAboutCompany = !showAboutCompany"
+                v-on:click=""
                 class="text-white"
             >
                 <svg
-                    v-if="!showAboutCompany"
+                    v-if=""
                     class="w-6 h-6"
                     viewBox="0 0 24 24"
                 >
@@ -29,7 +27,7 @@
                     />
                 </svg>
                 <svg
-                    v-if="showAboutCompany"
+                    v-if=""
                     class="w-5 h-5"
                     viewBox="0 0 24 24"
                 >
