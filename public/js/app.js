@@ -2975,30 +2975,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 
 
 
@@ -4066,6 +4042,241 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var _Jetstream_ApplicationLogo__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @/Jetstream/ApplicationLogo */ "./resources/js/Jetstream/ApplicationLogo.vue");
+/* harmony import */ var simplebar_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! simplebar-vue */ "./node_modules/simplebar-vue/dist/simplebar-vue.esm.js");
+/* harmony import */ var simplebar_dist_simplebar_min_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! simplebar/dist/simplebar.min.css */ "./node_modules/simplebar/dist/simplebar.min.css");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -4197,9 +4408,24 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 
+
+
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   components: {
-    JetApplicationLogo: _Jetstream_ApplicationLogo__WEBPACK_IMPORTED_MODULE_0__.default
+    JetApplicationLogo: _Jetstream_ApplicationLogo__WEBPACK_IMPORTED_MODULE_0__.default,
+    simplebar: simplebar_vue__WEBPACK_IMPORTED_MODULE_1__.default
+  },
+  data: function data() {
+    return {
+      showLoyaltyProgram: false,
+      showSaleOrderFromSite: false,
+      showWholesaleTrade: false,
+      showSaleGroupOfItems: false,
+      showStartap: false,
+      showMoreCostMoreSale: false,
+      showGiftEveryDay: false,
+      showNetworkBusiness: false
+    };
   }
 });
 
@@ -11756,7 +11982,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.fade-enter-active,\r\n.fade-leave-active {\r\n    transition: opacity 0.5s;\n}\n.fade-enter, .fade-leave-to /* .fade-leave-active до версии 2.1.8 */ {\r\n    opacity: 0;\n}\n.simplebar-track.simplebar-vertical{\r\n    background-color: #ff8080;\r\n    width: 5px;\r\n    margin-right: 5rem;\r\n    border-radius: 3px;\r\n    margin-bottom: 16px;\r\n    opacity: 1;\r\n    overflow:visible;\n}\n.simplebar-scrollbar.simplebar-visible::before{\r\n    opacity: 1;\r\n    top: 0!important;\r\n    bottom: 0!important;\r\n    left: -2px;\r\n    right: 0;\n}\n.simplebar-scrollbar:before{\r\n    background-color: #000000;\r\n    width: 9px;\n}\n.clients{\r\n    -ms-writing-mode: tb-lr;\r\n        writing-mode: vertical-lr;\r\n    padding: 10px;\r\n    transform: rotate(180deg);\r\n    margin-bottom: 16px;\r\n    font-size: 20px;\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n.fade-enter-active,\r\n.fade-leave-active {\r\n  transition: opacity 0.5s;\n}\n.fade-enter, .fade-leave-to /* .fade-leave-active до версии 2.1.8 */ {\r\n  opacity: 0;\n}\n.simplebar-track.simplebar-vertical {\r\n  background-color: #ff8080;\r\n  width: 5px;\r\n  margin-right: 5rem;\r\n  border-radius: 3px;\r\n  margin-bottom: 16px;\r\n  opacity: 1;\r\n  overflow: visible;\n}\n.simplebar-scrollbar.simplebar-visible::before {\r\n  opacity: 1;\r\n  top: 0 !important;\r\n  bottom: 0 !important;\r\n  left: -2px;\r\n  right: 0;\n}\n.simplebar-scrollbar:before {\r\n  background-color: #000000;\r\n  width: 9px;\n}\n.clients {\r\n  -ms-writing-mode: tb-lr;\r\n      writing-mode: vertical-lr;\r\n  padding: 10px;\r\n  transform: rotate(180deg);\r\n  margin-bottom: 16px;\r\n  font-size: 20px;\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -37963,9 +38189,7 @@ var render = function() {
                 ]
               ),
               _vm._v(" "),
-              _c("span", {}, [
-                _vm._v("\n                О КОМПАНИИ\n            ")
-              ])
+              _c("span", {}, [_vm._v(" О КОМПАНИИ ")])
             ]
           ),
           _vm._v(" "),
@@ -38029,7 +38253,7 @@ var render = function() {
           [
             _c("span", { staticClass: "mb-4" }, [
               _vm._v(
-                '\n                Компания "Белый Парус" предоставляет комплексное\n                обслуживание в сегменте HoReCa и B2B. В нашем ассортименте:\n                профессиональные моющие средства для всех типов\n                поверхностей, хозяйственные товары, бумажная продукция,\n                барная продукция, одноразовая пищевая упаковка и другое.\n            '
+                '\n        Компания "Белый Парус" предоставляет комплексное обслуживание в\n        сегменте HoReCa и B2B. В нашем ассортименте: профессиональные моющие\n        средства для всех типов поверхностей, хозяйственные товары, бумажная\n        продукция, барная продукция, одноразовая пищевая упаковка и другое.\n      '
               )
             ]),
             _vm._v(" "),
@@ -38045,13 +38269,7 @@ var render = function() {
                     staticClass:
                       "text-black inline-flex space-x-10 items-center"
                   },
-                  [
-                    _c("span", {}, [
-                      _vm._v(
-                        "\n                        С нами сотрудничают лучшие\n                    "
-                      )
-                    ])
-                  ]
+                  [_c("span", {}, [_vm._v(" С нами сотрудничают лучшие ")])]
                 ),
                 _vm._v(" "),
                 _c(
@@ -40151,302 +40369,199 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", [
-    _c(
-      "div",
-      {
-        staticClass:
-          "rounded-full py-3 px-6 bg-black flex items-center justify-between"
-      },
-      [
-        _c(
-          "div",
-          { staticClass: "text-white inline-flex space-x-10 items-center" },
-          [
-            _c(
-              "svg",
-              { staticClass: "w-6 h-6", attrs: { viewBox: "0 0 24 24" } },
-              [
-                _c("path", {
-                  attrs: {
-                    fill: "currentColor",
-                    d:
-                      "M 11,4L 13,4L 13,15L 11,15L 11,4 Z M 13,18L 13,20L 11,20L 11,18L 13,18 Z"
-                  }
-                })
-              ]
-            ),
-            _vm._v(" "),
-            _c("span", [
-              _vm._v("\n                ПРОГРАММА ЛОЯЛЬНОСТИ\n            ")
-            ])
-          ]
-        ),
-        _vm._v(" "),
-        _c(
-          "button",
-          { staticClass: "text-white", on: { click: function($event) {} } },
-          [
-            _c(
-              "svg",
-              { staticClass: "w-6 h-6", attrs: { viewBox: "0 0 24 24" } },
-              [
-                _c("path", {
-                  attrs: {
-                    fill: "currentColor",
-                    d: "M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z"
-                  }
-                })
-              ]
-            ),
-            _vm._v(" "),
-            _c(
-              "svg",
-              { staticClass: "w-5 h-5", attrs: { viewBox: "0 0 24 24" } },
-              [
-                _c("path", {
-                  attrs: { fill: "currentColor", d: "M19,13H5V11H19V13Z" }
-                })
-              ]
-            )
-          ]
-        )
-      ]
-    ),
-    _vm._v(" "),
-    _c(
-      "div",
-      { staticClass: "p-6 sm:px-20 bg-white border-b border-gray-200" },
-      [
-        _c(
-          "div",
-          [_c("jet-application-logo", { staticClass: "block h-12 w-auto" })],
-          1
-        ),
-        _vm._v(" "),
-        _c("div", { staticClass: "mt-8 text-2xl" }, [
-          _vm._v(
-            "\n            Welcome to your Jetstream application!\n        "
-          )
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "mt-6 text-gray-500" }, [
-          _vm._v(
-            "\n            Laravel Jetstream provides a beautiful, robust starting point for your next Laravel application. Laravel is designed\n            to help you build your application using a development environment that is simple, powerful, and enjoyable. We believe\n            you should love expressing your creativity through programming, so we have spent time carefully crafting the Laravel\n            ecosystem to be a breath of fresh air. We hope you love it.\n        "
-          )
-        ])
-      ]
-    ),
-    _vm._v(" "),
-    _c(
-      "div",
-      {
-        staticClass: "bg-gray-200 bg-opacity-25 grid grid-cols-1 md:grid-cols-2"
-      },
-      [
-        _c("div", { staticClass: "p-6" }, [
-          _c("div", { staticClass: "flex items-center" }, [
-            _c(
-              "svg",
-              {
-                staticClass: "w-8 h-8 text-gray-400",
-                attrs: {
-                  fill: "none",
-                  stroke: "currentColor",
-                  "stroke-linecap": "round",
-                  "stroke-linejoin": "round",
-                  "stroke-width": "2",
-                  viewBox: "0 0 24 24"
-                }
-              },
-              [
-                _c("path", {
-                  attrs: {
-                    d:
-                      "M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"
-                  }
-                })
-              ]
-            ),
-            _vm._v(" "),
-            _vm._m(0)
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "ml-12" }, [
-            _c("div", { staticClass: "mt-2 text-sm text-gray-500" }, [
-              _vm._v(
-                "\n                    Laravel has wonderful documentation covering every aspect of the framework. Whether you're new to the framework or have previous experience, we recommend reading all of the documentation from beginning to end.\n                "
-              )
-            ]),
-            _vm._v(" "),
-            _c("a", { attrs: { href: "https://laravel.com/docs" } }, [
-              _c(
-                "div",
-                {
-                  staticClass:
-                    "mt-3 flex items-center text-sm font-semibold text-indigo-700"
-                },
-                [
-                  _c("div", [_vm._v("Explore the documentation")]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "ml-1 text-indigo-500" }, [
-                    _c(
-                      "svg",
-                      {
-                        staticClass: "w-4 h-4",
-                        attrs: { viewBox: "0 0 20 20", fill: "currentColor" }
-                      },
-                      [
-                        _c("path", {
-                          attrs: {
-                            "fill-rule": "evenodd",
-                            d:
-                              "M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z",
-                            "clip-rule": "evenodd"
-                          }
-                        })
-                      ]
-                    )
-                  ])
-                ]
-              )
-            ])
-          ])
-        ]),
-        _vm._v(" "),
-        _c(
-          "div",
-          {
-            staticClass:
-              "p-6 border-t border-gray-200 md:border-t-0 md:border-l"
-          },
-          [
-            _c("div", { staticClass: "flex items-center" }, [
+  return _c(
+    "div",
+    [
+      _c(
+        "div",
+        {
+          staticClass:
+            "rounded-full py-3 px-6 bg-black flex items-center justify-between mb-2"
+        },
+        [
+          _c(
+            "div",
+            { staticClass: "text-white inline-flex space-x-10 items-center" },
+            [
               _c(
                 "svg",
-                {
-                  staticClass: "w-8 h-8 text-gray-400",
-                  attrs: {
-                    fill: "none",
-                    stroke: "currentColor",
-                    "stroke-linecap": "round",
-                    "stroke-linejoin": "round",
-                    "stroke-width": "2",
-                    viewBox: "0 0 24 24"
-                  }
-                },
+                { staticClass: "w-6 h-6", attrs: { viewBox: "0 0 24 24" } },
                 [
                   _c("path", {
                     attrs: {
+                      fill: "currentColor",
                       d:
-                        "M3 9a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 0110.07 4h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0018.07 7H19a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2V9z"
+                        "M 11,4L 13,4L 13,15L 11,15L 11,4 Z M 13,18L 13,20L 11,20L 11,18L 13,18 Z"
                     }
-                  }),
-                  _c("path", {
-                    attrs: { d: "M15 13a3 3 0 11-6 0 3 3 0 016 0z" }
                   })
                 ]
               ),
               _vm._v(" "),
-              _vm._m(1)
+              _c("span", [_vm._v(" ПРОГРАММА ЛОЯЛЬНОСТИ ")])
+            ]
+          ),
+          _vm._v(" "),
+          _c(
+            "button",
+            {
+              staticClass: "text-white",
+              on: {
+                click: function($event) {
+                  _vm.showLoyaltyProgram = !_vm.showLoyaltyProgram
+                }
+              }
+            },
+            [
+              !_vm.showLoyaltyProgram
+                ? _c(
+                    "svg",
+                    { staticClass: "w-6 h-6", attrs: { viewBox: "0 0 24 24" } },
+                    [
+                      _c("path", {
+                        attrs: {
+                          fill: "currentColor",
+                          d: "M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z"
+                        }
+                      })
+                    ]
+                  )
+                : _vm._e(),
+              _vm._v(" "),
+              _vm.showLoyaltyProgram
+                ? _c(
+                    "svg",
+                    { staticClass: "w-5 h-5", attrs: { viewBox: "0 0 24 24" } },
+                    [
+                      _c("path", {
+                        attrs: { fill: "currentColor", d: "M19,13H5V11H19V13Z" }
+                      })
+                    ]
+                  )
+                : _vm._e()
+            ]
+          )
+        ]
+      ),
+      _vm._v(" "),
+      _c("transition", { attrs: { name: "fade" } }, [
+        _c(
+          "div",
+          {
+            directives: [
+              {
+                name: "show",
+                rawName: "v-show",
+                value: _vm.showLoyaltyProgram,
+                expression: "showLoyaltyProgram"
+              }
+            ],
+            staticClass: "px-20 bg-white grid grid-cols-1"
+          },
+          [
+            _c("span", { staticClass: "mb-4" }, [
+              _vm._v(
+                "\n        Все 7 предложений по программе лояльности предоставляются на ваш выбор\n        и не суммируются! Заключив договор с нами вы получаете доступ к\n        внушительному ассортименту товара, сертификаты на все позиции, все\n        сопроводительные документы при отгрузке, удобные варианты оплаты\n        наличными, чек, б/н, на ваш выбор и скидка 3% на весь ассортимент из\n        прайса компании.\n      "
+              )
             ]),
             _vm._v(" "),
-            _c("div", { staticClass: "ml-12" }, [
-              _c("div", { staticClass: "mt-2 text-sm text-gray-500" }, [
-                _vm._v(
-                  "\n                    Laracasts offers thousands of video tutorials on Laravel, PHP, and JavaScript development. Check them out, see for yourself, and massively level up your development skills in the process.\n                "
-                )
-              ]),
-              _vm._v(" "),
-              _c("a", { attrs: { href: "https://laracasts.com" } }, [
+            _c(
+              "div",
+              {
+                staticClass:
+                  "py-3 bg-white flex items-center justify-between border-t-2 border-black"
+              },
+              [
                 _c(
                   "div",
                   {
                     staticClass:
-                      "mt-3 flex items-center text-sm font-semibold text-indigo-700"
+                      "text-black inline-flex space-x-10 items-center"
                   },
                   [
-                    _c("div", [_vm._v("Start watching Laracasts")]),
+                    _c("img", {
+                      attrs: {
+                        src: "images/LoyaltyIcons/SalesForOrderFromSite.png"
+                      }
+                    }),
                     _vm._v(" "),
-                    _c("div", { staticClass: "ml-1 text-indigo-500" }, [
-                      _c(
-                        "svg",
-                        {
-                          staticClass: "w-4 h-4",
-                          attrs: { viewBox: "0 0 20 20", fill: "currentColor" }
-                        },
-                        [
-                          _c("path", {
-                            attrs: {
-                              "fill-rule": "evenodd",
-                              d:
-                                "M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z",
-                              "clip-rule": "evenodd"
-                            }
-                          })
-                        ]
-                      )
+                    _c("span", {}, [
+                      _vm._v(" Cкидка при оформлении заказа через сайт")
                     ])
                   ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "button",
+                  {
+                    staticClass: "text-black",
+                    on: {
+                      click: function($event) {
+                        _vm.showSaleOrderFromSite = !_vm.showSaleOrderFromSite
+                      }
+                    }
+                  },
+                  [
+                    !_vm.showSaleOrderFromSite
+                      ? _c(
+                          "svg",
+                          {
+                            staticClass: "w-6 h-6",
+                            attrs: { viewBox: "0 0 24 24" }
+                          },
+                          [
+                            _c("path", {
+                              attrs: {
+                                fill: "currentColor",
+                                d: "M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z"
+                              }
+                            })
+                          ]
+                        )
+                      : _vm._e(),
+                    _vm._v(" "),
+                    _vm.showSaleOrderFromSite
+                      ? _c(
+                          "svg",
+                          {
+                            staticClass: "w-5 h-5",
+                            attrs: { viewBox: "0 0 24 24" }
+                          },
+                          [
+                            _c("path", {
+                              attrs: {
+                                fill: "currentColor",
+                                d: "M19,13H5V11H19V13Z"
+                              }
+                            })
+                          ]
+                        )
+                      : _vm._e()
+                  ]
                 )
-              ])
-            ])
-          ]
-        ),
-        _vm._v(" "),
-        _c("div", { staticClass: "p-6 border-t border-gray-200" }, [
-          _c("div", { staticClass: "flex items-center" }, [
-            _c(
-              "svg",
-              {
-                staticClass: "w-8 h-8 text-gray-400",
-                attrs: {
-                  fill: "none",
-                  stroke: "currentColor",
-                  "stroke-linecap": "round",
-                  "stroke-linejoin": "round",
-                  "stroke-width": "2",
-                  viewBox: "0 0 24 24"
-                }
-              },
-              [
-                _c("path", {
-                  attrs: {
-                    d:
-                      "M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"
-                  }
-                })
               ]
             ),
             _vm._v(" "),
-            _vm._m(2)
-          ]),
-          _vm._v(" "),
-          _vm._m(3)
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "p-6 border-t border-gray-200 md:border-l" }, [
-          _c("div", { staticClass: "flex items-center" }, [
             _c(
-              "svg",
+              "div",
               {
-                staticClass: "w-8 h-8 text-gray-400",
-                attrs: {
-                  fill: "none",
-                  stroke: "currentColor",
-                  "stroke-linecap": "round",
-                  "stroke-linejoin": "round",
-                  "stroke-width": "2",
-                  viewBox: "0 0 24 24"
-                }
+                directives: [
+                  {
+                    name: "show",
+                    rawName: "v-show",
+                    value: _vm.showSaleOrderFromSite && _vm.showLoyaltyProgram,
+                    expression: "showSaleOrderFromSite && showLoyaltyProgram"
+                  }
+                ],
+                staticClass: "flex pl-20 mb-8"
               },
               [
-                _c("path", {
-                  attrs: {
-                    d:
-                      "M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"
-                  }
-                })
+                _c("div", { staticClass: "flex flex-wrap justify-center" }, [
+                  _c("span", [
+                    _vm._v(
+                      "\n            При оформлении заказа через сайт вам предоставляется скидка в\n            размере 3% Действует при заказе на сумму от 2000 р.\n          "
+                    )
+                  ])
+                ])
               ]
             ),
             _vm._v(" "),
@@ -40454,86 +40569,718 @@ var render = function() {
               "div",
               {
                 staticClass:
-                  "ml-4 text-lg text-gray-600 leading-7 font-semibold"
+                  "py-3 bg-white flex items-center justify-between border-t-2 border-black"
               },
-              [_vm._v("Authentication")]
+              [
+                _c(
+                  "div",
+                  {
+                    staticClass:
+                      "text-black inline-flex space-x-10 items-center"
+                  },
+                  [
+                    _c("img", {
+                      attrs: { src: "images/LoyaltyIcons/Wholesale_Trade.png" }
+                    }),
+                    _vm._v(" "),
+                    _c("span", {}, [_vm._v(" Оптовая скидка ")])
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "button",
+                  {
+                    staticClass: "text-black",
+                    on: {
+                      click: function($event) {
+                        _vm.showWholesaleTrade = !_vm.showWholesaleTrade
+                      }
+                    }
+                  },
+                  [
+                    !_vm.showWholesaleTrade
+                      ? _c(
+                          "svg",
+                          {
+                            staticClass: "w-6 h-6",
+                            attrs: { viewBox: "0 0 24 24" }
+                          },
+                          [
+                            _c("path", {
+                              attrs: {
+                                fill: "currentColor",
+                                d: "M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z"
+                              }
+                            })
+                          ]
+                        )
+                      : _vm._e(),
+                    _vm._v(" "),
+                    _vm.showWholesaleTrade
+                      ? _c(
+                          "svg",
+                          {
+                            staticClass: "w-5 h-5",
+                            attrs: { viewBox: "0 0 24 24" }
+                          },
+                          [
+                            _c("path", {
+                              attrs: {
+                                fill: "currentColor",
+                                d: "M19,13H5V11H19V13Z"
+                              }
+                            })
+                          ]
+                        )
+                      : _vm._e()
+                  ]
+                )
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              {
+                directives: [
+                  {
+                    name: "show",
+                    rawName: "v-show",
+                    value: _vm.showLoyaltyProgram && _vm.showWholesaleTrade,
+                    expression: "showLoyaltyProgram && showWholesaleTrade"
+                  }
+                ],
+                staticClass: "flex pl-20 mb-8"
+              },
+              [
+                _c("div", { staticClass: "flex flex-wrap justify-center" }, [
+                  _c("span", [
+                    _vm._v(
+                      "\n            При покупке одного вида товара ящ./уп. вам предоставляется скидка\n            на данный товар в размере от 5 до 12% по следующим группам товара:\n          "
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c(
+                    "div",
+                    { staticClass: "flex flex-col items-start mr-auto" },
+                    [
+                      _c("span", [
+                        _vm._v("- Бумажная профессиональная продукция")
+                      ]),
+                      _vm._v(" "),
+                      _c("span", [_vm._v("- Пластиковые контейнеры")]),
+                      _vm._v(" "),
+                      _c("span", [_vm._v("- Бумажная упаковка")]),
+                      _vm._v(" "),
+                      _c("span", [
+                        _vm._v("- Профессиональная и бытовая химия")
+                      ]),
+                      _vm._v(" "),
+                      _c("span", [_vm._v("- Пакеты для мусора")]),
+                      _vm._v(" "),
+                      _c("span", [_vm._v("- Кухонные принадлежности")]),
+                      _vm._v(" "),
+                      _c("span", [_vm._v("- Барная группа")])
+                    ]
+                  )
+                ])
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              {
+                staticClass:
+                  "py-3 bg-white flex items-center justify-between border-t-2 border-black"
+              },
+              [
+                _c(
+                  "div",
+                  {
+                    staticClass:
+                      "text-black inline-flex space-x-10 items-center"
+                  },
+                  [
+                    _c("img", {
+                      attrs: {
+                        src: "images/LoyaltyIcons/SaleForGroupOfItems.png"
+                      }
+                    }),
+                    _vm._v(" "),
+                    _c("span", {}, [_vm._v(" Скидка на группу товаров ")])
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "button",
+                  {
+                    staticClass: "text-black",
+                    on: {
+                      click: function($event) {
+                        _vm.showSaleGroupOfItems = !_vm.showSaleGroupOfItems
+                      }
+                    }
+                  },
+                  [
+                    !_vm.showSaleGroupOfItems
+                      ? _c(
+                          "svg",
+                          {
+                            staticClass: "w-6 h-6",
+                            attrs: { viewBox: "0 0 24 24" }
+                          },
+                          [
+                            _c("path", {
+                              attrs: {
+                                fill: "currentColor",
+                                d: "M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z"
+                              }
+                            })
+                          ]
+                        )
+                      : _vm._e(),
+                    _vm._v(" "),
+                    _vm.showSaleGroupOfItems
+                      ? _c(
+                          "svg",
+                          {
+                            staticClass: "w-5 h-5",
+                            attrs: { viewBox: "0 0 24 24" }
+                          },
+                          [
+                            _c("path", {
+                              attrs: {
+                                fill: "currentColor",
+                                d: "M19,13H5V11H19V13Z"
+                              }
+                            })
+                          ]
+                        )
+                      : _vm._e()
+                  ]
+                )
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              {
+                directives: [
+                  {
+                    name: "show",
+                    rawName: "v-show",
+                    value: _vm.showSaleGroupOfItems && _vm.showLoyaltyProgram,
+                    expression: "showSaleGroupOfItems && showLoyaltyProgram"
+                  }
+                ],
+                staticClass: "flex pl-20 mb-8"
+              },
+              [
+                _c("div", { staticClass: "flex flex-wrap justify-center" }, [
+                  _c("span", [
+                    _vm._v(
+                      "\n            При покупке 70% товара из предлагаемого списка, определенной\n            группы продукции, по направлению вашей деятельности, вам\n            предоставляется скидка в размере 5% на всю сумму заказа\n          "
+                    )
+                  ])
+                ])
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              {
+                staticClass:
+                  "py-3 bg-white flex items-center justify-between border-t-2 border-black"
+              },
+              [
+                _c(
+                  "div",
+                  {
+                    staticClass:
+                      "text-black inline-flex space-x-10 items-center"
+                  },
+                  [
+                    _c("img", {
+                      attrs: { src: "images/LoyaltyIcons/Startap.png" }
+                    }),
+                    _vm._v(" "),
+                    _c("span", {}, [_vm._v(" Предложение для стартапов ")])
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "button",
+                  {
+                    staticClass: "text-black",
+                    on: {
+                      click: function($event) {
+                        _vm.showStartap = !_vm.showStartap
+                      }
+                    }
+                  },
+                  [
+                    !_vm.showStartap
+                      ? _c(
+                          "svg",
+                          {
+                            staticClass: "w-6 h-6",
+                            attrs: { viewBox: "0 0 24 24" }
+                          },
+                          [
+                            _c("path", {
+                              attrs: {
+                                fill: "currentColor",
+                                d: "M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z"
+                              }
+                            })
+                          ]
+                        )
+                      : _vm._e(),
+                    _vm._v(" "),
+                    _vm.showStartap
+                      ? _c(
+                          "svg",
+                          {
+                            staticClass: "w-5 h-5",
+                            attrs: { viewBox: "0 0 24 24" }
+                          },
+                          [
+                            _c("path", {
+                              attrs: {
+                                fill: "currentColor",
+                                d: "M19,13H5V11H19V13Z"
+                              }
+                            })
+                          ]
+                        )
+                      : _vm._e()
+                  ]
+                )
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              {
+                directives: [
+                  {
+                    name: "show",
+                    rawName: "v-show",
+                    value: _vm.showStartap && _vm.showLoyaltyProgram,
+                    expression: "showStartap && showLoyaltyProgram"
+                  }
+                ],
+                staticClass: "flex pl-20 mb-8"
+              },
+              [
+                _c("div", { staticClass: "flex flex-wrap justify-center" }, [
+                  _c("span", [
+                    _vm._v(
+                      "\n            Вы недавно вступили в ряды бизнесменов? Вы только что открыли\n            новое заведение или предприятие? Или находитесь в стадии открытия?\n            Поздравляем Вас! Мы как никто знаем и понимаем, как не легко\n            открыть и развить свое дело. Мы готовы предложить Вам дружескую\n            руку помощи, посодействовать в этом нелегком деле, предложив Вам\n            полное закрытие ваших потребностей по обеспечению чистоты и\n            упаковке с 10% скидкой . Данная программа лояльности действует при\n            условии:\n          "
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c(
+                    "div",
+                    { staticClass: "flex flex-col items-start mr-auto" },
+                    [
+                      _c("span", [
+                        _vm._v(
+                          "- при условии полного сотрудничества с нами. (полноценного\n              сотрудничества)"
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("span", [
+                        _vm._v(
+                          "- действует при приобретении у нас, всего необходимого вам\n              ассортимента.\n            "
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("span", [
+                        _vm._v(
+                          "(приобретения у нас всего необходимого ассортимента)"
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("span", [
+                        _vm._v(
+                          "- распространяется на заведения,предприятия до года. (если вы\n              работаете, меньше одного года.)"
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("span", [
+                        _vm._v(
+                          "- предоставляется сроком на 6 месяцев, с момента заключения\n              договора."
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("span", [
+                        _vm._v(
+                          "- (заключения договора, срок действия программы лояльности 6\n              мес.)"
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("span", [
+                        _vm._v("- действует вне зависимости от суммы покупки.")
+                      ]),
+                      _vm._v(" "),
+                      _c("span", [
+                        _vm._v(
+                          "(полноценного сотрудничества, программа лояльности действует\n              вне зависимости от суммы покупки.)"
+                        )
+                      ])
+                    ]
+                  )
+                ])
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              {
+                staticClass:
+                  "py-3 bg-white flex items-center justify-between border-t-2 border-black"
+              },
+              [
+                _c(
+                  "div",
+                  {
+                    staticClass:
+                      "text-black inline-flex space-x-10 items-center"
+                  },
+                  [
+                    _c("img", {
+                      attrs: { src: "images/LoyaltyIcons/MoreCostMoreSale.png" }
+                    }),
+                    _vm._v(" "),
+                    _c("span", {}, [
+                      _vm._v(" Чем больше сумма, тем выше скидка ")
+                    ])
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "button",
+                  {
+                    staticClass: "text-black",
+                    on: {
+                      click: function($event) {
+                        _vm.showMoreCostMoreSale = !_vm.showMoreCostMoreSale
+                      }
+                    }
+                  },
+                  [
+                    !_vm.showMoreCostMoreSale
+                      ? _c(
+                          "svg",
+                          {
+                            staticClass: "w-6 h-6",
+                            attrs: { viewBox: "0 0 24 24" }
+                          },
+                          [
+                            _c("path", {
+                              attrs: {
+                                fill: "currentColor",
+                                d: "M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z"
+                              }
+                            })
+                          ]
+                        )
+                      : _vm._e(),
+                    _vm._v(" "),
+                    _vm.showMoreCostMoreSale
+                      ? _c(
+                          "svg",
+                          {
+                            staticClass: "w-5 h-5",
+                            attrs: { viewBox: "0 0 24 24" }
+                          },
+                          [
+                            _c("path", {
+                              attrs: {
+                                fill: "currentColor",
+                                d: "M19,13H5V11H19V13Z"
+                              }
+                            })
+                          ]
+                        )
+                      : _vm._e()
+                  ]
+                )
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              {
+                directives: [
+                  {
+                    name: "show",
+                    rawName: "v-show",
+                    value: _vm.showMoreCostMoreSale && _vm.showLoyaltyProgram,
+                    expression: "showMoreCostMoreSale && showLoyaltyProgram"
+                  }
+                ],
+                staticClass: "flex pl-20 mb-8"
+              },
+              [
+                _c("div", { staticClass: "flex flex-wrap justify-center" }, [
+                  _c(
+                    "div",
+                    { staticClass: "flex flex-col items-start mr-auto" },
+                    [
+                      _c("span", [
+                        _vm._v(" При покупке товара в ассортименте на суммы: ")
+                      ]),
+                      _vm._v(" "),
+                      _c("span", [_vm._v(" от 2000р скидка 1% ")]),
+                      _vm._v(" "),
+                      _c("span", [_vm._v(" от 3000р скидка 2% ")]),
+                      _c("span", [_vm._v(" от 4000р скидка 3% ")]),
+                      _vm._v(" "),
+                      _c("span", [_vm._v(" от 5000р скидка 4% ")]),
+                      _c("span", [_vm._v(" от 6000р скидка 5% ")]),
+                      _vm._v(" "),
+                      _c("span", [_vm._v(" от 7000р скидка 6% ")]),
+                      _c("span", [_vm._v(" от 8000р скидка 7% ")]),
+                      _vm._v(" "),
+                      _c("span", [_vm._v(" от 9000р скидка 8% ")]),
+                      _c("span", [_vm._v(" от 10000р скидка 9% ")]),
+                      _c("span", [_vm._v(" от 11000р скидка 10% ")])
+                    ]
+                  )
+                ])
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              {
+                staticClass:
+                  "py-3 bg-white flex items-center justify-between border-t-2 border-black"
+              },
+              [
+                _c(
+                  "div",
+                  {
+                    staticClass:
+                      "text-black inline-flex space-x-10 items-center"
+                  },
+                  [
+                    _c("img", {
+                      attrs: { src: "images/LoyaltyIcons/GiftsEveryday.png" }
+                    }),
+                    _vm._v(" "),
+                    _c("span", {}, [_vm._v(" Подарки каждый день ")])
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "button",
+                  {
+                    staticClass: "text-black",
+                    on: {
+                      click: function($event) {
+                        _vm.showGiftEveryDay = !_vm.showGiftEveryDay
+                      }
+                    }
+                  },
+                  [
+                    !_vm.showGiftEveryDay
+                      ? _c(
+                          "svg",
+                          {
+                            staticClass: "w-6 h-6",
+                            attrs: { viewBox: "0 0 24 24" }
+                          },
+                          [
+                            _c("path", {
+                              attrs: {
+                                fill: "currentColor",
+                                d: "M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z"
+                              }
+                            })
+                          ]
+                        )
+                      : _vm._e(),
+                    _vm._v(" "),
+                    _vm.showGiftEveryDay
+                      ? _c(
+                          "svg",
+                          {
+                            staticClass: "w-5 h-5",
+                            attrs: { viewBox: "0 0 24 24" }
+                          },
+                          [
+                            _c("path", {
+                              attrs: {
+                                fill: "currentColor",
+                                d: "M19,13H5V11H19V13Z"
+                              }
+                            })
+                          ]
+                        )
+                      : _vm._e()
+                  ]
+                )
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              {
+                directives: [
+                  {
+                    name: "show",
+                    rawName: "v-show",
+                    value: _vm.showGiftEveryDay && _vm.showLoyaltyProgram,
+                    expression: "showGiftEveryDay && showLoyaltyProgram"
+                  }
+                ],
+                staticClass: "flex pl-20 mb-8"
+              },
+              [
+                _c("div", { staticClass: "flex flex-wrap justify-center" }, [
+                  _c(
+                    "div",
+                    { staticClass: "flex flex-col items-start mr-auto" },
+                    [
+                      _c("span", [
+                        _vm._v(
+                          "\n              При оплате заказа по факту, на сумму от 3000 р каждый день\n              определенный товар в подарок:\n            "
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("span", [_vm._v(" Понедельник - Белизна 4 л. ")]),
+                      _vm._v(" "),
+                      _c("span", [
+                        _vm._v(
+                          "\n              Вторник - Салфетка влаговпитывающая + Губка кухонная по 1 упк. "
+                        )
+                      ]),
+                      _c("span", [
+                        _vm._v(" Среда - Салфетка барная Баттерфлай 2 упк. ")
+                      ]),
+                      _vm._v(" "),
+                      _c("span", [
+                        _vm._v(
+                          " Четверг - Мешки для мусора 160л.+ 60л. по 1 р. "
+                        )
+                      ]),
+                      _c("span", [
+                        _vm._v(" Пятница - Жидкое мыло MARAFET 5 л. ")
+                      ])
+                    ]
+                  )
+                ])
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              {
+                staticClass:
+                  "py-3 bg-white flex items-center justify-between border-t-2 border-black"
+              },
+              [
+                _c(
+                  "div",
+                  {
+                    staticClass:
+                      "text-black inline-flex space-x-10 items-center"
+                  },
+                  [
+                    _c("img", {
+                      attrs: { src: "images/LoyaltyIcons/networkBusiness.png" }
+                    }),
+                    _vm._v(" "),
+                    _c("span", {}, [
+                      _vm._v(" Предложение для сетевого бизнеса ")
+                    ])
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "button",
+                  {
+                    staticClass: "text-black",
+                    on: {
+                      click: function($event) {
+                        _vm.showNetworkBusiness = !_vm.showNetworkBusiness
+                      }
+                    }
+                  },
+                  [
+                    !_vm.showNetworkBusiness
+                      ? _c(
+                          "svg",
+                          {
+                            staticClass: "w-6 h-6",
+                            attrs: { viewBox: "0 0 24 24" }
+                          },
+                          [
+                            _c("path", {
+                              attrs: {
+                                fill: "currentColor",
+                                d: "M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z"
+                              }
+                            })
+                          ]
+                        )
+                      : _vm._e(),
+                    _vm._v(" "),
+                    _vm.showNetworkBusiness
+                      ? _c(
+                          "svg",
+                          {
+                            staticClass: "w-5 h-5",
+                            attrs: { viewBox: "0 0 24 24" }
+                          },
+                          [
+                            _c("path", {
+                              attrs: {
+                                fill: "currentColor",
+                                d: "M19,13H5V11H19V13Z"
+                              }
+                            })
+                          ]
+                        )
+                      : _vm._e()
+                  ]
+                )
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              {
+                directives: [
+                  {
+                    name: "show",
+                    rawName: "v-show",
+                    value: _vm.showNetworkBusiness && _vm.showLoyaltyProgram,
+                    expression: "showNetworkBusiness && showLoyaltyProgram"
+                  }
+                ],
+                staticClass: "flex pl-20 mb-8"
+              },
+              [
+                _c("div", { staticClass: "flex flex-wrap justify-center" }, [
+                  _c("span", [
+                    _vm._v(
+                      "\n            Вы - владелец нескольких организаций? Или под вашим брендом\n            открыто более 3 точек? Тогда у нас есть выгодное предложение —\n            скидка 8% на весь ассортимент. Основное условие предоставления\n            скидки - полное сотрудничество с компанией Белый Парус. Скидка\n            предоставляется сроком на 12 месяцев с момента заключения\n            договора. Ассортимент поставляемой продукции определяется\n            индивидуально с учётом ваших потребностей и пожеланий ваших\n            клиентов\n          "
+                    )
+                  ])
+                ])
+              ]
             )
-          ]),
-          _vm._v(" "),
-          _vm._m(4)
-        ])
-      ]
-    )
-  ])
+          ]
+        )
+      ])
+    ],
+    1
+  )
 }
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c(
-      "div",
-      { staticClass: "ml-4 text-lg text-gray-600 leading-7 font-semibold" },
-      [
-        _c("a", { attrs: { href: "https://laravel.com/docs" } }, [
-          _vm._v("Documentation")
-        ])
-      ]
-    )
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c(
-      "div",
-      { staticClass: "ml-4 text-lg text-gray-600 leading-7 font-semibold" },
-      [
-        _c("a", { attrs: { href: "https://laracasts.com" } }, [
-          _vm._v("Laracasts")
-        ])
-      ]
-    )
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c(
-      "div",
-      { staticClass: "ml-4 text-lg text-gray-600 leading-7 font-semibold" },
-      [
-        _c("a", { attrs: { href: "https://tailwindcss.com/" } }, [
-          _vm._v("Tailwind")
-        ])
-      ]
-    )
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "ml-12" }, [
-      _c("div", { staticClass: "mt-2 text-sm text-gray-500" }, [
-        _vm._v(
-          "\n                    Laravel Jetstream is built with Tailwind, an amazing utility first CSS framework that doesn't get in your way. You'll be amazed how easily you can build and maintain fresh, modern designs with this wonderful framework at your fingertips.\n                "
-        )
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "ml-12" }, [
-      _c("div", { staticClass: "mt-2 text-sm text-gray-500" }, [
-        _vm._v(
-          "\n                    Authentication and registration views are included with Laravel Jetstream, as well as support for user email verification and resetting forgotten passwords. So, you're free to get started what matters most: building your application.\n                "
-        )
-      ])
-    ])
-  }
-]
+var staticRenderFns = []
 render._withStripped = true
 
 
