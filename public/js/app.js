@@ -3033,8 +3033,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
 
 
 
@@ -38572,57 +38570,53 @@ var render = function() {
               },
               _vm._l(_vm.whyWithUs, function(item) {
                 return _c("div", { key: item.id, staticClass: "flex" }, [
-                  _c("div", [
-                    item.isPictLeft
-                      ? _c("div", { staticClass: "flex" }, [
-                          _c("div", { staticClass: "clients flex-initial" }, [
-                            _c("span", [_vm._v(_vm._s(item.sidetext))])
-                          ]),
-                          _vm._v(" "),
-                          _c(
-                            "div",
-                            {
-                              staticClass:
-                                "h-52 w-124 mr-4 mb-4 bg-black flex-1"
-                            },
-                            [
-                              _c("span", { staticClass: "text-white" }, [
-                                _vm._v(_vm._s(item.text))
-                              ])
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "div",
-                            { staticClass: "h-52 w-88 mr-4 mb-4 flex-1" },
-                            [_c("img", { attrs: { src: item.img } })]
-                          )
+                  item.isPictLeft
+                    ? _c("div", { staticClass: "flex" }, [
+                        _c("div", { staticClass: "clients flex-initial" }, [
+                          _c("span", [_vm._v(_vm._s(item.sidetext))])
+                        ]),
+                        _vm._v(" "),
+                        _c(
+                          "div",
+                          {
+                            staticClass: "h-52 w-124 mr-4 mb-4 bg-black flex-1"
+                          },
+                          [
+                            _c("span", { staticClass: "text-white" }, [
+                              _vm._v(_vm._s(item.text))
+                            ])
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "div",
+                          { staticClass: "h-52 w-88 mr-4 mb-4 flex-1" },
+                          [_c("img", { attrs: { src: item.img } })]
+                        )
+                      ])
+                    : _c("div", { staticClass: "flex" }, [
+                        _c(
+                          "div",
+                          { staticClass: "h-52 w-88 mr-4 mb-4 flex-1" },
+                          [_c("img", { attrs: { src: item.img } })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "div",
+                          {
+                            staticClass: "h-52 w-124 mr-4 mb-4 bg-black flex-1"
+                          },
+                          [
+                            _c("span", { staticClass: "text-white" }, [
+                              _vm._v(_vm._s(item.text))
+                            ])
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "clients flex-initial" }, [
+                          _c("span", [_vm._v(_vm._s(item.sidetext))])
                         ])
-                      : _c("div", { staticClass: "flex" }, [
-                          _c(
-                            "div",
-                            { staticClass: "h-52 w-88 mr-4 mb-4 flex-1" },
-                            [_c("img", { attrs: { src: item.img } })]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "div",
-                            {
-                              staticClass:
-                                "h-52 w-124 mr-4 mb-4 bg-black flex-1"
-                            },
-                            [
-                              _c("span", { staticClass: "text-white" }, [
-                                _vm._v(_vm._s(item.text))
-                              ])
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c("div", { staticClass: "clients flex-initial" }, [
-                            _c("span", [_vm._v(_vm._s(item.sidetext))])
-                          ])
-                        ])
-                  ])
+                      ])
                 ])
               }),
               0

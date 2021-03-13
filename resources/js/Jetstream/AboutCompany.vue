@@ -111,7 +111,6 @@
           data-simplebar-auto-hide="false"
         >
           <div class="flex" v-for="item in whyWithUs" :key="item.id">
-            <div>
               <div v-if="item.isPictLeft" class="flex">
                 <div class="clients flex-initial">
                   <span>{{ item.sidetext }}</span>
@@ -133,7 +132,6 @@
                 <div class="clients flex-initial">
                   <span>{{ item.sidetext }}</span>
                 </div>
-              </div>
             </div>
           </div>
         </simplebar>
