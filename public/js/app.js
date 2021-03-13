@@ -2975,6 +2975,66 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 
 
@@ -2987,70 +3047,100 @@ __webpack_require__.r(__webpack_exports__);
     return {
       showAboutCompany: false,
       showPartners: false,
+      showWhyWithUs: false,
       partners: [{
         id: "1",
-        name: "RaveBistro",
-        src: "images/partners/RaveBistro.png"
+        name: "AgCosmetology",
+        src: "images/partners/AG_Cosmetology.svg"
       }, {
         id: "2",
         name: "BStarBurger",
-        src: "images/partners/B.Burger.png"
+        src: "images/partners/BstarBurger.svg"
       }, {
         id: "3",
-        name: "DonMak",
-        src: "images/partners/Mac.png"
+        name: "CoffeeWithWings",
+        src: "images/partners/CoffeeTime.svg"
       }, {
         id: "4",
-        name: "Robusto",
-        src: "images/partners/Robusto.png"
+        name: "Chelentano",
+        src: "images/partners/Celentano.svg"
       }, {
         id: "5",
-        name: "STM",
-        src: "images/partners/STM.png"
+        name: "HBNGroup",
+        src: "images/partners/HBNFood.svg"
       }, {
         id: "6",
-        name: "Doner",
-        src: "images/partners/Doner.png"
+        name: "Konfeterra",
+        src: "images/partners/Konfeterra.svg"
       }, {
         id: "7",
-        name: "Diner",
-        src: "images/partners/Diner.png"
+        name: "RaveBistro",
+        src: "images/partners/RaveBistro.svg"
       }, {
         id: "8",
-        name: "Balcon",
-        src: "images/partners/Balcon.png"
+        name: "Robusto",
+        src: "images/partners/robusto.svg"
       }, {
         id: "9",
-        name: "BeerKing",
-        src: "images/partners/BeerKing.png"
+        name: "Marchenkov",
+        src: "images/partners/Marchenkov.svg"
       }, {
         id: "10",
-        name: "Cocos",
-        src: "images/partners/Cocos.png"
+        name: "Galactic",
+        src: "images/partners/Galactic.svg"
       }, {
         id: "11",
-        name: "Chelentano",
-        src: "images/partners/Chelentano.png"
+        name: "DonMak",
+        src: "images/partners/DonMak.svg"
       }, {
         id: "12",
-        name: "Konfeterra",
-        src: "images/partners/Konfeterra.png"
+        name: "Luchiano",
+        src: "images/partners/Luchiano.svg"
       }, {
         id: "13",
-        name: "LaCoffee",
-        src: "images/partners/LaCoffee.png"
+        name: "MakiSu",
+        src: "images/partners/MakiSu.svg"
       }, {
         id: "14",
-        name: "Galactic",
-        src: "images/partners/Galactic.png"
+        name: "Onegin",
+        src: "images/partners/Onegin.svg"
+      }],
+      whyWithUs: [{
+        id: "1",
+        text: "16 лет занимаемся комплексным снабжением непродовольственными товарами в сегменте HoReCa",
+        img: "images/whyWithUs/16years.png",
+        sidetext: "practice",
+        isPictLeft: true
       }, {
-        id: "15",
-        name: "Kakdoma.png",
-        src: "images/partners/Kakdoma.png"
+        id: "2",
+        text: "Более 500 довольных клиентов каждый месяц",
+        img: "images/whyWithUs/500HappyClients.png",
+        sidetext: "service",
+        isPictLeft: false
       }, {
-        id: "16",
-        name: "CoffeWithWinds",
-        src: "images/partners/CoffeWithWinds.png"
+        id: "3",
+        text: "Оптимальные цены",
+        img: "images/whyWithUs/optimalPrices.png",
+        sidetext: "price",
+        isPictLeft: true
+      }, {
+        id: "4",
+        text: "Доставка в течение 24х часов",
+        img: "images/whyWithUs/deliver24h.png",
+        sidetext: "delivery",
+        isPictLeft: false
+      }, {
+        id: "5",
+        text: "Гибкая система лояльности",
+        img: "images/whyWithUs/loyalty.png",
+        sidetext: "что-то",
+        isPictLeft: true
+      }, {
+        id: "6",
+        text: "Качественная продукция — наша основная цель удовлетворение конечного потребителя",
+        img: "images/whyWithUs/qualityproducts.png",
+        sidetext: "что-то",
+        isPictLeft: false
       }]
     };
   }
@@ -38247,8 +38337,7 @@ var render = function() {
                 expression: "showAboutCompany"
               }
             ],
-            staticClass:
-              "px-20 bg-white grid grid-cols-1 divide-y-2 divide-black"
+            staticClass: "px-20 bg-white grid grid-cols-1"
           },
           [
             _c("span", { staticClass: "mb-4" }, [
@@ -38260,7 +38349,8 @@ var render = function() {
             _c(
               "div",
               {
-                staticClass: "py-3 bg-white flex items-center justify-between"
+                staticClass:
+                  "py-3 bg-white flex items-center justify-between border-t-2 border-black"
               },
               [
                 _c(
@@ -38338,7 +38428,7 @@ var render = function() {
                 expression: "showPartners && showAboutCompany"
               }
             ],
-            staticClass: "flex pl-20"
+            staticClass: "flex pl-20 mb-2.5"
           },
           [
             _c("div", { staticClass: "clients flex-initial" }, [
@@ -38358,13 +38448,184 @@ var render = function() {
                   _vm._l(_vm.partners, function(item) {
                     return _c(
                       "div",
-                      { key: item.id, staticClass: "w-72 h-72 mr-4 mb-4" },
+                      {
+                        key: item.id,
+                        staticClass: "w-72 h-72 mr-4 mb-4 bg-gray-300"
+                      },
                       [_c("img", { attrs: { src: item.src } })]
                     )
                   }),
                   0
                 )
               ]
+            )
+          ],
+          1
+        )
+      ]),
+      _vm._v(" "),
+      _c("transition", { attrs: { name: "fade" } }, [
+        _c(
+          "div",
+          {
+            directives: [
+              {
+                name: "show",
+                rawName: "v-show",
+                value: _vm.showAboutCompany,
+                expression: "showAboutCompany"
+              }
+            ],
+            staticClass: "px-20 bg-white grid grid-cols-1"
+          },
+          [
+            _c(
+              "div",
+              {
+                staticClass:
+                  "py-3 bg-white flex items-center justify-between border-t-2 border-black"
+              },
+              [
+                _c(
+                  "div",
+                  {
+                    staticClass:
+                      "text-black inline-flex space-x-10 items-center"
+                  },
+                  [_c("span", {}, [_vm._v(" Почему с нами ? ")])]
+                ),
+                _vm._v(" "),
+                _c(
+                  "button",
+                  {
+                    staticClass: "text-black",
+                    on: {
+                      click: function($event) {
+                        _vm.showWhyWithUs = !_vm.showWhyWithUs
+                      }
+                    }
+                  },
+                  [
+                    !_vm.showWhyWithUs
+                      ? _c(
+                          "svg",
+                          {
+                            staticClass: "w-6 h-6",
+                            attrs: { viewBox: "0 0 24 24" }
+                          },
+                          [
+                            _c("path", {
+                              attrs: {
+                                fill: "currentColor",
+                                d: "M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z"
+                              }
+                            })
+                          ]
+                        )
+                      : _vm._e(),
+                    _vm._v(" "),
+                    _vm.showWhyWithUs
+                      ? _c(
+                          "svg",
+                          {
+                            staticClass: "w-5 h-5",
+                            attrs: { viewBox: "0 0 24 24" }
+                          },
+                          [
+                            _c("path", {
+                              attrs: {
+                                fill: "currentColor",
+                                d: "M19,13H5V11H19V13Z"
+                              }
+                            })
+                          ]
+                        )
+                      : _vm._e()
+                  ]
+                )
+              ]
+            )
+          ]
+        )
+      ]),
+      _vm._v(" "),
+      _c("transition", { attrs: { name: "fade" } }, [
+        _c(
+          "div",
+          {
+            directives: [
+              {
+                name: "show",
+                rawName: "v-show",
+                value: _vm.showWhyWithUs && _vm.showAboutCompany,
+                expression: "showWhyWithUs && showAboutCompany"
+              }
+            ],
+            staticClass: "flex pl-20"
+          },
+          [
+            _c(
+              "simplebar",
+              {
+                staticClass: "pr-40 h-screen bg-white flex-auto",
+                attrs: { id: "partners", "data-simplebar-auto-hide": "false" }
+              },
+              _vm._l(_vm.whyWithUs, function(item) {
+                return _c("div", { key: item.id, staticClass: "flex" }, [
+                  _c("div", [
+                    item.isPictLeft
+                      ? _c("div", { staticClass: "flex" }, [
+                          _c("div", { staticClass: "clients flex-initial" }, [
+                            _c("span", [_vm._v(_vm._s(item.sidetext))])
+                          ]),
+                          _vm._v(" "),
+                          _c(
+                            "div",
+                            {
+                              staticClass:
+                                "h-52 w-124 mr-4 mb-4 bg-black flex-1"
+                            },
+                            [
+                              _c("span", { staticClass: "text-white" }, [
+                                _vm._v(_vm._s(item.text))
+                              ])
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "div",
+                            { staticClass: "h-52 w-88 mr-4 mb-4 flex-1" },
+                            [_c("img", { attrs: { src: item.img } })]
+                          )
+                        ])
+                      : _c("div", { staticClass: "flex" }, [
+                          _c(
+                            "div",
+                            { staticClass: "h-52 w-88 mr-4 mb-4 flex-1" },
+                            [_c("img", { attrs: { src: item.img } })]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "div",
+                            {
+                              staticClass:
+                                "h-52 w-124 mr-4 mb-4 bg-black flex-1"
+                            },
+                            [
+                              _c("span", { staticClass: "text-white" }, [
+                                _vm._v(_vm._s(item.text))
+                              ])
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "clients flex-initial" }, [
+                            _c("span", [_vm._v(_vm._s(item.sidetext))])
+                          ])
+                        ])
+                  ])
+                ])
+              }),
+              0
             )
           ],
           1
