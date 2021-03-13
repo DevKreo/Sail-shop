@@ -1,139 +1,387 @@
 <template>
-    <div>
-        <div class="rounded-full py-3 px-6 bg-black flex items-center justify-between">
-            <div class="text-white inline-flex space-x-10 items-center">
-                <svg class="w-6 h-6" viewBox="0 0 24 24">
-                    <path
-                        fill="currentColor"
-                        d="M 11,4L 13,4L 13,15L 11,15L 11,4 Z M 13,18L 13,20L 11,20L 11,18L 13,18 Z"
-                    />
-                </svg>
-                <span>
-                    ПРОГРАММА ЛОЯЛЬНОСТИ
-                </span>
-            </div>
-            <button
-                v-on:click=""
-                class="text-white"
-            >
-                <svg
-                    v-if=""
-                    class="w-6 h-6"
-                    viewBox="0 0 24 24"
-                >
-                    <path
-                        fill="currentColor"
-                        d="M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z"
-                    />
-                </svg>
-                <svg
-                    v-if=""
-                    class="w-5 h-5"
-                    viewBox="0 0 24 24"
-                >
-                    <path fill="currentColor" d="M19,13H5V11H19V13Z" />
-                </svg>
-            </button>
-        </div>
-        <div class="p-6 sm:px-20 bg-white border-b border-gray-200">
-            <div>
-                <jet-application-logo class="block h-12 w-auto" />
-            </div>
-
-            <div class="mt-8 text-2xl">
-                Welcome to your Jetstream application!
-            </div>
-
-            <div class="mt-6 text-gray-500">
-                Laravel Jetstream provides a beautiful, robust starting point for your next Laravel application. Laravel is designed
-                to help you build your application using a development environment that is simple, powerful, and enjoyable. We believe
-                you should love expressing your creativity through programming, so we have spent time carefully crafting the Laravel
-                ecosystem to be a breath of fresh air. We hope you love it.
-            </div>
-        </div>
-
-        <div class="bg-gray-200 bg-opacity-25 grid grid-cols-1 md:grid-cols-2">
-            <div class="p-6">
-                <div class="flex items-center">
-                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="w-8 h-8 text-gray-400"><path d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path></svg>
-                    <div class="ml-4 text-lg text-gray-600 leading-7 font-semibold"><a href="https://laravel.com/docs">Documentation</a></div>
-                </div>
-
-                <div class="ml-12">
-                    <div class="mt-2 text-sm text-gray-500">
-                        Laravel has wonderful documentation covering every aspect of the framework. Whether you're new to the framework or have previous experience, we recommend reading all of the documentation from beginning to end.
-                    </div>
-
-                    <a href="https://laravel.com/docs">
-                        <div class="mt-3 flex items-center text-sm font-semibold text-indigo-700">
-                                <div>Explore the documentation</div>
-
-                                <div class="ml-1 text-indigo-500">
-                                    <svg viewBox="0 0 20 20" fill="currentColor" class="w-4 h-4"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-                                </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-            <div class="p-6 border-t border-gray-200 md:border-t-0 md:border-l">
-                <div class="flex items-center">
-                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="w-8 h-8 text-gray-400"><path d="M3 9a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 0110.07 4h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0018.07 7H19a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2V9z"></path><path d="M15 13a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
-                    <div class="ml-4 text-lg text-gray-600 leading-7 font-semibold"><a href="https://laracasts.com">Laracasts</a></div>
-                </div>
-
-                <div class="ml-12">
-                    <div class="mt-2 text-sm text-gray-500">
-                        Laracasts offers thousands of video tutorials on Laravel, PHP, and JavaScript development. Check them out, see for yourself, and massively level up your development skills in the process.
-                    </div>
-
-                    <a href="https://laracasts.com">
-                        <div class="mt-3 flex items-center text-sm font-semibold text-indigo-700">
-                                <div>Start watching Laracasts</div>
-
-                                <div class="ml-1 text-indigo-500">
-                                    <svg viewBox="0 0 20 20" fill="currentColor" class="w-4 h-4"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-                                </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-            <div class="p-6 border-t border-gray-200">
-                <div class="flex items-center">
-                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="w-8 h-8 text-gray-400"><path d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
-                    <div class="ml-4 text-lg text-gray-600 leading-7 font-semibold"><a href="https://tailwindcss.com/">Tailwind</a></div>
-                </div>
-
-                <div class="ml-12">
-                    <div class="mt-2 text-sm text-gray-500">
-                        Laravel Jetstream is built with Tailwind, an amazing utility first CSS framework that doesn't get in your way. You'll be amazed how easily you can build and maintain fresh, modern designs with this wonderful framework at your fingertips.
-                    </div>
-                </div>
-            </div>
-
-            <div class="p-6 border-t border-gray-200 md:border-l">
-                <div class="flex items-center">
-                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="w-8 h-8 text-gray-400"><path d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path></svg>
-                    <div class="ml-4 text-lg text-gray-600 leading-7 font-semibold">Authentication</div>
-                </div>
-
-                <div class="ml-12">
-                    <div class="mt-2 text-sm text-gray-500">
-                        Authentication and registration views are included with Laravel Jetstream, as well as support for user email verification and resetting forgotten passwords. So, you're free to get started what matters most: building your application.
-                    </div>
-                </div>
-            </div>
-        </div>
+  <div>
+    <div
+      class="rounded-full py-3 px-6 bg-black flex items-center justify-between mb-2"
+    >
+      <div class="text-white inline-flex space-x-10 items-center">
+        <svg class="w-6 h-6" viewBox="0 0 24 24">
+          <path
+            fill="currentColor"
+            d="M 11,4L 13,4L 13,15L 11,15L 11,4 Z M 13,18L 13,20L 11,20L 11,18L 13,18 Z"
+          />
+        </svg>
+        <span> ПРОГРАММА ЛОЯЛЬНОСТИ </span>
+      </div>
+      <button
+        v-on:click="showLoyaltyProgram = !showLoyaltyProgram"
+        class="text-white"
+      >
+        <svg v-if="!showLoyaltyProgram" class="w-6 h-6" viewBox="0 0 24 24">
+          <path
+            fill="currentColor"
+            d="M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z"
+          />
+        </svg>
+        <svg v-if="showLoyaltyProgram" class="w-5 h-5" viewBox="0 0 24 24">
+          <path fill="currentColor" d="M19,13H5V11H19V13Z" />
+        </svg>
+      </button>
     </div>
+    <transition name="fade">
+      <div class="px-20 bg-white grid grid-cols-1" v-show="showLoyaltyProgram">
+        <span class="mb-4">
+          Все 7 предложений по программе лояльности предоставляются на ваш выбор
+          и не суммируются! Заключив договор с нами вы получаете доступ к
+          внушительному ассортименту товара, сертификаты на все позиции, все
+          сопроводительные документы при отгрузке, удобные варианты оплаты
+          наличными, чек, б/н, на ваш выбор и скидка 3% на весь ассортимент из
+          прайса компании.
+        </span>
+        <div
+          class="py-3 bg-white flex items-center justify-between border-t-2 border-black"
+        >
+          <div class="text-black inline-flex space-x-10 items-center">
+            <img src="images/LoyaltyIcons/SalesForOrderFromSite.png" />
+            <span class=""> Cкидка при оформлении заказа через сайт</span>
+          </div>
+          <button
+            v-on:click="showSaleOrderFromSite = !showSaleOrderFromSite"
+            class="text-black"
+          >
+            <svg
+              v-if="!showSaleOrderFromSite"
+              class="w-6 h-6"
+              viewBox="0 0 24 24"
+            >
+              <path
+                fill="currentColor"
+                d="M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z"
+              />
+            </svg>
+            <svg
+              v-if="showSaleOrderFromSite"
+              class="w-5 h-5"
+              viewBox="0 0 24 24"
+            >
+              <path fill="currentColor" d="M19,13H5V11H19V13Z" />
+            </svg>
+          </button>
+        </div>
+        <div
+          v-show="showSaleOrderFromSite && showLoyaltyProgram"
+          class="flex pl-20 mb-8"
+        >
+          <div class="flex flex-wrap justify-center">
+            <span>
+              При оформлении заказа через сайт вам предоставляется скидка в
+              размере 3% Действует при заказе на сумму от 2000 р.
+            </span>
+          </div>
+        </div>
+        <div
+          class="py-3 bg-white flex items-center justify-between border-t-2 border-black"
+        >
+          <div class="text-black inline-flex space-x-10 items-center">
+            <img src="images/LoyaltyIcons/Wholesale_Trade.png" />
+            <span class=""> Оптовая скидка </span>
+          </div>
+          <button
+            v-on:click="showWholesaleTrade = !showWholesaleTrade"
+            class="text-black"
+          >
+            <svg v-if="!showWholesaleTrade" class="w-6 h-6" viewBox="0 0 24 24">
+              <path
+                fill="currentColor"
+                d="M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z"
+              />
+            </svg>
+            <svg v-if="showWholesaleTrade" class="w-5 h-5" viewBox="0 0 24 24">
+              <path fill="currentColor" d="M19,13H5V11H19V13Z" />
+            </svg>
+          </button>
+        </div>
+        <div
+          v-show="showLoyaltyProgram && showWholesaleTrade"
+          class="flex pl-20 mb-8"
+        >
+          <div class="flex flex-wrap justify-center">
+            <span>
+              При покупке одного вида товара ящ./уп. вам предоставляется скидка
+              на данный товар в размере от 5 до 12% по следующим группам товара:
+            </span>
+            <div class="flex flex-col items-start mr-auto">
+              <span>- Бумажная профессиональная продукция</span>
+              <span>- Пластиковые контейнеры</span>
+              <span>- Бумажная упаковка</span>
+              <span>- Профессиональная и бытовая химия</span>
+              <span>- Пакеты для мусора</span>
+              <span>- Кухонные принадлежности</span>
+              <span>- Барная группа</span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="py-3 bg-white flex items-center justify-between border-t-2 border-black"
+        >
+          <div class="text-black inline-flex space-x-10 items-center">
+            <img src="images/LoyaltyIcons/SaleForGroupOfItems.png" />
+            <span class=""> Скидка на группу товаров </span>
+          </div>
+          <button
+            v-on:click="showSaleGroupOfItems = !showSaleGroupOfItems"
+            class="text-black"
+          >
+            <svg
+              v-if="!showSaleGroupOfItems"
+              class="w-6 h-6"
+              viewBox="0 0 24 24"
+            >
+              <path
+                fill="currentColor"
+                d="M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z"
+              />
+            </svg>
+            <svg
+              v-if="showSaleGroupOfItems"
+              class="w-5 h-5"
+              viewBox="0 0 24 24"
+            >
+              <path fill="currentColor" d="M19,13H5V11H19V13Z" />
+            </svg>
+          </button>
+        </div>
+        <div
+          v-show="showSaleGroupOfItems && showLoyaltyProgram"
+          class="flex pl-20 mb-8"
+        >
+          <div class="flex flex-wrap justify-center">
+            <span>
+              При покупке 70% товара из предлагаемого списка, определенной
+              группы продукции, по направлению вашей деятельности, вам
+              предоставляется скидка в размере 5% на всю сумму заказа
+            </span>
+          </div>
+        </div>
+        <div
+          class="py-3 bg-white flex items-center justify-between border-t-2 border-black"
+        >
+          <div class="text-black inline-flex space-x-10 items-center">
+            <img src="images/LoyaltyIcons/Startap.png" />
+            <span class=""> Предложение для стартапов </span>
+          </div>
+          <button v-on:click="showStartap = !showStartap" class="text-black">
+            <svg v-if="!showStartap" class="w-6 h-6" viewBox="0 0 24 24">
+              <path
+                fill="currentColor"
+                d="M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z"
+              />
+            </svg>
+            <svg v-if="showStartap" class="w-5 h-5" viewBox="0 0 24 24">
+              <path fill="currentColor" d="M19,13H5V11H19V13Z" />
+            </svg>
+          </button>
+        </div>
+        <div v-show="showStartap && showLoyaltyProgram" class="flex pl-20 mb-8">
+          <div class="flex flex-wrap justify-center">
+            <span>
+              Вы недавно вступили в ряды бизнесменов? Вы только что открыли
+              новое заведение или предприятие? Или находитесь в стадии открытия?
+              Поздравляем Вас! Мы как никто знаем и понимаем, как не легко
+              открыть и развить свое дело. Мы готовы предложить Вам дружескую
+              руку помощи, посодействовать в этом нелегком деле, предложив Вам
+              полное закрытие ваших потребностей по обеспечению чистоты и
+              упаковке с 10% скидкой . Данная программа лояльности действует при
+              условии:
+            </span>
+            <div class="flex flex-col items-start mr-auto">
+              <span
+                >- при условии полного сотрудничества с нами. (полноценного
+                сотрудничества)</span
+              >
+              <span
+                >- действует при приобретении у нас, всего необходимого вам
+                ассортимента.
+              </span>
+              <span>(приобретения у нас всего необходимого ассортимента)</span>
+              <span
+                >- распространяется на заведения,предприятия до года. (если вы
+                работаете, меньше одного года.)</span
+              >
+              <span
+                >- предоставляется сроком на 6 месяцев, с момента заключения
+                договора.</span
+              >
+              <span
+                >- (заключения договора, срок действия программы лояльности 6
+                мес.)</span
+              >
+              <span>- действует вне зависимости от суммы покупки.</span>
+              <span
+                >(полноценного сотрудничества, программа лояльности действует
+                вне зависимости от суммы покупки.)</span
+              >
+            </div>
+          </div>
+        </div>
+        <div
+          class="py-3 bg-white flex items-center justify-between border-t-2 border-black"
+        >
+          <div class="text-black inline-flex space-x-10 items-center">
+            <img src="images/LoyaltyIcons/MoreCostMoreSale.png" />
+            <span class=""> Чем больше сумма, тем выше скидка </span>
+          </div>
+          <button
+            v-on:click="showMoreCostMoreSale = !showMoreCostMoreSale"
+            class="text-black"
+          >
+            <svg
+              v-if="!showMoreCostMoreSale"
+              class="w-6 h-6"
+              viewBox="0 0 24 24"
+            >
+              <path
+                fill="currentColor"
+                d="M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z"
+              />
+            </svg>
+            <svg
+              v-if="showMoreCostMoreSale"
+              class="w-5 h-5"
+              viewBox="0 0 24 24"
+            >
+              <path fill="currentColor" d="M19,13H5V11H19V13Z" />
+            </svg>
+          </button>
+        </div>
+        <div
+          v-show="showMoreCostMoreSale && showLoyaltyProgram"
+          class="flex pl-20 mb-8"
+        >
+          <div class="flex flex-wrap justify-center">
+            <div class="flex flex-col items-start mr-auto">
+              <span> При покупке товара в ассортименте на суммы: </span>
+              <span> от 2000р скидка 1% </span>
+              <span> от 3000р скидка 2% </span
+              ><span> от 4000р скидка 3% </span>
+              <span> от 5000р скидка 4% </span
+              ><span> от 6000р скидка 5% </span>
+              <span> от 7000р скидка 6% </span
+              ><span> от 8000р скидка 7% </span>
+              <span> от 9000р скидка 8% </span><span> от 10000р скидка 9% </span
+              ><span> от 11000р скидка 10% </span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="py-3 bg-white flex items-center justify-between border-t-2 border-black"
+        >
+          <div class="text-black inline-flex space-x-10 items-center">
+            <img src="images/LoyaltyIcons/GiftsEveryday.png" />
+            <span class=""> Подарки каждый день </span>
+          </div>
+          <button
+            v-on:click="showGiftEveryDay = !showGiftEveryDay"
+            class="text-black"
+          >
+            <svg v-if="!showGiftEveryDay" class="w-6 h-6" viewBox="0 0 24 24">
+              <path
+                fill="currentColor"
+                d="M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z"
+              />
+            </svg>
+            <svg v-if="showGiftEveryDay" class="w-5 h-5" viewBox="0 0 24 24">
+              <path fill="currentColor" d="M19,13H5V11H19V13Z" />
+            </svg>
+          </button>
+        </div>
+        <div
+          v-show="showGiftEveryDay && showLoyaltyProgram"
+          class="flex pl-20 mb-8"
+        >
+          <div class="flex flex-wrap justify-center">
+            <div class="flex flex-col items-start mr-auto">
+              <span>
+                При оплате заказа по факту, на сумму от 3000 р каждый день
+                определенный товар в подарок:
+              </span>
+              <span> Понедельник - Белизна 4 л. </span>
+              <span>
+                Вторник - Салфетка влаговпитывающая + Губка кухонная по 1 упк. </span
+              ><span> Среда - Салфетка барная Баттерфлай 2 упк. </span>
+              <span> Четверг - Мешки для мусора 160л.+ 60л. по 1 р. </span
+              ><span> Пятница - Жидкое мыло MARAFET 5 л. </span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="py-3 bg-white flex items-center justify-between border-t-2 border-black"
+        >
+          <div class="text-black inline-flex space-x-10 items-center">
+            <img src="images/LoyaltyIcons/networkBusiness.png" />
+            <span class=""> Предложение для сетевого бизнеса </span>
+          </div>
+          <button
+            v-on:click="showNetworkBusiness = !showNetworkBusiness"
+            class="text-black"
+          >
+            <svg
+              v-if="!showNetworkBusiness"
+              class="w-6 h-6"
+              viewBox="0 0 24 24"
+            >
+              <path
+                fill="currentColor"
+                d="M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z"
+              />
+            </svg>
+            <svg v-if="showNetworkBusiness" class="w-5 h-5" viewBox="0 0 24 24">
+              <path fill="currentColor" d="M19,13H5V11H19V13Z" />
+            </svg>
+          </button>
+        </div>
+        <div
+          v-show="showNetworkBusiness && showLoyaltyProgram"
+          class="flex pl-20 mb-8"
+        >
+          <div class="flex flex-wrap justify-center">
+            <span>
+              Вы - владелец нескольких организаций? Или под вашим брендом
+              открыто более 3 точек? Тогда у нас есть выгодное предложение —
+              скидка 8% на весь ассортимент. Основное условие предоставления
+              скидки - полное сотрудничество с компанией Белый Парус. Скидка
+              предоставляется сроком на 12 месяцев с момента заключения
+              договора. Ассортимент поставляемой продукции определяется
+              индивидуально с учётом ваших потребностей и пожеланий ваших
+              клиентов
+            </span>
+          </div>
+        </div>
+      </div>
+    </transition>
+  </div>
 </template>
 
 <script>
-    import JetApplicationLogo from '@/Jetstream/ApplicationLogo'
+import JetApplicationLogo from "@/Jetstream/ApplicationLogo";
+import simplebar from "simplebar-vue";
+import "simplebar/dist/simplebar.min.css";
 
-    export default {
-        components: {
-            JetApplicationLogo,
-        },
-    }
+export default {
+  components: {
+    JetApplicationLogo,
+    simplebar,
+  },
+  data() {
+    return {
+      showLoyaltyProgram: false,
+      showSaleOrderFromSite: false,
+      showWholesaleTrade: false,
+      showSaleGroupOfItems: false,
+      showStartap: false,
+      showMoreCostMoreSale: false,
+      showGiftEveryDay: false,
+      showNetworkBusiness: false,
+    };
+  },
+};
 </script>
