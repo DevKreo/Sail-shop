@@ -82,23 +82,25 @@
         </transition>
 
         <transition name="fade">
-            <div v-show="showPartners && showAboutCompany">
-                <div class="origin-center transform -rotate-90 w-min">
+            <div v-show="showPartners && showAboutCompany" class="flex pl-20">
+                <div class="clients flex-initial">
                     <span>clients</span>
                 </div>
-                <div
+                <simplebar
                     id="partners"
-                    class="px-20 h-screen bg-white flex flex-wrap justify-center mb-5"   
+                    class="pr-40 h-screen bg-white flex-auto"
+                    data-simplebar-auto-hide="false"
                 >
-                    <div
-                        class="w-72 h-72 mb-1 mr-1"
-                        v-for="item in partners"
-                        :key="item.id"
-                    >
-                        <img :src="item.src" />
+                    <div class="flex flex-wrap justify-center">
+                        <div
+                            class="w-72 h-72 mr-4 mb-4"
+                            v-for="item in partners"
+                            :key="item.id"
+                        >
+                            <img :src="item.src" />
+                        </div>
                     </div>
-                </div>
-                
+                </simplebar>
             </div>
         </transition>
     </div>
@@ -106,10 +108,13 @@
 
 <script>
 import JetApplicationLogo from "@/Jetstream/ApplicationLogo";
+import simplebar from "simplebar-vue";
+import "simplebar/dist/simplebar.min.css";
 
 export default {
     components: {
-        JetApplicationLogo
+        JetApplicationLogo,
+        simplebar
     },
     data() {
         return {
@@ -210,9 +215,35 @@ export default {
     opacity: 0;
 }
 
-#partners {
-    overflow-y: scroll;
-    scrollbar-color: #000000 #ff8080;
-    scrollbar-width: thin;
+
+
+.simplebar-track.simplebar-vertical{
+    background-color: #ff8080;
+    width: 5px;
+    margin-right: 5rem;
+    border-radius: 3px;
+    margin-bottom: 16px;
+    opacity: 1;
+    overflow:visible;
+}
+.simplebar-scrollbar.simplebar-visible::before{
+    opacity: 1;
+    top: 0!important;
+    bottom: 0!important;
+    left: -2px;
+    right: 0;
+}
+.simplebar-scrollbar:before{
+    background-color: #000000;
+    width: 9px;
+}
+
+
+.clients{
+    writing-mode: vertical-lr;
+    padding: 10px;
+    transform: rotate(180deg);
+    margin-bottom: 16px;
+    font-size: 20px;
 }
 </style>
