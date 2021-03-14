@@ -3033,6 +3033,43 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 
 
@@ -3057,7 +3094,7 @@ __webpack_require__.r(__webpack_exports__);
       }, {
         id: "3",
         name: "CoffeeWithWings",
-        src: "images/partners/CoffeeTime.svg"
+        src: "images/partners/Beerhouse.svg"
       }, {
         id: "4",
         name: "Chelentano",
@@ -3102,16 +3139,20 @@ __webpack_require__.r(__webpack_exports__);
         id: "14",
         name: "Onegin",
         src: "images/partners/Onegin.svg"
+      }, {
+        id: "15",
+        name: "StreetDogs",
+        src: "images/partners/StreetDogs.svg"
       }],
       whyWithUs: [{
         id: "1",
-        text: "16 лет занимаемся комплексным снабжением непродовольственными товарами в сегменте HoReCa",
+        text: "16 лет \n     занимаемся комплексным снабжением \n     непродовольственными товарами \n     в сегменте HoReCa",
         img: "images/whyWithUs/16years.png",
         sidetext: "practice",
         isPictLeft: true
       }, {
         id: "2",
-        text: "Более 500 довольных клиентов каждый месяц",
+        text: "Более 500 довольных клиентов \n     каждый месяц",
         img: "images/whyWithUs/500HappyClients.png",
         sidetext: "service",
         isPictLeft: false
@@ -3135,7 +3176,7 @@ __webpack_require__.r(__webpack_exports__);
         isPictLeft: true
       }, {
         id: "6",
-        text: "Качественная продукция — наша основная цель удовлетворение конечного потребителя",
+        text: "Качественная продукция — наша основная цель \n     удовлетворение конечного потребителя",
         img: "images/whyWithUs/qualityproducts.png",
         sidetext: "что-то",
         isPictLeft: false
@@ -3321,6 +3362,699 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var _Jetstream_ApplicationLogo__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @/Jetstream/ApplicationLogo */ "./resources/js/Jetstream/ApplicationLogo.vue");
+/* harmony import */ var simplebar_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! simplebar-vue */ "./node_modules/simplebar-vue/dist/simplebar-vue.esm.js");
+/* harmony import */ var simplebar_dist_simplebar_min_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! simplebar/dist/simplebar.min.css */ "./node_modules/simplebar/dist/simplebar.min.css");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -3417,9 +4151,61 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 
+
+
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   components: {
-    JetApplicationLogo: _Jetstream_ApplicationLogo__WEBPACK_IMPORTED_MODULE_0__.default
+    JetApplicationLogo: _Jetstream_ApplicationLogo__WEBPACK_IMPORTED_MODULE_0__.default,
+    simplebar: simplebar_vue__WEBPACK_IMPORTED_MODULE_1__.default
+  },
+  data: function data() {
+    return {
+      showBarGroup: false,
+      showDisposableFoodPackage: false,
+      showDisposableTableware: false,
+      showHouseholdGoods: false,
+      showPaperProf: false,
+      showProfAndHouseholdChemistry: false,
+      showCatalog: false,
+      showDescription: false,
+      settings: [{
+        id: "1",
+        value: "Мешки для мусора"
+      }, {
+        id: "2",
+        value: "Перчатки"
+      }, {
+        id: "3",
+        value: "МОПы"
+      }, {
+        id: "4",
+        value: "Канцелярия"
+      }, {
+        id: "5",
+        value: "Кухонные принадлежности"
+      }, {
+        id: "6",
+        value: "Пакеты"
+      }, {
+        id: "7",
+        value: "Товары защитного назначения"
+      }, {
+        id: "8",
+        value: "Оборудывание для уборки"
+      }, {
+        id: "9",
+        value: "Пленка ПЭ/ПВХ"
+      }, {
+        id: "10",
+        value: "Губки, протирочные принадлежности"
+      }, {
+        id: "11",
+        value: "Одноразовая продукция для гостиниц"
+      }, {
+        id: "12",
+        value: "Диспенсеры"
+      }]
+    };
   }
 });
 
@@ -12070,7 +12856,31 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.fade-enter-active,\r\n.fade-leave-active {\r\n  transition: opacity 0.5s;\n}\n.fade-enter, .fade-leave-to /* .fade-leave-active до версии 2.1.8 */ {\r\n  opacity: 0;\n}\n.simplebar-track.simplebar-vertical {\r\n  background-color: #ff8080;\r\n  width: 5px;\r\n  margin-right: 5rem;\r\n  border-radius: 3px;\r\n  margin-bottom: 16px;\r\n  opacity: 1;\r\n  overflow: visible;\n}\n.simplebar-scrollbar.simplebar-visible::before {\r\n  opacity: 1;\r\n  top: 0 !important;\r\n  bottom: 0 !important;\r\n  left: -2px;\r\n  right: 0;\n}\n.simplebar-scrollbar:before {\r\n  background-color: #000000;\r\n  width: 9px;\n}\n.clients {\r\n  -ms-writing-mode: tb-lr;\r\n      writing-mode: vertical-lr;\r\n  padding: 10px;\r\n  transform: rotate(180deg);\r\n  margin-bottom: 16px;\r\n  font-size: 20px;\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n.fade-enter-active,\r\n.fade-leave-active {\r\n    transition: opacity 0.5s;\n}\n.fade-enter, .fade-leave-to /* .fade-leave-active до версии 2.1.8 */ {\r\n    opacity: 0;\n}\n.simplebar-track.simplebar-vertical {\r\n    background-color: #ff8080;\r\n    width: 5px;\r\n    margin-right: 5rem;\r\n    border-radius: 3px;\r\n    margin-bottom: 16px;\r\n    opacity: 1;\r\n    overflow: visible;\n}\n.simplebar-scrollbar.simplebar-visible::before {\r\n    opacity: 1;\r\n    top: 0 !important;\r\n    bottom: 0 !important;\r\n    left: -2px;\r\n    right: 0;\n}\n.simplebar-scrollbar:before {\r\n    background-color: #000000;\r\n    width: 9px;\n}\n.clients {\r\n    -ms-writing-mode: tb-lr;\r\n        writing-mode: vertical-lr;\r\n    transform: rotate(180deg);\r\n    font-size: 20px;\n}\r\n", ""]);
+// Exports
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/Jetstream/Catalog.vue?vue&type=style&index=0&lang=css&":
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/Jetstream/Catalog.vue?vue&type=style&index=0&lang=css& ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+// Imports
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, "\n[type=\"checkbox\"]:checked {\r\n    background-image: url(\"/images/circle-medium.png\");\n}\n.simplebar-track.simplebar-vertical {\r\n    background-color: #ff8080;\r\n    width: 5px;\r\n    margin-right: 5rem;\r\n    border-radius: 3px;\r\n    margin-bottom: 16px;\r\n    opacity: 1;\r\n    overflow: visible;\r\n    visibility: visible;\n}\n.simplebar-scrollbar.simplebar-visible::before {\r\n    opacity: 1;\r\n    top: 0 !important;\r\n    bottom: 0 !important;\r\n    left: -2px;\r\n    right: 0;\n}\n.simplebar-scrollbar:before {\r\n    background-color: #000000;\r\n    width: 9px;\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -33898,6 +34708,36 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 
 /***/ }),
 
+/***/ "./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/Jetstream/Catalog.vue?vue&type=style&index=0&lang=css&":
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/Jetstream/Catalog.vue?vue&type=style&index=0&lang=css& ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Catalog_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Catalog.vue?vue&type=style&index=0&lang=css& */ "./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/Jetstream/Catalog.vue?vue&type=style&index=0&lang=css&");
+
+            
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Catalog_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_1__.default, options);
+
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Catalog_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_1__.default.locals || {});
+
+/***/ }),
+
 /***/ "./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/Pages/Welcome.vue?vue&type=style&index=0&id=317d1a6e&scoped=true&lang=css&":
 /*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/Pages/Welcome.vue?vue&type=style&index=0&id=317d1a6e&scoped=true&lang=css& ***!
@@ -34565,15 +35405,17 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _Catalog_vue_vue_type_template_id_e88279d6___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Catalog.vue?vue&type=template&id=e88279d6& */ "./resources/js/Jetstream/Catalog.vue?vue&type=template&id=e88279d6&");
 /* harmony import */ var _Catalog_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Catalog.vue?vue&type=script&lang=js& */ "./resources/js/Jetstream/Catalog.vue?vue&type=script&lang=js&");
-/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* harmony import */ var _Catalog_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Catalog.vue?vue&type=style&index=0&lang=css& */ "./resources/js/Jetstream/Catalog.vue?vue&type=style&index=0&lang=css&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
 
+;
 
 
 /* normalize component */
-;
-var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__.default)(
+
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__.default)(
   _Catalog_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__.default,
   _Catalog_vue_vue_type_template_id_e88279d6___WEBPACK_IMPORTED_MODULE_0__.render,
   _Catalog_vue_vue_type_template_id_e88279d6___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
@@ -37251,6 +38093,19 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/Jetstream/Catalog.vue?vue&type=style&index=0&lang=css&":
+/*!*****************************************************************************!*\
+  !*** ./resources/js/Jetstream/Catalog.vue?vue&type=style&index=0&lang=css& ***!
+  \*****************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_dist_cjs_js_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Catalog_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/style-loader/dist/cjs.js!../../../node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Catalog.vue?vue&type=style&index=0&lang=css& */ "./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/Jetstream/Catalog.vue?vue&type=style&index=0&lang=css&");
+
+
+/***/ }),
+
 /***/ "./resources/js/Pages/Welcome.vue?vue&type=style&index=0&id=317d1a6e&scoped=true&lang=css&":
 /*!*************************************************************************************************!*\
   !*** ./resources/js/Pages/Welcome.vue?vue&type=style&index=0&id=317d1a6e&scoped=true&lang=css& ***!
@@ -38340,7 +39195,7 @@ var render = function() {
           [
             _c("span", { staticClass: "mb-4" }, [
               _vm._v(
-                '\n        Компания "Белый Парус" предоставляет комплексное обслуживание в\n        сегменте HoReCa и B2B. В нашем ассортименте: профессиональные моющие\n        средства для всех типов поверхностей, хозяйственные товары, бумажная\n        продукция, барная продукция, одноразовая пищевая упаковка и другое.\n      '
+                '\n                Компания "Белый Парус" предоставляет комплексное\n                обслуживание в сегменте HoReCa и B2B. В нашем ассортименте:\n                профессиональные моющие средства для всех типов\n                поверхностей, хозяйственные товары, бумажная продукция,\n                барная продукция, одноразовая пищевая упаковка и другое.\n            '
               )
             ]),
             _vm._v(" "),
@@ -38429,7 +39284,7 @@ var render = function() {
             staticClass: "flex pl-20 mb-2.5"
           },
           [
-            _c("div", { staticClass: "clients flex-initial" }, [
+            _c("div", { staticClass: "clients flex-initial mb-4" }, [
               _c("span", [_vm._v("clients")])
             ]),
             _vm._v(" "),
@@ -38448,7 +39303,8 @@ var render = function() {
                       "div",
                       {
                         key: item.id,
-                        staticClass: "w-72 h-72 mr-4 mb-4 bg-gray-300"
+                        staticClass:
+                          "w-72 h-72 mr-4 mb-4 bg-gray-300 hover:bg-blue-300"
                       },
                       [_c("img", { attrs: { src: item.src } })]
                     )
@@ -38559,7 +39415,7 @@ var render = function() {
                 expression: "showWhyWithUs && showAboutCompany"
               }
             ],
-            staticClass: "flex pl-20"
+            staticClass: "flex pl-20 mb-2.5"
           },
           [
             _c(
@@ -38571,52 +39427,71 @@ var render = function() {
               _vm._l(_vm.whyWithUs, function(item) {
                 return _c("div", { key: item.id, staticClass: "flex" }, [
                   item.isPictLeft
-                    ? _c("div", { staticClass: "flex" }, [
-                        _c("div", { staticClass: "clients flex-initial" }, [
-                          _c("span", [_vm._v(_vm._s(item.sidetext))])
-                        ]),
-                        _vm._v(" "),
-                        _c(
-                          "div",
-                          {
-                            staticClass: "h-52 w-124 mr-4 mb-4 bg-black flex-1"
-                          },
-                          [
-                            _c("span", { staticClass: "text-white" }, [
-                              _vm._v(_vm._s(item.text))
-                            ])
-                          ]
-                        ),
-                        _vm._v(" "),
-                        _c(
-                          "div",
-                          { staticClass: "h-52 w-88 mr-4 mb-4 flex-1" },
-                          [_c("img", { attrs: { src: item.img } })]
-                        )
-                      ])
-                    : _c("div", { staticClass: "flex" }, [
-                        _c(
-                          "div",
-                          { staticClass: "h-52 w-88 mr-4 mb-4 flex-1" },
-                          [_c("img", { attrs: { src: item.img } })]
-                        ),
-                        _vm._v(" "),
-                        _c(
-                          "div",
-                          {
-                            staticClass: "h-52 w-124 mr-4 mb-4 bg-black flex-1"
-                          },
-                          [
-                            _c("span", { staticClass: "text-white" }, [
-                              _vm._v(_vm._s(item.text))
-                            ])
-                          ]
-                        ),
-                        _vm._v(" "),
-                        _c("div", { staticClass: "clients flex-initial" }, [
-                          _c("span", [_vm._v(_vm._s(item.sidetext))])
-                        ])
-                      ])
+                    ? _c(
+                        "div",
+                        { staticClass: "grid grid-cols-5 gap-2 mb-2" },
+                        [
+                          _c("div", { staticClass: "clients" }, [
+                            _c("span", [_vm._v(_vm._s(item.sidetext))])
+                          ]),
+                          _vm._v(" "),
+                          _c(
+                            "div",
+                            {
+                              staticClass:
+                                "bg-black hover:bg-red-400 col-span-2"
+                            },
+                            [
+                              _c(
+                                "span",
+                                {
+                                  staticClass: "text-white p-5 whitespace-pre "
+                                },
+                                [_vm._v(_vm._s(item.text))]
+                              )
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c("div", {}, [
+                            _c("img", { attrs: { src: item.img } })
+                          ])
+                        ]
+                      )
+                    : _c(
+                        "div",
+                        { staticClass: "grid grid-cols-5 gap-2 mb-2" },
+                        [
+                          _c("div", { staticClass: " col-start-2" }, [
+                            _c("img", { attrs: { src: item.img } })
+                          ]),
+                          _vm._v(" "),
+                          _c(
+                            "div",
+                            {
+                              staticClass:
+                                "bg-black hover:bg-red-400 col-start-3 col-end-5"
+                            },
+                            [
+                              _c(
+                                "span",
+                                {
+                                  staticClass: "text-white whitespace-pre p-5"
+                                },
+                                [_vm._v(_vm._s(item.text))]
+                              )
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "div",
+                            {
+                              staticClass:
+                                "clients col-start-5 justify-self-start"
+                            },
+                            [_c("span", [_vm._v(_vm._s(item.sidetext))])]
+                          )
+                        ]
+                      )
                 ])
               }),
               0
@@ -39200,327 +40075,3480 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", [
-    _c(
-      "div",
-      { staticClass: "p-6 sm:px-20 bg-white border-b border-gray-200" },
-      [
-        _c(
-          "div",
-          [_c("jet-application-logo", { staticClass: "block h-12 w-auto" })],
-          1
-        ),
-        _vm._v(" "),
-        _c("div", { staticClass: "mt-8 text-2xl" }, [
-          _vm._v(
-            "\n            Welcome to your Jetstream application!\n        "
-          )
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "mt-6 text-gray-500" }, [
-          _vm._v(
-            "\n            Laravel Jetstream provides a beautiful, robust starting point for your next Laravel application. Laravel is designed\n            to help you build your application using a development environment that is simple, powerful, and enjoyable. We believe\n            you should love expressing your creativity through programming, so we have spent time carefully crafting the Laravel\n            ecosystem to be a breath of fresh air. We hope you love it.\n        "
-          )
-        ])
-      ]
-    ),
-    _vm._v(" "),
-    _c(
-      "div",
-      {
-        staticClass: "bg-gray-200 bg-opacity-25 grid grid-cols-1 md:grid-cols-2"
-      },
-      [
-        _c("div", { staticClass: "p-6" }, [
-          _c("div", { staticClass: "flex items-center" }, [
-            _c(
-              "svg",
-              {
-                staticClass: "w-8 h-8 text-gray-400",
-                attrs: {
-                  fill: "none",
-                  stroke: "currentColor",
-                  "stroke-linecap": "round",
-                  "stroke-linejoin": "round",
-                  "stroke-width": "2",
-                  viewBox: "0 0 24 24"
-                }
-              },
-              [
-                _c("path", {
-                  attrs: {
-                    d:
-                      "M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"
-                  }
-                })
-              ]
-            ),
-            _vm._v(" "),
-            _vm._m(0)
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "ml-12" }, [
-            _c("div", { staticClass: "mt-2 text-sm text-gray-500" }, [
-              _vm._v(
-                "\n                    Laravel has wonderful documentation covering every aspect of the framework. Whether you're new to the framework or have previous experience, we recommend reading all of the documentation from beginning to end.\n                "
-              )
-            ]),
-            _vm._v(" "),
-            _c("a", { attrs: { href: "https://laravel.com/docs" } }, [
-              _c(
-                "div",
-                {
-                  staticClass:
-                    "mt-3 flex items-center text-sm font-semibold text-indigo-700"
-                },
-                [
-                  _c("div", [_vm._v("Explore the documentation")]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "ml-1 text-indigo-500" }, [
-                    _c(
-                      "svg",
-                      {
-                        staticClass: "w-4 h-4",
-                        attrs: { viewBox: "0 0 20 20", fill: "currentColor" }
-                      },
-                      [
-                        _c("path", {
-                          attrs: {
-                            "fill-rule": "evenodd",
-                            d:
-                              "M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z",
-                            "clip-rule": "evenodd"
-                          }
-                        })
-                      ]
-                    )
-                  ])
-                ]
-              )
-            ])
-          ])
-        ]),
-        _vm._v(" "),
-        _c(
-          "div",
-          {
-            staticClass:
-              "p-6 border-t border-gray-200 md:border-t-0 md:border-l"
-          },
-          [
-            _c("div", { staticClass: "flex items-center" }, [
+  return _c(
+    "div",
+    [
+      _c(
+        "div",
+        {
+          staticClass:
+            "rounded-full py-3 px-6 bg-black flex items-center justify-between mb-2"
+        },
+        [
+          _c(
+            "div",
+            { staticClass: "text-white inline-flex space-x-10 items-center" },
+            [
               _c(
                 "svg",
-                {
-                  staticClass: "w-8 h-8 text-gray-400",
-                  attrs: {
-                    fill: "none",
-                    stroke: "currentColor",
-                    "stroke-linecap": "round",
-                    "stroke-linejoin": "round",
-                    "stroke-width": "2",
-                    viewBox: "0 0 24 24"
-                  }
-                },
+                { staticClass: "w-6 h-6", attrs: { viewBox: "0 0 24 24" } },
                 [
                   _c("path", {
                     attrs: {
+                      fill: "currentColor",
                       d:
-                        "M3 9a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 0110.07 4h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0018.07 7H19a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2V9z"
+                        "M 11,4L 13,4L 13,15L 11,15L 11,4 Z M 13,18L 13,20L 11,20L 11,18L 13,18 Z"
                     }
-                  }),
-                  _c("path", {
-                    attrs: { d: "M15 13a3 3 0 11-6 0 3 3 0 016 0z" }
                   })
                 ]
               ),
               _vm._v(" "),
-              _vm._m(1)
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "ml-12" }, [
-              _c("div", { staticClass: "mt-2 text-sm text-gray-500" }, [
-                _vm._v(
-                  "\n                    Laracasts offers thousands of video tutorials on Laravel, PHP, and JavaScript development. Check them out, see for yourself, and massively level up your development skills in the process.\n                "
-                )
-              ]),
+              _c("span", [_vm._v(" КАТАЛОГ ТОВАРОВ ")])
+            ]
+          ),
+          _vm._v(" "),
+          _c(
+            "button",
+            {
+              staticClass: "text-white",
+              on: {
+                click: function($event) {
+                  _vm.showCatalog = !_vm.showCatalog
+                }
+              }
+            },
+            [
+              !_vm.showCatalog
+                ? _c(
+                    "svg",
+                    { staticClass: "w-6 h-6", attrs: { viewBox: "0 0 24 24" } },
+                    [
+                      _c("path", {
+                        attrs: {
+                          fill: "currentColor",
+                          d: "M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z"
+                        }
+                      })
+                    ]
+                  )
+                : _vm._e(),
               _vm._v(" "),
-              _c("a", { attrs: { href: "https://laracasts.com" } }, [
+              _vm.showCatalog
+                ? _c(
+                    "svg",
+                    { staticClass: "w-5 h-5", attrs: { viewBox: "0 0 24 24" } },
+                    [
+                      _c("path", {
+                        attrs: { fill: "currentColor", d: "M19,13H5V11H19V13Z" }
+                      })
+                    ]
+                  )
+                : _vm._e()
+            ]
+          )
+        ]
+      ),
+      _vm._v(" "),
+      _c("transition", { attrs: { name: "fade" } }, [
+        _vm.showCatalog
+          ? _c(
+              "div",
+              { staticClass: "px-20 bg-white grid grid-cols-1" },
+              [
                 _c(
                   "div",
                   {
                     staticClass:
-                      "mt-3 flex items-center text-sm font-semibold text-indigo-700"
+                      "py-3 bg-white flex items-center justify-between border-t-2 border-black"
                   },
                   [
-                    _c("div", [_vm._v("Start watching Laracasts")]),
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "text-black inline-flex space-x-10 items-center"
+                      },
+                      [
+                        _c("img", {
+                          staticClass: "ml-6",
+                          attrs: {
+                            src: "images/Catalog/disposable_tableware.png"
+                          }
+                        }),
+                        _vm._v(" "),
+                        _c("span", {}, [_vm._v(" Одноразовая посуда ")])
+                      ]
+                    ),
                     _vm._v(" "),
-                    _c("div", { staticClass: "ml-1 text-indigo-500" }, [
-                      _c(
-                        "svg",
-                        {
-                          staticClass: "w-4 h-4",
-                          attrs: { viewBox: "0 0 20 20", fill: "currentColor" }
-                        },
-                        [
-                          _c("path", {
-                            attrs: {
-                              "fill-rule": "evenodd",
-                              d:
-                                "M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z",
-                              "clip-rule": "evenodd"
-                            }
-                          })
-                        ]
-                      )
-                    ])
+                    _c(
+                      "button",
+                      {
+                        staticClass: "text-black",
+                        on: {
+                          click: function($event) {
+                            _vm.showDisposableTableware = !_vm.showDisposableTableware
+                          }
+                        }
+                      },
+                      [
+                        !_vm.showDisposableTableware
+                          ? _c(
+                              "svg",
+                              {
+                                staticClass: "w-6 h-6",
+                                attrs: { viewBox: "0 0 24 24" }
+                              },
+                              [
+                                _c("path", {
+                                  attrs: {
+                                    fill: "currentColor",
+                                    d:
+                                      "M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z"
+                                  }
+                                })
+                              ]
+                            )
+                          : _vm._e(),
+                        _vm._v(" "),
+                        _vm.showDisposableTableware
+                          ? _c(
+                              "svg",
+                              {
+                                staticClass: "w-5 h-5",
+                                attrs: { viewBox: "0 0 24 24" }
+                              },
+                              [
+                                _c("path", {
+                                  attrs: {
+                                    fill: "currentColor",
+                                    d: "M19,13H5V11H19V13Z"
+                                  }
+                                })
+                              ]
+                            )
+                          : _vm._e()
+                      ]
+                    )
                   ]
-                )
-              ])
-            ])
-          ]
-        ),
-        _vm._v(" "),
-        _c("div", { staticClass: "p-6 border-t border-gray-200" }, [
-          _c("div", { staticClass: "flex items-center" }, [
-            _c(
-              "svg",
-              {
-                staticClass: "w-8 h-8 text-gray-400",
-                attrs: {
-                  fill: "none",
-                  stroke: "currentColor",
-                  "stroke-linecap": "round",
-                  "stroke-linejoin": "round",
-                  "stroke-width": "2",
-                  viewBox: "0 0 24 24"
-                }
-              },
-              [
-                _c("path", {
-                  attrs: {
-                    d:
-                      "M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"
-                  }
-                })
-              ]
-            ),
-            _vm._v(" "),
-            _vm._m(2)
-          ]),
-          _vm._v(" "),
-          _vm._m(3)
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "p-6 border-t border-gray-200 md:border-l" }, [
-          _c("div", { staticClass: "flex items-center" }, [
-            _c(
-              "svg",
-              {
-                staticClass: "w-8 h-8 text-gray-400",
-                attrs: {
-                  fill: "none",
-                  stroke: "currentColor",
-                  "stroke-linecap": "round",
-                  "stroke-linejoin": "round",
-                  "stroke-width": "2",
-                  viewBox: "0 0 24 24"
-                }
-              },
-              [
-                _c("path", {
-                  attrs: {
-                    d:
-                      "M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"
-                  }
-                })
-              ]
-            ),
-            _vm._v(" "),
-            _c(
-              "div",
-              {
-                staticClass:
-                  "ml-4 text-lg text-gray-600 leading-7 font-semibold"
-              },
-              [_vm._v("Authentication")]
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass:
+                      "py-3 bg-white flex items-center justify-between border-t-2 border-black"
+                  },
+                  [
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "text-black inline-flex space-x-4 items-center"
+                      },
+                      [
+                        _c("img", {
+                          staticClass: "m-0.5",
+                          attrs: {
+                            src: "images/Catalog/disposable_food_package.png"
+                          }
+                        }),
+                        _vm._v(" "),
+                        _c("span", {}, [
+                          _vm._v(" Одноразовая пищевая упаковка ")
+                        ])
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "button",
+                      {
+                        staticClass: "text-black",
+                        on: {
+                          click: function($event) {
+                            _vm.showDisposableFoodPackage = !_vm.showDisposableFoodPackage
+                          }
+                        }
+                      },
+                      [
+                        !_vm.showDisposableFoodPackage
+                          ? _c(
+                              "svg",
+                              {
+                                staticClass: "w-6 h-6",
+                                attrs: { viewBox: "0 0 24 24" }
+                              },
+                              [
+                                _c("path", {
+                                  attrs: {
+                                    fill: "currentColor",
+                                    d:
+                                      "M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z"
+                                  }
+                                })
+                              ]
+                            )
+                          : _vm._e(),
+                        _vm._v(" "),
+                        _vm.showDisposableFoodPackage
+                          ? _c(
+                              "svg",
+                              {
+                                staticClass: "w-5 h-5",
+                                attrs: { viewBox: "0 0 24 24" }
+                              },
+                              [
+                                _c("path", {
+                                  attrs: {
+                                    fill: "currentColor",
+                                    d: "M19,13H5V11H19V13Z"
+                                  }
+                                })
+                              ]
+                            )
+                          : _vm._e()
+                      ]
+                    )
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass:
+                      "py-3 bg-white flex items-center justify-between border-t-2 border-black"
+                  },
+                  [
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "text-black inline-flex space-x-7 items-center"
+                      },
+                      [
+                        _c("img", {
+                          staticClass: "ml-3.5",
+                          attrs: { src: "images/Catalog/bar_group.png" }
+                        }),
+                        _vm._v(" "),
+                        _c("span", {}, [_vm._v(" Барная группа ")])
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "button",
+                      {
+                        staticClass: "text-black",
+                        on: {
+                          click: function($event) {
+                            _vm.showBarGroup = !_vm.showBarGroup
+                          }
+                        }
+                      },
+                      [
+                        !_vm.showBarGroup
+                          ? _c(
+                              "svg",
+                              {
+                                staticClass: "w-6 h-6",
+                                attrs: { viewBox: "0 0 24 24" }
+                              },
+                              [
+                                _c("path", {
+                                  attrs: {
+                                    fill: "currentColor",
+                                    d:
+                                      "M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z"
+                                  }
+                                })
+                              ]
+                            )
+                          : _vm._e(),
+                        _vm._v(" "),
+                        _vm.showBarGroup
+                          ? _c(
+                              "svg",
+                              {
+                                staticClass: "w-5 h-5",
+                                attrs: { viewBox: "0 0 24 24" }
+                              },
+                              [
+                                _c("path", {
+                                  attrs: {
+                                    fill: "currentColor",
+                                    d: "M19,13H5V11H19V13Z"
+                                  }
+                                })
+                              ]
+                            )
+                          : _vm._e()
+                      ]
+                    )
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass:
+                      "py-3 bg-white flex items-center justify-between border-t-2 border-black"
+                  },
+                  [
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "text-black inline-flex space-x-10 items-center"
+                      },
+                      [
+                        _c("img", {
+                          staticClass: "ml-6",
+                          attrs: { src: "images/Catalog/paper_prof.png" }
+                        }),
+                        _vm._v(" "),
+                        _c("span", {}, [
+                          _vm._v(
+                            "\r\n                        Бумажная профессиональная продукция\r\n                    "
+                          )
+                        ])
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "button",
+                      {
+                        staticClass: "text-black",
+                        on: {
+                          click: function($event) {
+                            _vm.showPaperProf = !_vm.showPaperProf
+                          }
+                        }
+                      },
+                      [
+                        !_vm.showPaperProf
+                          ? _c(
+                              "svg",
+                              {
+                                staticClass: "w-6 h-6",
+                                attrs: { viewBox: "0 0 24 24" }
+                              },
+                              [
+                                _c("path", {
+                                  attrs: {
+                                    fill: "currentColor",
+                                    d:
+                                      "M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z"
+                                  }
+                                })
+                              ]
+                            )
+                          : _vm._e(),
+                        _vm._v(" "),
+                        _vm.showPaperProf
+                          ? _c(
+                              "svg",
+                              {
+                                staticClass: "w-5 h-5",
+                                attrs: { viewBox: "0 0 24 24" }
+                              },
+                              [
+                                _c("path", {
+                                  attrs: {
+                                    fill: "currentColor",
+                                    d: "M19,13H5V11H19V13Z"
+                                  }
+                                })
+                              ]
+                            )
+                          : _vm._e()
+                      ]
+                    )
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass:
+                      "py-3 bg-white flex items-center justify-between border-t-2 border-black"
+                  },
+                  [
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "text-black inline-flex space-x-12 items-center"
+                      },
+                      [
+                        _c("img", {
+                          staticClass: "ml-9",
+                          attrs: {
+                            src:
+                              "images/Catalog/prof_and_household_chemistry.png"
+                          }
+                        }),
+                        _vm._v(" "),
+                        _c("span", {}, [
+                          _vm._v(" Профессиональная и бытовая химия ")
+                        ])
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "button",
+                      {
+                        staticClass: "text-black",
+                        on: {
+                          click: function($event) {
+                            _vm.showProfAndHouseholdChemistry = !_vm.showProfAndHouseholdChemistry
+                          }
+                        }
+                      },
+                      [
+                        !_vm.showProfAndHouseholdChemistry
+                          ? _c(
+                              "svg",
+                              {
+                                staticClass: "w-6 h-6",
+                                attrs: { viewBox: "0 0 24 24" }
+                              },
+                              [
+                                _c("path", {
+                                  attrs: {
+                                    fill: "currentColor",
+                                    d:
+                                      "M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z"
+                                  }
+                                })
+                              ]
+                            )
+                          : _vm._e(),
+                        _vm._v(" "),
+                        _vm.showProfAndHouseholdChemistry
+                          ? _c(
+                              "svg",
+                              {
+                                staticClass: "w-5 h-5",
+                                attrs: { viewBox: "0 0 24 24" }
+                              },
+                              [
+                                _c("path", {
+                                  attrs: {
+                                    fill: "currentColor",
+                                    d: "M19,13H5V11H19V13Z"
+                                  }
+                                })
+                              ]
+                            )
+                          : _vm._e()
+                      ]
+                    )
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass:
+                      "py-3 bg-white flex items-center justify-between border-t-2 border-black"
+                  },
+                  [
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "text-black inline-flex space-x-8 items-center"
+                      },
+                      [
+                        _c("img", {
+                          staticClass: "ml-5",
+                          attrs: { src: "images/Catalog/household_goods.png" }
+                        }),
+                        _vm._v(" "),
+                        _c("span", {}, [_vm._v(" Хозяйственные товары ")])
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "button",
+                      {
+                        staticClass: "text-black",
+                        on: {
+                          click: function($event) {
+                            _vm.showHouseholdGoods = !_vm.showHouseholdGoods
+                          }
+                        }
+                      },
+                      [
+                        !_vm.showHouseholdGoods
+                          ? _c(
+                              "svg",
+                              {
+                                staticClass: "w-6 h-6",
+                                attrs: { viewBox: "0 0 24 24" }
+                              },
+                              [
+                                _c("path", {
+                                  attrs: {
+                                    fill: "currentColor",
+                                    d:
+                                      "M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z"
+                                  }
+                                })
+                              ]
+                            )
+                          : _vm._e(),
+                        _vm._v(" "),
+                        _vm.showHouseholdGoods
+                          ? _c(
+                              "svg",
+                              {
+                                staticClass: "w-5 h-5",
+                                attrs: { viewBox: "0 0 24 24" }
+                              },
+                              [
+                                _c("path", {
+                                  attrs: {
+                                    fill: "currentColor",
+                                    d: "M19,13H5V11H19V13Z"
+                                  }
+                                })
+                              ]
+                            )
+                          : _vm._e()
+                      ]
+                    )
+                  ]
+                ),
+                _vm._v(" "),
+                _c("transition", { attrs: { name: "fade" } }, [
+                  _vm.showCatalog && _vm.showHouseholdGoods
+                    ? _c("div", { staticClass: "flex pl-20 mb-8" }, [
+                        _c(
+                          "div",
+                          { staticClass: "grid grid-cols-3 gap-4 mx-auto" },
+                          _vm._l(_vm.settings, function(items) {
+                            return _c("div", { key: items.id }, [
+                              _c(
+                                "label",
+                                { staticClass: "inline-flex items-center" },
+                                [
+                                  _c("input", {
+                                    staticClass:
+                                      "form-checkbox rounded-full text-green-450",
+                                    attrs: { type: "checkbox", checked: "" }
+                                  }),
+                                  _vm._v(" "),
+                                  _c("span", { staticClass: "ml-2" }, [
+                                    _vm._v(_vm._s(items.value))
+                                  ])
+                                ]
+                              )
+                            ])
+                          }),
+                          0
+                        )
+                      ])
+                    : _vm._e()
+                ]),
+                _vm._v(" "),
+                _c("transition", { attrs: { name: "fade" } }, [
+                  _vm.showCatalog && _vm.showHouseholdGoods
+                    ? _c(
+                        "div",
+                        { staticClass: "flex pl-20 mb-2.5" },
+                        [
+                          _c(
+                            "simplebar",
+                            {
+                              staticClass:
+                                "pr-40 max-h-screen bg-white flex-auto",
+                              attrs: { "data-simplebar-auto-hide": "false" }
+                            },
+                            [
+                              _c(
+                                "div",
+                                { staticClass: "grid grid-cols-4 gap-4" },
+                                [
+                                  _c(
+                                    "div",
+                                    {
+                                      staticClass: "flex flex-col bg-white mr-5"
+                                    },
+                                    [
+                                      _c("img", {
+                                        staticClass: "self-center",
+                                        attrs: { src: "images/coffe.png" }
+                                      }),
+                                      _vm._v(" "),
+                                      _c(
+                                        "div",
+                                        { staticClass: "pt-5 pb-5" },
+                                        [
+                                          _c("p", [
+                                            _vm._v(
+                                              "Держатели для двух стаканов"
+                                            )
+                                          ]),
+                                          _vm._v(" "),
+                                          _c(
+                                            "h1",
+                                            {
+                                              staticClass:
+                                                "text-2xl font-bold text-black border-b-2 pb-2.5"
+                                            },
+                                            [
+                                              _vm._v(
+                                                "\r\n                                        Eco cupholder\r\n                                    "
+                                              )
+                                            ]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "div",
+                                            {
+                                              staticClass:
+                                                "flex flex-row justify-between mt-2.5 mb-5"
+                                            },
+                                            [
+                                              _c(
+                                                "button",
+                                                {
+                                                  staticClass:
+                                                    "text-gray-400 focus:text-green-450"
+                                                },
+                                                [
+                                                  _c(
+                                                    "svg",
+                                                    {
+                                                      staticClass: "w-6 h-6",
+                                                      attrs: {
+                                                        viewBox: "0 0 24 24"
+                                                      }
+                                                    },
+                                                    [
+                                                      _c("path", {
+                                                        attrs: {
+                                                          fill: "currentColor",
+                                                          d:
+                                                            "M12.1,18.55L12,18.65L11.89,18.55C7.14,14.24 4,11.39 4,8.5C4,6.5 5.5,5 7.5,5C9.04,5 10.54,6 11.07,7.36H12.93C13.46,6 14.96,5 16.5,5C18.5,5 20,6.5 20,8.5C20,11.39 16.86,14.24 12.1,18.55M16.5,3C14.76,3 13.09,3.81 12,5.08C10.91,3.81 9.24,3 7.5,3C4.42,3 2,5.41 2,8.5C2,12.27 5.4,15.36 10.55,20.03L12,21.35L13.45,20.03C18.6,15.36 22,12.27 22,8.5C22,5.41 19.58,3 16.5,3Z"
+                                                        }
+                                                      })
+                                                    ]
+                                                  )
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "button",
+                                                {
+                                                  staticClass:
+                                                    "text-gray-400 focus:text-green-450",
+                                                  on: {
+                                                    click: function($event) {
+                                                      _vm.showDescription = !_vm.showDescription
+                                                    }
+                                                  }
+                                                },
+                                                [
+                                                  !_vm.showDescription
+                                                    ? _c(
+                                                        "svg",
+                                                        {
+                                                          staticClass:
+                                                            "w-6 h-6",
+                                                          attrs: {
+                                                            viewBox: "0 0 24 24"
+                                                          }
+                                                        },
+                                                        [
+                                                          _c("path", {
+                                                            attrs: {
+                                                              fill:
+                                                                "currentColor",
+                                                              d:
+                                                                "M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z"
+                                                            }
+                                                          })
+                                                        ]
+                                                      )
+                                                    : _vm._e(),
+                                                  _vm._v(" "),
+                                                  _vm.showDescription
+                                                    ? _c(
+                                                        "svg",
+                                                        {
+                                                          staticClass:
+                                                            "w-6 h-6",
+                                                          attrs: {
+                                                            viewBox: "0 0 24 24"
+                                                          }
+                                                        },
+                                                        [
+                                                          _c("path", {
+                                                            attrs: {
+                                                              fill:
+                                                                "currentColor",
+                                                              d:
+                                                                "M19,13H5V11H19V13Z"
+                                                            }
+                                                          })
+                                                        ]
+                                                      )
+                                                    : _vm._e()
+                                                ]
+                                              )
+                                            ]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "transition",
+                                            { attrs: { name: "fade" } },
+                                            [
+                                              _vm.showCatalog &&
+                                              _vm.showHouseholdGoods &&
+                                              _vm.showDescription
+                                                ? _c("div", [
+                                                    _c(
+                                                      "div",
+                                                      { staticClass: "mb-5" },
+                                                      [
+                                                        _c(
+                                                          "span",
+                                                          {
+                                                            staticClass:
+                                                              "text-xs font-black"
+                                                          },
+                                                          [
+                                                            _vm._v(
+                                                              "Держатели на 2 стакана предназначены\r\n                                                    для заведений работающих,\r\n                                                    работающих по системе\r\n                                                    take away"
+                                                            )
+                                                          ]
+                                                        )
+                                                      ]
+                                                    ),
+                                                    _vm._v(" "),
+                                                    _c(
+                                                      "div",
+                                                      { staticClass: "mb-5" },
+                                                      [
+                                                        _c(
+                                                          "span",
+                                                          {
+                                                            staticClass:
+                                                              "text-xs font-black"
+                                                          },
+                                                          [
+                                                            _vm._v(
+                                                              "Картонные держатели для\r\n                                                    одноразовых\r\n                                                    стаканов - незаменимый\r\n                                                    органайзер для\r\n                                                    организации продажи напитков\r\n                                                    на вынос"
+                                                            )
+                                                          ]
+                                                        )
+                                                      ]
+                                                    ),
+                                                    _vm._v(" "),
+                                                    _c(
+                                                      "div",
+                                                      { staticClass: "mb-5" },
+                                                      [
+                                                        _c(
+                                                          "span",
+                                                          {
+                                                            staticClass:
+                                                              "text-xs font-black"
+                                                          },
+                                                          [
+                                                            _vm._v(
+                                                              "Основные характеристики\r\n                                                    изделия: "
+                                                            ),
+                                                            _c("br"),
+                                                            _vm._v(
+                                                              "\r\n                                                    Упаковка: 150шт. "
+                                                            ),
+                                                            _c("br"),
+                                                            _vm._v(
+                                                              "\r\n                                                    Цвет: Крафт "
+                                                            ),
+                                                            _c("br"),
+                                                            _vm._v(
+                                                              "\r\n                                                    Фиксирует стаканы разного объема\r\n                                                    "
+                                                            ),
+                                                            _c("br"),
+                                                            _vm._v(
+                                                              "\r\n                                                    Производится из макулатуры"
+                                                            ),
+                                                            _c("br"),
+                                                            _vm._v(
+                                                              "\r\n                                                    Биоразлагаемый"
+                                                            ),
+                                                            _c("br"),
+                                                            _vm._v(
+                                                              "\r\n                                                    Подлежит вторичной\r\n                                                    переработке"
+                                                            ),
+                                                            _c("br")
+                                                          ]
+                                                        )
+                                                      ]
+                                                    )
+                                                  ])
+                                                : _vm._e()
+                                            ]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "div",
+                                            {
+                                              staticClass:
+                                                "flex border-2 border-green-450 rounded-full h-8 w-1/2"
+                                            },
+                                            [
+                                              _c(
+                                                "a",
+                                                {
+                                                  staticClass:
+                                                    "self-center pr-2 "
+                                                },
+                                                [
+                                                  _c(
+                                                    "svg",
+                                                    {
+                                                      staticStyle: {
+                                                        width: "32px",
+                                                        height: "32px"
+                                                      },
+                                                      attrs: {
+                                                        viewBox: "2 0 24 24"
+                                                      }
+                                                    },
+                                                    [
+                                                      _c("path", {
+                                                        attrs: {
+                                                          fill: "currentColor",
+                                                          d:
+                                                            "M12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22M17,14L12,9L7,14H17Z"
+                                                        }
+                                                      })
+                                                    ]
+                                                  )
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "span",
+                                                { staticClass: "self-center" },
+                                                [_vm._v("1 Штука")]
+                                              )
+                                            ]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "div",
+                                            {
+                                              staticClass:
+                                                "flex bg-black text-white rounded-full h-8 w-1/2 justify-end mt-2.5"
+                                            },
+                                            [
+                                              _c(
+                                                "span",
+                                                {
+                                                  staticClass:
+                                                    "self-center mr-6"
+                                                },
+                                                [_vm._v("00000")]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "svg",
+                                                {
+                                                  staticClass:
+                                                    "self-center pr-2",
+                                                  staticStyle: {
+                                                    width: "26px",
+                                                    height: "26px"
+                                                  },
+                                                  attrs: {
+                                                    viewBox: "0 0 24 24"
+                                                  }
+                                                },
+                                                [
+                                                  _c("path", {
+                                                    attrs: {
+                                                      fill: "currentColor",
+                                                      d:
+                                                        "M6,10H7V3H14.5C17,3 19,5 19,7.5C19,10 17,12 14.5,12H9V14H15V16H9V21H7V16H6V14H7V12H6V10M14.5,5H9V10H14.5A2.5,2.5 0 0,0 17,7.5A2.5,2.5 0 0,0 14.5,5Z"
+                                                    }
+                                                  })
+                                                ]
+                                              )
+                                            ]
+                                          )
+                                        ],
+                                        1
+                                      )
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "div",
+                                    {
+                                      staticClass: "flex flex-col bg-white mr-5"
+                                    },
+                                    [
+                                      _c("img", {
+                                        staticClass: "self-center",
+                                        attrs: { src: "images/coffe.png" }
+                                      }),
+                                      _vm._v(" "),
+                                      _c(
+                                        "div",
+                                        { staticClass: "pt-5 pb-5" },
+                                        [
+                                          _c("p", [
+                                            _vm._v(
+                                              "Держатели для двух стаканов"
+                                            )
+                                          ]),
+                                          _vm._v(" "),
+                                          _c(
+                                            "h1",
+                                            {
+                                              staticClass:
+                                                "text-2xl font-bold text-black border-b-2 pb-2.5"
+                                            },
+                                            [
+                                              _vm._v(
+                                                "\r\n                                        Eco cupholder\r\n                                    "
+                                              )
+                                            ]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "div",
+                                            {
+                                              staticClass:
+                                                "flex flex-row justify-between mt-2.5 mb-5"
+                                            },
+                                            [
+                                              _c(
+                                                "button",
+                                                {
+                                                  staticClass:
+                                                    "text-gray-400 focus:text-green-450"
+                                                },
+                                                [
+                                                  _c(
+                                                    "svg",
+                                                    {
+                                                      staticClass: "w-6 h-6",
+                                                      attrs: {
+                                                        viewBox: "0 0 24 24"
+                                                      }
+                                                    },
+                                                    [
+                                                      _c("path", {
+                                                        attrs: {
+                                                          fill: "currentColor",
+                                                          d:
+                                                            "M12.1,18.55L12,18.65L11.89,18.55C7.14,14.24 4,11.39 4,8.5C4,6.5 5.5,5 7.5,5C9.04,5 10.54,6 11.07,7.36H12.93C13.46,6 14.96,5 16.5,5C18.5,5 20,6.5 20,8.5C20,11.39 16.86,14.24 12.1,18.55M16.5,3C14.76,3 13.09,3.81 12,5.08C10.91,3.81 9.24,3 7.5,3C4.42,3 2,5.41 2,8.5C2,12.27 5.4,15.36 10.55,20.03L12,21.35L13.45,20.03C18.6,15.36 22,12.27 22,8.5C22,5.41 19.58,3 16.5,3Z"
+                                                        }
+                                                      })
+                                                    ]
+                                                  )
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "button",
+                                                {
+                                                  staticClass:
+                                                    "text-gray-400 focus:text-green-450",
+                                                  on: {
+                                                    click: function($event) {
+                                                      _vm.showDescription = !_vm.showDescription
+                                                    }
+                                                  }
+                                                },
+                                                [
+                                                  !_vm.showDescription
+                                                    ? _c(
+                                                        "svg",
+                                                        {
+                                                          staticClass:
+                                                            "w-6 h-6",
+                                                          attrs: {
+                                                            viewBox: "0 0 24 24"
+                                                          }
+                                                        },
+                                                        [
+                                                          _c("path", {
+                                                            attrs: {
+                                                              fill:
+                                                                "currentColor",
+                                                              d:
+                                                                "M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z"
+                                                            }
+                                                          })
+                                                        ]
+                                                      )
+                                                    : _vm._e(),
+                                                  _vm._v(" "),
+                                                  _vm.showDescription
+                                                    ? _c(
+                                                        "svg",
+                                                        {
+                                                          staticClass:
+                                                            "w-6 h-6",
+                                                          attrs: {
+                                                            viewBox: "0 0 24 24"
+                                                          }
+                                                        },
+                                                        [
+                                                          _c("path", {
+                                                            attrs: {
+                                                              fill:
+                                                                "currentColor",
+                                                              d:
+                                                                "M19,13H5V11H19V13Z"
+                                                            }
+                                                          })
+                                                        ]
+                                                      )
+                                                    : _vm._e()
+                                                ]
+                                              )
+                                            ]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "transition",
+                                            { attrs: { name: "fade" } },
+                                            [
+                                              _vm.showCatalog &&
+                                              _vm.showHouseholdGoods &&
+                                              _vm.showDescription
+                                                ? _c("div", [
+                                                    _c(
+                                                      "div",
+                                                      { staticClass: "mb-5" },
+                                                      [
+                                                        _c(
+                                                          "span",
+                                                          {
+                                                            staticClass:
+                                                              "text-xs font-black"
+                                                          },
+                                                          [
+                                                            _vm._v(
+                                                              "Держатели на 2 стакана предназначены\r\n                                                    для заведений работающих,\r\n                                                    работающих по системе\r\n                                                    take away"
+                                                            )
+                                                          ]
+                                                        )
+                                                      ]
+                                                    ),
+                                                    _vm._v(" "),
+                                                    _c(
+                                                      "div",
+                                                      { staticClass: "mb-5" },
+                                                      [
+                                                        _c(
+                                                          "span",
+                                                          {
+                                                            staticClass:
+                                                              "text-xs font-black"
+                                                          },
+                                                          [
+                                                            _vm._v(
+                                                              "Картонные держатели для\r\n                                                    одноразовых\r\n                                                    стаканов - незаменимый\r\n                                                    органайзер для\r\n                                                    организации продажи напитков\r\n                                                    на вынос"
+                                                            )
+                                                          ]
+                                                        )
+                                                      ]
+                                                    ),
+                                                    _vm._v(" "),
+                                                    _c(
+                                                      "div",
+                                                      { staticClass: "mb-5" },
+                                                      [
+                                                        _c(
+                                                          "span",
+                                                          {
+                                                            staticClass:
+                                                              "text-xs font-black"
+                                                          },
+                                                          [
+                                                            _vm._v(
+                                                              "Основные характеристики\r\n                                                    изделия: "
+                                                            ),
+                                                            _c("br"),
+                                                            _vm._v(
+                                                              "\r\n                                                    Упаковка: 150шт. "
+                                                            ),
+                                                            _c("br"),
+                                                            _vm._v(
+                                                              "\r\n                                                    Цвет: Крафт "
+                                                            ),
+                                                            _c("br"),
+                                                            _vm._v(
+                                                              "\r\n                                                    Фиксирует стаканы разного объема\r\n                                                    "
+                                                            ),
+                                                            _c("br"),
+                                                            _vm._v(
+                                                              "\r\n                                                    Производится из макулатуры"
+                                                            ),
+                                                            _c("br"),
+                                                            _vm._v(
+                                                              "\r\n                                                    Биоразлагаемый"
+                                                            ),
+                                                            _c("br"),
+                                                            _vm._v(
+                                                              "\r\n                                                    Подлежит вторичной\r\n                                                    переработке"
+                                                            ),
+                                                            _c("br")
+                                                          ]
+                                                        )
+                                                      ]
+                                                    )
+                                                  ])
+                                                : _vm._e()
+                                            ]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "div",
+                                            {
+                                              staticClass:
+                                                "flex border-2 border-green-450 rounded-full h-8 w-1/2"
+                                            },
+                                            [
+                                              _c(
+                                                "a",
+                                                {
+                                                  staticClass:
+                                                    "self-center pr-2 "
+                                                },
+                                                [
+                                                  _c(
+                                                    "svg",
+                                                    {
+                                                      staticStyle: {
+                                                        width: "32px",
+                                                        height: "32px"
+                                                      },
+                                                      attrs: {
+                                                        viewBox: "2 0 24 24"
+                                                      }
+                                                    },
+                                                    [
+                                                      _c("path", {
+                                                        attrs: {
+                                                          fill: "currentColor",
+                                                          d:
+                                                            "M12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22M17,14L12,9L7,14H17Z"
+                                                        }
+                                                      })
+                                                    ]
+                                                  )
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "span",
+                                                { staticClass: "self-center" },
+                                                [_vm._v("1 Штука")]
+                                              )
+                                            ]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "div",
+                                            {
+                                              staticClass:
+                                                "flex bg-black text-white rounded-full h-8 w-1/2 justify-end mt-2.5"
+                                            },
+                                            [
+                                              _c(
+                                                "span",
+                                                {
+                                                  staticClass:
+                                                    "self-center mr-6"
+                                                },
+                                                [_vm._v("00000")]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "svg",
+                                                {
+                                                  staticClass:
+                                                    "self-center pr-2",
+                                                  staticStyle: {
+                                                    width: "26px",
+                                                    height: "26px"
+                                                  },
+                                                  attrs: {
+                                                    viewBox: "0 0 24 24"
+                                                  }
+                                                },
+                                                [
+                                                  _c("path", {
+                                                    attrs: {
+                                                      fill: "currentColor",
+                                                      d:
+                                                        "M6,10H7V3H14.5C17,3 19,5 19,7.5C19,10 17,12 14.5,12H9V14H15V16H9V21H7V16H6V14H7V12H6V10M14.5,5H9V10H14.5A2.5,2.5 0 0,0 17,7.5A2.5,2.5 0 0,0 14.5,5Z"
+                                                    }
+                                                  })
+                                                ]
+                                              )
+                                            ]
+                                          )
+                                        ],
+                                        1
+                                      )
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "div",
+                                    {
+                                      staticClass: "flex flex-col bg-white mr-5"
+                                    },
+                                    [
+                                      _c("img", {
+                                        staticClass: "self-center",
+                                        attrs: { src: "images/coffe.png" }
+                                      }),
+                                      _vm._v(" "),
+                                      _c(
+                                        "div",
+                                        { staticClass: "pt-5 pb-5" },
+                                        [
+                                          _c("p", [
+                                            _vm._v(
+                                              "Держатели для двух стаканов"
+                                            )
+                                          ]),
+                                          _vm._v(" "),
+                                          _c(
+                                            "h1",
+                                            {
+                                              staticClass:
+                                                "text-2xl font-bold text-black border-b-2 pb-2.5"
+                                            },
+                                            [
+                                              _vm._v(
+                                                "\r\n                                        Eco cupholder\r\n                                    "
+                                              )
+                                            ]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "div",
+                                            {
+                                              staticClass:
+                                                "flex flex-row justify-between mt-2.5 mb-5"
+                                            },
+                                            [
+                                              _c(
+                                                "button",
+                                                {
+                                                  staticClass:
+                                                    "text-gray-400 focus:text-green-450"
+                                                },
+                                                [
+                                                  _c(
+                                                    "svg",
+                                                    {
+                                                      staticClass: "w-6 h-6",
+                                                      attrs: {
+                                                        viewBox: "0 0 24 24"
+                                                      }
+                                                    },
+                                                    [
+                                                      _c("path", {
+                                                        attrs: {
+                                                          fill: "currentColor",
+                                                          d:
+                                                            "M12.1,18.55L12,18.65L11.89,18.55C7.14,14.24 4,11.39 4,8.5C4,6.5 5.5,5 7.5,5C9.04,5 10.54,6 11.07,7.36H12.93C13.46,6 14.96,5 16.5,5C18.5,5 20,6.5 20,8.5C20,11.39 16.86,14.24 12.1,18.55M16.5,3C14.76,3 13.09,3.81 12,5.08C10.91,3.81 9.24,3 7.5,3C4.42,3 2,5.41 2,8.5C2,12.27 5.4,15.36 10.55,20.03L12,21.35L13.45,20.03C18.6,15.36 22,12.27 22,8.5C22,5.41 19.58,3 16.5,3Z"
+                                                        }
+                                                      })
+                                                    ]
+                                                  )
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "button",
+                                                {
+                                                  staticClass:
+                                                    "text-gray-400 focus:text-green-450",
+                                                  on: {
+                                                    click: function($event) {
+                                                      _vm.showDescription = !_vm.showDescription
+                                                    }
+                                                  }
+                                                },
+                                                [
+                                                  !_vm.showDescription
+                                                    ? _c(
+                                                        "svg",
+                                                        {
+                                                          staticClass:
+                                                            "w-6 h-6",
+                                                          attrs: {
+                                                            viewBox: "0 0 24 24"
+                                                          }
+                                                        },
+                                                        [
+                                                          _c("path", {
+                                                            attrs: {
+                                                              fill:
+                                                                "currentColor",
+                                                              d:
+                                                                "M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z"
+                                                            }
+                                                          })
+                                                        ]
+                                                      )
+                                                    : _vm._e(),
+                                                  _vm._v(" "),
+                                                  _vm.showDescription
+                                                    ? _c(
+                                                        "svg",
+                                                        {
+                                                          staticClass:
+                                                            "w-6 h-6",
+                                                          attrs: {
+                                                            viewBox: "0 0 24 24"
+                                                          }
+                                                        },
+                                                        [
+                                                          _c("path", {
+                                                            attrs: {
+                                                              fill:
+                                                                "currentColor",
+                                                              d:
+                                                                "M19,13H5V11H19V13Z"
+                                                            }
+                                                          })
+                                                        ]
+                                                      )
+                                                    : _vm._e()
+                                                ]
+                                              )
+                                            ]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "transition",
+                                            { attrs: { name: "fade" } },
+                                            [
+                                              _vm.showCatalog &&
+                                              _vm.showHouseholdGoods &&
+                                              _vm.showDescription
+                                                ? _c("div", [
+                                                    _c(
+                                                      "div",
+                                                      { staticClass: "mb-5" },
+                                                      [
+                                                        _c(
+                                                          "span",
+                                                          {
+                                                            staticClass:
+                                                              "text-xs font-black"
+                                                          },
+                                                          [
+                                                            _vm._v(
+                                                              "Держатели на 2 стакана предназначены\r\n                                                    для заведений работающих,\r\n                                                    работающих по системе\r\n                                                    take away"
+                                                            )
+                                                          ]
+                                                        )
+                                                      ]
+                                                    ),
+                                                    _vm._v(" "),
+                                                    _c(
+                                                      "div",
+                                                      { staticClass: "mb-5" },
+                                                      [
+                                                        _c(
+                                                          "span",
+                                                          {
+                                                            staticClass:
+                                                              "text-xs font-black"
+                                                          },
+                                                          [
+                                                            _vm._v(
+                                                              "Картонные держатели для\r\n                                                    одноразовых\r\n                                                    стаканов - незаменимый\r\n                                                    органайзер для\r\n                                                    организации продажи напитков\r\n                                                    на вынос"
+                                                            )
+                                                          ]
+                                                        )
+                                                      ]
+                                                    ),
+                                                    _vm._v(" "),
+                                                    _c(
+                                                      "div",
+                                                      { staticClass: "mb-5" },
+                                                      [
+                                                        _c(
+                                                          "span",
+                                                          {
+                                                            staticClass:
+                                                              "text-xs font-black"
+                                                          },
+                                                          [
+                                                            _vm._v(
+                                                              "Основные характеристики\r\n                                                    изделия: "
+                                                            ),
+                                                            _c("br"),
+                                                            _vm._v(
+                                                              "\r\n                                                    Упаковка: 150шт. "
+                                                            ),
+                                                            _c("br"),
+                                                            _vm._v(
+                                                              "\r\n                                                    Цвет: Крафт "
+                                                            ),
+                                                            _c("br"),
+                                                            _vm._v(
+                                                              "\r\n                                                    Фиксирует стаканы разного объема\r\n                                                    "
+                                                            ),
+                                                            _c("br"),
+                                                            _vm._v(
+                                                              "\r\n                                                    Производится из макулатуры"
+                                                            ),
+                                                            _c("br"),
+                                                            _vm._v(
+                                                              "\r\n                                                    Биоразлагаемый"
+                                                            ),
+                                                            _c("br"),
+                                                            _vm._v(
+                                                              "\r\n                                                    Подлежит вторичной\r\n                                                    переработке"
+                                                            ),
+                                                            _c("br")
+                                                          ]
+                                                        )
+                                                      ]
+                                                    )
+                                                  ])
+                                                : _vm._e()
+                                            ]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "div",
+                                            {
+                                              staticClass:
+                                                "flex border-2 border-green-450 rounded-full h-8 w-1/2"
+                                            },
+                                            [
+                                              _c(
+                                                "a",
+                                                {
+                                                  staticClass:
+                                                    "self-center pr-2 "
+                                                },
+                                                [
+                                                  _c(
+                                                    "svg",
+                                                    {
+                                                      staticStyle: {
+                                                        width: "32px",
+                                                        height: "32px"
+                                                      },
+                                                      attrs: {
+                                                        viewBox: "2 0 24 24"
+                                                      }
+                                                    },
+                                                    [
+                                                      _c("path", {
+                                                        attrs: {
+                                                          fill: "currentColor",
+                                                          d:
+                                                            "M12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22M17,14L12,9L7,14H17Z"
+                                                        }
+                                                      })
+                                                    ]
+                                                  )
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "span",
+                                                { staticClass: "self-center" },
+                                                [_vm._v("1 Штука")]
+                                              )
+                                            ]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "div",
+                                            {
+                                              staticClass:
+                                                "flex bg-black text-white rounded-full h-8 w-1/2 justify-end mt-2.5"
+                                            },
+                                            [
+                                              _c(
+                                                "span",
+                                                {
+                                                  staticClass:
+                                                    "self-center mr-6"
+                                                },
+                                                [_vm._v("00000")]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "svg",
+                                                {
+                                                  staticClass:
+                                                    "self-center pr-2",
+                                                  staticStyle: {
+                                                    width: "26px",
+                                                    height: "26px"
+                                                  },
+                                                  attrs: {
+                                                    viewBox: "0 0 24 24"
+                                                  }
+                                                },
+                                                [
+                                                  _c("path", {
+                                                    attrs: {
+                                                      fill: "currentColor",
+                                                      d:
+                                                        "M6,10H7V3H14.5C17,3 19,5 19,7.5C19,10 17,12 14.5,12H9V14H15V16H9V21H7V16H6V14H7V12H6V10M14.5,5H9V10H14.5A2.5,2.5 0 0,0 17,7.5A2.5,2.5 0 0,0 14.5,5Z"
+                                                    }
+                                                  })
+                                                ]
+                                              )
+                                            ]
+                                          )
+                                        ],
+                                        1
+                                      )
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "div",
+                                    {
+                                      staticClass: "flex flex-col bg-white mr-5"
+                                    },
+                                    [
+                                      _c("img", {
+                                        staticClass: "self-center",
+                                        attrs: { src: "images/coffe.png" }
+                                      }),
+                                      _vm._v(" "),
+                                      _c(
+                                        "div",
+                                        { staticClass: "pt-5 pb-5" },
+                                        [
+                                          _c("p", [
+                                            _vm._v(
+                                              "Держатели для двух стаканов"
+                                            )
+                                          ]),
+                                          _vm._v(" "),
+                                          _c(
+                                            "h1",
+                                            {
+                                              staticClass:
+                                                "text-2xl font-bold text-black border-b-2 pb-2.5"
+                                            },
+                                            [
+                                              _vm._v(
+                                                "\r\n                                        Eco cupholder\r\n                                    "
+                                              )
+                                            ]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "div",
+                                            {
+                                              staticClass:
+                                                "flex flex-row justify-between mt-2.5 mb-5"
+                                            },
+                                            [
+                                              _c(
+                                                "button",
+                                                {
+                                                  staticClass:
+                                                    "text-gray-400 focus:text-green-450"
+                                                },
+                                                [
+                                                  _c(
+                                                    "svg",
+                                                    {
+                                                      staticClass: "w-6 h-6",
+                                                      attrs: {
+                                                        viewBox: "0 0 24 24"
+                                                      }
+                                                    },
+                                                    [
+                                                      _c("path", {
+                                                        attrs: {
+                                                          fill: "currentColor",
+                                                          d:
+                                                            "M12.1,18.55L12,18.65L11.89,18.55C7.14,14.24 4,11.39 4,8.5C4,6.5 5.5,5 7.5,5C9.04,5 10.54,6 11.07,7.36H12.93C13.46,6 14.96,5 16.5,5C18.5,5 20,6.5 20,8.5C20,11.39 16.86,14.24 12.1,18.55M16.5,3C14.76,3 13.09,3.81 12,5.08C10.91,3.81 9.24,3 7.5,3C4.42,3 2,5.41 2,8.5C2,12.27 5.4,15.36 10.55,20.03L12,21.35L13.45,20.03C18.6,15.36 22,12.27 22,8.5C22,5.41 19.58,3 16.5,3Z"
+                                                        }
+                                                      })
+                                                    ]
+                                                  )
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "button",
+                                                {
+                                                  staticClass:
+                                                    "text-gray-400 focus:text-green-450",
+                                                  on: {
+                                                    click: function($event) {
+                                                      _vm.showDescription = !_vm.showDescription
+                                                    }
+                                                  }
+                                                },
+                                                [
+                                                  !_vm.showDescription
+                                                    ? _c(
+                                                        "svg",
+                                                        {
+                                                          staticClass:
+                                                            "w-6 h-6",
+                                                          attrs: {
+                                                            viewBox: "0 0 24 24"
+                                                          }
+                                                        },
+                                                        [
+                                                          _c("path", {
+                                                            attrs: {
+                                                              fill:
+                                                                "currentColor",
+                                                              d:
+                                                                "M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z"
+                                                            }
+                                                          })
+                                                        ]
+                                                      )
+                                                    : _vm._e(),
+                                                  _vm._v(" "),
+                                                  _vm.showDescription
+                                                    ? _c(
+                                                        "svg",
+                                                        {
+                                                          staticClass:
+                                                            "w-6 h-6",
+                                                          attrs: {
+                                                            viewBox: "0 0 24 24"
+                                                          }
+                                                        },
+                                                        [
+                                                          _c("path", {
+                                                            attrs: {
+                                                              fill:
+                                                                "currentColor",
+                                                              d:
+                                                                "M19,13H5V11H19V13Z"
+                                                            }
+                                                          })
+                                                        ]
+                                                      )
+                                                    : _vm._e()
+                                                ]
+                                              )
+                                            ]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "transition",
+                                            { attrs: { name: "fade" } },
+                                            [
+                                              _vm.showCatalog &&
+                                              _vm.showHouseholdGoods &&
+                                              _vm.showDescription
+                                                ? _c("div", [
+                                                    _c(
+                                                      "div",
+                                                      { staticClass: "mb-5" },
+                                                      [
+                                                        _c(
+                                                          "span",
+                                                          {
+                                                            staticClass:
+                                                              "text-xs font-black"
+                                                          },
+                                                          [
+                                                            _vm._v(
+                                                              "Держатели на 2 стакана предназначены\r\n                                                    для заведений работающих,\r\n                                                    работающих по системе\r\n                                                    take away"
+                                                            )
+                                                          ]
+                                                        )
+                                                      ]
+                                                    ),
+                                                    _vm._v(" "),
+                                                    _c(
+                                                      "div",
+                                                      { staticClass: "mb-5" },
+                                                      [
+                                                        _c(
+                                                          "span",
+                                                          {
+                                                            staticClass:
+                                                              "text-xs font-black"
+                                                          },
+                                                          [
+                                                            _vm._v(
+                                                              "Картонные держатели для\r\n                                                    одноразовых\r\n                                                    стаканов - незаменимый\r\n                                                    органайзер для\r\n                                                    организации продажи напитков\r\n                                                    на вынос"
+                                                            )
+                                                          ]
+                                                        )
+                                                      ]
+                                                    ),
+                                                    _vm._v(" "),
+                                                    _c(
+                                                      "div",
+                                                      { staticClass: "mb-5" },
+                                                      [
+                                                        _c(
+                                                          "span",
+                                                          {
+                                                            staticClass:
+                                                              "text-xs font-black"
+                                                          },
+                                                          [
+                                                            _vm._v(
+                                                              "Основные характеристики\r\n                                                    изделия: "
+                                                            ),
+                                                            _c("br"),
+                                                            _vm._v(
+                                                              "\r\n                                                    Упаковка: 150шт. "
+                                                            ),
+                                                            _c("br"),
+                                                            _vm._v(
+                                                              "\r\n                                                    Цвет: Крафт "
+                                                            ),
+                                                            _c("br"),
+                                                            _vm._v(
+                                                              "\r\n                                                    Фиксирует стаканы разного объема\r\n                                                    "
+                                                            ),
+                                                            _c("br"),
+                                                            _vm._v(
+                                                              "\r\n                                                    Производится из макулатуры"
+                                                            ),
+                                                            _c("br"),
+                                                            _vm._v(
+                                                              "\r\n                                                    Биоразлагаемый"
+                                                            ),
+                                                            _c("br"),
+                                                            _vm._v(
+                                                              "\r\n                                                    Подлежит вторичной\r\n                                                    переработке"
+                                                            ),
+                                                            _c("br")
+                                                          ]
+                                                        )
+                                                      ]
+                                                    )
+                                                  ])
+                                                : _vm._e()
+                                            ]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "div",
+                                            {
+                                              staticClass:
+                                                "flex border-2 border-green-450 rounded-full h-8 w-1/2"
+                                            },
+                                            [
+                                              _c(
+                                                "a",
+                                                {
+                                                  staticClass:
+                                                    "self-center pr-2 "
+                                                },
+                                                [
+                                                  _c(
+                                                    "svg",
+                                                    {
+                                                      staticStyle: {
+                                                        width: "32px",
+                                                        height: "32px"
+                                                      },
+                                                      attrs: {
+                                                        viewBox: "2 0 24 24"
+                                                      }
+                                                    },
+                                                    [
+                                                      _c("path", {
+                                                        attrs: {
+                                                          fill: "currentColor",
+                                                          d:
+                                                            "M12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22M17,14L12,9L7,14H17Z"
+                                                        }
+                                                      })
+                                                    ]
+                                                  )
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "span",
+                                                { staticClass: "self-center" },
+                                                [_vm._v("1 Штука")]
+                                              )
+                                            ]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "div",
+                                            {
+                                              staticClass:
+                                                "flex bg-black text-white rounded-full h-8 w-1/2 justify-end mt-2.5"
+                                            },
+                                            [
+                                              _c(
+                                                "span",
+                                                {
+                                                  staticClass:
+                                                    "self-center mr-6"
+                                                },
+                                                [_vm._v("00000")]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "svg",
+                                                {
+                                                  staticClass:
+                                                    "self-center pr-2",
+                                                  staticStyle: {
+                                                    width: "26px",
+                                                    height: "26px"
+                                                  },
+                                                  attrs: {
+                                                    viewBox: "0 0 24 24"
+                                                  }
+                                                },
+                                                [
+                                                  _c("path", {
+                                                    attrs: {
+                                                      fill: "currentColor",
+                                                      d:
+                                                        "M6,10H7V3H14.5C17,3 19,5 19,7.5C19,10 17,12 14.5,12H9V14H15V16H9V21H7V16H6V14H7V12H6V10M14.5,5H9V10H14.5A2.5,2.5 0 0,0 17,7.5A2.5,2.5 0 0,0 14.5,5Z"
+                                                    }
+                                                  })
+                                                ]
+                                              )
+                                            ]
+                                          )
+                                        ],
+                                        1
+                                      )
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "div",
+                                    {
+                                      staticClass: "flex flex-col bg-white mr-5"
+                                    },
+                                    [
+                                      _c("img", {
+                                        staticClass: "self-center",
+                                        attrs: { src: "images/coffe.png" }
+                                      }),
+                                      _vm._v(" "),
+                                      _c(
+                                        "div",
+                                        { staticClass: "pt-5 pb-5" },
+                                        [
+                                          _c("p", [
+                                            _vm._v(
+                                              "Держатели для двух стаканов"
+                                            )
+                                          ]),
+                                          _vm._v(" "),
+                                          _c(
+                                            "h1",
+                                            {
+                                              staticClass:
+                                                "text-2xl font-bold text-black border-b-2 pb-2.5"
+                                            },
+                                            [
+                                              _vm._v(
+                                                "\r\n                                        Eco cupholder\r\n                                    "
+                                              )
+                                            ]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "div",
+                                            {
+                                              staticClass:
+                                                "flex flex-row justify-between mt-2.5 mb-5"
+                                            },
+                                            [
+                                              _c(
+                                                "button",
+                                                {
+                                                  staticClass:
+                                                    "text-gray-400 focus:text-green-450"
+                                                },
+                                                [
+                                                  _c(
+                                                    "svg",
+                                                    {
+                                                      staticClass: "w-6 h-6",
+                                                      attrs: {
+                                                        viewBox: "0 0 24 24"
+                                                      }
+                                                    },
+                                                    [
+                                                      _c("path", {
+                                                        attrs: {
+                                                          fill: "currentColor",
+                                                          d:
+                                                            "M12.1,18.55L12,18.65L11.89,18.55C7.14,14.24 4,11.39 4,8.5C4,6.5 5.5,5 7.5,5C9.04,5 10.54,6 11.07,7.36H12.93C13.46,6 14.96,5 16.5,5C18.5,5 20,6.5 20,8.5C20,11.39 16.86,14.24 12.1,18.55M16.5,3C14.76,3 13.09,3.81 12,5.08C10.91,3.81 9.24,3 7.5,3C4.42,3 2,5.41 2,8.5C2,12.27 5.4,15.36 10.55,20.03L12,21.35L13.45,20.03C18.6,15.36 22,12.27 22,8.5C22,5.41 19.58,3 16.5,3Z"
+                                                        }
+                                                      })
+                                                    ]
+                                                  )
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "button",
+                                                {
+                                                  staticClass:
+                                                    "text-gray-400 focus:text-green-450",
+                                                  on: {
+                                                    click: function($event) {
+                                                      _vm.showDescription = !_vm.showDescription
+                                                    }
+                                                  }
+                                                },
+                                                [
+                                                  !_vm.showDescription
+                                                    ? _c(
+                                                        "svg",
+                                                        {
+                                                          staticClass:
+                                                            "w-6 h-6",
+                                                          attrs: {
+                                                            viewBox: "0 0 24 24"
+                                                          }
+                                                        },
+                                                        [
+                                                          _c("path", {
+                                                            attrs: {
+                                                              fill:
+                                                                "currentColor",
+                                                              d:
+                                                                "M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z"
+                                                            }
+                                                          })
+                                                        ]
+                                                      )
+                                                    : _vm._e(),
+                                                  _vm._v(" "),
+                                                  _vm.showDescription
+                                                    ? _c(
+                                                        "svg",
+                                                        {
+                                                          staticClass:
+                                                            "w-6 h-6",
+                                                          attrs: {
+                                                            viewBox: "0 0 24 24"
+                                                          }
+                                                        },
+                                                        [
+                                                          _c("path", {
+                                                            attrs: {
+                                                              fill:
+                                                                "currentColor",
+                                                              d:
+                                                                "M19,13H5V11H19V13Z"
+                                                            }
+                                                          })
+                                                        ]
+                                                      )
+                                                    : _vm._e()
+                                                ]
+                                              )
+                                            ]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "transition",
+                                            { attrs: { name: "fade" } },
+                                            [
+                                              _vm.showCatalog &&
+                                              _vm.showHouseholdGoods &&
+                                              _vm.showDescription
+                                                ? _c("div", [
+                                                    _c(
+                                                      "div",
+                                                      { staticClass: "mb-5" },
+                                                      [
+                                                        _c(
+                                                          "span",
+                                                          {
+                                                            staticClass:
+                                                              "text-xs font-black"
+                                                          },
+                                                          [
+                                                            _vm._v(
+                                                              "Держатели на 2 стакана предназначены\r\n                                                    для заведений работающих,\r\n                                                    работающих по системе\r\n                                                    take away"
+                                                            )
+                                                          ]
+                                                        )
+                                                      ]
+                                                    ),
+                                                    _vm._v(" "),
+                                                    _c(
+                                                      "div",
+                                                      { staticClass: "mb-5" },
+                                                      [
+                                                        _c(
+                                                          "span",
+                                                          {
+                                                            staticClass:
+                                                              "text-xs font-black"
+                                                          },
+                                                          [
+                                                            _vm._v(
+                                                              "Картонные держатели для\r\n                                                    одноразовых\r\n                                                    стаканов - незаменимый\r\n                                                    органайзер для\r\n                                                    организации продажи напитков\r\n                                                    на вынос"
+                                                            )
+                                                          ]
+                                                        )
+                                                      ]
+                                                    ),
+                                                    _vm._v(" "),
+                                                    _c(
+                                                      "div",
+                                                      { staticClass: "mb-5" },
+                                                      [
+                                                        _c(
+                                                          "span",
+                                                          {
+                                                            staticClass:
+                                                              "text-xs font-black"
+                                                          },
+                                                          [
+                                                            _vm._v(
+                                                              "Основные характеристики\r\n                                                    изделия: "
+                                                            ),
+                                                            _c("br"),
+                                                            _vm._v(
+                                                              "\r\n                                                    Упаковка: 150шт. "
+                                                            ),
+                                                            _c("br"),
+                                                            _vm._v(
+                                                              "\r\n                                                    Цвет: Крафт "
+                                                            ),
+                                                            _c("br"),
+                                                            _vm._v(
+                                                              "\r\n                                                    Фиксирует стаканы разного объема\r\n                                                    "
+                                                            ),
+                                                            _c("br"),
+                                                            _vm._v(
+                                                              "\r\n                                                    Производится из макулатуры"
+                                                            ),
+                                                            _c("br"),
+                                                            _vm._v(
+                                                              "\r\n                                                    Биоразлагаемый"
+                                                            ),
+                                                            _c("br"),
+                                                            _vm._v(
+                                                              "\r\n                                                    Подлежит вторичной\r\n                                                    переработке"
+                                                            ),
+                                                            _c("br")
+                                                          ]
+                                                        )
+                                                      ]
+                                                    )
+                                                  ])
+                                                : _vm._e()
+                                            ]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "div",
+                                            {
+                                              staticClass:
+                                                "flex border-2 border-green-450 rounded-full h-8 w-1/2"
+                                            },
+                                            [
+                                              _c(
+                                                "a",
+                                                {
+                                                  staticClass:
+                                                    "self-center pr-2 "
+                                                },
+                                                [
+                                                  _c(
+                                                    "svg",
+                                                    {
+                                                      staticStyle: {
+                                                        width: "32px",
+                                                        height: "32px"
+                                                      },
+                                                      attrs: {
+                                                        viewBox: "2 0 24 24"
+                                                      }
+                                                    },
+                                                    [
+                                                      _c("path", {
+                                                        attrs: {
+                                                          fill: "currentColor",
+                                                          d:
+                                                            "M12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22M17,14L12,9L7,14H17Z"
+                                                        }
+                                                      })
+                                                    ]
+                                                  )
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "span",
+                                                { staticClass: "self-center" },
+                                                [_vm._v("1 Штука")]
+                                              )
+                                            ]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "div",
+                                            {
+                                              staticClass:
+                                                "flex bg-black text-white rounded-full h-8 w-1/2 justify-end mt-2.5"
+                                            },
+                                            [
+                                              _c(
+                                                "span",
+                                                {
+                                                  staticClass:
+                                                    "self-center mr-6"
+                                                },
+                                                [_vm._v("00000")]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "svg",
+                                                {
+                                                  staticClass:
+                                                    "self-center pr-2",
+                                                  staticStyle: {
+                                                    width: "26px",
+                                                    height: "26px"
+                                                  },
+                                                  attrs: {
+                                                    viewBox: "0 0 24 24"
+                                                  }
+                                                },
+                                                [
+                                                  _c("path", {
+                                                    attrs: {
+                                                      fill: "currentColor",
+                                                      d:
+                                                        "M6,10H7V3H14.5C17,3 19,5 19,7.5C19,10 17,12 14.5,12H9V14H15V16H9V21H7V16H6V14H7V12H6V10M14.5,5H9V10H14.5A2.5,2.5 0 0,0 17,7.5A2.5,2.5 0 0,0 14.5,5Z"
+                                                    }
+                                                  })
+                                                ]
+                                              )
+                                            ]
+                                          )
+                                        ],
+                                        1
+                                      )
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "div",
+                                    {
+                                      staticClass: "flex flex-col bg-white mr-5"
+                                    },
+                                    [
+                                      _c("img", {
+                                        staticClass: "self-center",
+                                        attrs: { src: "images/coffe.png" }
+                                      }),
+                                      _vm._v(" "),
+                                      _c(
+                                        "div",
+                                        { staticClass: "pt-5 pb-5" },
+                                        [
+                                          _c("p", [
+                                            _vm._v(
+                                              "Держатели для двух стаканов"
+                                            )
+                                          ]),
+                                          _vm._v(" "),
+                                          _c(
+                                            "h1",
+                                            {
+                                              staticClass:
+                                                "text-2xl font-bold text-black border-b-2 pb-2.5"
+                                            },
+                                            [
+                                              _vm._v(
+                                                "\r\n                                        Eco cupholder\r\n                                    "
+                                              )
+                                            ]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "div",
+                                            {
+                                              staticClass:
+                                                "flex flex-row justify-between mt-2.5 mb-5"
+                                            },
+                                            [
+                                              _c(
+                                                "button",
+                                                {
+                                                  staticClass:
+                                                    "text-gray-400 focus:text-green-450"
+                                                },
+                                                [
+                                                  _c(
+                                                    "svg",
+                                                    {
+                                                      staticClass: "w-6 h-6",
+                                                      attrs: {
+                                                        viewBox: "0 0 24 24"
+                                                      }
+                                                    },
+                                                    [
+                                                      _c("path", {
+                                                        attrs: {
+                                                          fill: "currentColor",
+                                                          d:
+                                                            "M12.1,18.55L12,18.65L11.89,18.55C7.14,14.24 4,11.39 4,8.5C4,6.5 5.5,5 7.5,5C9.04,5 10.54,6 11.07,7.36H12.93C13.46,6 14.96,5 16.5,5C18.5,5 20,6.5 20,8.5C20,11.39 16.86,14.24 12.1,18.55M16.5,3C14.76,3 13.09,3.81 12,5.08C10.91,3.81 9.24,3 7.5,3C4.42,3 2,5.41 2,8.5C2,12.27 5.4,15.36 10.55,20.03L12,21.35L13.45,20.03C18.6,15.36 22,12.27 22,8.5C22,5.41 19.58,3 16.5,3Z"
+                                                        }
+                                                      })
+                                                    ]
+                                                  )
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "button",
+                                                {
+                                                  staticClass:
+                                                    "text-gray-400 focus:text-green-450",
+                                                  on: {
+                                                    click: function($event) {
+                                                      _vm.showDescription = !_vm.showDescription
+                                                    }
+                                                  }
+                                                },
+                                                [
+                                                  !_vm.showDescription
+                                                    ? _c(
+                                                        "svg",
+                                                        {
+                                                          staticClass:
+                                                            "w-6 h-6",
+                                                          attrs: {
+                                                            viewBox: "0 0 24 24"
+                                                          }
+                                                        },
+                                                        [
+                                                          _c("path", {
+                                                            attrs: {
+                                                              fill:
+                                                                "currentColor",
+                                                              d:
+                                                                "M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z"
+                                                            }
+                                                          })
+                                                        ]
+                                                      )
+                                                    : _vm._e(),
+                                                  _vm._v(" "),
+                                                  _vm.showDescription
+                                                    ? _c(
+                                                        "svg",
+                                                        {
+                                                          staticClass:
+                                                            "w-6 h-6",
+                                                          attrs: {
+                                                            viewBox: "0 0 24 24"
+                                                          }
+                                                        },
+                                                        [
+                                                          _c("path", {
+                                                            attrs: {
+                                                              fill:
+                                                                "currentColor",
+                                                              d:
+                                                                "M19,13H5V11H19V13Z"
+                                                            }
+                                                          })
+                                                        ]
+                                                      )
+                                                    : _vm._e()
+                                                ]
+                                              )
+                                            ]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "transition",
+                                            { attrs: { name: "fade" } },
+                                            [
+                                              _vm.showCatalog &&
+                                              _vm.showHouseholdGoods &&
+                                              _vm.showDescription
+                                                ? _c("div", [
+                                                    _c(
+                                                      "div",
+                                                      { staticClass: "mb-5" },
+                                                      [
+                                                        _c(
+                                                          "span",
+                                                          {
+                                                            staticClass:
+                                                              "text-xs font-black"
+                                                          },
+                                                          [
+                                                            _vm._v(
+                                                              "Держатели на 2 стакана предназначены\r\n                                                    для заведений работающих,\r\n                                                    работающих по системе\r\n                                                    take away"
+                                                            )
+                                                          ]
+                                                        )
+                                                      ]
+                                                    ),
+                                                    _vm._v(" "),
+                                                    _c(
+                                                      "div",
+                                                      { staticClass: "mb-5" },
+                                                      [
+                                                        _c(
+                                                          "span",
+                                                          {
+                                                            staticClass:
+                                                              "text-xs font-black"
+                                                          },
+                                                          [
+                                                            _vm._v(
+                                                              "Картонные держатели для\r\n                                                    одноразовых\r\n                                                    стаканов - незаменимый\r\n                                                    органайзер для\r\n                                                    организации продажи напитков\r\n                                                    на вынос"
+                                                            )
+                                                          ]
+                                                        )
+                                                      ]
+                                                    ),
+                                                    _vm._v(" "),
+                                                    _c(
+                                                      "div",
+                                                      { staticClass: "mb-5" },
+                                                      [
+                                                        _c(
+                                                          "span",
+                                                          {
+                                                            staticClass:
+                                                              "text-xs font-black"
+                                                          },
+                                                          [
+                                                            _vm._v(
+                                                              "Основные характеристики\r\n                                                    изделия: "
+                                                            ),
+                                                            _c("br"),
+                                                            _vm._v(
+                                                              "\r\n                                                    Упаковка: 150шт. "
+                                                            ),
+                                                            _c("br"),
+                                                            _vm._v(
+                                                              "\r\n                                                    Цвет: Крафт "
+                                                            ),
+                                                            _c("br"),
+                                                            _vm._v(
+                                                              "\r\n                                                    Фиксирует стаканы разного объема\r\n                                                    "
+                                                            ),
+                                                            _c("br"),
+                                                            _vm._v(
+                                                              "\r\n                                                    Производится из макулатуры"
+                                                            ),
+                                                            _c("br"),
+                                                            _vm._v(
+                                                              "\r\n                                                    Биоразлагаемый"
+                                                            ),
+                                                            _c("br"),
+                                                            _vm._v(
+                                                              "\r\n                                                    Подлежит вторичной\r\n                                                    переработке"
+                                                            ),
+                                                            _c("br")
+                                                          ]
+                                                        )
+                                                      ]
+                                                    )
+                                                  ])
+                                                : _vm._e()
+                                            ]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "div",
+                                            {
+                                              staticClass:
+                                                "flex border-2 border-green-450 rounded-full h-8 w-1/2"
+                                            },
+                                            [
+                                              _c(
+                                                "a",
+                                                {
+                                                  staticClass:
+                                                    "self-center pr-2 "
+                                                },
+                                                [
+                                                  _c(
+                                                    "svg",
+                                                    {
+                                                      staticStyle: {
+                                                        width: "32px",
+                                                        height: "32px"
+                                                      },
+                                                      attrs: {
+                                                        viewBox: "2 0 24 24"
+                                                      }
+                                                    },
+                                                    [
+                                                      _c("path", {
+                                                        attrs: {
+                                                          fill: "currentColor",
+                                                          d:
+                                                            "M12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22M17,14L12,9L7,14H17Z"
+                                                        }
+                                                      })
+                                                    ]
+                                                  )
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "span",
+                                                { staticClass: "self-center" },
+                                                [_vm._v("1 Штука")]
+                                              )
+                                            ]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "div",
+                                            {
+                                              staticClass:
+                                                "flex bg-black text-white rounded-full h-8 w-1/2 justify-end mt-2.5"
+                                            },
+                                            [
+                                              _c(
+                                                "span",
+                                                {
+                                                  staticClass:
+                                                    "self-center mr-6"
+                                                },
+                                                [_vm._v("00000")]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "svg",
+                                                {
+                                                  staticClass:
+                                                    "self-center pr-2",
+                                                  staticStyle: {
+                                                    width: "26px",
+                                                    height: "26px"
+                                                  },
+                                                  attrs: {
+                                                    viewBox: "0 0 24 24"
+                                                  }
+                                                },
+                                                [
+                                                  _c("path", {
+                                                    attrs: {
+                                                      fill: "currentColor",
+                                                      d:
+                                                        "M6,10H7V3H14.5C17,3 19,5 19,7.5C19,10 17,12 14.5,12H9V14H15V16H9V21H7V16H6V14H7V12H6V10M14.5,5H9V10H14.5A2.5,2.5 0 0,0 17,7.5A2.5,2.5 0 0,0 14.5,5Z"
+                                                    }
+                                                  })
+                                                ]
+                                              )
+                                            ]
+                                          )
+                                        ],
+                                        1
+                                      )
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "div",
+                                    {
+                                      staticClass: "flex flex-col bg-white mr-5"
+                                    },
+                                    [
+                                      _c("img", {
+                                        staticClass: "self-center",
+                                        attrs: { src: "images/coffe.png" }
+                                      }),
+                                      _vm._v(" "),
+                                      _c(
+                                        "div",
+                                        { staticClass: "pt-5 pb-5" },
+                                        [
+                                          _c("p", [
+                                            _vm._v(
+                                              "Держатели для двух стаканов"
+                                            )
+                                          ]),
+                                          _vm._v(" "),
+                                          _c(
+                                            "h1",
+                                            {
+                                              staticClass:
+                                                "text-2xl font-bold text-black border-b-2 pb-2.5"
+                                            },
+                                            [
+                                              _vm._v(
+                                                "\r\n                                        Eco cupholder\r\n                                    "
+                                              )
+                                            ]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "div",
+                                            {
+                                              staticClass:
+                                                "flex flex-row justify-between mt-2.5 mb-5"
+                                            },
+                                            [
+                                              _c(
+                                                "button",
+                                                {
+                                                  staticClass:
+                                                    "text-gray-400 focus:text-green-450"
+                                                },
+                                                [
+                                                  _c(
+                                                    "svg",
+                                                    {
+                                                      staticClass: "w-6 h-6",
+                                                      attrs: {
+                                                        viewBox: "0 0 24 24"
+                                                      }
+                                                    },
+                                                    [
+                                                      _c("path", {
+                                                        attrs: {
+                                                          fill: "currentColor",
+                                                          d:
+                                                            "M12.1,18.55L12,18.65L11.89,18.55C7.14,14.24 4,11.39 4,8.5C4,6.5 5.5,5 7.5,5C9.04,5 10.54,6 11.07,7.36H12.93C13.46,6 14.96,5 16.5,5C18.5,5 20,6.5 20,8.5C20,11.39 16.86,14.24 12.1,18.55M16.5,3C14.76,3 13.09,3.81 12,5.08C10.91,3.81 9.24,3 7.5,3C4.42,3 2,5.41 2,8.5C2,12.27 5.4,15.36 10.55,20.03L12,21.35L13.45,20.03C18.6,15.36 22,12.27 22,8.5C22,5.41 19.58,3 16.5,3Z"
+                                                        }
+                                                      })
+                                                    ]
+                                                  )
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "button",
+                                                {
+                                                  staticClass:
+                                                    "text-gray-400 focus:text-green-450",
+                                                  on: {
+                                                    click: function($event) {
+                                                      _vm.showDescription = !_vm.showDescription
+                                                    }
+                                                  }
+                                                },
+                                                [
+                                                  !_vm.showDescription
+                                                    ? _c(
+                                                        "svg",
+                                                        {
+                                                          staticClass:
+                                                            "w-6 h-6",
+                                                          attrs: {
+                                                            viewBox: "0 0 24 24"
+                                                          }
+                                                        },
+                                                        [
+                                                          _c("path", {
+                                                            attrs: {
+                                                              fill:
+                                                                "currentColor",
+                                                              d:
+                                                                "M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z"
+                                                            }
+                                                          })
+                                                        ]
+                                                      )
+                                                    : _vm._e(),
+                                                  _vm._v(" "),
+                                                  _vm.showDescription
+                                                    ? _c(
+                                                        "svg",
+                                                        {
+                                                          staticClass:
+                                                            "w-6 h-6",
+                                                          attrs: {
+                                                            viewBox: "0 0 24 24"
+                                                          }
+                                                        },
+                                                        [
+                                                          _c("path", {
+                                                            attrs: {
+                                                              fill:
+                                                                "currentColor",
+                                                              d:
+                                                                "M19,13H5V11H19V13Z"
+                                                            }
+                                                          })
+                                                        ]
+                                                      )
+                                                    : _vm._e()
+                                                ]
+                                              )
+                                            ]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "transition",
+                                            { attrs: { name: "fade" } },
+                                            [
+                                              _vm.showCatalog &&
+                                              _vm.showHouseholdGoods &&
+                                              _vm.showDescription
+                                                ? _c("div", [
+                                                    _c(
+                                                      "div",
+                                                      { staticClass: "mb-5" },
+                                                      [
+                                                        _c(
+                                                          "span",
+                                                          {
+                                                            staticClass:
+                                                              "text-xs font-black"
+                                                          },
+                                                          [
+                                                            _vm._v(
+                                                              "Держатели на 2 стакана предназначены\r\n                                                    для заведений работающих,\r\n                                                    работающих по системе\r\n                                                    take away"
+                                                            )
+                                                          ]
+                                                        )
+                                                      ]
+                                                    ),
+                                                    _vm._v(" "),
+                                                    _c(
+                                                      "div",
+                                                      { staticClass: "mb-5" },
+                                                      [
+                                                        _c(
+                                                          "span",
+                                                          {
+                                                            staticClass:
+                                                              "text-xs font-black"
+                                                          },
+                                                          [
+                                                            _vm._v(
+                                                              "Картонные держатели для\r\n                                                    одноразовых\r\n                                                    стаканов - незаменимый\r\n                                                    органайзер для\r\n                                                    организации продажи напитков\r\n                                                    на вынос"
+                                                            )
+                                                          ]
+                                                        )
+                                                      ]
+                                                    ),
+                                                    _vm._v(" "),
+                                                    _c(
+                                                      "div",
+                                                      { staticClass: "mb-5" },
+                                                      [
+                                                        _c(
+                                                          "span",
+                                                          {
+                                                            staticClass:
+                                                              "text-xs font-black"
+                                                          },
+                                                          [
+                                                            _vm._v(
+                                                              "Основные характеристики\r\n                                                    изделия: "
+                                                            ),
+                                                            _c("br"),
+                                                            _vm._v(
+                                                              "\r\n                                                    Упаковка: 150шт. "
+                                                            ),
+                                                            _c("br"),
+                                                            _vm._v(
+                                                              "\r\n                                                    Цвет: Крафт "
+                                                            ),
+                                                            _c("br"),
+                                                            _vm._v(
+                                                              "\r\n                                                    Фиксирует стаканы разного объема\r\n                                                    "
+                                                            ),
+                                                            _c("br"),
+                                                            _vm._v(
+                                                              "\r\n                                                    Производится из макулатуры"
+                                                            ),
+                                                            _c("br"),
+                                                            _vm._v(
+                                                              "\r\n                                                    Биоразлагаемый"
+                                                            ),
+                                                            _c("br"),
+                                                            _vm._v(
+                                                              "\r\n                                                    Подлежит вторичной\r\n                                                    переработке"
+                                                            ),
+                                                            _c("br")
+                                                          ]
+                                                        )
+                                                      ]
+                                                    )
+                                                  ])
+                                                : _vm._e()
+                                            ]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "div",
+                                            {
+                                              staticClass:
+                                                "flex border-2 border-green-450 rounded-full h-8 w-1/2"
+                                            },
+                                            [
+                                              _c(
+                                                "a",
+                                                {
+                                                  staticClass:
+                                                    "self-center pr-2 "
+                                                },
+                                                [
+                                                  _c(
+                                                    "svg",
+                                                    {
+                                                      staticStyle: {
+                                                        width: "32px",
+                                                        height: "32px"
+                                                      },
+                                                      attrs: {
+                                                        viewBox: "2 0 24 24"
+                                                      }
+                                                    },
+                                                    [
+                                                      _c("path", {
+                                                        attrs: {
+                                                          fill: "currentColor",
+                                                          d:
+                                                            "M12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22M17,14L12,9L7,14H17Z"
+                                                        }
+                                                      })
+                                                    ]
+                                                  )
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "span",
+                                                { staticClass: "self-center" },
+                                                [_vm._v("1 Штука")]
+                                              )
+                                            ]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "div",
+                                            {
+                                              staticClass:
+                                                "flex bg-black text-white rounded-full h-8 w-1/2 justify-end mt-2.5"
+                                            },
+                                            [
+                                              _c(
+                                                "span",
+                                                {
+                                                  staticClass:
+                                                    "self-center mr-6"
+                                                },
+                                                [_vm._v("00000")]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "svg",
+                                                {
+                                                  staticClass:
+                                                    "self-center pr-2",
+                                                  staticStyle: {
+                                                    width: "26px",
+                                                    height: "26px"
+                                                  },
+                                                  attrs: {
+                                                    viewBox: "0 0 24 24"
+                                                  }
+                                                },
+                                                [
+                                                  _c("path", {
+                                                    attrs: {
+                                                      fill: "currentColor",
+                                                      d:
+                                                        "M6,10H7V3H14.5C17,3 19,5 19,7.5C19,10 17,12 14.5,12H9V14H15V16H9V21H7V16H6V14H7V12H6V10M14.5,5H9V10H14.5A2.5,2.5 0 0,0 17,7.5A2.5,2.5 0 0,0 14.5,5Z"
+                                                    }
+                                                  })
+                                                ]
+                                              )
+                                            ]
+                                          )
+                                        ],
+                                        1
+                                      )
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "div",
+                                    {
+                                      staticClass: "flex flex-col bg-white mr-5"
+                                    },
+                                    [
+                                      _c("img", {
+                                        staticClass: "self-center",
+                                        attrs: { src: "images/coffe.png" }
+                                      }),
+                                      _vm._v(" "),
+                                      _c(
+                                        "div",
+                                        { staticClass: "pt-5 pb-5" },
+                                        [
+                                          _c("p", [
+                                            _vm._v(
+                                              "Держатели для двух стаканов"
+                                            )
+                                          ]),
+                                          _vm._v(" "),
+                                          _c(
+                                            "h1",
+                                            {
+                                              staticClass:
+                                                "text-2xl font-bold text-black border-b-2 pb-2.5"
+                                            },
+                                            [
+                                              _vm._v(
+                                                "\r\n                                        Eco cupholder\r\n                                    "
+                                              )
+                                            ]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "div",
+                                            {
+                                              staticClass:
+                                                "flex flex-row justify-between mt-2.5 mb-5"
+                                            },
+                                            [
+                                              _c(
+                                                "button",
+                                                {
+                                                  staticClass:
+                                                    "text-gray-400 focus:text-green-450"
+                                                },
+                                                [
+                                                  _c(
+                                                    "svg",
+                                                    {
+                                                      staticClass: "w-6 h-6",
+                                                      attrs: {
+                                                        viewBox: "0 0 24 24"
+                                                      }
+                                                    },
+                                                    [
+                                                      _c("path", {
+                                                        attrs: {
+                                                          fill: "currentColor",
+                                                          d:
+                                                            "M12.1,18.55L12,18.65L11.89,18.55C7.14,14.24 4,11.39 4,8.5C4,6.5 5.5,5 7.5,5C9.04,5 10.54,6 11.07,7.36H12.93C13.46,6 14.96,5 16.5,5C18.5,5 20,6.5 20,8.5C20,11.39 16.86,14.24 12.1,18.55M16.5,3C14.76,3 13.09,3.81 12,5.08C10.91,3.81 9.24,3 7.5,3C4.42,3 2,5.41 2,8.5C2,12.27 5.4,15.36 10.55,20.03L12,21.35L13.45,20.03C18.6,15.36 22,12.27 22,8.5C22,5.41 19.58,3 16.5,3Z"
+                                                        }
+                                                      })
+                                                    ]
+                                                  )
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "button",
+                                                {
+                                                  staticClass:
+                                                    "text-gray-400 focus:text-green-450",
+                                                  on: {
+                                                    click: function($event) {
+                                                      _vm.showDescription = !_vm.showDescription
+                                                    }
+                                                  }
+                                                },
+                                                [
+                                                  !_vm.showDescription
+                                                    ? _c(
+                                                        "svg",
+                                                        {
+                                                          staticClass:
+                                                            "w-6 h-6",
+                                                          attrs: {
+                                                            viewBox: "0 0 24 24"
+                                                          }
+                                                        },
+                                                        [
+                                                          _c("path", {
+                                                            attrs: {
+                                                              fill:
+                                                                "currentColor",
+                                                              d:
+                                                                "M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z"
+                                                            }
+                                                          })
+                                                        ]
+                                                      )
+                                                    : _vm._e(),
+                                                  _vm._v(" "),
+                                                  _vm.showDescription
+                                                    ? _c(
+                                                        "svg",
+                                                        {
+                                                          staticClass:
+                                                            "w-6 h-6",
+                                                          attrs: {
+                                                            viewBox: "0 0 24 24"
+                                                          }
+                                                        },
+                                                        [
+                                                          _c("path", {
+                                                            attrs: {
+                                                              fill:
+                                                                "currentColor",
+                                                              d:
+                                                                "M19,13H5V11H19V13Z"
+                                                            }
+                                                          })
+                                                        ]
+                                                      )
+                                                    : _vm._e()
+                                                ]
+                                              )
+                                            ]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "transition",
+                                            { attrs: { name: "fade" } },
+                                            [
+                                              _vm.showCatalog &&
+                                              _vm.showHouseholdGoods &&
+                                              _vm.showDescription
+                                                ? _c("div", [
+                                                    _c(
+                                                      "div",
+                                                      { staticClass: "mb-5" },
+                                                      [
+                                                        _c(
+                                                          "span",
+                                                          {
+                                                            staticClass:
+                                                              "text-xs font-black"
+                                                          },
+                                                          [
+                                                            _vm._v(
+                                                              "Держатели на 2 стакана предназначены\r\n                                                    для заведений работающих,\r\n                                                    работающих по системе\r\n                                                    take away"
+                                                            )
+                                                          ]
+                                                        )
+                                                      ]
+                                                    ),
+                                                    _vm._v(" "),
+                                                    _c(
+                                                      "div",
+                                                      { staticClass: "mb-5" },
+                                                      [
+                                                        _c(
+                                                          "span",
+                                                          {
+                                                            staticClass:
+                                                              "text-xs font-black"
+                                                          },
+                                                          [
+                                                            _vm._v(
+                                                              "Картонные держатели для\r\n                                                    одноразовых\r\n                                                    стаканов - незаменимый\r\n                                                    органайзер для\r\n                                                    организации продажи напитков\r\n                                                    на вынос"
+                                                            )
+                                                          ]
+                                                        )
+                                                      ]
+                                                    ),
+                                                    _vm._v(" "),
+                                                    _c(
+                                                      "div",
+                                                      { staticClass: "mb-5" },
+                                                      [
+                                                        _c(
+                                                          "span",
+                                                          {
+                                                            staticClass:
+                                                              "text-xs font-black"
+                                                          },
+                                                          [
+                                                            _vm._v(
+                                                              "Основные характеристики\r\n                                                    изделия: "
+                                                            ),
+                                                            _c("br"),
+                                                            _vm._v(
+                                                              "\r\n                                                    Упаковка: 150шт. "
+                                                            ),
+                                                            _c("br"),
+                                                            _vm._v(
+                                                              "\r\n                                                    Цвет: Крафт "
+                                                            ),
+                                                            _c("br"),
+                                                            _vm._v(
+                                                              "\r\n                                                    Фиксирует стаканы разного объема\r\n                                                    "
+                                                            ),
+                                                            _c("br"),
+                                                            _vm._v(
+                                                              "\r\n                                                    Производится из макулатуры"
+                                                            ),
+                                                            _c("br"),
+                                                            _vm._v(
+                                                              "\r\n                                                    Биоразлагаемый"
+                                                            ),
+                                                            _c("br"),
+                                                            _vm._v(
+                                                              "\r\n                                                    Подлежит вторичной\r\n                                                    переработке"
+                                                            ),
+                                                            _c("br")
+                                                          ]
+                                                        )
+                                                      ]
+                                                    )
+                                                  ])
+                                                : _vm._e()
+                                            ]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "div",
+                                            {
+                                              staticClass:
+                                                "flex border-2 border-green-450 rounded-full h-8 w-1/2"
+                                            },
+                                            [
+                                              _c(
+                                                "a",
+                                                {
+                                                  staticClass:
+                                                    "self-center pr-2 "
+                                                },
+                                                [
+                                                  _c(
+                                                    "svg",
+                                                    {
+                                                      staticStyle: {
+                                                        width: "32px",
+                                                        height: "32px"
+                                                      },
+                                                      attrs: {
+                                                        viewBox: "2 0 24 24"
+                                                      }
+                                                    },
+                                                    [
+                                                      _c("path", {
+                                                        attrs: {
+                                                          fill: "currentColor",
+                                                          d:
+                                                            "M12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22M17,14L12,9L7,14H17Z"
+                                                        }
+                                                      })
+                                                    ]
+                                                  )
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "span",
+                                                { staticClass: "self-center" },
+                                                [_vm._v("1 Штука")]
+                                              )
+                                            ]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "div",
+                                            {
+                                              staticClass:
+                                                "flex bg-black text-white rounded-full h-8 w-1/2 justify-end mt-2.5"
+                                            },
+                                            [
+                                              _c(
+                                                "span",
+                                                {
+                                                  staticClass:
+                                                    "self-center mr-6"
+                                                },
+                                                [_vm._v("00000")]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "svg",
+                                                {
+                                                  staticClass:
+                                                    "self-center pr-2",
+                                                  staticStyle: {
+                                                    width: "26px",
+                                                    height: "26px"
+                                                  },
+                                                  attrs: {
+                                                    viewBox: "0 0 24 24"
+                                                  }
+                                                },
+                                                [
+                                                  _c("path", {
+                                                    attrs: {
+                                                      fill: "currentColor",
+                                                      d:
+                                                        "M6,10H7V3H14.5C17,3 19,5 19,7.5C19,10 17,12 14.5,12H9V14H15V16H9V21H7V16H6V14H7V12H6V10M14.5,5H9V10H14.5A2.5,2.5 0 0,0 17,7.5A2.5,2.5 0 0,0 14.5,5Z"
+                                                    }
+                                                  })
+                                                ]
+                                              )
+                                            ]
+                                          )
+                                        ],
+                                        1
+                                      )
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "div",
+                                    {
+                                      staticClass: "flex flex-col bg-white mr-5"
+                                    },
+                                    [
+                                      _c("img", {
+                                        staticClass: "self-center",
+                                        attrs: { src: "images/coffe.png" }
+                                      }),
+                                      _vm._v(" "),
+                                      _c(
+                                        "div",
+                                        { staticClass: "pt-5 pb-5" },
+                                        [
+                                          _c("p", [
+                                            _vm._v(
+                                              "Держатели для двух стаканов"
+                                            )
+                                          ]),
+                                          _vm._v(" "),
+                                          _c(
+                                            "h1",
+                                            {
+                                              staticClass:
+                                                "text-2xl font-bold text-black border-b-2 pb-2.5"
+                                            },
+                                            [
+                                              _vm._v(
+                                                "\r\n                                        Eco cupholder\r\n                                    "
+                                              )
+                                            ]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "div",
+                                            {
+                                              staticClass:
+                                                "flex flex-row justify-between mt-2.5 mb-5"
+                                            },
+                                            [
+                                              _c(
+                                                "button",
+                                                {
+                                                  staticClass:
+                                                    "text-gray-400 focus:text-green-450"
+                                                },
+                                                [
+                                                  _c(
+                                                    "svg",
+                                                    {
+                                                      staticClass: "w-6 h-6",
+                                                      attrs: {
+                                                        viewBox: "0 0 24 24"
+                                                      }
+                                                    },
+                                                    [
+                                                      _c("path", {
+                                                        attrs: {
+                                                          fill: "currentColor",
+                                                          d:
+                                                            "M12.1,18.55L12,18.65L11.89,18.55C7.14,14.24 4,11.39 4,8.5C4,6.5 5.5,5 7.5,5C9.04,5 10.54,6 11.07,7.36H12.93C13.46,6 14.96,5 16.5,5C18.5,5 20,6.5 20,8.5C20,11.39 16.86,14.24 12.1,18.55M16.5,3C14.76,3 13.09,3.81 12,5.08C10.91,3.81 9.24,3 7.5,3C4.42,3 2,5.41 2,8.5C2,12.27 5.4,15.36 10.55,20.03L12,21.35L13.45,20.03C18.6,15.36 22,12.27 22,8.5C22,5.41 19.58,3 16.5,3Z"
+                                                        }
+                                                      })
+                                                    ]
+                                                  )
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "button",
+                                                {
+                                                  staticClass:
+                                                    "text-gray-400 focus:text-green-450",
+                                                  on: {
+                                                    click: function($event) {
+                                                      _vm.showDescription = !_vm.showDescription
+                                                    }
+                                                  }
+                                                },
+                                                [
+                                                  !_vm.showDescription
+                                                    ? _c(
+                                                        "svg",
+                                                        {
+                                                          staticClass:
+                                                            "w-6 h-6",
+                                                          attrs: {
+                                                            viewBox: "0 0 24 24"
+                                                          }
+                                                        },
+                                                        [
+                                                          _c("path", {
+                                                            attrs: {
+                                                              fill:
+                                                                "currentColor",
+                                                              d:
+                                                                "M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z"
+                                                            }
+                                                          })
+                                                        ]
+                                                      )
+                                                    : _vm._e(),
+                                                  _vm._v(" "),
+                                                  _vm.showDescription
+                                                    ? _c(
+                                                        "svg",
+                                                        {
+                                                          staticClass:
+                                                            "w-6 h-6",
+                                                          attrs: {
+                                                            viewBox: "0 0 24 24"
+                                                          }
+                                                        },
+                                                        [
+                                                          _c("path", {
+                                                            attrs: {
+                                                              fill:
+                                                                "currentColor",
+                                                              d:
+                                                                "M19,13H5V11H19V13Z"
+                                                            }
+                                                          })
+                                                        ]
+                                                      )
+                                                    : _vm._e()
+                                                ]
+                                              )
+                                            ]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "transition",
+                                            { attrs: { name: "fade" } },
+                                            [
+                                              _vm.showCatalog &&
+                                              _vm.showHouseholdGoods &&
+                                              _vm.showDescription
+                                                ? _c("div", [
+                                                    _c(
+                                                      "div",
+                                                      { staticClass: "mb-5" },
+                                                      [
+                                                        _c(
+                                                          "span",
+                                                          {
+                                                            staticClass:
+                                                              "text-xs font-black"
+                                                          },
+                                                          [
+                                                            _vm._v(
+                                                              "Держатели на 2 стакана предназначены\r\n                                                    для заведений работающих,\r\n                                                    работающих по системе\r\n                                                    take away"
+                                                            )
+                                                          ]
+                                                        )
+                                                      ]
+                                                    ),
+                                                    _vm._v(" "),
+                                                    _c(
+                                                      "div",
+                                                      { staticClass: "mb-5" },
+                                                      [
+                                                        _c(
+                                                          "span",
+                                                          {
+                                                            staticClass:
+                                                              "text-xs font-black"
+                                                          },
+                                                          [
+                                                            _vm._v(
+                                                              "Картонные держатели для\r\n                                                    одноразовых\r\n                                                    стаканов - незаменимый\r\n                                                    органайзер для\r\n                                                    организации продажи напитков\r\n                                                    на вынос"
+                                                            )
+                                                          ]
+                                                        )
+                                                      ]
+                                                    ),
+                                                    _vm._v(" "),
+                                                    _c(
+                                                      "div",
+                                                      { staticClass: "mb-5" },
+                                                      [
+                                                        _c(
+                                                          "span",
+                                                          {
+                                                            staticClass:
+                                                              "text-xs font-black"
+                                                          },
+                                                          [
+                                                            _vm._v(
+                                                              "Основные характеристики\r\n                                                    изделия: "
+                                                            ),
+                                                            _c("br"),
+                                                            _vm._v(
+                                                              "\r\n                                                    Упаковка: 150шт. "
+                                                            ),
+                                                            _c("br"),
+                                                            _vm._v(
+                                                              "\r\n                                                    Цвет: Крафт "
+                                                            ),
+                                                            _c("br"),
+                                                            _vm._v(
+                                                              "\r\n                                                    Фиксирует стаканы разного объема\r\n                                                    "
+                                                            ),
+                                                            _c("br"),
+                                                            _vm._v(
+                                                              "\r\n                                                    Производится из макулатуры"
+                                                            ),
+                                                            _c("br"),
+                                                            _vm._v(
+                                                              "\r\n                                                    Биоразлагаемый"
+                                                            ),
+                                                            _c("br"),
+                                                            _vm._v(
+                                                              "\r\n                                                    Подлежит вторичной\r\n                                                    переработке"
+                                                            ),
+                                                            _c("br")
+                                                          ]
+                                                        )
+                                                      ]
+                                                    )
+                                                  ])
+                                                : _vm._e()
+                                            ]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "div",
+                                            {
+                                              staticClass:
+                                                "flex border-2 border-green-450 rounded-full h-8 w-1/2"
+                                            },
+                                            [
+                                              _c(
+                                                "a",
+                                                {
+                                                  staticClass:
+                                                    "self-center pr-2 "
+                                                },
+                                                [
+                                                  _c(
+                                                    "svg",
+                                                    {
+                                                      staticStyle: {
+                                                        width: "32px",
+                                                        height: "32px"
+                                                      },
+                                                      attrs: {
+                                                        viewBox: "2 0 24 24"
+                                                      }
+                                                    },
+                                                    [
+                                                      _c("path", {
+                                                        attrs: {
+                                                          fill: "currentColor",
+                                                          d:
+                                                            "M12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22M17,14L12,9L7,14H17Z"
+                                                        }
+                                                      })
+                                                    ]
+                                                  )
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "span",
+                                                { staticClass: "self-center" },
+                                                [_vm._v("1 Штука")]
+                                              )
+                                            ]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "div",
+                                            {
+                                              staticClass:
+                                                "flex bg-black text-white rounded-full h-8 w-1/2 justify-end mt-2.5"
+                                            },
+                                            [
+                                              _c(
+                                                "span",
+                                                {
+                                                  staticClass:
+                                                    "self-center mr-6"
+                                                },
+                                                [_vm._v("00000")]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "svg",
+                                                {
+                                                  staticClass:
+                                                    "self-center pr-2",
+                                                  staticStyle: {
+                                                    width: "26px",
+                                                    height: "26px"
+                                                  },
+                                                  attrs: {
+                                                    viewBox: "0 0 24 24"
+                                                  }
+                                                },
+                                                [
+                                                  _c("path", {
+                                                    attrs: {
+                                                      fill: "currentColor",
+                                                      d:
+                                                        "M6,10H7V3H14.5C17,3 19,5 19,7.5C19,10 17,12 14.5,12H9V14H15V16H9V21H7V16H6V14H7V12H6V10M14.5,5H9V10H14.5A2.5,2.5 0 0,0 17,7.5A2.5,2.5 0 0,0 14.5,5Z"
+                                                    }
+                                                  })
+                                                ]
+                                              )
+                                            ]
+                                          )
+                                        ],
+                                        1
+                                      )
+                                    ]
+                                  )
+                                ]
+                              )
+                            ]
+                          )
+                        ],
+                        1
+                      )
+                    : _vm._e()
+                ])
+              ],
+              1
             )
-          ]),
-          _vm._v(" "),
-          _vm._m(4)
-        ])
-      ]
-    )
-  ])
+          : _vm._e()
+      ])
+    ],
+    1
+  )
 }
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c(
-      "div",
-      { staticClass: "ml-4 text-lg text-gray-600 leading-7 font-semibold" },
-      [
-        _c("a", { attrs: { href: "https://laravel.com/docs" } }, [
-          _vm._v("Documentation")
-        ])
-      ]
-    )
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c(
-      "div",
-      { staticClass: "ml-4 text-lg text-gray-600 leading-7 font-semibold" },
-      [
-        _c("a", { attrs: { href: "https://laracasts.com" } }, [
-          _vm._v("Laracasts")
-        ])
-      ]
-    )
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c(
-      "div",
-      { staticClass: "ml-4 text-lg text-gray-600 leading-7 font-semibold" },
-      [
-        _c("a", { attrs: { href: "https://tailwindcss.com/" } }, [
-          _vm._v("Tailwind")
-        ])
-      ]
-    )
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "ml-12" }, [
-      _c("div", { staticClass: "mt-2 text-sm text-gray-500" }, [
-        _vm._v(
-          "\n                    Laravel Jetstream is built with Tailwind, an amazing utility first CSS framework that doesn't get in your way. You'll be amazed how easily you can build and maintain fresh, modern designs with this wonderful framework at your fingertips.\n                "
-        )
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "ml-12" }, [
-      _c("div", { staticClass: "mt-2 text-sm text-gray-500" }, [
-        _vm._v(
-          "\n                    Authentication and registration views are included with Laravel Jetstream, as well as support for user email verification and resetting forgotten passwords. So, you're free to get started what matters most: building your application.\n                "
-        )
-      ])
-    ])
-  }
-]
+var staticRenderFns = []
 render._withStripped = true
 
 

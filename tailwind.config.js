@@ -20,6 +20,11 @@ module.exports = {
             spacing: {
                 '24': '6.25rem'
             },
+            colors: {
+                green: {
+                  450: '#b8d54b'
+                },
+            }
         },
     },
 
