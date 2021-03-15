@@ -40,7 +40,7 @@
             >
               <div class="grid grid-cols-4 gap-4">
                 <div
-                  class="flex flex-col mr-5 h-64 w-64 hover:scale-125 relative"
+                  class="flex flex-col mr-5 h-64 w-64 hover:opacity-50 relative"
                   @mouseover="IsHover = true"
                   @mouseleave="IsHover = false"
                   style="background-image: url(images/coffe.png)"
@@ -60,7 +60,7 @@
                   ></button>
                   <!-- <img src="images/coffe.png" class="self-center hover:opacity-50" /> -->
                 </div>
-            
+                  
               </div>
             </simplebar>
           </div>
