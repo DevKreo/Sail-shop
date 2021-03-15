@@ -208,7 +208,7 @@
             v-if="showCatalog && showHouseholdGoods"
             class="flex pl-20 mb-2.5"
           >
-            <div class="clients flex-initial mb-4">
+            <div class="clients flex-initial mb-4 mr-4">
               <span>household goods</span>
             </div>
             <simplebar
