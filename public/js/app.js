@@ -4150,6 +4150,410 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 
 
@@ -4167,7 +4571,10 @@ __webpack_require__.r(__webpack_exports__);
       showPaperProf: false,
       showProfAndHouseholdChemistry: false,
       showCatalog: false,
-      showDescription: false,
+      showDescription1: false,
+      showDescription2: false,
+      showDescription3: false,
+      showDescription4: false,
       settings: [{
         id: "1",
         value: "Мешки для мусора"
@@ -12880,7 +13287,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n[type=\"checkbox\"]:checked {\r\n    background-image: url(\"/images/circle-medium.png\");\n}\n.simplebar-track.simplebar-vertical {\r\n    background-color: #ff8080;\r\n    width: 5px;\r\n    margin-right: 5rem;\r\n    border-radius: 3px;\r\n    margin-bottom: 16px;\r\n    opacity: 1;\r\n    overflow: visible;\r\n    visibility: visible;\n}\n.simplebar-scrollbar.simplebar-visible::before {\r\n    opacity: 1;\r\n    top: 0 !important;\r\n    bottom: 0 !important;\r\n    left: -2px;\r\n    right: 0;\n}\n.simplebar-scrollbar:before {\r\n    background-color: #000000;\r\n    width: 9px;\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n[type=\"checkbox\"]:checked {\r\n  background-image: url(\"/images/circle-medium.png\");\n}\n.simplebar-track.simplebar-vertical {\r\n  background-color: #bbd54c;\r\n  width: 5px;\r\n  margin-right: 5rem;\r\n  border-radius: 3px;\r\n  margin-bottom: 16px;\r\n  opacity: 1;\r\n  overflow: visible;\r\n  visibility: visible;\n}\n.simplebar-scrollbar.simplebar-visible::before {\r\n  opacity: 1;\r\n  top: 0 !important;\r\n  bottom: 0 !important;\r\n  left: -2px;\r\n  right: 0;\n}\n.simplebar-scrollbar:before {\r\n  background-color: #000000;\r\n  width: 9px;\n}\n.clients {\r\n  -ms-writing-mode: tb-lr;\r\n      writing-mode: vertical-lr;\r\n  transform: rotate(180deg);\r\n  font-size: 20px;\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -40406,9 +40813,7 @@ var render = function() {
                         }),
                         _vm._v(" "),
                         _c("span", {}, [
-                          _vm._v(
-                            "\r\n                        Бумажная профессиональная продукция\r\n                    "
-                          )
+                          _vm._v(" Бумажная профессиональная продукция ")
                         ])
                       ]
                     ),
@@ -40658,6 +41063,12 @@ var render = function() {
                         { staticClass: "flex pl-20 mb-2.5" },
                         [
                           _c(
+                            "div",
+                            { staticClass: "clients flex-initial mb-4" },
+                            [_c("span", [_vm._v("household goods")])]
+                          ),
+                          _vm._v(" "),
+                          _c(
                             "simplebar",
                             {
                               staticClass:
@@ -40698,7 +41109,7 @@ var render = function() {
                                             },
                                             [
                                               _vm._v(
-                                                "\r\n                                        Eco cupholder\r\n                                    "
+                                                "\n                    Eco cupholder\n                  "
                                               )
                                             ]
                                           ),
@@ -40745,12 +41156,12 @@ var render = function() {
                                                     "text-gray-400 focus:text-green-450",
                                                   on: {
                                                     click: function($event) {
-                                                      _vm.showDescription = !_vm.showDescription
+                                                      _vm.showDescription1 = !_vm.showDescription1
                                                     }
                                                   }
                                                 },
                                                 [
-                                                  !_vm.showDescription
+                                                  !_vm.showDescription1
                                                     ? _c(
                                                         "svg",
                                                         {
@@ -40773,7 +41184,7 @@ var render = function() {
                                                       )
                                                     : _vm._e(),
                                                   _vm._v(" "),
-                                                  _vm.showDescription
+                                                  _vm.showDescription1
                                                     ? _c(
                                                         "svg",
                                                         {
@@ -40806,7 +41217,7 @@ var render = function() {
                                             [
                                               _vm.showCatalog &&
                                               _vm.showHouseholdGoods &&
-                                              _vm.showDescription
+                                              _vm.showDescription1
                                                 ? _c("div", [
                                                     _c(
                                                       "div",
@@ -40820,7 +41231,7 @@ var render = function() {
                                                           },
                                                           [
                                                             _vm._v(
-                                                              "Держатели на 2 стакана предназначены\r\n                                                    для заведений работающих,\r\n                                                    работающих по системе\r\n                                                    take away"
+                                                              "Держатели на 2 стакана предназначены для заведений\n                          работающих, работающих по системе take away"
                                                             )
                                                           ]
                                                         )
@@ -40839,7 +41250,7 @@ var render = function() {
                                                           },
                                                           [
                                                             _vm._v(
-                                                              "Картонные держатели для\r\n                                                    одноразовых\r\n                                                    стаканов - незаменимый\r\n                                                    органайзер для\r\n                                                    организации продажи напитков\r\n                                                    на вынос"
+                                                              "Картонные держатели для одноразовых стаканов -\n                          незаменимый органайзер для организации продажи\n                          напитков на вынос"
                                                             )
                                                           ]
                                                         )
@@ -40858,31 +41269,31 @@ var render = function() {
                                                           },
                                                           [
                                                             _vm._v(
-                                                              "Основные характеристики\r\n                                                    изделия: "
+                                                              "Основные характеристики изделия: "
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\r\n                                                    Упаковка: 150шт. "
+                                                              "\n                          Упаковка: 150шт. "
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\r\n                                                    Цвет: Крафт "
+                                                              "\n                          Цвет: Крафт "
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\r\n                                                    Фиксирует стаканы разного объема\r\n                                                    "
+                                                              "\n                          Фиксирует стаканы разного объема\n                          "
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\r\n                                                    Производится из макулатуры"
+                                                              "\n                          Производится из макулатуры"
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\r\n                                                    Биоразлагаемый"
+                                                              "\n                          Биоразлагаемый"
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\r\n                                                    Подлежит вторичной\r\n                                                    переработке"
+                                                              "\n                          Подлежит вторичной переработке"
                                                             ),
                                                             _c("br")
                                                           ]
@@ -40905,7 +41316,7 @@ var render = function() {
                                                 "a",
                                                 {
                                                   staticClass:
-                                                    "self-center pr-2 "
+                                                    "self-center pr-2"
                                                 },
                                                 [
                                                   _c(
@@ -41016,7 +41427,7 @@ var render = function() {
                                             },
                                             [
                                               _vm._v(
-                                                "\r\n                                        Eco cupholder\r\n                                    "
+                                                "\n                    Eco cupholder\n                  "
                                               )
                                             ]
                                           ),
@@ -41063,12 +41474,12 @@ var render = function() {
                                                     "text-gray-400 focus:text-green-450",
                                                   on: {
                                                     click: function($event) {
-                                                      _vm.showDescription = !_vm.showDescription
+                                                      _vm.showDescription2 = !_vm.showDescription2
                                                     }
                                                   }
                                                 },
                                                 [
-                                                  !_vm.showDescription
+                                                  !_vm.showDescription2
                                                     ? _c(
                                                         "svg",
                                                         {
@@ -41091,7 +41502,7 @@ var render = function() {
                                                       )
                                                     : _vm._e(),
                                                   _vm._v(" "),
-                                                  _vm.showDescription
+                                                  _vm.showDescription2
                                                     ? _c(
                                                         "svg",
                                                         {
@@ -41124,7 +41535,7 @@ var render = function() {
                                             [
                                               _vm.showCatalog &&
                                               _vm.showHouseholdGoods &&
-                                              _vm.showDescription
+                                              _vm.showDescription2
                                                 ? _c("div", [
                                                     _c(
                                                       "div",
@@ -41138,7 +41549,7 @@ var render = function() {
                                                           },
                                                           [
                                                             _vm._v(
-                                                              "Держатели на 2 стакана предназначены\r\n                                                    для заведений работающих,\r\n                                                    работающих по системе\r\n                                                    take away"
+                                                              "Держатели на 2 стакана предназначены для заведений\n                          работающих, работающих по системе take away"
                                                             )
                                                           ]
                                                         )
@@ -41157,7 +41568,7 @@ var render = function() {
                                                           },
                                                           [
                                                             _vm._v(
-                                                              "Картонные держатели для\r\n                                                    одноразовых\r\n                                                    стаканов - незаменимый\r\n                                                    органайзер для\r\n                                                    организации продажи напитков\r\n                                                    на вынос"
+                                                              "Картонные держатели для одноразовых стаканов -\n                          незаменимый органайзер для организации продажи\n                          напитков на вынос"
                                                             )
                                                           ]
                                                         )
@@ -41176,31 +41587,31 @@ var render = function() {
                                                           },
                                                           [
                                                             _vm._v(
-                                                              "Основные характеристики\r\n                                                    изделия: "
+                                                              "Основные характеристики изделия: "
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\r\n                                                    Упаковка: 150шт. "
+                                                              "\n                          Упаковка: 150шт. "
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\r\n                                                    Цвет: Крафт "
+                                                              "\n                          Цвет: Крафт "
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\r\n                                                    Фиксирует стаканы разного объема\r\n                                                    "
+                                                              "\n                          Фиксирует стаканы разного объема\n                          "
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\r\n                                                    Производится из макулатуры"
+                                                              "\n                          Производится из макулатуры"
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\r\n                                                    Биоразлагаемый"
+                                                              "\n                          Биоразлагаемый"
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\r\n                                                    Подлежит вторичной\r\n                                                    переработке"
+                                                              "\n                          Подлежит вторичной переработке"
                                                             ),
                                                             _c("br")
                                                           ]
@@ -41223,7 +41634,7 @@ var render = function() {
                                                 "a",
                                                 {
                                                   staticClass:
-                                                    "self-center pr-2 "
+                                                    "self-center pr-2"
                                                 },
                                                 [
                                                   _c(
@@ -41334,7 +41745,7 @@ var render = function() {
                                             },
                                             [
                                               _vm._v(
-                                                "\r\n                                        Eco cupholder\r\n                                    "
+                                                "\n                    Eco cupholder\n                  "
                                               )
                                             ]
                                           ),
@@ -41381,12 +41792,12 @@ var render = function() {
                                                     "text-gray-400 focus:text-green-450",
                                                   on: {
                                                     click: function($event) {
-                                                      _vm.showDescription = !_vm.showDescription
+                                                      _vm.showDescription3 = !_vm.showDescription3
                                                     }
                                                   }
                                                 },
                                                 [
-                                                  !_vm.showDescription
+                                                  !_vm.showDescription3
                                                     ? _c(
                                                         "svg",
                                                         {
@@ -41409,7 +41820,7 @@ var render = function() {
                                                       )
                                                     : _vm._e(),
                                                   _vm._v(" "),
-                                                  _vm.showDescription
+                                                  _vm.showDescription3
                                                     ? _c(
                                                         "svg",
                                                         {
@@ -41442,7 +41853,7 @@ var render = function() {
                                             [
                                               _vm.showCatalog &&
                                               _vm.showHouseholdGoods &&
-                                              _vm.showDescription
+                                              _vm.showDescription3
                                                 ? _c("div", [
                                                     _c(
                                                       "div",
@@ -41456,7 +41867,7 @@ var render = function() {
                                                           },
                                                           [
                                                             _vm._v(
-                                                              "Держатели на 2 стакана предназначены\r\n                                                    для заведений работающих,\r\n                                                    работающих по системе\r\n                                                    take away"
+                                                              "Держатели на 2 стакана предназначены для заведений\n                          работающих, работающих по системе take away"
                                                             )
                                                           ]
                                                         )
@@ -41475,7 +41886,7 @@ var render = function() {
                                                           },
                                                           [
                                                             _vm._v(
-                                                              "Картонные держатели для\r\n                                                    одноразовых\r\n                                                    стаканов - незаменимый\r\n                                                    органайзер для\r\n                                                    организации продажи напитков\r\n                                                    на вынос"
+                                                              "Картонные держатели для одноразовых стаканов -\n                          незаменимый органайзер для организации продажи\n                          напитков на вынос"
                                                             )
                                                           ]
                                                         )
@@ -41494,31 +41905,31 @@ var render = function() {
                                                           },
                                                           [
                                                             _vm._v(
-                                                              "Основные характеристики\r\n                                                    изделия: "
+                                                              "Основные характеристики изделия: "
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\r\n                                                    Упаковка: 150шт. "
+                                                              "\n                          Упаковка: 150шт. "
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\r\n                                                    Цвет: Крафт "
+                                                              "\n                          Цвет: Крафт "
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\r\n                                                    Фиксирует стаканы разного объема\r\n                                                    "
+                                                              "\n                          Фиксирует стаканы разного объема\n                          "
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\r\n                                                    Производится из макулатуры"
+                                                              "\n                          Производится из макулатуры"
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\r\n                                                    Биоразлагаемый"
+                                                              "\n                          Биоразлагаемый"
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\r\n                                                    Подлежит вторичной\r\n                                                    переработке"
+                                                              "\n                          Подлежит вторичной переработке"
                                                             ),
                                                             _c("br")
                                                           ]
@@ -41541,7 +41952,7 @@ var render = function() {
                                                 "a",
                                                 {
                                                   staticClass:
-                                                    "self-center pr-2 "
+                                                    "self-center pr-2"
                                                 },
                                                 [
                                                   _c(
@@ -41652,7 +42063,7 @@ var render = function() {
                                             },
                                             [
                                               _vm._v(
-                                                "\r\n                                        Eco cupholder\r\n                                    "
+                                                "\n                    Eco cupholder\n                  "
                                               )
                                             ]
                                           ),
@@ -41699,12 +42110,12 @@ var render = function() {
                                                     "text-gray-400 focus:text-green-450",
                                                   on: {
                                                     click: function($event) {
-                                                      _vm.showDescription = !_vm.showDescription
+                                                      _vm.showDescription4 = !_vm.showDescription4
                                                     }
                                                   }
                                                 },
                                                 [
-                                                  !_vm.showDescription
+                                                  !_vm.showDescription4
                                                     ? _c(
                                                         "svg",
                                                         {
@@ -41727,7 +42138,7 @@ var render = function() {
                                                       )
                                                     : _vm._e(),
                                                   _vm._v(" "),
-                                                  _vm.showDescription
+                                                  _vm.showDescription4
                                                     ? _c(
                                                         "svg",
                                                         {
@@ -41760,7 +42171,7 @@ var render = function() {
                                             [
                                               _vm.showCatalog &&
                                               _vm.showHouseholdGoods &&
-                                              _vm.showDescription
+                                              _vm.showDescription4
                                                 ? _c("div", [
                                                     _c(
                                                       "div",
@@ -41774,7 +42185,7 @@ var render = function() {
                                                           },
                                                           [
                                                             _vm._v(
-                                                              "Держатели на 2 стакана предназначены\r\n                                                    для заведений работающих,\r\n                                                    работающих по системе\r\n                                                    take away"
+                                                              "Держатели на 2 стакана предназначены для заведений\n                          работающих, работающих по системе take away"
                                                             )
                                                           ]
                                                         )
@@ -41793,7 +42204,7 @@ var render = function() {
                                                           },
                                                           [
                                                             _vm._v(
-                                                              "Картонные держатели для\r\n                                                    одноразовых\r\n                                                    стаканов - незаменимый\r\n                                                    органайзер для\r\n                                                    организации продажи напитков\r\n                                                    на вынос"
+                                                              "Картонные держатели для одноразовых стаканов -\n                          незаменимый органайзер для организации продажи\n                          напитков на вынос"
                                                             )
                                                           ]
                                                         )
@@ -41812,31 +42223,31 @@ var render = function() {
                                                           },
                                                           [
                                                             _vm._v(
-                                                              "Основные характеристики\r\n                                                    изделия: "
+                                                              "Основные характеристики изделия: "
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\r\n                                                    Упаковка: 150шт. "
+                                                              "\n                          Упаковка: 150шт. "
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\r\n                                                    Цвет: Крафт "
+                                                              "\n                          Цвет: Крафт "
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\r\n                                                    Фиксирует стаканы разного объема\r\n                                                    "
+                                                              "\n                          Фиксирует стаканы разного объема\n                          "
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\r\n                                                    Производится из макулатуры"
+                                                              "\n                          Производится из макулатуры"
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\r\n                                                    Биоразлагаемый"
+                                                              "\n                          Биоразлагаемый"
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\r\n                                                    Подлежит вторичной\r\n                                                    переработке"
+                                                              "\n                          Подлежит вторичной переработке"
                                                             ),
                                                             _c("br")
                                                           ]
@@ -41859,7 +42270,7 @@ var render = function() {
                                                 "a",
                                                 {
                                                   staticClass:
-                                                    "self-center pr-2 "
+                                                    "self-center pr-2"
                                                 },
                                                 [
                                                   _c(
@@ -41970,7 +42381,7 @@ var render = function() {
                                             },
                                             [
                                               _vm._v(
-                                                "\r\n                                        Eco cupholder\r\n                                    "
+                                                "\n                    Eco cupholder\n                  "
                                               )
                                             ]
                                           ),
@@ -42092,7 +42503,7 @@ var render = function() {
                                                           },
                                                           [
                                                             _vm._v(
-                                                              "Держатели на 2 стакана предназначены\r\n                                                    для заведений работающих,\r\n                                                    работающих по системе\r\n                                                    take away"
+                                                              "Держатели на 2 стакана предназначены для заведений\n                          работающих, работающих по системе take away"
                                                             )
                                                           ]
                                                         )
@@ -42111,7 +42522,7 @@ var render = function() {
                                                           },
                                                           [
                                                             _vm._v(
-                                                              "Картонные держатели для\r\n                                                    одноразовых\r\n                                                    стаканов - незаменимый\r\n                                                    органайзер для\r\n                                                    организации продажи напитков\r\n                                                    на вынос"
+                                                              "Картонные держатели для одноразовых стаканов -\n                          незаменимый органайзер для организации продажи\n                          напитков на вынос"
                                                             )
                                                           ]
                                                         )
@@ -42130,31 +42541,31 @@ var render = function() {
                                                           },
                                                           [
                                                             _vm._v(
-                                                              "Основные характеристики\r\n                                                    изделия: "
+                                                              "Основные характеристики изделия: "
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\r\n                                                    Упаковка: 150шт. "
+                                                              "\n                          Упаковка: 150шт. "
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\r\n                                                    Цвет: Крафт "
+                                                              "\n                          Цвет: Крафт "
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\r\n                                                    Фиксирует стаканы разного объема\r\n                                                    "
+                                                              "\n                          Фиксирует стаканы разного объема\n                          "
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\r\n                                                    Производится из макулатуры"
+                                                              "\n                          Производится из макулатуры"
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\r\n                                                    Биоразлагаемый"
+                                                              "\n                          Биоразлагаемый"
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\r\n                                                    Подлежит вторичной\r\n                                                    переработке"
+                                                              "\n                          Подлежит вторичной переработке"
                                                             ),
                                                             _c("br")
                                                           ]
@@ -42177,7 +42588,7 @@ var render = function() {
                                                 "a",
                                                 {
                                                   staticClass:
-                                                    "self-center pr-2 "
+                                                    "self-center pr-2"
                                                 },
                                                 [
                                                   _c(
@@ -42288,7 +42699,7 @@ var render = function() {
                                             },
                                             [
                                               _vm._v(
-                                                "\r\n                                        Eco cupholder\r\n                                    "
+                                                "\n                    Eco cupholder\n                  "
                                               )
                                             ]
                                           ),
@@ -42410,7 +42821,7 @@ var render = function() {
                                                           },
                                                           [
                                                             _vm._v(
-                                                              "Держатели на 2 стакана предназначены\r\n                                                    для заведений работающих,\r\n                                                    работающих по системе\r\n                                                    take away"
+                                                              "Держатели на 2 стакана предназначены для заведений\n                          работающих, работающих по системе take away"
                                                             )
                                                           ]
                                                         )
@@ -42429,7 +42840,7 @@ var render = function() {
                                                           },
                                                           [
                                                             _vm._v(
-                                                              "Картонные держатели для\r\n                                                    одноразовых\r\n                                                    стаканов - незаменимый\r\n                                                    органайзер для\r\n                                                    организации продажи напитков\r\n                                                    на вынос"
+                                                              "Картонные держатели для одноразовых стаканов -\n                          незаменимый органайзер для организации продажи\n                          напитков на вынос"
                                                             )
                                                           ]
                                                         )
@@ -42448,31 +42859,31 @@ var render = function() {
                                                           },
                                                           [
                                                             _vm._v(
-                                                              "Основные характеристики\r\n                                                    изделия: "
+                                                              "Основные характеристики изделия: "
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\r\n                                                    Упаковка: 150шт. "
+                                                              "\n                          Упаковка: 150шт. "
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\r\n                                                    Цвет: Крафт "
+                                                              "\n                          Цвет: Крафт "
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\r\n                                                    Фиксирует стаканы разного объема\r\n                                                    "
+                                                              "\n                          Фиксирует стаканы разного объема\n                          "
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\r\n                                                    Производится из макулатуры"
+                                                              "\n                          Производится из макулатуры"
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\r\n                                                    Биоразлагаемый"
+                                                              "\n                          Биоразлагаемый"
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\r\n                                                    Подлежит вторичной\r\n                                                    переработке"
+                                                              "\n                          Подлежит вторичной переработке"
                                                             ),
                                                             _c("br")
                                                           ]
@@ -42495,7 +42906,7 @@ var render = function() {
                                                 "a",
                                                 {
                                                   staticClass:
-                                                    "self-center pr-2 "
+                                                    "self-center pr-2"
                                                 },
                                                 [
                                                   _c(
@@ -42606,7 +43017,7 @@ var render = function() {
                                             },
                                             [
                                               _vm._v(
-                                                "\r\n                                        Eco cupholder\r\n                                    "
+                                                "\n                    Eco cupholder\n                  "
                                               )
                                             ]
                                           ),
@@ -42728,7 +43139,7 @@ var render = function() {
                                                           },
                                                           [
                                                             _vm._v(
-                                                              "Держатели на 2 стакана предназначены\r\n                                                    для заведений работающих,\r\n                                                    работающих по системе\r\n                                                    take away"
+                                                              "Держатели на 2 стакана предназначены для заведений\n                          работающих, работающих по системе take away"
                                                             )
                                                           ]
                                                         )
@@ -42747,7 +43158,7 @@ var render = function() {
                                                           },
                                                           [
                                                             _vm._v(
-                                                              "Картонные держатели для\r\n                                                    одноразовых\r\n                                                    стаканов - незаменимый\r\n                                                    органайзер для\r\n                                                    организации продажи напитков\r\n                                                    на вынос"
+                                                              "Картонные держатели для одноразовых стаканов -\n                          незаменимый органайзер для организации продажи\n                          напитков на вынос"
                                                             )
                                                           ]
                                                         )
@@ -42766,31 +43177,31 @@ var render = function() {
                                                           },
                                                           [
                                                             _vm._v(
-                                                              "Основные характеристики\r\n                                                    изделия: "
+                                                              "Основные характеристики изделия: "
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\r\n                                                    Упаковка: 150шт. "
+                                                              "\n                          Упаковка: 150шт. "
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\r\n                                                    Цвет: Крафт "
+                                                              "\n                          Цвет: Крафт "
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\r\n                                                    Фиксирует стаканы разного объема\r\n                                                    "
+                                                              "\n                          Фиксирует стаканы разного объема\n                          "
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\r\n                                                    Производится из макулатуры"
+                                                              "\n                          Производится из макулатуры"
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\r\n                                                    Биоразлагаемый"
+                                                              "\n                          Биоразлагаемый"
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\r\n                                                    Подлежит вторичной\r\n                                                    переработке"
+                                                              "\n                          Подлежит вторичной переработке"
                                                             ),
                                                             _c("br")
                                                           ]
@@ -42813,7 +43224,7 @@ var render = function() {
                                                 "a",
                                                 {
                                                   staticClass:
-                                                    "self-center pr-2 "
+                                                    "self-center pr-2"
                                                 },
                                                 [
                                                   _c(
@@ -42924,7 +43335,7 @@ var render = function() {
                                             },
                                             [
                                               _vm._v(
-                                                "\r\n                                        Eco cupholder\r\n                                    "
+                                                "\n                    Eco cupholder\n                  "
                                               )
                                             ]
                                           ),
@@ -43046,7 +43457,7 @@ var render = function() {
                                                           },
                                                           [
                                                             _vm._v(
-                                                              "Держатели на 2 стакана предназначены\r\n                                                    для заведений работающих,\r\n                                                    работающих по системе\r\n                                                    take away"
+                                                              "Держатели на 2 стакана предназначены для заведений\n                          работающих, работающих по системе take away"
                                                             )
                                                           ]
                                                         )
@@ -43065,7 +43476,7 @@ var render = function() {
                                                           },
                                                           [
                                                             _vm._v(
-                                                              "Картонные держатели для\r\n                                                    одноразовых\r\n                                                    стаканов - незаменимый\r\n                                                    органайзер для\r\n                                                    организации продажи напитков\r\n                                                    на вынос"
+                                                              "Картонные держатели для одноразовых стаканов -\n                          незаменимый органайзер для организации продажи\n                          напитков на вынос"
                                                             )
                                                           ]
                                                         )
@@ -43084,31 +43495,31 @@ var render = function() {
                                                           },
                                                           [
                                                             _vm._v(
-                                                              "Основные характеристики\r\n                                                    изделия: "
+                                                              "Основные характеристики изделия: "
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\r\n                                                    Упаковка: 150шт. "
+                                                              "\n                          Упаковка: 150шт. "
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\r\n                                                    Цвет: Крафт "
+                                                              "\n                          Цвет: Крафт "
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\r\n                                                    Фиксирует стаканы разного объема\r\n                                                    "
+                                                              "\n                          Фиксирует стаканы разного объема\n                          "
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\r\n                                                    Производится из макулатуры"
+                                                              "\n                          Производится из макулатуры"
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\r\n                                                    Биоразлагаемый"
+                                                              "\n                          Биоразлагаемый"
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\r\n                                                    Подлежит вторичной\r\n                                                    переработке"
+                                                              "\n                          Подлежит вторичной переработке"
                                                             ),
                                                             _c("br")
                                                           ]
@@ -43131,7 +43542,7 @@ var render = function() {
                                                 "a",
                                                 {
                                                   staticClass:
-                                                    "self-center pr-2 "
+                                                    "self-center pr-2"
                                                 },
                                                 [
                                                   _c(
@@ -43242,7 +43653,7 @@ var render = function() {
                                             },
                                             [
                                               _vm._v(
-                                                "\r\n                                        Eco cupholder\r\n                                    "
+                                                "\n                    Eco cupholder\n                  "
                                               )
                                             ]
                                           ),
@@ -43364,7 +43775,7 @@ var render = function() {
                                                           },
                                                           [
                                                             _vm._v(
-                                                              "Держатели на 2 стакана предназначены\r\n                                                    для заведений работающих,\r\n                                                    работающих по системе\r\n                                                    take away"
+                                                              "Держатели на 2 стакана предназначены для заведений\n                          работающих, работающих по системе take away"
                                                             )
                                                           ]
                                                         )
@@ -43383,7 +43794,7 @@ var render = function() {
                                                           },
                                                           [
                                                             _vm._v(
-                                                              "Картонные держатели для\r\n                                                    одноразовых\r\n                                                    стаканов - незаменимый\r\n                                                    органайзер для\r\n                                                    организации продажи напитков\r\n                                                    на вынос"
+                                                              "Картонные держатели для одноразовых стаканов -\n                          незаменимый органайзер для организации продажи\n                          напитков на вынос"
                                                             )
                                                           ]
                                                         )
@@ -43402,31 +43813,31 @@ var render = function() {
                                                           },
                                                           [
                                                             _vm._v(
-                                                              "Основные характеристики\r\n                                                    изделия: "
+                                                              "Основные характеристики изделия: "
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\r\n                                                    Упаковка: 150шт. "
+                                                              "\n                          Упаковка: 150шт. "
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\r\n                                                    Цвет: Крафт "
+                                                              "\n                          Цвет: Крафт "
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\r\n                                                    Фиксирует стаканы разного объема\r\n                                                    "
+                                                              "\n                          Фиксирует стаканы разного объема\n                          "
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\r\n                                                    Производится из макулатуры"
+                                                              "\n                          Производится из макулатуры"
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\r\n                                                    Биоразлагаемый"
+                                                              "\n                          Биоразлагаемый"
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\r\n                                                    Подлежит вторичной\r\n                                                    переработке"
+                                                              "\n                          Подлежит вторичной переработке"
                                                             ),
                                                             _c("br")
                                                           ]
@@ -43449,7 +43860,7 @@ var render = function() {
                                                 "a",
                                                 {
                                                   staticClass:
-                                                    "self-center pr-2 "
+                                                    "self-center pr-2"
                                                 },
                                                 [
                                                   _c(
