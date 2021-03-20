@@ -41,7 +41,7 @@
           class="py-3 bg-white flex items-center justify-between border-t-2 border-black"
         >
           <div class="text-black inline-flex space-x-10 items-center">
-            <img src="images/LoyaltyIcons/SalesForOrderFromSite.png" />
+            <img class="ml-0.5" src="images/LoyaltyIcons/SalesForOrderFromSite.png" />
             <span class=""> Cкидка при оформлении заказа через сайт</span>
           </div>
           <button
@@ -81,7 +81,7 @@
         <div
           class="py-3 bg-white flex items-center justify-between border-t-2 border-black"
         >
-          <div class="text-black inline-flex space-x-10 items-center">
+          <div class="text-black inline-flex space-x-11 items-center">
             <img src="images/LoyaltyIcons/Wholesale_Trade.png" />
             <span class=""> Оптовая скидка </span>
           </div>
@@ -123,7 +123,7 @@
         <div
           class="py-3 bg-white flex items-center justify-between border-t-2 border-black"
         >
-          <div class="text-black inline-flex space-x-10 items-center">
+          <div class="text-black inline-flex space-x-11 items-center">
             <img src="images/LoyaltyIcons/SaleForGroupOfItems.png" />
             <span class=""> Скидка на группу товаров </span>
           </div>
@@ -165,8 +165,8 @@
         <div
           class="py-3 bg-white flex items-center justify-between border-t-2 border-black"
         >
-          <div class="text-black inline-flex space-x-10 items-center">
-            <img src="images/LoyaltyIcons/Startap.png" />
+          <div class="text-black inline-flex space-x-12 items-center">
+            <img class="ml-2.5" src="images/LoyaltyIcons/Startap.png" />
             <span class=""> Предложение для стартапов </span>
           </div>
           <button v-on:click="showStartap = !showStartap" class="text-black">
@@ -276,7 +276,7 @@
           class="py-3 bg-white flex items-center justify-between border-t-2 border-black"
         >
           <div class="text-black inline-flex space-x-10 items-center">
-            <img src="images/LoyaltyIcons/GiftsEveryday.png" />
+            <img class="ml-0.5" src="images/LoyaltyIcons/GiftsEveryday.png" />
             <span class=""> Подарки каждый день </span>
           </div>
           <button

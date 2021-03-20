@@ -59,9 +59,9 @@
         <div
           class="py-3 bg-white flex items-center justify-between border-t-2 border-black"
         >
-          <div class="text-black inline-flex space-x-4 items-center">
+          <div class="text-black inline-flex space-x-10  items-center">
             <img
-              class="m-0.5"
+              class="ml-5"
               src="images/FieldOfActivity/fastfood.png"
             />
             <span class=""> Точка фаст-фуд </span>
@@ -92,8 +92,8 @@
         <div
           class="py-3 bg-white flex items-center justify-between border-t-2 border-black"
         >
-          <div class="text-black inline-flex space-x-7 items-center">
-            <img class="ml-3.5" src="images/FieldOfActivity/canteen.png" />
+          <div class="text-black inline-flex space-x-10  items-center">
+            <img class="ml-5" src="images/FieldOfActivity/canteen.png" />
             <span class=""> Столовая </span>
           </div>
           <button v-on:click="showCanteen = !showCanteen" class="text-black">
@@ -111,8 +111,8 @@
         <div
           class="py-3 bg-white flex items-center justify-between border-t-2 border-black"
         >
-          <div class="text-black inline-flex space-x-10 items-center">
-            <img class="ml-6" src="images/FieldOfActivity/hotel.png" />
+          <div class="text-black inline-flex space-x-12 items-center">
+            <img class="ml-9 mr-1" src="images/FieldOfActivity/hotel.png" />
             <span class=""> Отель </span>
           </div>
           <button
@@ -133,9 +133,9 @@
         <div
           class="py-3 bg-white flex items-center justify-between border-t-2 border-black"
         >
-          <div class="text-black inline-flex space-x-12 items-center">
+          <div class="text-black inline-flex space-x-9 items-center">
             <img
-              class="ml-9"
+              class="ml-6"
               src="images/FieldOfActivity/office.png"
             />
             <span class=""> Офис </span>
@@ -168,9 +168,9 @@
         <div
           class="py-3 bg-white flex items-center justify-between border-t-2 border-black"
         >
-          <div class="text-black inline-flex space-x-12 items-center">
+          <div class="text-black inline-flex space-x-9 items-center">
             <img
-              class="ml-9"
+              class="ml-6"
               src="images/FieldOfActivity/medical_institution.png"
             />
             <span class=""> Медицинское учереждение </span>
@@ -203,8 +203,8 @@
         <div
           class="py-3 bg-white flex items-center justify-between border-t-2 border-black"
         >
-          <div class="text-black inline-flex space-x-8 items-center">
-            <img class="ml-5" src="images/FieldOfActivity/beauty_saloon.png" />
+          <div class="text-black inline-flex space-x-9 items-center">
+            <img class="ml-6" src="images/FieldOfActivity/beauty_saloon.png" />
             <span class=""> Салон красоты </span>
           </div>
           <button
@@ -325,7 +325,7 @@
                       </div>
                     </transition>
                     <div
-                      class="flex border-2 border-green-450 rounded-full h-8 w-1/2"
+                      class="flex border-2 border-green-450 rounded-full h-8 w-32"
                     >
                       <a class="self-center pr-2"
                         ><svg
@@ -341,7 +341,7 @@
                       <span class="self-center">1 Штука</span>
                     </div>
                     <div
-                      class="flex bg-black text-white rounded-full h-8 w-1/2 justify-end mt-2.5"
+                      class="flex bg-black text-white rounded-full h-8 w-32 justify-end mt-2.5"
                     >
                       <span class="self-center mr-6">00000</span>
 
@@ -432,7 +432,7 @@
                       </div>
                     </transition>
                     <div
-                      class="flex border-2 border-green-450 rounded-full h-8 w-1/2"
+                      class="flex border-2 border-green-450 rounded-full h-8 w-32"
                     >
                       <a class="self-center pr-2"
                         ><svg
@@ -448,7 +448,7 @@
                       <span class="self-center">1 Штука</span>
                     </div>
                     <div
-                      class="flex bg-black text-white rounded-full h-8 w-1/2 justify-end mt-2.5"
+                      class="flex bg-black text-white rounded-full h-8 w-32 justify-end mt-2.5"
                     >
                       <span class="self-center mr-6">00000</span>
 
@@ -539,7 +539,7 @@
                       </div>
                     </transition>
                     <div
-                      class="flex border-2 border-green-450 rounded-full h-8 w-1/2"
+                      class="flex border-2 border-green-450 rounded-full h-8 w-32"
                     >
                       <a class="self-center pr-2"
                         ><svg
@@ -555,7 +555,7 @@
                       <span class="self-center">1 Штука</span>
                     </div>
                     <div
-                      class="flex bg-black text-white rounded-full h-8 w-1/2 justify-end mt-2.5"
+                      class="flex bg-black text-white rounded-full h-8 w-32 justify-end mt-2.5"
                     >
                       <span class="self-center mr-6">00000</span>
 
@@ -646,7 +646,7 @@
                       </div>
                     </transition>
                     <div
-                      class="flex border-2 border-green-450 rounded-full h-8 w-1/2"
+                      class="flex border-2 border-green-450 rounded-full h-8 w-32"
                     >
                       <a class="self-center pr-2"
                         ><svg
@@ -662,7 +662,7 @@
                       <span class="self-center">1 Штука</span>
                     </div>
                     <div
-                      class="flex bg-black text-white rounded-full h-8 w-1/2 justify-end mt-2.5"
+                      class="flex bg-black text-white rounded-full h-8 w-32 justify-end mt-2.5"
                     >
                       <span class="self-center mr-6">00000</span>
 
@@ -753,7 +753,7 @@
                       </div>
                     </transition>
                     <div
-                      class="flex border-2 border-green-450 rounded-full h-8 w-1/2"
+                      class="flex border-2 border-green-450 rounded-full h-8 w-32"
                     >
                       <a class="self-center pr-2"
                         ><svg
@@ -769,7 +769,7 @@
                       <span class="self-center">1 Штука</span>
                     </div>
                     <div
-                      class="flex bg-black text-white rounded-full h-8 w-1/2 justify-end mt-2.5"
+                      class="flex bg-black text-white rounded-full h-8 w-32 justify-end mt-2.5"
                     >
                       <span class="self-center mr-6">00000</span>
 
@@ -860,7 +860,7 @@
                       </div>
                     </transition>
                     <div
-                      class="flex border-2 border-green-450 rounded-full h-8 w-1/2"
+                      class="flex border-2 border-green-450 rounded-full h-8 w-32"
                     >
                       <a class="self-center pr-2"
                         ><svg
@@ -876,7 +876,7 @@
                       <span class="self-center">1 Штука</span>
                     </div>
                     <div
-                      class="flex bg-black text-white rounded-full h-8 w-1/2 justify-end mt-2.5"
+                      class="flex bg-black text-white rounded-full h-8 w-32 justify-end mt-2.5"
                     >
                       <span class="self-center mr-6">00000</span>
 
@@ -967,7 +967,7 @@
                       </div>
                     </transition>
                     <div
-                      class="flex border-2 border-green-450 rounded-full h-8 w-1/2"
+                      class="flex border-2 border-green-450 rounded-full h-8 w-32"
                     >
                       <a class="self-center pr-2"
                         ><svg
@@ -983,7 +983,7 @@
                       <span class="self-center">1 Штука</span>
                     </div>
                     <div
-                      class="flex bg-black text-white rounded-full h-8 w-1/2 justify-end mt-2.5"
+                      class="flex bg-black text-white rounded-full h-8 w-32 justify-end mt-2.5"
                     >
                       <span class="self-center mr-6">00000</span>
 
@@ -1074,7 +1074,7 @@
                       </div>
                     </transition>
                     <div
-                      class="flex border-2 border-green-450 rounded-full h-8 w-1/2"
+                      class="flex border-2 border-green-450 rounded-full h-8 w-32"
                     >
                       <a class="self-center pr-2"
                         ><svg
@@ -1090,7 +1090,7 @@
                       <span class="self-center">1 Штука</span>
                     </div>
                     <div
-                      class="flex bg-black text-white rounded-full h-8 w-1/2 justify-end mt-2.5"
+                      class="flex bg-black text-white rounded-full h-8 w-32 justify-end mt-2.5"
                     >
                       <span class="self-center mr-6">00000</span>
 
@@ -1181,7 +1181,7 @@
                       </div>
                     </transition>
                     <div
-                      class="flex border-2 border-green-450 rounded-full h-8 w-1/2"
+                      class="flex border-2 border-green-450 rounded-full h-8 w-32"
                     >
                       <a class="self-center pr-2"
                         ><svg
@@ -1197,7 +1197,7 @@
                       <span class="self-center">1 Штука</span>
                     </div>
                     <div
-                      class="flex bg-black text-white rounded-full h-8 w-1/2 justify-end mt-2.5"
+                      class="flex bg-black text-white rounded-full h-8 w-32 justify-end mt-2.5"
                     >
                       <span class="self-center mr-6">00000</span>
 

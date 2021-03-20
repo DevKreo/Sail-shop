@@ -206,7 +206,7 @@
                                             <span
                                                 class="inline-flex rounded-md"
                                             >
-                                                <button
+                                                <!--<button
                                                     @click="
                                                         showingNavigationDropdown = !showingNavigationDropdown
                                                     "
@@ -228,7 +228,7 @@
                                                             d="M4 6h16M4 12h16M4 18h16"
                                                         />
                                                     </svg>
-                                                </button>
+                                                </button>-->
                                             </span>
                                         </template>
 
@@ -292,7 +292,7 @@
                         <!-- Responsive Settings Options -->
                         <div class="pt-4 pb-1 border-t border-gray-200">
                             <div class="flex items-center px-4">
-                                <div
+                                <!--<div
                                     v-if="
                                         $page.props.jetstream
                                             .managesProfilePhotos
@@ -319,7 +319,7 @@
                                     >
                                         {{ $page.props.user.email }}
                                     </div>
-                                </div>
+                                </div>-->
                             </div>
 
                             <div class="mt-3 space-y-1">
