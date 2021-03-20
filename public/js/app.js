@@ -42546,7 +42546,7 @@ var render = function() {
                                             "div",
                                             {
                                               staticClass:
-                                                "flex border-2 border-green-450 rounded-full h-8 w-1/2"
+                                                "flex border-2 border-green-450 rounded-full h-8 w-32"
                                             },
                                             [
                                               _c(
@@ -42592,7 +42592,7 @@ var render = function() {
                                             "div",
                                             {
                                               staticClass:
-                                                "flex bg-black text-white rounded-full h-8 w-1/2 justify-end mt-2.5"
+                                                "flex bg-black text-white rounded-full h-8 w-32 justify-end mt-2.5"
                                             },
                                             [
                                               _c(
@@ -42864,7 +42864,7 @@ var render = function() {
                                             "div",
                                             {
                                               staticClass:
-                                                "flex border-2 border-green-450 rounded-full h-8 w-1/2"
+                                                "flex border-2 border-green-450 rounded-full h-8 w-32"
                                             },
                                             [
                                               _c(
@@ -42910,7 +42910,7 @@ var render = function() {
                                             "div",
                                             {
                                               staticClass:
-                                                "flex bg-black text-white rounded-full h-8 w-1/2 justify-end mt-2.5"
+                                                "flex bg-black text-white rounded-full h-8 w-32 justify-end mt-2.5"
                                             },
                                             [
                                               _c(
@@ -43182,7 +43182,7 @@ var render = function() {
                                             "div",
                                             {
                                               staticClass:
-                                                "flex border-2 border-green-450 rounded-full h-8 w-1/2"
+                                                "flex border-2 border-green-450 rounded-full h-8 w-32"
                                             },
                                             [
                                               _c(
@@ -43228,7 +43228,7 @@ var render = function() {
                                             "div",
                                             {
                                               staticClass:
-                                                "flex bg-black text-white rounded-full h-8 w-1/2 justify-end mt-2.5"
+                                                "flex bg-black text-white rounded-full h-8 w-32 justify-end mt-2.5"
                                             },
                                             [
                                               _c(
@@ -43500,7 +43500,7 @@ var render = function() {
                                             "div",
                                             {
                                               staticClass:
-                                                "flex border-2 border-green-450 rounded-full h-8 w-1/2"
+                                                "flex border-2 border-green-450 rounded-full h-8 w-32"
                                             },
                                             [
                                               _c(
@@ -43546,7 +43546,7 @@ var render = function() {
                                             "div",
                                             {
                                               staticClass:
-                                                "flex bg-black text-white rounded-full h-8 w-1/2 justify-end mt-2.5"
+                                                "flex bg-black text-white rounded-full h-8 w-32 justify-end mt-2.5"
                                             },
                                             [
                                               _c(
@@ -43818,7 +43818,7 @@ var render = function() {
                                             "div",
                                             {
                                               staticClass:
-                                                "flex border-2 border-green-450 rounded-full h-8 w-1/2"
+                                                "flex border-2 border-green-450 rounded-full h-8 w-32"
                                             },
                                             [
                                               _c(
@@ -43864,7 +43864,7 @@ var render = function() {
                                             "div",
                                             {
                                               staticClass:
-                                                "flex bg-black text-white rounded-full h-8 w-1/2 justify-end mt-2.5"
+                                                "flex bg-black text-white rounded-full h-8 w-32 justify-end mt-2.5"
                                             },
                                             [
                                               _c(
@@ -44136,7 +44136,7 @@ var render = function() {
                                             "div",
                                             {
                                               staticClass:
-                                                "flex border-2 border-green-450 rounded-full h-8 w-1/2"
+                                                "flex border-2 border-green-450 rounded-full h-8 w-32"
                                             },
                                             [
                                               _c(
@@ -44182,7 +44182,7 @@ var render = function() {
                                             "div",
                                             {
                                               staticClass:
-                                                "flex bg-black text-white rounded-full h-8 w-1/2 justify-end mt-2.5"
+                                                "flex bg-black text-white rounded-full h-8 w-32 justify-end mt-2.5"
                                             },
                                             [
                                               _c(
@@ -44454,7 +44454,7 @@ var render = function() {
                                             "div",
                                             {
                                               staticClass:
-                                                "flex border-2 border-green-450 rounded-full h-8 w-1/2"
+                                                "flex border-2 border-green-450 rounded-full h-8 w-32"
                                             },
                                             [
                                               _c(
@@ -44500,7 +44500,7 @@ var render = function() {
                                             "div",
                                             {
                                               staticClass:
-                                                "flex bg-black text-white rounded-full h-8 w-1/2 justify-end mt-2.5"
+                                                "flex bg-black text-white rounded-full h-8 w-32 justify-end mt-2.5"
                                             },
                                             [
                                               _c(
@@ -44772,7 +44772,7 @@ var render = function() {
                                             "div",
                                             {
                                               staticClass:
-                                                "flex border-2 border-green-450 rounded-full h-8 w-1/2"
+                                                "flex border-2 border-green-450 rounded-full h-8 w-32"
                                             },
                                             [
                                               _c(
@@ -44818,7 +44818,7 @@ var render = function() {
                                             "div",
                                             {
                                               staticClass:
-                                                "flex bg-black text-white rounded-full h-8 w-1/2 justify-end mt-2.5"
+                                                "flex bg-black text-white rounded-full h-8 w-32 justify-end mt-2.5"
                                             },
                                             [
                                               _c(
@@ -45090,7 +45090,7 @@ var render = function() {
                                             "div",
                                             {
                                               staticClass:
-                                                "flex border-2 border-green-450 rounded-full h-8 w-1/2"
+                                                "flex border-2 border-green-450 rounded-full h-8 w-32"
                                             },
                                             [
                                               _c(
@@ -45136,7 +45136,7 @@ var render = function() {
                                             "div",
                                             {
                                               staticClass:
-                                                "flex bg-black text-white rounded-full h-8 w-1/2 justify-end mt-2.5"
+                                                "flex bg-black text-white rounded-full h-8 w-32 justify-end mt-2.5"
                                             },
                                             [
                                               _c(

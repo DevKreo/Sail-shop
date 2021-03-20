@@ -290,7 +290,7 @@
                       </div>
                     </transition>
                     <div
-                      class="flex border-2 border-green-450 rounded-full h-8 w-1/2"
+                      class="flex border-2 border-green-450 rounded-full h-8 w-32"
                     >
                       <a class="self-center pr-2"
                         ><svg
@@ -306,7 +306,7 @@
                       <span class="self-center">1 Штука</span>
                     </div>
                     <div
-                      class="flex bg-black text-white rounded-full h-8 w-1/2 justify-end mt-2.5"
+                      class="flex bg-black text-white rounded-full h-8 w-32 justify-end mt-2.5"
                     >
                       <span class="self-center mr-6">00000</span>
 
@@ -397,7 +397,7 @@
                       </div>
                     </transition>
                     <div
-                      class="flex border-2 border-green-450 rounded-full h-8 w-1/2"
+                      class="flex border-2 border-green-450 rounded-full h-8 w-32"
                     >
                       <a class="self-center pr-2"
                         ><svg
@@ -413,7 +413,7 @@
                       <span class="self-center">1 Штука</span>
                     </div>
                     <div
-                      class="flex bg-black text-white rounded-full h-8 w-1/2 justify-end mt-2.5"
+                      class="flex bg-black text-white rounded-full h-8 w-32 justify-end mt-2.5"
                     >
                       <span class="self-center mr-6">00000</span>
 
@@ -504,7 +504,7 @@
                       </div>
                     </transition>
                     <div
-                      class="flex border-2 border-green-450 rounded-full h-8 w-1/2"
+                      class="flex border-2 border-green-450 rounded-full h-8 w-32"
                     >
                       <a class="self-center pr-2"
                         ><svg
@@ -520,7 +520,7 @@
                       <span class="self-center">1 Штука</span>
                     </div>
                     <div
-                      class="flex bg-black text-white rounded-full h-8 w-1/2 justify-end mt-2.5"
+                      class="flex bg-black text-white rounded-full h-8 w-32 justify-end mt-2.5"
                     >
                       <span class="self-center mr-6">00000</span>
 
@@ -611,7 +611,7 @@
                       </div>
                     </transition>
                     <div
-                      class="flex border-2 border-green-450 rounded-full h-8 w-1/2"
+                      class="flex border-2 border-green-450 rounded-full h-8 w-32"
                     >
                       <a class="self-center pr-2"
                         ><svg
@@ -627,7 +627,7 @@
                       <span class="self-center">1 Штука</span>
                     </div>
                     <div
-                      class="flex bg-black text-white rounded-full h-8 w-1/2 justify-end mt-2.5"
+                      class="flex bg-black text-white rounded-full h-8 w-32 justify-end mt-2.5"
                     >
                       <span class="self-center mr-6">00000</span>
 
@@ -718,7 +718,7 @@
                       </div>
                     </transition>
                     <div
-                      class="flex border-2 border-green-450 rounded-full h-8 w-1/2"
+                      class="flex border-2 border-green-450 rounded-full h-8 w-32"
                     >
                       <a class="self-center pr-2"
                         ><svg
@@ -734,7 +734,7 @@
                       <span class="self-center">1 Штука</span>
                     </div>
                     <div
-                      class="flex bg-black text-white rounded-full h-8 w-1/2 justify-end mt-2.5"
+                      class="flex bg-black text-white rounded-full h-8 w-32 justify-end mt-2.5"
                     >
                       <span class="self-center mr-6">00000</span>
 
@@ -825,7 +825,7 @@
                       </div>
                     </transition>
                     <div
-                      class="flex border-2 border-green-450 rounded-full h-8 w-1/2"
+                      class="flex border-2 border-green-450 rounded-full h-8 w-32"
                     >
                       <a class="self-center pr-2"
                         ><svg
@@ -841,7 +841,7 @@
                       <span class="self-center">1 Штука</span>
                     </div>
                     <div
-                      class="flex bg-black text-white rounded-full h-8 w-1/2 justify-end mt-2.5"
+                      class="flex bg-black text-white rounded-full h-8 w-32 justify-end mt-2.5"
                     >
                       <span class="self-center mr-6">00000</span>
 
@@ -932,7 +932,7 @@
                       </div>
                     </transition>
                     <div
-                      class="flex border-2 border-green-450 rounded-full h-8 w-1/2"
+                      class="flex border-2 border-green-450 rounded-full h-8 w-32"
                     >
                       <a class="self-center pr-2"
                         ><svg
@@ -948,7 +948,7 @@
                       <span class="self-center">1 Штука</span>
                     </div>
                     <div
-                      class="flex bg-black text-white rounded-full h-8 w-1/2 justify-end mt-2.5"
+                      class="flex bg-black text-white rounded-full h-8 w-32 justify-end mt-2.5"
                     >
                       <span class="self-center mr-6">00000</span>
 
@@ -1039,7 +1039,7 @@
                       </div>
                     </transition>
                     <div
-                      class="flex border-2 border-green-450 rounded-full h-8 w-1/2"
+                      class="flex border-2 border-green-450 rounded-full h-8 w-32"
                     >
                       <a class="self-center pr-2"
                         ><svg
@@ -1055,7 +1055,7 @@
                       <span class="self-center">1 Штука</span>
                     </div>
                     <div
-                      class="flex bg-black text-white rounded-full h-8 w-1/2 justify-end mt-2.5"
+                      class="flex bg-black text-white rounded-full h-8 w-32 justify-end mt-2.5"
                     >
                       <span class="self-center mr-6">00000</span>
 
@@ -1146,7 +1146,7 @@
                       </div>
                     </transition>
                     <div
-                      class="flex border-2 border-green-450 rounded-full h-8 w-1/2"
+                      class="flex border-2 border-green-450 rounded-full h-8 w-32"
                     >
                       <a class="self-center pr-2"
                         ><svg
@@ -1162,7 +1162,7 @@
                       <span class="self-center">1 Штука</span>
                     </div>
                     <div
-                      class="flex bg-black text-white rounded-full h-8 w-1/2 justify-end mt-2.5"
+                      class="flex bg-black text-white rounded-full h-8 w-32 justify-end mt-2.5"
                     >
                       <span class="self-center mr-6">00000</span>
 
