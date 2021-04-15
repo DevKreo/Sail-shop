@@ -3070,6 +3070,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 
 
 
@@ -3080,7 +3081,7 @@ __webpack_require__.r(__webpack_exports__);
   },
   data: function data() {
     return {
-      showAboutCompany: false,
+      showAboutCompany: true,
       showPartners: false,
       showWhyWithUs: false,
       partners: [{
@@ -3148,25 +3149,25 @@ __webpack_require__.r(__webpack_exports__);
         id: "1",
         text: "16 лет \n     занимаемся комплексным снабжением \n     непродовольственными товарами \n     в сегменте HoReCa",
         img: "images/whyWithUs/16years.png",
-        sidetext: "practice",
+        sidetext: "Практика",
         isPictLeft: true
       }, {
         id: "2",
         text: "Более 500 довольных клиентов \n     каждый месяц",
         img: "images/whyWithUs/500HappyClients.png",
-        sidetext: "service",
+        sidetext: "Обслуживание",
         isPictLeft: false
       }, {
         id: "3",
         text: "Оптимальные цены",
         img: "images/whyWithUs/optimalPrices.png",
-        sidetext: "price",
+        sidetext: "Экономия",
         isPictLeft: true
       }, {
         id: "4",
         text: "Доставка в течение 24х часов",
         img: "images/whyWithUs/deliver24h.png",
-        sidetext: "delivery",
+        sidetext: "Время",
         isPictLeft: false
       }, {
         id: "5",
@@ -3364,486 +3365,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Jetstream_ApplicationLogo__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @/Jetstream/ApplicationLogo */ "./resources/js/Jetstream/ApplicationLogo.vue");
 /* harmony import */ var simplebar_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! simplebar-vue */ "./node_modules/simplebar-vue/dist/simplebar-vue.esm.js");
 /* harmony import */ var simplebar_dist_simplebar_min_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! simplebar/dist/simplebar.min.css */ "./node_modules/simplebar/dist/simplebar.min.css");
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 //
 //
 //
@@ -4878,95 +4399,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   components: {
@@ -5859,95 +5291,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   components: {
@@ -6006,68 +5349,34 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   components: {
     JetApplicationLogo: _Jetstream_ApplicationLogo__WEBPACK_IMPORTED_MODULE_0__.default
+  },
+  data: function data() {
+    return {
+      showOurContacts: false,
+      content: [{
+        logo: "M6.62,10.79C8.06,13.62 10.38,15.94 13.21,17.38L15.41,15.18C15.69,14.9 16.08,14.82 16.43,14.93C17.55,15.3 18.75,15.5 20,15.5A1,1 0 0,1 21,16.5V20A1,1 0 0,1 20,21A17,17 0 0,1 3,4A1,1 0 0,1 4,3H7.5A1,1 0 0,1 8.5,4C8.5,5.25 8.7,6.45 9.07,7.57C9.18,7.92 9.1,8.31 8.82,8.59L6.62,10.79Z",
+        text: ["TEL: +38 050 234-30-31", "TEL: +38 071 234-30-31"]
+      }, {
+        logo: "M22 6C22 4.9 21.1 4 20 4H4C2.9 4 2 4.9 2 6V18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V6M20 6L12 11L4 6H20M20 18H4V8L12 13L20 8V18Z",
+        text: ["bp.verno@gmail.com"]
+      }, {
+        logo: "M7.8,2H16.2C19.4,2 22,4.6 22,7.8V16.2A5.8,5.8 0 0,1 16.2,22H7.8C4.6,22 2,19.4 2,16.2V7.8A5.8,5.8 0 0,1 7.8,2M7.6,4A3.6,3.6 0 0,0 4,7.6V16.4C4,18.39 5.61,20 7.6,20H16.4A3.6,3.6 0 0,0 20,16.4V7.6C20,5.61 18.39,4 16.4,4H7.6M17.25,5.5A1.25,1.25 0 0,1 18.5,6.75A1.25,1.25 0 0,1 17.25,8A1.25,1.25 0 0,1 16,6.75A1.25,1.25 0 0,1 17.25,5.5M12,7A5,5 0 0,1 17,12A5,5 0 0,1 12,17A5,5 0 0,1 7,12A5,5 0 0,1 12,7M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9Z",
+        text: ["@horeca_iys"]
+      }, {
+        logo: "M6.62,10.79C8.06,13.62 10.38,15.94 13.21,17.38L15.41,15.18C15.69,14.9 16.08,14.82 16.43,14.93C17.55,15.3 18.75,15.5 20,15.5A1,1 0 0,1 21,16.5V20A1,1 0 0,1 20,21A17,17 0 0,1 3,4A1,1 0 0,1 4,3H7.5A1,1 0 0,1 8.5,4C8.5,5.25 8.7,6.45 9.07,7.57C9.18,7.92 9.1,8.31 8.82,8.59L6.62,10.79Z",
+        text: ["@bp_infobot"]
+      }, {
+        logo: "M12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5M12,2A7,7 0 0,0 5,9C5,14.25 12,22 12,22C12,22 19,14.25 19,9A7,7 0 0,0 12,2Z",
+        text: ["г. Донецк", "Ворошиловский район", "пр. Мира, 13"]
+      }, {
+        logo: "M12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5M12,2A7,7 0 0,1 19,9C19,14.25 12,22 12,22C12,22 5,14.25 5,9A7,7 0 0,1 12,2M12,4A5,5 0 0,0 7,9C7,10 7,12 12,18.71C17,12 17,10 17,9A5,5 0 0,0 12,4Z",
+        text: ["г. Донецк", "Ворошиловский район", "пр. Мира, 13"]
+      }]
+    };
   }
 });
 
@@ -6085,95 +5394,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var _Jetstream_ApplicationLogo__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @/Jetstream/ApplicationLogo */ "./resources/js/Jetstream/ApplicationLogo.vue");
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 //
 //
 //
@@ -6263,96 +5483,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var _Jetstream_ApplicationLogo__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @/Jetstream/ApplicationLogo */ "./resources/js/Jetstream/ApplicationLogo.vue");
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 //
 //
 //
@@ -14362,7 +13492,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.fade-enter-active,\r\n.fade-leave-active {\r\n    transition: opacity 0.5s;\n}\n.fade-enter, .fade-leave-to /* .fade-leave-active до версии 2.1.8 */ {\r\n    opacity: 0;\n}\n.simplebar-track.simplebar-vertical {\r\n    background-color: #ff8080;\r\n    width: 5px;\r\n    margin-right: 5rem;\r\n    border-radius: 3px;\r\n    margin-bottom: 16px;\r\n    opacity: 1;\r\n    overflow: visible;\n}\n.simplebar-scrollbar.simplebar-visible::before {\r\n    opacity: 1;\r\n    top: 0 !important;\r\n    bottom: 0 !important;\r\n    left: -2px;\r\n    right: 0;\n}\n.simplebar-scrollbar:before {\r\n    background-color: #000000;\r\n    width: 9px;\n}\n.clients {\r\n    -ms-writing-mode: tb-lr;\r\n        writing-mode: vertical-lr;\r\n    transform: rotate(180deg);\r\n    font-size: 20px;\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n.fade-enter-active,\r\n.fade-leave-active {\r\n    transition: opacity 0.5s;\n}\n.fade-enter, .fade-leave-to /* .fade-leave-active до версии 2.1.8 */ {\r\n    opacity: 0;\n}\n.simplebar-track.simplebar-vertical {\r\n    background-color: #ff8080;\r\n    width: 5px;\r\n    margin-right: 5rem;\r\n    border-radius: 3px;\r\n    margin-bottom: 16px;\r\n    opacity: 1;\r\n    overflow: visible;\n}\n.simplebar-scrollbar.simplebar-visible::before {\r\n    opacity: 1;\r\n    top: 0 !important;\r\n    bottom: 0 !important;\r\n    left: -2px;\r\n    right: 0;\n}\n.simplebar-scrollbar:before {\r\n    background-color: #000000;\r\n    width: 9px;\n}\n.clients {\r\n    -ms-writing-mode: tb-lr;\r\n        writing-mode: vertical-lr;\r\n    transform: rotate(180deg);\r\n    font-size: 20px;\n}\n.background-dark {\r\n    background-color: #000;\n}\n.background-light {\r\n    background-color: #ff8080;\n}\r\n\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -14386,7 +13516,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n[type=\"checkbox\"]:checked {\r\n  background-image: url(\"/images/circle-medium.png\");\n}\n.simplebar-track.simplebar-vertical {\r\n  background-color: #bbd54c;\r\n  width: 5px;\r\n  margin-right: 5rem;\r\n  border-radius: 3px;\r\n  margin-bottom: 16px;\r\n  opacity: 1;\r\n  overflow: visible;\r\n  visibility: visible;\n}\n.simplebar-scrollbar.simplebar-visible::before {\r\n  opacity: 1;\r\n  top: 0 !important;\r\n  bottom: 0 !important;\r\n  left: -2px;\r\n  right: 0;\n}\n.simplebar-scrollbar:before {\r\n  background-color: #000000;\r\n  width: 9px;\n}\n.clients {\r\n  -ms-writing-mode: tb-lr;\r\n      writing-mode: vertical-lr;\r\n  transform: rotate(180deg);\r\n  font-size: 20px;\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n[type=\"checkbox\"]:checked {\r\n    background-image: url(\"/images/circle-medium.png\");\n}\n.simplebar-track.simplebar-vertical {\r\n    background-color: #bbd54c;\r\n    width: 5px;\r\n    margin-right: 5rem;\r\n    border-radius: 3px;\r\n    margin-bottom: 16px;\r\n    opacity: 1;\r\n    overflow: visible;\r\n    visibility: visible;\n}\n.simplebar-scrollbar.simplebar-visible::before {\r\n    opacity: 1;\r\n    top: 0 !important;\r\n    bottom: 0 !important;\r\n    left: -2px;\r\n    right: 0;\n}\n.simplebar-scrollbar:before {\r\n    background-color: #000000;\r\n    width: 9px;\n}\n.clients {\r\n    -ms-writing-mode: tb-lr;\r\n        writing-mode: vertical-lr;\r\n    transform: rotate(180deg);\r\n    font-size: 20px;\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -40755,12 +39885,16 @@ var render = function() {
         "div",
         {
           staticClass:
-            "rounded-full py-3 px-6 bg-black flex items-center justify-between mb-2"
+            "rounded-full py-3 px-6 flex items-center justify-between mb-2",
+          class: [_vm.showAboutCompany ? "background-light" : "background-dark"]
         },
         [
           _c(
             "div",
-            { staticClass: "text-white inline-flex space-x-10 items-center" },
+            {
+              staticClass: "inline-flex space-x-10 items-center",
+              class: [_vm.showAboutCompany ? "text-black" : "text-white"]
+            },
             [
               _c(
                 "svg",
@@ -40783,7 +39917,7 @@ var render = function() {
           _c(
             "button",
             {
-              staticClass: "text-white",
+              class: [_vm.showAboutCompany ? "text-black" : "text-white"],
               on: {
                 click: function($event) {
                   _vm.showAboutCompany = !_vm.showAboutCompany
@@ -40809,7 +39943,7 @@ var render = function() {
               _vm.showAboutCompany
                 ? _c(
                     "svg",
-                    { staticClass: "w-5 h-5", attrs: { viewBox: "0 0 24 24" } },
+                    { staticClass: "w-6 h-6", attrs: { viewBox: "0 0 24 24" } },
                     [
                       _c("path", {
                         attrs: { fill: "currentColor", d: "M19,13H5V11H19V13Z" }
@@ -40892,7 +40026,7 @@ var render = function() {
                       ? _c(
                           "svg",
                           {
-                            staticClass: "w-5 h-5",
+                            staticClass: "w-6 h-6",
                             attrs: { viewBox: "0 0 24 24" }
                           },
                           [
@@ -40948,7 +40082,7 @@ var render = function() {
                       {
                         key: item.id,
                         staticClass:
-                          "w-72 h-72 mr-4 mb-4 bg-gray-300 hover:bg-blue-300"
+                          "w-72 h-72 mr-4 mb-4 bg-gray-300 hover:bg-red-450"
                       },
                       [_c("img", { attrs: { src: item.src } })]
                     )
@@ -41026,7 +40160,7 @@ var render = function() {
                       ? _c(
                           "svg",
                           {
-                            staticClass: "w-5 h-5",
+                            staticClass: "w-6 h-6",
                             attrs: { viewBox: "0 0 24 24" }
                           },
                           [
@@ -41089,7 +40223,8 @@ var render = function() {
                               _c(
                                 "span",
                                 {
-                                  staticClass: "text-white p-5 whitespace-pre "
+                                  staticClass:
+                                    "text-white font-bold p-5 whitespace-pre "
                                 },
                                 [_vm._v(_vm._s(item.text))]
                               )
@@ -41119,7 +40254,8 @@ var render = function() {
                               _c(
                                 "span",
                                 {
-                                  staticClass: "text-white whitespace-pre p-5"
+                                  staticClass:
+                                    "text-white font-bold whitespace-pre p-5"
                                 },
                                 [_vm._v(_vm._s(item.text))]
                               )
@@ -42346,7 +41482,7 @@ var render = function() {
                                             },
                                             [
                                               _vm._v(
-                                                "\n                    Eco cupholder\n                  "
+                                                "\r\n                                        Eco cupholder\r\n                                    "
                                               )
                                             ]
                                           ),
@@ -42468,7 +41604,7 @@ var render = function() {
                                                           },
                                                           [
                                                             _vm._v(
-                                                              "Держатели на 2 стакана предназначены для заведений\n                          работающих, работающих по системе take away"
+                                                              "Держатели на 2 стакана предназначены для заведений\r\n                                                    работающих, работающих по системе take away"
                                                             )
                                                           ]
                                                         )
@@ -42487,7 +41623,7 @@ var render = function() {
                                                           },
                                                           [
                                                             _vm._v(
-                                                              "Картонные держатели для одноразовых стаканов -\n                          незаменимый органайзер для организации продажи\n                          напитков на вынос"
+                                                              "Картонные держатели для одноразовых стаканов -\r\n                                                    незаменимый органайзер для организации продажи\r\n                                                    напитков на вынос"
                                                             )
                                                           ]
                                                         )
@@ -42510,27 +41646,27 @@ var render = function() {
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\n                          Упаковка: 150шт. "
+                                                              "\r\n                                                    Упаковка: 150шт. "
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\n                          Цвет: Крафт "
+                                                              "\r\n                                                    Цвет: Крафт "
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\n                          Фиксирует стаканы разного объема\n                          "
+                                                              "\r\n                                                    Фиксирует стаканы разного объема\r\n                                                    "
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\n                          Производится из макулатуры"
+                                                              "\r\n                                                    Производится из макулатуры"
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\n                          Биоразлагаемый"
+                                                              "\r\n                                                    Биоразлагаемый"
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\n                          Подлежит вторичной переработке"
+                                                              "\r\n                                                    Подлежит вторичной переработке"
                                                             ),
                                                             _c("br")
                                                           ]
@@ -42664,7 +41800,7 @@ var render = function() {
                                             },
                                             [
                                               _vm._v(
-                                                "\n                    Eco cupholder\n                  "
+                                                "\r\n                                        Eco cupholder\r\n                                    "
                                               )
                                             ]
                                           ),
@@ -42786,7 +41922,7 @@ var render = function() {
                                                           },
                                                           [
                                                             _vm._v(
-                                                              "Держатели на 2 стакана предназначены для заведений\n                          работающих, работающих по системе take away"
+                                                              "Держатели на 2 стакана предназначены для заведений\r\n                                                    работающих, работающих по системе take away"
                                                             )
                                                           ]
                                                         )
@@ -42805,7 +41941,7 @@ var render = function() {
                                                           },
                                                           [
                                                             _vm._v(
-                                                              "Картонные держатели для одноразовых стаканов -\n                          незаменимый органайзер для организации продажи\n                          напитков на вынос"
+                                                              "Картонные держатели для одноразовых стаканов -\r\n                                                    незаменимый органайзер для организации продажи\r\n                                                    напитков на вынос"
                                                             )
                                                           ]
                                                         )
@@ -42828,27 +41964,27 @@ var render = function() {
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\n                          Упаковка: 150шт. "
+                                                              "\r\n                                                    Упаковка: 150шт. "
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\n                          Цвет: Крафт "
+                                                              "\r\n                                                    Цвет: Крафт "
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\n                          Фиксирует стаканы разного объема\n                          "
+                                                              "\r\n                                                    Фиксирует стаканы разного объема\r\n                                                    "
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\n                          Производится из макулатуры"
+                                                              "\r\n                                                    Производится из макулатуры"
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\n                          Биоразлагаемый"
+                                                              "\r\n                                                    Биоразлагаемый"
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\n                          Подлежит вторичной переработке"
+                                                              "\r\n                                                    Подлежит вторичной переработке"
                                                             ),
                                                             _c("br")
                                                           ]
@@ -42982,7 +42118,7 @@ var render = function() {
                                             },
                                             [
                                               _vm._v(
-                                                "\n                    Eco cupholder\n                  "
+                                                "\r\n                                        Eco cupholder\r\n                                    "
                                               )
                                             ]
                                           ),
@@ -43104,7 +42240,7 @@ var render = function() {
                                                           },
                                                           [
                                                             _vm._v(
-                                                              "Держатели на 2 стакана предназначены для заведений\n                          работающих, работающих по системе take away"
+                                                              "Держатели на 2 стакана предназначены для заведений\r\n                                                    работающих, работающих по системе take away"
                                                             )
                                                           ]
                                                         )
@@ -43123,7 +42259,7 @@ var render = function() {
                                                           },
                                                           [
                                                             _vm._v(
-                                                              "Картонные держатели для одноразовых стаканов -\n                          незаменимый органайзер для организации продажи\n                          напитков на вынос"
+                                                              "Картонные держатели для одноразовых стаканов -\r\n                                                    незаменимый органайзер для организации продажи\r\n                                                    напитков на вынос"
                                                             )
                                                           ]
                                                         )
@@ -43146,27 +42282,27 @@ var render = function() {
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\n                          Упаковка: 150шт. "
+                                                              "\r\n                                                    Упаковка: 150шт. "
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\n                          Цвет: Крафт "
+                                                              "\r\n                                                    Цвет: Крафт "
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\n                          Фиксирует стаканы разного объема\n                          "
+                                                              "\r\n                                                    Фиксирует стаканы разного объема\r\n                                                    "
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\n                          Производится из макулатуры"
+                                                              "\r\n                                                    Производится из макулатуры"
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\n                          Биоразлагаемый"
+                                                              "\r\n                                                    Биоразлагаемый"
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\n                          Подлежит вторичной переработке"
+                                                              "\r\n                                                    Подлежит вторичной переработке"
                                                             ),
                                                             _c("br")
                                                           ]
@@ -43300,7 +42436,7 @@ var render = function() {
                                             },
                                             [
                                               _vm._v(
-                                                "\n                    Eco cupholder\n                  "
+                                                "\r\n                                        Eco cupholder\r\n                                    "
                                               )
                                             ]
                                           ),
@@ -43422,7 +42558,7 @@ var render = function() {
                                                           },
                                                           [
                                                             _vm._v(
-                                                              "Держатели на 2 стакана предназначены для заведений\n                          работающих, работающих по системе take away"
+                                                              "Держатели на 2 стакана предназначены для заведений\r\n                                                    работающих, работающих по системе take away"
                                                             )
                                                           ]
                                                         )
@@ -43441,7 +42577,7 @@ var render = function() {
                                                           },
                                                           [
                                                             _vm._v(
-                                                              "Картонные держатели для одноразовых стаканов -\n                          незаменимый органайзер для организации продажи\n                          напитков на вынос"
+                                                              "Картонные держатели для одноразовых стаканов -\r\n                                                    незаменимый органайзер для организации продажи\r\n                                                    напитков на вынос"
                                                             )
                                                           ]
                                                         )
@@ -43464,27 +42600,27 @@ var render = function() {
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\n                          Упаковка: 150шт. "
+                                                              "\r\n                                                    Упаковка: 150шт. "
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\n                          Цвет: Крафт "
+                                                              "\r\n                                                    Цвет: Крафт "
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\n                          Фиксирует стаканы разного объема\n                          "
+                                                              "\r\n                                                    Фиксирует стаканы разного объема\r\n                                                    "
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\n                          Производится из макулатуры"
+                                                              "\r\n                                                    Производится из макулатуры"
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\n                          Биоразлагаемый"
+                                                              "\r\n                                                    Биоразлагаемый"
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\n                          Подлежит вторичной переработке"
+                                                              "\r\n                                                    Подлежит вторичной переработке"
                                                             ),
                                                             _c("br")
                                                           ]
@@ -43618,7 +42754,7 @@ var render = function() {
                                             },
                                             [
                                               _vm._v(
-                                                "\n                    Eco cupholder\n                  "
+                                                "\r\n                                        Eco cupholder\r\n                                    "
                                               )
                                             ]
                                           ),
@@ -43740,7 +42876,7 @@ var render = function() {
                                                           },
                                                           [
                                                             _vm._v(
-                                                              "Держатели на 2 стакана предназначены для заведений\n                          работающих, работающих по системе take away"
+                                                              "Держатели на 2 стакана предназначены для заведений\r\n                                                    работающих, работающих по системе take away"
                                                             )
                                                           ]
                                                         )
@@ -43759,7 +42895,7 @@ var render = function() {
                                                           },
                                                           [
                                                             _vm._v(
-                                                              "Картонные держатели для одноразовых стаканов -\n                          незаменимый органайзер для организации продажи\n                          напитков на вынос"
+                                                              "Картонные держатели для одноразовых стаканов -\r\n                                                    незаменимый органайзер для организации продажи\r\n                                                    напитков на вынос"
                                                             )
                                                           ]
                                                         )
@@ -43782,27 +42918,27 @@ var render = function() {
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\n                          Упаковка: 150шт. "
+                                                              "\r\n                                                    Упаковка: 150шт. "
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\n                          Цвет: Крафт "
+                                                              "\r\n                                                    Цвет: Крафт "
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\n                          Фиксирует стаканы разного объема\n                          "
+                                                              "\r\n                                                    Фиксирует стаканы разного объема\r\n                                                    "
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\n                          Производится из макулатуры"
+                                                              "\r\n                                                    Производится из макулатуры"
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\n                          Биоразлагаемый"
+                                                              "\r\n                                                    Биоразлагаемый"
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\n                          Подлежит вторичной переработке"
+                                                              "\r\n                                                    Подлежит вторичной переработке"
                                                             ),
                                                             _c("br")
                                                           ]
@@ -43936,7 +43072,7 @@ var render = function() {
                                             },
                                             [
                                               _vm._v(
-                                                "\n                    Eco cupholder\n                  "
+                                                "\r\n                                        Eco cupholder\r\n                                    "
                                               )
                                             ]
                                           ),
@@ -44058,7 +43194,7 @@ var render = function() {
                                                           },
                                                           [
                                                             _vm._v(
-                                                              "Держатели на 2 стакана предназначены для заведений\n                          работающих, работающих по системе take away"
+                                                              "Держатели на 2 стакана предназначены для заведений\r\n                                                    работающих, работающих по системе take away"
                                                             )
                                                           ]
                                                         )
@@ -44077,7 +43213,7 @@ var render = function() {
                                                           },
                                                           [
                                                             _vm._v(
-                                                              "Картонные держатели для одноразовых стаканов -\n                          незаменимый органайзер для организации продажи\n                          напитков на вынос"
+                                                              "Картонные держатели для одноразовых стаканов -\r\n                                                    незаменимый органайзер для организации продажи\r\n                                                    напитков на вынос"
                                                             )
                                                           ]
                                                         )
@@ -44100,27 +43236,27 @@ var render = function() {
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\n                          Упаковка: 150шт. "
+                                                              "\r\n                                                    Упаковка: 150шт. "
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\n                          Цвет: Крафт "
+                                                              "\r\n                                                    Цвет: Крафт "
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\n                          Фиксирует стаканы разного объема\n                          "
+                                                              "\r\n                                                    Фиксирует стаканы разного объема\r\n                                                    "
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\n                          Производится из макулатуры"
+                                                              "\r\n                                                    Производится из макулатуры"
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\n                          Биоразлагаемый"
+                                                              "\r\n                                                    Биоразлагаемый"
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\n                          Подлежит вторичной переработке"
+                                                              "\r\n                                                    Подлежит вторичной переработке"
                                                             ),
                                                             _c("br")
                                                           ]
@@ -44254,7 +43390,7 @@ var render = function() {
                                             },
                                             [
                                               _vm._v(
-                                                "\n                    Eco cupholder\n                  "
+                                                "\r\n                                        Eco cupholder\r\n                                    "
                                               )
                                             ]
                                           ),
@@ -44376,7 +43512,7 @@ var render = function() {
                                                           },
                                                           [
                                                             _vm._v(
-                                                              "Держатели на 2 стакана предназначены для заведений\n                          работающих, работающих по системе take away"
+                                                              "Держатели на 2 стакана предназначены для заведений\r\n                                                    работающих, работающих по системе take away"
                                                             )
                                                           ]
                                                         )
@@ -44395,7 +43531,7 @@ var render = function() {
                                                           },
                                                           [
                                                             _vm._v(
-                                                              "Картонные держатели для одноразовых стаканов -\n                          незаменимый органайзер для организации продажи\n                          напитков на вынос"
+                                                              "Картонные держатели для одноразовых стаканов -\r\n                                                    незаменимый органайзер для организации продажи\r\n                                                    напитков на вынос"
                                                             )
                                                           ]
                                                         )
@@ -44418,27 +43554,27 @@ var render = function() {
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\n                          Упаковка: 150шт. "
+                                                              "\r\n                                                    Упаковка: 150шт. "
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\n                          Цвет: Крафт "
+                                                              "\r\n                                                    Цвет: Крафт "
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\n                          Фиксирует стаканы разного объема\n                          "
+                                                              "\r\n                                                    Фиксирует стаканы разного объема\r\n                                                    "
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\n                          Производится из макулатуры"
+                                                              "\r\n                                                    Производится из макулатуры"
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\n                          Биоразлагаемый"
+                                                              "\r\n                                                    Биоразлагаемый"
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\n                          Подлежит вторичной переработке"
+                                                              "\r\n                                                    Подлежит вторичной переработке"
                                                             ),
                                                             _c("br")
                                                           ]
@@ -44572,7 +43708,7 @@ var render = function() {
                                             },
                                             [
                                               _vm._v(
-                                                "\n                    Eco cupholder\n                  "
+                                                "\r\n                                        Eco cupholder\r\n                                    "
                                               )
                                             ]
                                           ),
@@ -44694,7 +43830,7 @@ var render = function() {
                                                           },
                                                           [
                                                             _vm._v(
-                                                              "Держатели на 2 стакана предназначены для заведений\n                          работающих, работающих по системе take away"
+                                                              "Держатели на 2 стакана предназначены для заведений\r\n                                                    работающих, работающих по системе take away"
                                                             )
                                                           ]
                                                         )
@@ -44713,7 +43849,7 @@ var render = function() {
                                                           },
                                                           [
                                                             _vm._v(
-                                                              "Картонные держатели для одноразовых стаканов -\n                          незаменимый органайзер для организации продажи\n                          напитков на вынос"
+                                                              "Картонные держатели для одноразовых стаканов -\r\n                                                    незаменимый органайзер для организации продажи\r\n                                                    напитков на вынос"
                                                             )
                                                           ]
                                                         )
@@ -44736,27 +43872,27 @@ var render = function() {
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\n                          Упаковка: 150шт. "
+                                                              "\r\n                                                    Упаковка: 150шт. "
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\n                          Цвет: Крафт "
+                                                              "\r\n                                                    Цвет: Крафт "
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\n                          Фиксирует стаканы разного объема\n                          "
+                                                              "\r\n                                                    Фиксирует стаканы разного объема\r\n                                                    "
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\n                          Производится из макулатуры"
+                                                              "\r\n                                                    Производится из макулатуры"
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\n                          Биоразлагаемый"
+                                                              "\r\n                                                    Биоразлагаемый"
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\n                          Подлежит вторичной переработке"
+                                                              "\r\n                                                    Подлежит вторичной переработке"
                                                             ),
                                                             _c("br")
                                                           ]
@@ -44890,7 +44026,7 @@ var render = function() {
                                             },
                                             [
                                               _vm._v(
-                                                "\n                    Eco cupholder\n                  "
+                                                "\r\n                                        Eco cupholder\r\n                                    "
                                               )
                                             ]
                                           ),
@@ -45012,7 +44148,7 @@ var render = function() {
                                                           },
                                                           [
                                                             _vm._v(
-                                                              "Держатели на 2 стакана предназначены для заведений\n                          работающих, работающих по системе take away"
+                                                              "Держатели на 2 стакана предназначены для заведений\r\n                                                    работающих, работающих по системе take away"
                                                             )
                                                           ]
                                                         )
@@ -45031,7 +44167,7 @@ var render = function() {
                                                           },
                                                           [
                                                             _vm._v(
-                                                              "Картонные держатели для одноразовых стаканов -\n                          незаменимый органайзер для организации продажи\n                          напитков на вынос"
+                                                              "Картонные держатели для одноразовых стаканов -\r\n                                                    незаменимый органайзер для организации продажи\r\n                                                    напитков на вынос"
                                                             )
                                                           ]
                                                         )
@@ -45054,27 +44190,27 @@ var render = function() {
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\n                          Упаковка: 150шт. "
+                                                              "\r\n                                                    Упаковка: 150шт. "
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\n                          Цвет: Крафт "
+                                                              "\r\n                                                    Цвет: Крафт "
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\n                          Фиксирует стаканы разного объема\n                          "
+                                                              "\r\n                                                    Фиксирует стаканы разного объема\r\n                                                    "
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\n                          Производится из макулатуры"
+                                                              "\r\n                                                    Производится из макулатуры"
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\n                          Биоразлагаемый"
+                                                              "\r\n                                                    Биоразлагаемый"
                                                             ),
                                                             _c("br"),
                                                             _vm._v(
-                                                              "\n                          Подлежит вторичной переработке"
+                                                              "\r\n                                                    Подлежит вторичной переработке"
                                                             ),
                                                             _c("br")
                                                           ]
@@ -45514,327 +44650,9 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", { staticStyle: { visibility: "hidden" } }, [
-    _c(
-      "div",
-      { staticClass: "p-6 sm:px-20 bg-white border-b border-gray-200" },
-      [
-        _c(
-          "div",
-          [_c("jet-application-logo", { staticClass: "block h-12 w-auto" })],
-          1
-        ),
-        _vm._v(" "),
-        _c("div", { staticClass: "mt-8 text-2xl" }, [
-          _vm._v(
-            "\n            Welcome to your Jetstream application!\n        "
-          )
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "mt-6 text-gray-500" }, [
-          _vm._v(
-            "\n            Laravel Jetstream provides a beautiful, robust starting point for your next Laravel application. Laravel is designed\n            to help you build your application using a development environment that is simple, powerful, and enjoyable. We believe\n            you should love expressing your creativity through programming, so we have spent time carefully crafting the Laravel\n            ecosystem to be a breath of fresh air. We hope you love it.\n        "
-          )
-        ])
-      ]
-    ),
-    _vm._v(" "),
-    _c(
-      "div",
-      {
-        staticClass: "bg-gray-200 bg-opacity-25 grid grid-cols-1 md:grid-cols-2"
-      },
-      [
-        _c("div", { staticClass: "p-6" }, [
-          _c("div", { staticClass: "flex items-center" }, [
-            _c(
-              "svg",
-              {
-                staticClass: "w-8 h-8 text-gray-400",
-                attrs: {
-                  fill: "none",
-                  stroke: "currentColor",
-                  "stroke-linecap": "round",
-                  "stroke-linejoin": "round",
-                  "stroke-width": "2",
-                  viewBox: "0 0 24 24"
-                }
-              },
-              [
-                _c("path", {
-                  attrs: {
-                    d:
-                      "M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"
-                  }
-                })
-              ]
-            ),
-            _vm._v(" "),
-            _vm._m(0)
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "ml-12" }, [
-            _c("div", { staticClass: "mt-2 text-sm text-gray-500" }, [
-              _vm._v(
-                "\n                    Laravel has wonderful documentation covering every aspect of the framework. Whether you're new to the framework or have previous experience, we recommend reading all of the documentation from beginning to end.\n                "
-              )
-            ]),
-            _vm._v(" "),
-            _c("a", { attrs: { href: "https://laravel.com/docs" } }, [
-              _c(
-                "div",
-                {
-                  staticClass:
-                    "mt-3 flex items-center text-sm font-semibold text-indigo-700"
-                },
-                [
-                  _c("div", [_vm._v("Explore the documentation")]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "ml-1 text-indigo-500" }, [
-                    _c(
-                      "svg",
-                      {
-                        staticClass: "w-4 h-4",
-                        attrs: { viewBox: "0 0 20 20", fill: "currentColor" }
-                      },
-                      [
-                        _c("path", {
-                          attrs: {
-                            "fill-rule": "evenodd",
-                            d:
-                              "M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z",
-                            "clip-rule": "evenodd"
-                          }
-                        })
-                      ]
-                    )
-                  ])
-                ]
-              )
-            ])
-          ])
-        ]),
-        _vm._v(" "),
-        _c(
-          "div",
-          {
-            staticClass:
-              "p-6 border-t border-gray-200 md:border-t-0 md:border-l"
-          },
-          [
-            _c("div", { staticClass: "flex items-center" }, [
-              _c(
-                "svg",
-                {
-                  staticClass: "w-8 h-8 text-gray-400",
-                  attrs: {
-                    fill: "none",
-                    stroke: "currentColor",
-                    "stroke-linecap": "round",
-                    "stroke-linejoin": "round",
-                    "stroke-width": "2",
-                    viewBox: "0 0 24 24"
-                  }
-                },
-                [
-                  _c("path", {
-                    attrs: {
-                      d:
-                        "M3 9a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 0110.07 4h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0018.07 7H19a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2V9z"
-                    }
-                  }),
-                  _c("path", {
-                    attrs: { d: "M15 13a3 3 0 11-6 0 3 3 0 016 0z" }
-                  })
-                ]
-              ),
-              _vm._v(" "),
-              _vm._m(1)
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "ml-12" }, [
-              _c("div", { staticClass: "mt-2 text-sm text-gray-500" }, [
-                _vm._v(
-                  "\n                    Laracasts offers thousands of video tutorials on Laravel, PHP, and JavaScript development. Check them out, see for yourself, and massively level up your development skills in the process.\n                "
-                )
-              ]),
-              _vm._v(" "),
-              _c("a", { attrs: { href: "https://laracasts.com" } }, [
-                _c(
-                  "div",
-                  {
-                    staticClass:
-                      "mt-3 flex items-center text-sm font-semibold text-indigo-700"
-                  },
-                  [
-                    _c("div", [_vm._v("Start watching Laracasts")]),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "ml-1 text-indigo-500" }, [
-                      _c(
-                        "svg",
-                        {
-                          staticClass: "w-4 h-4",
-                          attrs: { viewBox: "0 0 20 20", fill: "currentColor" }
-                        },
-                        [
-                          _c("path", {
-                            attrs: {
-                              "fill-rule": "evenodd",
-                              d:
-                                "M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z",
-                              "clip-rule": "evenodd"
-                            }
-                          })
-                        ]
-                      )
-                    ])
-                  ]
-                )
-              ])
-            ])
-          ]
-        ),
-        _vm._v(" "),
-        _c("div", { staticClass: "p-6 border-t border-gray-200" }, [
-          _c("div", { staticClass: "flex items-center" }, [
-            _c(
-              "svg",
-              {
-                staticClass: "w-8 h-8 text-gray-400",
-                attrs: {
-                  fill: "none",
-                  stroke: "currentColor",
-                  "stroke-linecap": "round",
-                  "stroke-linejoin": "round",
-                  "stroke-width": "2",
-                  viewBox: "0 0 24 24"
-                }
-              },
-              [
-                _c("path", {
-                  attrs: {
-                    d:
-                      "M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"
-                  }
-                })
-              ]
-            ),
-            _vm._v(" "),
-            _vm._m(2)
-          ]),
-          _vm._v(" "),
-          _vm._m(3)
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "p-6 border-t border-gray-200 md:border-l" }, [
-          _c("div", { staticClass: "flex items-center" }, [
-            _c(
-              "svg",
-              {
-                staticClass: "w-8 h-8 text-gray-400",
-                attrs: {
-                  fill: "none",
-                  stroke: "currentColor",
-                  "stroke-linecap": "round",
-                  "stroke-linejoin": "round",
-                  "stroke-width": "2",
-                  viewBox: "0 0 24 24"
-                }
-              },
-              [
-                _c("path", {
-                  attrs: {
-                    d:
-                      "M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"
-                  }
-                })
-              ]
-            ),
-            _vm._v(" "),
-            _c(
-              "div",
-              {
-                staticClass:
-                  "ml-4 text-lg text-gray-600 leading-7 font-semibold"
-              },
-              [_vm._v("Authentication")]
-            )
-          ]),
-          _vm._v(" "),
-          _vm._m(4)
-        ])
-      ]
-    )
-  ])
+  return _c("div")
 }
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c(
-      "div",
-      { staticClass: "ml-4 text-lg text-gray-600 leading-7 font-semibold" },
-      [
-        _c("a", { attrs: { href: "https://laravel.com/docs" } }, [
-          _vm._v("Documentation")
-        ])
-      ]
-    )
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c(
-      "div",
-      { staticClass: "ml-4 text-lg text-gray-600 leading-7 font-semibold" },
-      [
-        _c("a", { attrs: { href: "https://laracasts.com" } }, [
-          _vm._v("Laracasts")
-        ])
-      ]
-    )
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c(
-      "div",
-      { staticClass: "ml-4 text-lg text-gray-600 leading-7 font-semibold" },
-      [
-        _c("a", { attrs: { href: "https://tailwindcss.com/" } }, [
-          _vm._v("Tailwind")
-        ])
-      ]
-    )
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "ml-12" }, [
-      _c("div", { staticClass: "mt-2 text-sm text-gray-500" }, [
-        _vm._v(
-          "\n                    Laravel Jetstream is built with Tailwind, an amazing utility first CSS framework that doesn't get in your way. You'll be amazed how easily you can build and maintain fresh, modern designs with this wonderful framework at your fingertips.\n                "
-        )
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "ml-12" }, [
-      _c("div", { staticClass: "mt-2 text-sm text-gray-500" }, [
-        _vm._v(
-          "\n                    Authentication and registration views are included with Laravel Jetstream, as well as support for user email verification and resetting forgotten passwords. So, you're free to get started what matters most: building your application.\n                "
-        )
-      ])
-    ])
-  }
-]
+var staticRenderFns = []
 render._withStripped = true
 
 
@@ -47388,327 +46206,9 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", { staticStyle: { visibility: "hidden" } }, [
-    _c(
-      "div",
-      { staticClass: "p-6 sm:px-20 bg-white border-b border-gray-200" },
-      [
-        _c(
-          "div",
-          [_c("jet-application-logo", { staticClass: "block h-12 w-auto" })],
-          1
-        ),
-        _vm._v(" "),
-        _c("div", { staticClass: "mt-8 text-2xl" }, [
-          _vm._v(
-            "\n            Welcome to your Jetstream application!\n        "
-          )
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "mt-6 text-gray-500" }, [
-          _vm._v(
-            "\n            Laravel Jetstream provides a beautiful, robust starting point for your next Laravel application. Laravel is designed\n            to help you build your application using a development environment that is simple, powerful, and enjoyable. We believe\n            you should love expressing your creativity through programming, so we have spent time carefully crafting the Laravel\n            ecosystem to be a breath of fresh air. We hope you love it.\n        "
-          )
-        ])
-      ]
-    ),
-    _vm._v(" "),
-    _c(
-      "div",
-      {
-        staticClass: "bg-gray-200 bg-opacity-25 grid grid-cols-1 md:grid-cols-2"
-      },
-      [
-        _c("div", { staticClass: "p-6" }, [
-          _c("div", { staticClass: "flex items-center" }, [
-            _c(
-              "svg",
-              {
-                staticClass: "w-8 h-8 text-gray-400",
-                attrs: {
-                  fill: "none",
-                  stroke: "currentColor",
-                  "stroke-linecap": "round",
-                  "stroke-linejoin": "round",
-                  "stroke-width": "2",
-                  viewBox: "0 0 24 24"
-                }
-              },
-              [
-                _c("path", {
-                  attrs: {
-                    d:
-                      "M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"
-                  }
-                })
-              ]
-            ),
-            _vm._v(" "),
-            _vm._m(0)
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "ml-12" }, [
-            _c("div", { staticClass: "mt-2 text-sm text-gray-500" }, [
-              _vm._v(
-                "\n                    Laravel has wonderful documentation covering every aspect of the framework. Whether you're new to the framework or have previous experience, we recommend reading all of the documentation from beginning to end.\n                "
-              )
-            ]),
-            _vm._v(" "),
-            _c("a", { attrs: { href: "https://laravel.com/docs" } }, [
-              _c(
-                "div",
-                {
-                  staticClass:
-                    "mt-3 flex items-center text-sm font-semibold text-indigo-700"
-                },
-                [
-                  _c("div", [_vm._v("Explore the documentation")]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "ml-1 text-indigo-500" }, [
-                    _c(
-                      "svg",
-                      {
-                        staticClass: "w-4 h-4",
-                        attrs: { viewBox: "0 0 20 20", fill: "currentColor" }
-                      },
-                      [
-                        _c("path", {
-                          attrs: {
-                            "fill-rule": "evenodd",
-                            d:
-                              "M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z",
-                            "clip-rule": "evenodd"
-                          }
-                        })
-                      ]
-                    )
-                  ])
-                ]
-              )
-            ])
-          ])
-        ]),
-        _vm._v(" "),
-        _c(
-          "div",
-          {
-            staticClass:
-              "p-6 border-t border-gray-200 md:border-t-0 md:border-l"
-          },
-          [
-            _c("div", { staticClass: "flex items-center" }, [
-              _c(
-                "svg",
-                {
-                  staticClass: "w-8 h-8 text-gray-400",
-                  attrs: {
-                    fill: "none",
-                    stroke: "currentColor",
-                    "stroke-linecap": "round",
-                    "stroke-linejoin": "round",
-                    "stroke-width": "2",
-                    viewBox: "0 0 24 24"
-                  }
-                },
-                [
-                  _c("path", {
-                    attrs: {
-                      d:
-                        "M3 9a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 0110.07 4h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0018.07 7H19a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2V9z"
-                    }
-                  }),
-                  _c("path", {
-                    attrs: { d: "M15 13a3 3 0 11-6 0 3 3 0 016 0z" }
-                  })
-                ]
-              ),
-              _vm._v(" "),
-              _vm._m(1)
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "ml-12" }, [
-              _c("div", { staticClass: "mt-2 text-sm text-gray-500" }, [
-                _vm._v(
-                  "\n                    Laracasts offers thousands of video tutorials on Laravel, PHP, and JavaScript development. Check them out, see for yourself, and massively level up your development skills in the process.\n                "
-                )
-              ]),
-              _vm._v(" "),
-              _c("a", { attrs: { href: "https://laracasts.com" } }, [
-                _c(
-                  "div",
-                  {
-                    staticClass:
-                      "mt-3 flex items-center text-sm font-semibold text-indigo-700"
-                  },
-                  [
-                    _c("div", [_vm._v("Start watching Laracasts")]),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "ml-1 text-indigo-500" }, [
-                      _c(
-                        "svg",
-                        {
-                          staticClass: "w-4 h-4",
-                          attrs: { viewBox: "0 0 20 20", fill: "currentColor" }
-                        },
-                        [
-                          _c("path", {
-                            attrs: {
-                              "fill-rule": "evenodd",
-                              d:
-                                "M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z",
-                              "clip-rule": "evenodd"
-                            }
-                          })
-                        ]
-                      )
-                    ])
-                  ]
-                )
-              ])
-            ])
-          ]
-        ),
-        _vm._v(" "),
-        _c("div", { staticClass: "p-6 border-t border-gray-200" }, [
-          _c("div", { staticClass: "flex items-center" }, [
-            _c(
-              "svg",
-              {
-                staticClass: "w-8 h-8 text-gray-400",
-                attrs: {
-                  fill: "none",
-                  stroke: "currentColor",
-                  "stroke-linecap": "round",
-                  "stroke-linejoin": "round",
-                  "stroke-width": "2",
-                  viewBox: "0 0 24 24"
-                }
-              },
-              [
-                _c("path", {
-                  attrs: {
-                    d:
-                      "M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"
-                  }
-                })
-              ]
-            ),
-            _vm._v(" "),
-            _vm._m(2)
-          ]),
-          _vm._v(" "),
-          _vm._m(3)
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "p-6 border-t border-gray-200 md:border-l" }, [
-          _c("div", { staticClass: "flex items-center" }, [
-            _c(
-              "svg",
-              {
-                staticClass: "w-8 h-8 text-gray-400",
-                attrs: {
-                  fill: "none",
-                  stroke: "currentColor",
-                  "stroke-linecap": "round",
-                  "stroke-linejoin": "round",
-                  "stroke-width": "2",
-                  viewBox: "0 0 24 24"
-                }
-              },
-              [
-                _c("path", {
-                  attrs: {
-                    d:
-                      "M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"
-                  }
-                })
-              ]
-            ),
-            _vm._v(" "),
-            _c(
-              "div",
-              {
-                staticClass:
-                  "ml-4 text-lg text-gray-600 leading-7 font-semibold"
-              },
-              [_vm._v("Authentication")]
-            )
-          ]),
-          _vm._v(" "),
-          _vm._m(4)
-        ])
-      ]
-    )
-  ])
+  return _c("div")
 }
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c(
-      "div",
-      { staticClass: "ml-4 text-lg text-gray-600 leading-7 font-semibold" },
-      [
-        _c("a", { attrs: { href: "https://laravel.com/docs" } }, [
-          _vm._v("Documentation")
-        ])
-      ]
-    )
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c(
-      "div",
-      { staticClass: "ml-4 text-lg text-gray-600 leading-7 font-semibold" },
-      [
-        _c("a", { attrs: { href: "https://laracasts.com" } }, [
-          _vm._v("Laracasts")
-        ])
-      ]
-    )
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c(
-      "div",
-      { staticClass: "ml-4 text-lg text-gray-600 leading-7 font-semibold" },
-      [
-        _c("a", { attrs: { href: "https://tailwindcss.com/" } }, [
-          _vm._v("Tailwind")
-        ])
-      ]
-    )
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "ml-12" }, [
-      _c("div", { staticClass: "mt-2 text-sm text-gray-500" }, [
-        _vm._v(
-          "\n                    Laravel Jetstream is built with Tailwind, an amazing utility first CSS framework that doesn't get in your way. You'll be amazed how easily you can build and maintain fresh, modern designs with this wonderful framework at your fingertips.\n                "
-        )
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "ml-12" }, [
-      _c("div", { staticClass: "mt-2 text-sm text-gray-500" }, [
-        _vm._v(
-          "\n                    Authentication and registration views are included with Laravel Jetstream, as well as support for user email verification and resetting forgotten passwords. So, you're free to get started what matters most: building your application.\n                "
-        )
-      ])
-    ])
-  }
-]
+var staticRenderFns = []
 render._withStripped = true
 
 
@@ -47731,327 +46231,141 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", { staticStyle: { visibility: "hidden" } }, [
-    _c(
-      "div",
-      { staticClass: "p-6 sm:px-20 bg-white border-b border-gray-200" },
-      [
-        _c(
-          "div",
-          [_c("jet-application-logo", { staticClass: "block h-12 w-auto" })],
-          1
-        ),
-        _vm._v(" "),
-        _c("div", { staticClass: "mt-8 text-2xl" }, [
-          _vm._v(
-            "\n            Welcome to your Jetstream application!\n        "
-          )
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "mt-6 text-gray-500" }, [
-          _vm._v(
-            "\n            Laravel Jetstream provides a beautiful, robust starting point for your next Laravel application. Laravel is designed\n            to help you build your application using a development environment that is simple, powerful, and enjoyable. We believe\n            you should love expressing your creativity through programming, so we have spent time carefully crafting the Laravel\n            ecosystem to be a breath of fresh air. We hope you love it.\n        "
-          )
-        ])
-      ]
-    ),
-    _vm._v(" "),
-    _c(
-      "div",
-      {
-        staticClass: "bg-gray-200 bg-opacity-25 grid grid-cols-1 md:grid-cols-2"
-      },
-      [
-        _c("div", { staticClass: "p-6" }, [
-          _c("div", { staticClass: "flex items-center" }, [
-            _c(
-              "svg",
-              {
-                staticClass: "w-8 h-8 text-gray-400",
-                attrs: {
-                  fill: "none",
-                  stroke: "currentColor",
-                  "stroke-linecap": "round",
-                  "stroke-linejoin": "round",
-                  "stroke-width": "2",
-                  viewBox: "0 0 24 24"
-                }
-              },
-              [
-                _c("path", {
-                  attrs: {
-                    d:
-                      "M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"
-                  }
-                })
-              ]
-            ),
-            _vm._v(" "),
-            _vm._m(0)
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "ml-12" }, [
-            _c("div", { staticClass: "mt-2 text-sm text-gray-500" }, [
-              _vm._v(
-                "\n                    Laravel has wonderful documentation covering every aspect of the framework. Whether you're new to the framework or have previous experience, we recommend reading all of the documentation from beginning to end.\n                "
-              )
-            ]),
-            _vm._v(" "),
-            _c("a", { attrs: { href: "https://laravel.com/docs" } }, [
-              _c(
-                "div",
-                {
-                  staticClass:
-                    "mt-3 flex items-center text-sm font-semibold text-indigo-700"
-                },
-                [
-                  _c("div", [_vm._v("Explore the documentation")]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "ml-1 text-indigo-500" }, [
-                    _c(
-                      "svg",
-                      {
-                        staticClass: "w-4 h-4",
-                        attrs: { viewBox: "0 0 20 20", fill: "currentColor" }
-                      },
-                      [
-                        _c("path", {
-                          attrs: {
-                            "fill-rule": "evenodd",
-                            d:
-                              "M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z",
-                            "clip-rule": "evenodd"
-                          }
-                        })
-                      ]
-                    )
-                  ])
-                ]
-              )
-            ])
-          ])
-        ]),
-        _vm._v(" "),
-        _c(
-          "div",
-          {
-            staticClass:
-              "p-6 border-t border-gray-200 md:border-t-0 md:border-l"
-          },
-          [
-            _c("div", { staticClass: "flex items-center" }, [
+  return _c(
+    "div",
+    [
+      _c(
+        "div",
+        {
+          staticClass:
+            "rounded-full py-3 px-6 flex items-center justify-between mb-2",
+          class: [_vm.showOurContacts ? "bg-red-550" : "bg-black"]
+        },
+        [
+          _c(
+            "div",
+            {
+              staticClass: "inline-flex space-x-10 items-center",
+              class: [_vm.showOurContacts ? "text-black" : "text-white"]
+            },
+            [
               _c(
                 "svg",
-                {
-                  staticClass: "w-8 h-8 text-gray-400",
-                  attrs: {
-                    fill: "none",
-                    stroke: "currentColor",
-                    "stroke-linecap": "round",
-                    "stroke-linejoin": "round",
-                    "stroke-width": "2",
-                    viewBox: "0 0 24 24"
-                  }
-                },
+                { staticClass: "w-6 h-6", attrs: { viewBox: "0 0 24 24" } },
                 [
                   _c("path", {
                     attrs: {
+                      fill: "currentColor",
                       d:
-                        "M3 9a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 0110.07 4h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0018.07 7H19a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2V9z"
+                        "M12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5M12,2A7,7 0 0,0 5,9C5,14.25 12,22 12,22C12,22 19,14.25 19,9A7,7 0 0,0 12,2Z"
                     }
-                  }),
-                  _c("path", {
-                    attrs: { d: "M15 13a3 3 0 11-6 0 3 3 0 016 0z" }
                   })
                 ]
               ),
               _vm._v(" "),
-              _vm._m(1)
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "ml-12" }, [
-              _c("div", { staticClass: "mt-2 text-sm text-gray-500" }, [
-                _vm._v(
-                  "\n                    Laracasts offers thousands of video tutorials on Laravel, PHP, and JavaScript development. Check them out, see for yourself, and massively level up your development skills in the process.\n                "
-                )
-              ]),
+              _c("span", {}, [_vm._v(" НАШИ КОНТАКТЫ ")])
+            ]
+          ),
+          _vm._v(" "),
+          _c(
+            "button",
+            {
+              class: [_vm.showOurContacts ? "text-black" : "text-white"],
+              on: {
+                click: function($event) {
+                  _vm.showOurContacts = !_vm.showOurContacts
+                }
+              }
+            },
+            [
+              !_vm.showOurContacts
+                ? _c(
+                    "svg",
+                    { staticClass: "w-6 h-6", attrs: { viewBox: "0 0 24 24" } },
+                    [
+                      _c("path", {
+                        attrs: {
+                          fill: "currentColor",
+                          d: "M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z"
+                        }
+                      })
+                    ]
+                  )
+                : _vm._e(),
               _vm._v(" "),
-              _c("a", { attrs: { href: "https://laracasts.com" } }, [
-                _c(
+              _vm.showOurContacts
+                ? _c(
+                    "svg",
+                    { staticClass: "w-6 h-6", attrs: { viewBox: "0 0 24 24" } },
+                    [
+                      _c("path", {
+                        attrs: { fill: "currentColor", d: "M19,13H5V11H19V13Z" }
+                      })
+                    ]
+                  )
+                : _vm._e()
+            ]
+          )
+        ]
+      ),
+      _vm._v(" "),
+      _c("transition", { attrs: { name: "fade" } }, [
+        _vm.showOurContacts
+          ? _c(
+              "div",
+              { staticClass: "flex flex-col mb-8" },
+              _vm._l(_vm.content, function(item) {
+                return _c(
                   "div",
-                  {
-                    staticClass:
-                      "mt-3 flex items-center text-sm font-semibold text-indigo-700"
-                  },
+                  { key: item.logo, staticClass: "flex justify-center" },
                   [
-                    _c("div", [_vm._v("Start watching Laracasts")]),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "ml-1 text-indigo-500" }, [
+                    _c("div", { staticClass: "flex flex-row items-center" }, [
                       _c(
-                        "svg",
+                        "div",
                         {
-                          staticClass: "w-4 h-4",
-                          attrs: { viewBox: "0 0 20 20", fill: "currentColor" }
+                          staticClass:
+                            "bg-black text-white rounded-full h-11 w-11 flex items-center justify-center"
                         },
                         [
-                          _c("path", {
-                            attrs: {
-                              "fill-rule": "evenodd",
-                              d:
-                                "M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z",
-                              "clip-rule": "evenodd"
-                            }
-                          })
+                          _c(
+                            "svg",
+                            {
+                              staticClass: "w-6 h-6",
+                              attrs: { viewBox: "0 0 24 24" }
+                            },
+                            [
+                              _c("path", {
+                                attrs: { fill: "currentColor", d: item.logo }
+                              })
+                            ]
+                          )
                         ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        {
+                          staticClass:
+                            "pl-14 flex flex-col justify-items-center"
+                        },
+                        _vm._l(item.text, function(sentance) {
+                          return _c("span", [_vm._v(_vm._s(sentance))])
+                        }),
+                        0
                       )
                     ])
                   ]
                 )
-              ])
-            ])
-          ]
-        ),
-        _vm._v(" "),
-        _c("div", { staticClass: "p-6 border-t border-gray-200" }, [
-          _c("div", { staticClass: "flex items-center" }, [
-            _c(
-              "svg",
-              {
-                staticClass: "w-8 h-8 text-gray-400",
-                attrs: {
-                  fill: "none",
-                  stroke: "currentColor",
-                  "stroke-linecap": "round",
-                  "stroke-linejoin": "round",
-                  "stroke-width": "2",
-                  viewBox: "0 0 24 24"
-                }
-              },
-              [
-                _c("path", {
-                  attrs: {
-                    d:
-                      "M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"
-                  }
-                })
-              ]
-            ),
-            _vm._v(" "),
-            _vm._m(2)
-          ]),
-          _vm._v(" "),
-          _vm._m(3)
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "p-6 border-t border-gray-200 md:border-l" }, [
-          _c("div", { staticClass: "flex items-center" }, [
-            _c(
-              "svg",
-              {
-                staticClass: "w-8 h-8 text-gray-400",
-                attrs: {
-                  fill: "none",
-                  stroke: "currentColor",
-                  "stroke-linecap": "round",
-                  "stroke-linejoin": "round",
-                  "stroke-width": "2",
-                  viewBox: "0 0 24 24"
-                }
-              },
-              [
-                _c("path", {
-                  attrs: {
-                    d:
-                      "M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"
-                  }
-                })
-              ]
-            ),
-            _vm._v(" "),
-            _c(
-              "div",
-              {
-                staticClass:
-                  "ml-4 text-lg text-gray-600 leading-7 font-semibold"
-              },
-              [_vm._v("Authentication")]
+              }),
+              0
             )
-          ]),
-          _vm._v(" "),
-          _vm._m(4)
-        ])
-      ]
-    )
-  ])
+          : _vm._e()
+      ])
+    ],
+    1
+  )
 }
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c(
-      "div",
-      { staticClass: "ml-4 text-lg text-gray-600 leading-7 font-semibold" },
-      [
-        _c("a", { attrs: { href: "https://laravel.com/docs" } }, [
-          _vm._v("Documentation")
-        ])
-      ]
-    )
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c(
-      "div",
-      { staticClass: "ml-4 text-lg text-gray-600 leading-7 font-semibold" },
-      [
-        _c("a", { attrs: { href: "https://laracasts.com" } }, [
-          _vm._v("Laracasts")
-        ])
-      ]
-    )
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c(
-      "div",
-      { staticClass: "ml-4 text-lg text-gray-600 leading-7 font-semibold" },
-      [
-        _c("a", { attrs: { href: "https://tailwindcss.com/" } }, [
-          _vm._v("Tailwind")
-        ])
-      ]
-    )
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "ml-12" }, [
-      _c("div", { staticClass: "mt-2 text-sm text-gray-500" }, [
-        _vm._v(
-          "\n                    Laravel Jetstream is built with Tailwind, an amazing utility first CSS framework that doesn't get in your way. You'll be amazed how easily you can build and maintain fresh, modern designs with this wonderful framework at your fingertips.\n                "
-        )
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "ml-12" }, [
-      _c("div", { staticClass: "mt-2 text-sm text-gray-500" }, [
-        _vm._v(
-          "\n                    Authentication and registration views are included with Laravel Jetstream, as well as support for user email verification and resetting forgotten passwords. So, you're free to get started what matters most: building your application.\n                "
-        )
-      ])
-    ])
-  }
-]
+var staticRenderFns = []
 render._withStripped = true
 
 
@@ -48074,327 +46388,9 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", { staticStyle: { visibility: "hidden" } }, [
-    _c(
-      "div",
-      { staticClass: "p-6 sm:px-20 bg-white border-b border-gray-200" },
-      [
-        _c(
-          "div",
-          [_c("jet-application-logo", { staticClass: "block h-12 w-auto" })],
-          1
-        ),
-        _vm._v(" "),
-        _c("div", { staticClass: "mt-8 text-2xl" }, [
-          _vm._v(
-            "\n            Welcome to your Jetstream application!\n        "
-          )
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "mt-6 text-gray-500" }, [
-          _vm._v(
-            "\n            Laravel Jetstream provides a beautiful, robust starting point for your next Laravel application. Laravel is designed\n            to help you build your application using a development environment that is simple, powerful, and enjoyable. We believe\n            you should love expressing your creativity through programming, so we have spent time carefully crafting the Laravel\n            ecosystem to be a breath of fresh air. We hope you love it.\n        "
-          )
-        ])
-      ]
-    ),
-    _vm._v(" "),
-    _c(
-      "div",
-      {
-        staticClass: "bg-gray-200 bg-opacity-25 grid grid-cols-1 md:grid-cols-2"
-      },
-      [
-        _c("div", { staticClass: "p-6" }, [
-          _c("div", { staticClass: "flex items-center" }, [
-            _c(
-              "svg",
-              {
-                staticClass: "w-8 h-8 text-gray-400",
-                attrs: {
-                  fill: "none",
-                  stroke: "currentColor",
-                  "stroke-linecap": "round",
-                  "stroke-linejoin": "round",
-                  "stroke-width": "2",
-                  viewBox: "0 0 24 24"
-                }
-              },
-              [
-                _c("path", {
-                  attrs: {
-                    d:
-                      "M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"
-                  }
-                })
-              ]
-            ),
-            _vm._v(" "),
-            _vm._m(0)
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "ml-12" }, [
-            _c("div", { staticClass: "mt-2 text-sm text-gray-500" }, [
-              _vm._v(
-                "\n                    Laravel has wonderful documentation covering every aspect of the framework. Whether you're new to the framework or have previous experience, we recommend reading all of the documentation from beginning to end.\n                "
-              )
-            ]),
-            _vm._v(" "),
-            _c("a", { attrs: { href: "https://laravel.com/docs" } }, [
-              _c(
-                "div",
-                {
-                  staticClass:
-                    "mt-3 flex items-center text-sm font-semibold text-indigo-700"
-                },
-                [
-                  _c("div", [_vm._v("Explore the documentation")]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "ml-1 text-indigo-500" }, [
-                    _c(
-                      "svg",
-                      {
-                        staticClass: "w-4 h-4",
-                        attrs: { viewBox: "0 0 20 20", fill: "currentColor" }
-                      },
-                      [
-                        _c("path", {
-                          attrs: {
-                            "fill-rule": "evenodd",
-                            d:
-                              "M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z",
-                            "clip-rule": "evenodd"
-                          }
-                        })
-                      ]
-                    )
-                  ])
-                ]
-              )
-            ])
-          ])
-        ]),
-        _vm._v(" "),
-        _c(
-          "div",
-          {
-            staticClass:
-              "p-6 border-t border-gray-200 md:border-t-0 md:border-l"
-          },
-          [
-            _c("div", { staticClass: "flex items-center" }, [
-              _c(
-                "svg",
-                {
-                  staticClass: "w-8 h-8 text-gray-400",
-                  attrs: {
-                    fill: "none",
-                    stroke: "currentColor",
-                    "stroke-linecap": "round",
-                    "stroke-linejoin": "round",
-                    "stroke-width": "2",
-                    viewBox: "0 0 24 24"
-                  }
-                },
-                [
-                  _c("path", {
-                    attrs: {
-                      d:
-                        "M3 9a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 0110.07 4h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0018.07 7H19a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2V9z"
-                    }
-                  }),
-                  _c("path", {
-                    attrs: { d: "M15 13a3 3 0 11-6 0 3 3 0 016 0z" }
-                  })
-                ]
-              ),
-              _vm._v(" "),
-              _vm._m(1)
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "ml-12" }, [
-              _c("div", { staticClass: "mt-2 text-sm text-gray-500" }, [
-                _vm._v(
-                  "\n                    Laracasts offers thousands of video tutorials on Laravel, PHP, and JavaScript development. Check them out, see for yourself, and massively level up your development skills in the process.\n                "
-                )
-              ]),
-              _vm._v(" "),
-              _c("a", { attrs: { href: "https://laracasts.com" } }, [
-                _c(
-                  "div",
-                  {
-                    staticClass:
-                      "mt-3 flex items-center text-sm font-semibold text-indigo-700"
-                  },
-                  [
-                    _c("div", [_vm._v("Start watching Laracasts")]),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "ml-1 text-indigo-500" }, [
-                      _c(
-                        "svg",
-                        {
-                          staticClass: "w-4 h-4",
-                          attrs: { viewBox: "0 0 20 20", fill: "currentColor" }
-                        },
-                        [
-                          _c("path", {
-                            attrs: {
-                              "fill-rule": "evenodd",
-                              d:
-                                "M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z",
-                              "clip-rule": "evenodd"
-                            }
-                          })
-                        ]
-                      )
-                    ])
-                  ]
-                )
-              ])
-            ])
-          ]
-        ),
-        _vm._v(" "),
-        _c("div", { staticClass: "p-6 border-t border-gray-200" }, [
-          _c("div", { staticClass: "flex items-center" }, [
-            _c(
-              "svg",
-              {
-                staticClass: "w-8 h-8 text-gray-400",
-                attrs: {
-                  fill: "none",
-                  stroke: "currentColor",
-                  "stroke-linecap": "round",
-                  "stroke-linejoin": "round",
-                  "stroke-width": "2",
-                  viewBox: "0 0 24 24"
-                }
-              },
-              [
-                _c("path", {
-                  attrs: {
-                    d:
-                      "M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"
-                  }
-                })
-              ]
-            ),
-            _vm._v(" "),
-            _vm._m(2)
-          ]),
-          _vm._v(" "),
-          _vm._m(3)
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "p-6 border-t border-gray-200 md:border-l" }, [
-          _c("div", { staticClass: "flex items-center" }, [
-            _c(
-              "svg",
-              {
-                staticClass: "w-8 h-8 text-gray-400",
-                attrs: {
-                  fill: "none",
-                  stroke: "currentColor",
-                  "stroke-linecap": "round",
-                  "stroke-linejoin": "round",
-                  "stroke-width": "2",
-                  viewBox: "0 0 24 24"
-                }
-              },
-              [
-                _c("path", {
-                  attrs: {
-                    d:
-                      "M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"
-                  }
-                })
-              ]
-            ),
-            _vm._v(" "),
-            _c(
-              "div",
-              {
-                staticClass:
-                  "ml-4 text-lg text-gray-600 leading-7 font-semibold"
-              },
-              [_vm._v("Authentication")]
-            )
-          ]),
-          _vm._v(" "),
-          _vm._m(4)
-        ])
-      ]
-    )
-  ])
+  return _c("div")
 }
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c(
-      "div",
-      { staticClass: "ml-4 text-lg text-gray-600 leading-7 font-semibold" },
-      [
-        _c("a", { attrs: { href: "https://laravel.com/docs" } }, [
-          _vm._v("Documentation")
-        ])
-      ]
-    )
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c(
-      "div",
-      { staticClass: "ml-4 text-lg text-gray-600 leading-7 font-semibold" },
-      [
-        _c("a", { attrs: { href: "https://laracasts.com" } }, [
-          _vm._v("Laracasts")
-        ])
-      ]
-    )
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c(
-      "div",
-      { staticClass: "ml-4 text-lg text-gray-600 leading-7 font-semibold" },
-      [
-        _c("a", { attrs: { href: "https://tailwindcss.com/" } }, [
-          _vm._v("Tailwind")
-        ])
-      ]
-    )
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "ml-12" }, [
-      _c("div", { staticClass: "mt-2 text-sm text-gray-500" }, [
-        _vm._v(
-          "\n                    Laravel Jetstream is built with Tailwind, an amazing utility first CSS framework that doesn't get in your way. You'll be amazed how easily you can build and maintain fresh, modern designs with this wonderful framework at your fingertips.\n                "
-        )
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "ml-12" }, [
-      _c("div", { staticClass: "mt-2 text-sm text-gray-500" }, [
-        _vm._v(
-          "\n                    Authentication and registration views are included with Laravel Jetstream, as well as support for user email verification and resetting forgotten passwords. So, you're free to get started what matters most: building your application.\n                "
-        )
-      ])
-    ])
-  }
-]
+var staticRenderFns = []
 render._withStripped = true
 
 
@@ -48571,327 +46567,9 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", { staticStyle: { visibility: "hidden" } }, [
-    _c(
-      "div",
-      { staticClass: "p-6 sm:px-20 bg-white border-b border-gray-200" },
-      [
-        _c(
-          "div",
-          [_c("jet-application-logo", { staticClass: "block h-12 w-auto" })],
-          1
-        ),
-        _vm._v(" "),
-        _c("div", { staticClass: "mt-8 text-2xl" }, [
-          _vm._v(
-            "\n            Welcome to your Jetstream application!\n        "
-          )
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "mt-6 text-gray-500" }, [
-          _vm._v(
-            "\n            Laravel Jetstream provides a beautiful, robust starting point for your next Laravel application. Laravel is designed\n            to help you build your application using a development environment that is simple, powerful, and enjoyable. We believe\n            you should love expressing your creativity through programming, so we have spent time carefully crafting the Laravel\n            ecosystem to be a breath of fresh air. We hope you love it.\n        "
-          )
-        ])
-      ]
-    ),
-    _vm._v(" "),
-    _c(
-      "div",
-      {
-        staticClass: "bg-gray-200 bg-opacity-25 grid grid-cols-1 md:grid-cols-2"
-      },
-      [
-        _c("div", { staticClass: "p-6" }, [
-          _c("div", { staticClass: "flex items-center" }, [
-            _c(
-              "svg",
-              {
-                staticClass: "w-8 h-8 text-gray-400",
-                attrs: {
-                  fill: "none",
-                  stroke: "currentColor",
-                  "stroke-linecap": "round",
-                  "stroke-linejoin": "round",
-                  "stroke-width": "2",
-                  viewBox: "0 0 24 24"
-                }
-              },
-              [
-                _c("path", {
-                  attrs: {
-                    d:
-                      "M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"
-                  }
-                })
-              ]
-            ),
-            _vm._v(" "),
-            _vm._m(0)
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "ml-12" }, [
-            _c("div", { staticClass: "mt-2 text-sm text-gray-500" }, [
-              _vm._v(
-                "\n                    Laravel has wonderful documentation covering every aspect of the framework. Whether you're new to the framework or have previous experience, we recommend reading all of the documentation from beginning to end.\n                "
-              )
-            ]),
-            _vm._v(" "),
-            _c("a", { attrs: { href: "https://laravel.com/docs" } }, [
-              _c(
-                "div",
-                {
-                  staticClass:
-                    "mt-3 flex items-center text-sm font-semibold text-indigo-700"
-                },
-                [
-                  _c("div", [_vm._v("Explore the documentation")]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "ml-1 text-indigo-500" }, [
-                    _c(
-                      "svg",
-                      {
-                        staticClass: "w-4 h-4",
-                        attrs: { viewBox: "0 0 20 20", fill: "currentColor" }
-                      },
-                      [
-                        _c("path", {
-                          attrs: {
-                            "fill-rule": "evenodd",
-                            d:
-                              "M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z",
-                            "clip-rule": "evenodd"
-                          }
-                        })
-                      ]
-                    )
-                  ])
-                ]
-              )
-            ])
-          ])
-        ]),
-        _vm._v(" "),
-        _c(
-          "div",
-          {
-            staticClass:
-              "p-6 border-t border-gray-200 md:border-t-0 md:border-l"
-          },
-          [
-            _c("div", { staticClass: "flex items-center" }, [
-              _c(
-                "svg",
-                {
-                  staticClass: "w-8 h-8 text-gray-400",
-                  attrs: {
-                    fill: "none",
-                    stroke: "currentColor",
-                    "stroke-linecap": "round",
-                    "stroke-linejoin": "round",
-                    "stroke-width": "2",
-                    viewBox: "0 0 24 24"
-                  }
-                },
-                [
-                  _c("path", {
-                    attrs: {
-                      d:
-                        "M3 9a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 0110.07 4h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0018.07 7H19a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2V9z"
-                    }
-                  }),
-                  _c("path", {
-                    attrs: { d: "M15 13a3 3 0 11-6 0 3 3 0 016 0z" }
-                  })
-                ]
-              ),
-              _vm._v(" "),
-              _vm._m(1)
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "ml-12" }, [
-              _c("div", { staticClass: "mt-2 text-sm text-gray-500" }, [
-                _vm._v(
-                  "\n                    Laracasts offers thousands of video tutorials on Laravel, PHP, and JavaScript development. Check them out, see for yourself, and massively level up your development skills in the process.\n                "
-                )
-              ]),
-              _vm._v(" "),
-              _c("a", { attrs: { href: "https://laracasts.com" } }, [
-                _c(
-                  "div",
-                  {
-                    staticClass:
-                      "mt-3 flex items-center text-sm font-semibold text-indigo-700"
-                  },
-                  [
-                    _c("div", [_vm._v("Start watching Laracasts")]),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "ml-1 text-indigo-500" }, [
-                      _c(
-                        "svg",
-                        {
-                          staticClass: "w-4 h-4",
-                          attrs: { viewBox: "0 0 20 20", fill: "currentColor" }
-                        },
-                        [
-                          _c("path", {
-                            attrs: {
-                              "fill-rule": "evenodd",
-                              d:
-                                "M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z",
-                              "clip-rule": "evenodd"
-                            }
-                          })
-                        ]
-                      )
-                    ])
-                  ]
-                )
-              ])
-            ])
-          ]
-        ),
-        _vm._v(" "),
-        _c("div", { staticClass: "p-6 border-t border-gray-200" }, [
-          _c("div", { staticClass: "flex items-center" }, [
-            _c(
-              "svg",
-              {
-                staticClass: "w-8 h-8 text-gray-400",
-                attrs: {
-                  fill: "none",
-                  stroke: "currentColor",
-                  "stroke-linecap": "round",
-                  "stroke-linejoin": "round",
-                  "stroke-width": "2",
-                  viewBox: "0 0 24 24"
-                }
-              },
-              [
-                _c("path", {
-                  attrs: {
-                    d:
-                      "M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"
-                  }
-                })
-              ]
-            ),
-            _vm._v(" "),
-            _vm._m(2)
-          ]),
-          _vm._v(" "),
-          _vm._m(3)
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "p-6 border-t border-gray-200 md:border-l" }, [
-          _c("div", { staticClass: "flex items-center" }, [
-            _c(
-              "svg",
-              {
-                staticClass: "w-8 h-8 text-gray-400",
-                attrs: {
-                  fill: "none",
-                  stroke: "currentColor",
-                  "stroke-linecap": "round",
-                  "stroke-linejoin": "round",
-                  "stroke-width": "2",
-                  viewBox: "0 0 24 24"
-                }
-              },
-              [
-                _c("path", {
-                  attrs: {
-                    d:
-                      "M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"
-                  }
-                })
-              ]
-            ),
-            _vm._v(" "),
-            _c(
-              "div",
-              {
-                staticClass:
-                  "ml-4 text-lg text-gray-600 leading-7 font-semibold"
-              },
-              [_vm._v("Authentication")]
-            )
-          ]),
-          _vm._v(" "),
-          _vm._m(4)
-        ])
-      ]
-    )
-  ])
+  return _c("div")
 }
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c(
-      "div",
-      { staticClass: "ml-4 text-lg text-gray-600 leading-7 font-semibold" },
-      [
-        _c("a", { attrs: { href: "https://laravel.com/docs" } }, [
-          _vm._v("Documentation")
-        ])
-      ]
-    )
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c(
-      "div",
-      { staticClass: "ml-4 text-lg text-gray-600 leading-7 font-semibold" },
-      [
-        _c("a", { attrs: { href: "https://laracasts.com" } }, [
-          _vm._v("Laracasts")
-        ])
-      ]
-    )
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c(
-      "div",
-      { staticClass: "ml-4 text-lg text-gray-600 leading-7 font-semibold" },
-      [
-        _c("a", { attrs: { href: "https://tailwindcss.com/" } }, [
-          _vm._v("Tailwind")
-        ])
-      ]
-    )
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "ml-12" }, [
-      _c("div", { staticClass: "mt-2 text-sm text-gray-500" }, [
-        _vm._v(
-          "\n                    Laravel Jetstream is built with Tailwind, an amazing utility first CSS framework that doesn't get in your way. You'll be amazed how easily you can build and maintain fresh, modern designs with this wonderful framework at your fingertips.\n                "
-        )
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "ml-12" }, [
-      _c("div", { staticClass: "mt-2 text-sm text-gray-500" }, [
-        _vm._v(
-          "\n                    Authentication and registration views are included with Laravel Jetstream, as well as support for user email verification and resetting forgotten passwords. So, you're free to get started what matters most: building your application.\n                "
-        )
-      ])
-    ])
-  }
-]
+var staticRenderFns = []
 render._withStripped = true
 
 
@@ -52735,7 +50413,8 @@ var render = function() {
             [
               _c("inertia-link", { attrs: { href: _vm.route("dashboard") } }, [
                 _c("div", {
-                  staticClass: "object-contain block h-24 w-24 bg-logo-texture"
+                  staticClass:
+                    "hidden xl:block object-contain block h-24 w-24 bg-logo-texture"
                 })
               ])
             ],
@@ -53292,7 +50971,7 @@ var render = function() {
         [
           _c("div", {
             staticClass:
-              "object-contain block h-full min-h-full w-24 bg-log-texture absolute "
+              "object-contain hidden  xl:block h-full min-h-full w-24 bg-log-texture absolute "
           }),
           _vm._v(" "),
           _vm._t("default")

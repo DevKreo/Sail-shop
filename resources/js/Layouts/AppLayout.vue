@@ -6,7 +6,7 @@
                     <div class="flex-shrink-0 flex items-center">
                         <inertia-link :href="route('dashboard')">
                             <div
-                                class="object-contain block h-24 w-24 bg-logo-texture"
+                                class="hidden xl:block object-contain block h-24 w-24 bg-logo-texture"
                             ></div>
                         </inertia-link>
                     </div>
@@ -345,7 +345,7 @@
             <!-- Page Content -->
             <main class="relative">
                 <div
-                    class="object-contain block h-full min-h-full w-24 bg-log-texture absolute "
+                    class="object-contain hidden  xl:block h-full min-h-full w-24 bg-log-texture absolute "
                 ></div>
                 <slot></slot>
             </main>

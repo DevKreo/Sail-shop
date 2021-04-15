@@ -1,9 +1,10 @@
 <template>
     <div>
         <div
-            class="rounded-full py-3 px-6 bg-black flex items-center justify-between mb-2"
+            class="rounded-full py-3 px-6 flex items-center justify-between mb-2"
+            :class="[showAboutCompany ?  'background-light' : 'background-dark']"
         >
-            <div class="text-white inline-flex space-x-10 items-center">
+            <div class="inline-flex space-x-10 items-center" :class="[showAboutCompany ?  'text-black' : 'text-white']">
                 <svg class="w-6 h-6" viewBox="0 0 24 24">
                     <path
                         fill="currentColor"
@@ -14,7 +15,7 @@
             </div>
             <button
                 v-on:click="showAboutCompany = !showAboutCompany"
-                class="text-white"
+                :class="[showAboutCompany ?  'text-black' : 'text-white']"
             >
                 <svg
                     v-if="!showAboutCompany"
@@ -28,7 +29,7 @@
                 </svg>
                 <svg
                     v-if="showAboutCompany"
-                    class="w-5 h-5"
+                    class="w-6 h-6"
                     viewBox="0 0 24 24"
                 >
                     <path fill="currentColor" d="M19,13H5V11H19V13Z" />
@@ -69,7 +70,7 @@
                         </svg>
                         <svg
                             v-if="showPartners"
-                            class="w-5 h-5"
+                            class="w-6 h-6"
                             viewBox="0 0 24 24"
                         >
                             <path fill="currentColor" d="M19,13H5V11H19V13Z" />
@@ -94,7 +95,7 @@
                 >
                     <div class="flex flex-wrap justify-center">
                         <div
-                            class="w-72 h-72 mr-4 mb-4 bg-gray-300 hover:bg-blue-300"
+                            class="w-72 h-72 mr-4 mb-4 bg-gray-300 hover:bg-red-450"
                             v-for="item in partners"
                             :key="item.id"
                         >
@@ -131,7 +132,7 @@
                         </svg>
                         <svg
                             v-if="showWhyWithUs"
-                            class="w-5 h-5"
+                            class="w-6 h-6"
                             viewBox="0 0 24 24"
                         >
                             <path fill="currentColor" d="M19,13H5V11H19V13Z" />
@@ -153,7 +154,7 @@
                                 <span>{{ item.sidetext }}</span>
                             </div>
                             <div class="bg-black hover:bg-red-400 col-span-2">
-                                <span class="text-white p-5 whitespace-pre ">{{ item.text }}</span>
+                                <span class="text-white font-bold p-5 whitespace-pre ">{{ item.text }}</span>
                             </div>
                             <div class="">
                                 <img :src="item.img" />
@@ -164,7 +165,7 @@
                                 <img :src="item.img" />
                             </div>
                             <div class="bg-black hover:bg-red-400 col-start-3 col-end-5">
-                                <span class="text-white whitespace-pre p-5">{{ item.text }}</span>
+                                <span class="text-white font-bold whitespace-pre p-5">{{ item.text }}</span>
                             </div>
                             <div class="clients col-start-5 justify-self-start">
                                 <span>{{ item.sidetext }}</span>
@@ -189,7 +190,7 @@ export default {
     },
     data() {
         return {
-            showAboutCompany: false,
+            showAboutCompany: true,
             showPartners: false,
             showWhyWithUs: false,
             partners: [
@@ -275,28 +276,28 @@ export default {
                     text:
                         "16 лет \n     занимаемся комплексным снабжением \n     непродовольственными товарами \n     в сегменте HoReCa",
                     img: "images/whyWithUs/16years.png",
-                    sidetext: "practice",
+                    sidetext: "Практика",
                     isPictLeft: true
                 },
                 {
                     id: "2",
                     text: "Более 500 довольных клиентов \n     каждый месяц",
                     img: "images/whyWithUs/500HappyClients.png",
-                    sidetext: "service",
+                    sidetext: "Обслуживание",
                     isPictLeft: false
                 },
                 {
                     id: "3",
                     text: "Оптимальные цены",
                     img: "images/whyWithUs/optimalPrices.png",
-                    sidetext: "price",
+                    sidetext: "Экономия",
                     isPictLeft: true
                 },
                 {
                     id: "4",
                     text: "Доставка в течение 24х часов",
                     img: "images/whyWithUs/deliver24h.png",
-                    sidetext: "delivery",
+                    sidetext: "Время",
                     isPictLeft: false
                 },
                 {
@@ -354,4 +355,13 @@ export default {
     transform: rotate(180deg);
     font-size: 20px;
 }
+
+
+  .background-dark {
+    background-color: #000;
+  }
+  .background-light {
+    background-color: #ff8080;
+  }
+
 </style>

@@ -24,6 +24,10 @@ module.exports = {
                 green: {
                   450: '#b8d54b'
                 },
+                red:{
+                    450: '#ff8080',
+                    550: '#ffbce3'
+                }
             }
         },
     },
