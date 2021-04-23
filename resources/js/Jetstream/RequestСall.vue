@@ -18,17 +18,17 @@
     </div>
     <transition name="fade">
         <div v-if="showRequestCall" class="grid grid-cols-1 gap-1 justify-items-center my-5">
-            <div class="flex items-center justify-between bg-black rounded-full py-3 px-6 w-1/2 h-12">
+            <div class="flex items-center justify-between bg-black rounded-full py-3 px-6 w-1/2 h-12 indent">
                 <span class="text-white">Ваш номер телефона</span>
-                <input type="text" class="bg-white rounded-full h-9 pl-5">
+                <input type="text" class="bg-white rounded-full h-9 pl-5 w-1/2">
             </div>
-            <div class="flex items-center justify-between bg-black rounded-full py-3 px-6 w-1/2 h-12">
+            <div class="flex items-center justify-between bg-black rounded-full py-3 px-6 w-1/2 h-12 indent">
                 <span class="text-white">Ваше имя</span>
-                <input type="text" class="bg-white rounded-full h-9 pl-5">
+                <input type="text" class="bg-white rounded-full h-9 pl-5 w-1/2">
             </div>
-            <div class="flex items-center justify-between  bg-black rounded-full py-3 px-6 w-1/2 h-12">
+            <div class="flex items-center justify-between bg-black rounded-full py-3 px-6 w-1/2 h-12 indent">
                 <span class="text-white">Наименование вашего предприятия</span>
-                <input type="text" class="bg-white rounded-full h-9 pl-5">
+                <input type="text" class="bg-white rounded-full h-9 pl-5 w-1/2">
             </div>
             <button class="w-1/2 h-12 bg-black text-white rounded-full">ЗАКАЗАТЬ</button>
         </div>
@@ -50,3 +50,9 @@ export default {
     }
 }
 </script>
+
+<style>
+.indent{
+    padding-right: 4px;
+}
+</style>
