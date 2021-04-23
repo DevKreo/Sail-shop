@@ -1,181 +1,108 @@
 <template>
-    <div>
-        <div
-            class="rounded-full py-3 px-6 flex items-center justify-between mb-2"
-            :class="[showAboutCompany ?  'background-light' : 'background-dark']"
-        >
-            <div class="inline-flex space-x-10 items-center" :class="[showAboutCompany ?  'text-black' : 'text-white']">
-                <svg class="w-6 h-6" viewBox="0 0 24 24">
-                    <path
-                        fill="currentColor"
-                        d="M 11,4L 13,4L 13,15L 11,15L 11,4 Z M 13,18L 13,20L 11,20L 11,18L 13,18 Z"
-                    />
-                </svg>
-                <span class=""> О КОМПАНИИ </span>
-            </div>
-            <button
-                v-on:click="showAboutCompany = !showAboutCompany"
-                :class="[showAboutCompany ?  'text-black' : 'text-white']"
-            >
-                <svg
-                    v-if="!showAboutCompany"
-                    class="w-6 h-6"
-                    viewBox="0 0 24 24"
-                >
-                    <path
-                        fill="currentColor"
-                        d="M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z"
-                    />
-                </svg>
-                <svg
-                    v-if="showAboutCompany"
-                    class="w-6 h-6"
-                    viewBox="0 0 24 24"
-                >
-                    <path fill="currentColor" d="M19,13H5V11H19V13Z" />
-                </svg>
-            </button>
+<div>
+    <div class="rounded-full py-3 px-6 flex items-center justify-between mb-2" :class="[showAboutCompany ?  'background-light' : 'background-dark']">
+        <div class="inline-flex space-x-10 items-center" :class="[showAboutCompany ?  'text-black' : 'text-white']">
+            <svg class="w-6 h-6 transform rotate-180" viewBox="0 0 24 24">
+                <path fill="currentColor" d="M 11,4L 13,4L 13,15L 11,15L 11,4 Z M 13,18L 13,20L 11,20L 11,18L 13,18 Z" />
+            </svg>
+            <span class=""> О КОМПАНИИ </span>
         </div>
-        <transition name="fade">
-            <div
-                class="px-20 bg-white grid grid-cols-1"
-                v-show="showAboutCompany"
-            >
-                <span class="mb-4">
-                    Компания "Белый Парус" предоставляет комплексное
-                    обслуживание в сегменте HoReCa и B2B. В нашем ассортименте:
-                    профессиональные моющие средства для всех типов
-                    поверхностей, хозяйственные товары, бумажная продукция,
-                    барная продукция, одноразовая пищевая упаковка и другое.
-                </span>
-                <div
-                    class="py-3 bg-white flex items-center justify-between border-t-2 border-black"
-                >
-                    <div class="text-black inline-flex space-x-10 items-center">
-                        <span class=""> С нами сотрудничают лучшие </span>
-                    </div>
-                    <button
-                        v-on:click="showPartners = !showPartners"
-                        class="text-black"
-                    >
-                        <svg
-                            v-if="!showPartners"
-                            class="w-6 h-6"
-                            viewBox="0 0 24 24"
-                        >
-                            <path
-                                fill="currentColor"
-                                d="M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z"
-                            />
-                        </svg>
-                        <svg
-                            v-if="showPartners"
-                            class="w-6 h-6"
-                            viewBox="0 0 24 24"
-                        >
-                            <path fill="currentColor" d="M19,13H5V11H19V13Z" />
-                        </svg>
-                    </button>
-                </div>
-            </div>
-        </transition>
-
-        <transition name="fade">
-            <div
-                v-show="showPartners && showAboutCompany"
-                class="flex pl-20 mb-2.5"
-            >
-                <div class="clients flex-initial mb-4">
-                    <span>clients</span>
-                </div>
-                <simplebar
-                    id="partners"
-                    class="pr-40 h-screen bg-white flex-auto"
-                    data-simplebar-auto-hide="false"
-                >
-                    <div class="flex flex-wrap justify-center">
-                        <div
-                            class="w-72 h-72 mr-4 mb-4 bg-gray-300 hover:bg-red-450"
-                            v-for="item in partners"
-                            :key="item.id"
-                        >
-                            <img :src="item.src" />
-                        </div>
-                    </div>
-                </simplebar>
-            </div>
-        </transition>
-        <transition name="fade">
-            <div
-                class="px-20 bg-white grid grid-cols-1"
-                v-show="showAboutCompany"
-            >
-                <div
-                    class="py-3 bg-white flex items-center justify-between border-t-2 border-black"
-                >
-                    <div class="text-black inline-flex space-x-10 items-center">
-                        <span class=""> Почему с нами ? </span>
-                    </div>
-                    <button
-                        v-on:click="showWhyWithUs = !showWhyWithUs"
-                        class="text-black"
-                    >
-                        <svg
-                            v-if="!showWhyWithUs"
-                            class="w-6 h-6"
-                            viewBox="0 0 24 24"
-                        >
-                            <path
-                                fill="currentColor"
-                                d="M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z"
-                            />
-                        </svg>
-                        <svg
-                            v-if="showWhyWithUs"
-                            class="w-6 h-6"
-                            viewBox="0 0 24 24"
-                        >
-                            <path fill="currentColor" d="M19,13H5V11H19V13Z" />
-                        </svg>
-                    </button>
-                </div>
-            </div>
-        </transition>
-        <transition name="fade">
-            <div v-show="showWhyWithUs && showAboutCompany" class="flex pl-20 mb-2.5">
-                <simplebar
-                    id="partners"
-                    class="pr-40 h-screen bg-white flex-auto"
-                    data-simplebar-auto-hide="false"
-                >
-                    <div class="flex" v-for="item in whyWithUs" :key="item.id">
-                        <div v-if="item.isPictLeft" class="grid grid-cols-5 gap-2 mb-2">
-                            <div class="clients">
-                                <span>{{ item.sidetext }}</span>
-                            </div>
-                            <div class="bg-black hover:bg-red-400 col-span-2">
-                                <span class="text-white font-bold p-5 whitespace-pre ">{{ item.text }}</span>
-                            </div>
-                            <div class="">
-                                <img :src="item.img" />
-                            </div>
-                        </div>
-                        <div v-else class="grid grid-cols-5 gap-2 mb-2">
-                            <div class=" col-start-2">
-                                <img :src="item.img" />
-                            </div>
-                            <div class="bg-black hover:bg-red-400 col-start-3 col-end-5">
-                                <span class="text-white font-bold whitespace-pre p-5">{{ item.text }}</span>
-                            </div>
-                            <div class="clients col-start-5 justify-self-start">
-                                <span>{{ item.sidetext }}</span>
-                            </div>
-                        </div>
-                    </div>
-                </simplebar>
-            </div>
-        </transition>
+        <button v-on:click="showAboutCompany = !showAboutCompany" :class="[showAboutCompany ?  'text-black' : 'text-white']">
+            <svg v-if="!showAboutCompany" class="w-6 h-6" viewBox="0 0 24 24">
+                <path fill="currentColor" d="M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z" />
+            </svg>
+            <svg v-if="showAboutCompany" class="w-6 h-6" viewBox="0 0 24 24">
+                <path fill="currentColor" d="M19,13H5V11H19V13Z" />
+            </svg>
+        </button>
     </div>
+    <transition name="fade">
+        <div class="px-20 bg-white grid grid-cols-1" v-show="showAboutCompany">
+            <span class="mb-4 p-4">
+                Компания "Белый Парус" предоставляет комплексное
+                обслуживание в сегменте HoReCa и B2B. В нашем ассортименте:
+                профессиональные моющие средства для всех типов
+                поверхностей, хозяйственные товары, бумажная продукция,
+                барная продукция, одноразовая пищевая упаковка и другое.
+            </span>
+            <div class="py-3 bg-white flex items-center justify-between border-t-2 border-black">
+                <div class="text-black inline-flex space-x-10 items-center">
+                    <span class=""> С НАМИ СОТРУДНИЧАЮТ ЛУЧШИЕ </span>
+                </div>
+                <button v-on:click="showPartners = !showPartners" class="text-black">
+                    <svg v-if="!showPartners" class="w-6 h-6" viewBox="0 0 24 24">
+                        <path fill="currentColor" d="M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z" />
+                    </svg>
+                    <svg v-if="showPartners" class="w-6 h-6" viewBox="0 0 24 24">
+                        <path fill="currentColor" d="M19,13H5V11H19V13Z" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </transition>
+
+    <transition name="fade">
+        <div v-show="showPartners && showAboutCompany" class="flex pl-20 mb-2.5">
+            <div class="clients flex-initial mb-4">
+                <span>клиенты</span>
+            </div>
+            <simplebar id="partners" class="pr-40 h-screen bg-white flex-auto" data-simplebar-auto-hide="false">
+                <div class="flex flex-wrap justify-center">
+                    <div class="w-72 h-72 mr-4 mb-4 bg-gray-300 hover:bg-red-450" v-for="item in partners" :key="item.id">
+                        <img :src="item.src" />
+                    </div>
+                </div>
+            </simplebar>
+        </div>
+    </transition>
+    <transition name="fade">
+        <div class="px-20 bg-white grid grid-cols-1" v-show="showAboutCompany">
+            <div class="py-3 bg-white flex items-center justify-between border-t-2 border-black">
+                <div class="text-black inline-flex space-x-10 items-center">
+                    <span class=""> ПОЧЕМУ С НАМИ ? </span>
+                </div>
+                <button v-on:click="showWhyWithUs = !showWhyWithUs" class="text-black">
+                    <svg v-if="!showWhyWithUs" class="w-6 h-6" viewBox="0 0 24 24">
+                        <path fill="currentColor" d="M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z" />
+                    </svg>
+                    <svg v-if="showWhyWithUs" class="w-6 h-6" viewBox="0 0 24 24">
+                        <path fill="currentColor" d="M19,13H5V11H19V13Z" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </transition>
+    <transition name="fade">
+        <div v-show="showWhyWithUs && showAboutCompany" class="flex pl-20 mb-2.5">
+            <simplebar id="partners" class="pr-40 h-screen bg-white flex-auto" data-simplebar-auto-hide="false">
+                <div class="flex" v-for="item in whyWithUs" :key="item.id">
+                    <div v-if="item.isPictLeft" class="grid grid-cols-5 gap-2 mb-2">
+                        <div class="clients">
+                            <span>{{ item.sidetext }}</span>
+                        </div>
+                        <div class="bg-black hover:bg-red-400 col-span-2 pt-3">
+                            <span class="text-white font-bold p-5 whitespace-pre ">{{ item.text }}</span>
+                        </div>
+                        <div class="">
+                            <img :src="item.img" />
+                        </div>
+                    </div>
+                    <div v-else class="grid grid-cols-5 gap-2 mb-2">
+                        <div class=" col-start-2">
+                            <img :src="item.img" />
+                        </div>
+                        <div class="bg-black hover:bg-red-400 col-start-3 col-end-5 pt-3">
+                            <span class="text-white font-bold whitespace-pre p-5">{{ item.text }}</span>
+                        </div>
+                        <div class="clients col-start-5 justify-self-start">
+                            <span>{{ item.sidetext }}</span>
+                        </div>
+                    </div>
+                </div>
+            </simplebar>
+        </div>
+    </transition>
+</div>
 </template>
 
 <script>
@@ -193,8 +120,7 @@ export default {
             showAboutCompany: true,
             showPartners: false,
             showWhyWithUs: false,
-            partners: [
-                {
+            partners: [{
                     id: "1",
                     name: "AgCosmetology",
                     src: "images/partners/AG_Cosmetology.svg"
@@ -270,34 +196,32 @@ export default {
                     src: "images/partners/StreetDogs.svg"
                 },
             ],
-            whyWithUs: [
-                {
+            whyWithUs: [{
                     id: "1",
-                    text:
-                        "16 лет \n     занимаемся комплексным снабжением \n     непродовольственными товарами \n     в сегменте HoReCa",
+                    text: "16 лет \n     занимаемся комплексным снабжением \n     непродовольственными товарами \n     в сегменте HoReCa",
                     img: "images/whyWithUs/16years.png",
-                    sidetext: "Практика",
+                    sidetext: "практика",
                     isPictLeft: true
                 },
                 {
                     id: "2",
                     text: "Более 500 довольных клиентов \n     каждый месяц",
                     img: "images/whyWithUs/500HappyClients.png",
-                    sidetext: "Обслуживание",
+                    sidetext: "обслуживание",
                     isPictLeft: false
                 },
                 {
                     id: "3",
                     text: "Оптимальные цены",
                     img: "images/whyWithUs/optimalPrices.png",
-                    sidetext: "Экономия",
+                    sidetext: "экономия",
                     isPictLeft: true
                 },
                 {
                     id: "4",
                     text: "Доставка в течение 24х часов",
                     img: "images/whyWithUs/deliver24h.png",
-                    sidetext: "Время",
+                    sidetext: "время",
                     isPictLeft: false
                 },
                 {
@@ -309,8 +233,7 @@ export default {
                 },
                 {
                     id: "6",
-                    text:
-                        "Качественная продукция — наша основная цель \n     удовлетворение конечного потребителя",
+                    text: "Качественная продукция — наша основная цель \n     удовлетворение конечного потребителя",
                     img: "images/whyWithUs/qualityproducts.png",
                     sidetext: "что-то",
                     isPictLeft: false
@@ -320,12 +243,18 @@ export default {
     }
 };
 </script>
+
 <style>
 .fade-enter-active,
 .fade-leave-active {
     transition: opacity 0.5s;
 }
-.fade-enter, .fade-leave-to /* .fade-leave-active до версии 2.1.8 */ {
+
+.fade-enter,
+.fade-leave-to
+
+/* .fade-leave-active до версии 2.1.8 */
+    {
     opacity: 0;
 }
 
@@ -338,6 +267,7 @@ export default {
     opacity: 1;
     overflow: visible;
 }
+
 .simplebar-scrollbar.simplebar-visible::before {
     opacity: 1;
     top: 0 !important;
@@ -345,6 +275,7 @@ export default {
     left: -2px;
     right: 0;
 }
+
 .simplebar-scrollbar:before {
     background-color: #000000;
     width: 9px;
@@ -356,12 +287,11 @@ export default {
     font-size: 20px;
 }
 
-
-  .background-dark {
+.background-dark {
     background-color: #000;
-  }
-  .background-light {
-    background-color: #ff8080;
-  }
+}
 
+.background-light {
+    background-color: #ff8080;
+}
 </style>

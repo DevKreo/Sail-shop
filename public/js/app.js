@@ -2998,79 +2998,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 
 
 
@@ -3149,25 +3076,25 @@ __webpack_require__.r(__webpack_exports__);
         id: "1",
         text: "16 лет \n     занимаемся комплексным снабжением \n     непродовольственными товарами \n     в сегменте HoReCa",
         img: "images/whyWithUs/16years.png",
-        sidetext: "Практика",
+        sidetext: "практика",
         isPictLeft: true
       }, {
         id: "2",
         text: "Более 500 довольных клиентов \n     каждый месяц",
         img: "images/whyWithUs/500HappyClients.png",
-        sidetext: "Обслуживание",
+        sidetext: "обслуживание",
         isPictLeft: false
       }, {
         id: "3",
         text: "Оптимальные цены",
         img: "images/whyWithUs/optimalPrices.png",
-        sidetext: "Экономия",
+        sidetext: "экономия",
         isPictLeft: true
       }, {
         id: "4",
         text: "Доставка в течение 24х часов",
         img: "images/whyWithUs/deliver24h.png",
-        sidetext: "Время",
+        sidetext: "время",
         isPictLeft: false
       }, {
         id: "5",
@@ -6966,145 +6893,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Jetstream_DropdownLink__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @/Jetstream/DropdownLink */ "./resources/js/Jetstream/DropdownLink.vue");
 /* harmony import */ var _Jetstream_NavLink__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @/Jetstream/NavLink */ "./resources/js/Jetstream/NavLink.vue");
 /* harmony import */ var _Jetstream_ResponsiveNavLink__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @/Jetstream/ResponsiveNavLink */ "./resources/js/Jetstream/ResponsiveNavLink.vue");
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 //
 //
 //
@@ -13529,7 +13317,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.fade-enter-active,\r\n.fade-leave-active {\r\n    transition: opacity 0.5s;\n}\n.fade-enter, .fade-leave-to /* .fade-leave-active до версии 2.1.8 */ {\r\n    opacity: 0;\n}\n.simplebar-track.simplebar-vertical {\r\n    background-color: #ff8080;\r\n    width: 5px;\r\n    margin-right: 5rem;\r\n    border-radius: 3px;\r\n    margin-bottom: 16px;\r\n    opacity: 1;\r\n    overflow: visible;\n}\n.simplebar-scrollbar.simplebar-visible::before {\r\n    opacity: 1;\r\n    top: 0 !important;\r\n    bottom: 0 !important;\r\n    left: -2px;\r\n    right: 0;\n}\n.simplebar-scrollbar:before {\r\n    background-color: #000000;\r\n    width: 9px;\n}\n.clients {\r\n    -ms-writing-mode: tb-lr;\r\n        writing-mode: vertical-lr;\r\n    transform: rotate(180deg);\r\n    font-size: 20px;\n}\n.background-dark {\r\n    background-color: #000;\n}\n.background-light {\r\n    background-color: #ff8080;\n}\r\n\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n.fade-enter-active,\r\n.fade-leave-active {\r\n    transition: opacity 0.5s;\n}\n.fade-enter,\r\n.fade-leave-to\r\n\r\n/* .fade-leave-active до версии 2.1.8 */\r\n    {\r\n    opacity: 0;\n}\n.simplebar-track.simplebar-vertical {\r\n    background-color: #ff8080;\r\n    width: 5px;\r\n    margin-right: 5rem;\r\n    border-radius: 3px;\r\n    margin-bottom: 16px;\r\n    opacity: 1;\r\n    overflow: visible;\n}\n.simplebar-scrollbar.simplebar-visible::before {\r\n    opacity: 1;\r\n    top: 0 !important;\r\n    bottom: 0 !important;\r\n    left: -2px;\r\n    right: 0;\n}\n.simplebar-scrollbar:before {\r\n    background-color: #000000;\r\n    width: 9px;\n}\n.clients {\r\n    -ms-writing-mode: tb-lr;\r\n        writing-mode: vertical-lr;\r\n    transform: rotate(180deg);\r\n    font-size: 20px;\n}\n.background-dark {\r\n    background-color: #000;\n}\n.background-light {\r\n    background-color: #ff8080;\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -40004,7 +39792,10 @@ var render = function() {
             [
               _c(
                 "svg",
-                { staticClass: "w-6 h-6", attrs: { viewBox: "0 0 24 24" } },
+                {
+                  staticClass: "w-6 h-6 transform rotate-180",
+                  attrs: { viewBox: "0 0 24 24" }
+                },
                 [
                   _c("path", {
                     attrs: {
@@ -40077,9 +39868,9 @@ var render = function() {
             staticClass: "px-20 bg-white grid grid-cols-1"
           },
           [
-            _c("span", { staticClass: "mb-4" }, [
+            _c("span", { staticClass: "mb-4 p-4" }, [
               _vm._v(
-                '\n                Компания "Белый Парус" предоставляет комплексное\n                обслуживание в сегменте HoReCa и B2B. В нашем ассортименте:\n                профессиональные моющие средства для всех типов\n                поверхностей, хозяйственные товары, бумажная продукция,\n                барная продукция, одноразовая пищевая упаковка и другое.\n            '
+                '\r\n                Компания "Белый Парус" предоставляет комплексное\r\n                обслуживание в сегменте HoReCa и B2B. В нашем ассортименте:\r\n                профессиональные моющие средства для всех типов\r\n                поверхностей, хозяйственные товары, бумажная продукция,\r\n                барная продукция, одноразовая пищевая упаковка и другое.\r\n            '
               )
             ]),
             _vm._v(" "),
@@ -40096,7 +39887,7 @@ var render = function() {
                     staticClass:
                       "text-black inline-flex space-x-10 items-center"
                   },
-                  [_c("span", {}, [_vm._v(" С нами сотрудничают лучшие ")])]
+                  [_c("span", {}, [_vm._v(" С НАМИ СОТРУДНИЧАЮТ ЛУЧШИЕ ")])]
                 ),
                 _vm._v(" "),
                 _c(
@@ -40169,7 +39960,7 @@ var render = function() {
           },
           [
             _c("div", { staticClass: "clients flex-initial mb-4" }, [
-              _c("span", [_vm._v("clients")])
+              _c("span", [_vm._v("клиенты")])
             ]),
             _vm._v(" "),
             _c(
@@ -40230,7 +40021,7 @@ var render = function() {
                     staticClass:
                       "text-black inline-flex space-x-10 items-center"
                   },
-                  [_c("span", {}, [_vm._v(" Почему с нами ? ")])]
+                  [_c("span", {}, [_vm._v(" ПОЧЕМУ С НАМИ ? ")])]
                 ),
                 _vm._v(" "),
                 _c(
@@ -40323,7 +40114,7 @@ var render = function() {
                             "div",
                             {
                               staticClass:
-                                "bg-black hover:bg-red-400 col-span-2"
+                                "bg-black hover:bg-red-400 col-span-2 pt-3"
                             },
                             [
                               _c(
@@ -40354,7 +40145,7 @@ var render = function() {
                             "div",
                             {
                               staticClass:
-                                "bg-black hover:bg-red-400 col-start-3 col-end-5"
+                                "bg-black hover:bg-red-400 col-start-3 col-end-5 pt-3"
                             },
                             [
                               _c(
@@ -40983,7 +40774,7 @@ var render = function() {
                     attrs: {
                       fill: "currentColor",
                       d:
-                        "M 11,4L 13,4L 13,15L 11,15L 11,4 Z M 13,18L 13,20L 11,20L 11,18L 13,18 Z"
+                        "M19 6H17C17 3.2 14.8 1 12 1S7 3.2 7 6H5C3.9 6 3 6.9 3 8V20C3 21.1 3.9 22 5 22H19C20.1 22 21 21.1 21 20V8C21 6.9 20.1 6 19 6M12 3C13.7 3 15 4.3 15 6H9C9 4.3 10.3 3 12 3M19 20H5V8H19V20M12 12C10.3 12 9 10.7 9 9H7C7 11.8 9.2 14 12 14S17 11.8 17 9H15C15 10.7 13.7 12 12 12Z"
                     }
                   })
                 ]
@@ -45246,7 +45037,7 @@ var render = function() {
                     attrs: {
                       fill: "currentColor",
                       d:
-                        "M 11,4L 13,4L 13,15L 11,15L 11,4 Z M 13,18L 13,20L 11,20L 11,18L 13,18 Z"
+                        "M12.1,18.55L12,18.65L11.89,18.55C7.14,14.24 4,11.39 4,8.5C4,6.5 5.5,5 7.5,5C9.04,5 10.54,6 11.07,7.36H12.93C13.46,6 14.96,5 16.5,5C18.5,5 20,6.5 20,8.5C20,11.39 16.86,14.24 12.1,18.55M16.5,3C14.76,3 13.09,3.81 12,5.08C10.91,3.81 9.24,3 7.5,3C4.42,3 2,5.41 2,8.5C2,12.27 5.4,15.36 10.55,20.03L12,21.35L13.45,20.03C18.6,15.36 22,12.27 22,8.5C22,5.41 19.58,3 16.5,3Z"
                     }
                   })
                 ]
@@ -45313,9 +45104,14 @@ var render = function() {
             staticClass: "px-20 bg-white grid grid-cols-1"
           },
           [
-            _c("span", { staticClass: "mb-4" }, [
+            _c("span", { staticClass: "mb-4 p-4" }, [
               _vm._v(
-                "\n        Все 7 предложений по программе лояльности предоставляются на ваш выбор\n        и не суммируются! Заключив договор с нами вы получаете доступ к\n        внушительному ассортименту товара, сертификаты на все позиции, все\n        сопроводительные документы при отгрузке, удобные варианты оплаты\n        наличными, чек, б/н, на ваш выбор и скидка 3% на весь ассортимент из\n        прайса компании.\n      "
+                "\n        Все 7 предложений по программе лояльности предоставляются на ваш выбор\n        и не суммируются! "
+              ),
+              _c("br"),
+              _c("br"),
+              _vm._v(
+                "Заключив договор с нами вы получаете доступ к\n        внушительному ассортименту товара, сертификаты на все позиции, все\n        сопроводительные документы при отгрузке, удобные варианты оплаты\n        наличными, чек, б/н, на ваш выбор и скидка 3% на весь ассортимент из\n        прайса компании.\n      "
               )
             ]),
             _vm._v(" "),
@@ -46873,7 +46669,7 @@ var render = function() {
                     attrs: {
                       fill: "currentColor",
                       d:
-                        "M 11,4L 13,4L 13,15L 11,15L 11,4 Z M 13,18L 13,20L 11,20L 11,18L 13,18 Z"
+                        "M17.9,17.39C17.64,16.59 16.89,16 16,16H15V13A1,1 0 0,0 14,12H8V10H10A1,1 0 0,0 11,9V7H13A2,2 0 0,0 15,5V4.59C17.93,5.77 20,8.64 20,12C20,14.08 19.2,15.97 17.9,17.39M11,19.93C7.05,19.44 4,16.08 4,12C4,11.38 4.08,10.78 4.21,10.21L9,15V16A2,2 0 0,0 11,18M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z"
                     }
                   })
                 ]
@@ -50443,7 +50239,7 @@ var render = function() {
                     attrs: {
                       fill: "currentColor",
                       d:
-                        "M 11,4L 13,4L 13,15L 11,15L 11,4 Z M 13,18L 13,20L 11,20L 11,18L 13,18 Z"
+                        "M12,15.39L8.24,17.66L9.23,13.38L5.91,10.5L10.29,10.13L12,6.09L13.71,10.13L18.09,10.5L14.77,13.38L15.76,17.66M22,9.24L14.81,8.63L12,2L9.19,8.63L2,9.24L7.45,13.97L5.82,21L12,17.27L18.18,21L16.54,13.97L22,9.24Z"
                     }
                   })
                 ]
@@ -50707,7 +50503,7 @@ var render = function() {
                         _c(
                           "svg",
                           {
-                            staticClass: "w-9 h-9",
+                            staticClass: "w-9 h-9 transform rotate-180",
                             attrs: { viewBox: "0 0 24 24" }
                           },
                           [
@@ -50905,44 +50701,6 @@ var render = function() {
                               attrs: {
                                 fill: "currentColor",
                                 d:
-                                  "M4,9H9V4H15V9H20V15H15V20H9V15H4V9M11,13V18H13V13H18V11H13V6H11V11H6V13H11Z"
-                              }
-                            })
-                          ]
-                        )
-                      ]
-                    )
-                  ]
-                ),
-                _vm._v(" "),
-                _c(
-                  "div",
-                  {
-                    staticClass: "hidden space-x-8 sm:-my-px sm:ml-10 sm:flex"
-                  },
-                  [
-                    _c(
-                      "button",
-                      {
-                        staticClass:
-                          "rounded-full h-10 mt-8 w-10 bg-black border-0 flex items-center justify-center focus:bg-red-200 text-white focus-within:text-black",
-                        attrs: {
-                          href: _vm.route("admin"),
-                          active: _vm.route().current("admin")
-                        }
-                      },
-                      [
-                        _c(
-                          "svg",
-                          {
-                            staticClass: "w-9 h-9",
-                            attrs: { viewBox: "0 0 24 24" }
-                          },
-                          [
-                            _c("path", {
-                              attrs: {
-                                fill: "currentColor",
-                                d:
                                   "M21,16.5C21,16.88 20.79,17.21 20.47,17.38L12.57,21.82C12.41,21.94 12.21,22 12,22C11.79,22 11.59,21.94 11.43,21.82L3.53,17.38C3.21,17.21 3,16.88 3,16.5V7.5C3,7.12 3.21,6.79 3.53,6.62L11.43,2.18C11.59,2.06 11.79,2 12,2C12.21,2 12.41,2.06 12.57,2.18L20.47,6.62C20.79,6.79 21,7.12 21,7.5V16.5M12,4.15L10.11,5.22L16,8.61L17.96,7.5L12,4.15M6.04,7.5L12,10.85L13.96,9.75L8.08,6.35L6.04,7.5M5,15.91L11,19.29V12.58L5,9.21V15.91M19,15.91V9.21L13,12.58V19.29L19,15.91Z"
                               }
                             })
@@ -51064,7 +50822,7 @@ var render = function() {
                                   },
                                   [
                                     _vm._v(
-                                      "\n                                            Manage Account\n                                        "
+                                      "\r\n                                            Manage Account\r\n                                        "
                                     )
                                   ]
                                 ),
@@ -51076,7 +50834,7 @@ var render = function() {
                                   },
                                   [
                                     _vm._v(
-                                      "\n                                            Profile\n                                        "
+                                      "\r\n                                            Profile\r\n                                        "
                                     )
                                   ]
                                 ),
@@ -51101,7 +50859,7 @@ var render = function() {
                                       { attrs: { as: "button" } },
                                       [
                                         _vm._v(
-                                          "\n                                                Logout\n                                            "
+                                          "\r\n                                                Logout\r\n                                            "
                                         )
                                       ]
                                     )
@@ -51146,7 +50904,7 @@ var render = function() {
                     },
                     [
                       _vm._v(
-                        "\n                            Dashboard\n                        "
+                        "\r\n                            Dashboard\r\n                        "
                       )
                     ]
                   ),
@@ -51161,7 +50919,7 @@ var render = function() {
                     },
                     [
                       _vm._v(
-                        "\n                            Admin\n                        "
+                        "\r\n                            Admin\r\n                        "
                       )
                     ]
                   )
@@ -51186,7 +50944,7 @@ var render = function() {
                       },
                       [
                         _vm._v(
-                          "\n                                Profile\n                            "
+                          "\r\n                                Profile\r\n                            "
                         )
                       ]
                     ),
@@ -51208,7 +50966,7 @@ var render = function() {
                           { attrs: { as: "button" } },
                           [
                             _vm._v(
-                              "\n                                    Logout\n                                "
+                              "\r\n                                    Logout\r\n                                "
                             )
                           ]
                         )
@@ -51248,7 +51006,7 @@ var staticRenderFns = [
     return _c("div", { staticClass: "self-center ml-5" }, [
       _c("div", { staticClass: "flex-shrink-0 flex items-center" }, [
         _c("span", { staticClass: "self-end font-black" }, [
-          _vm._v("\n                        HORECA\n                    ")
+          _vm._v("\r\n                        HORECA\r\n                    ")
         ])
       ])
     ])
