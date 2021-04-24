@@ -4920,133 +4920,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 
 
 
@@ -13317,7 +13190,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.fade-enter-active,\r\n.fade-leave-active {\r\n    transition: opacity 0.5s;\n}\n.fade-enter,\r\n.fade-leave-to\r\n\r\n/* .fade-leave-active до версии 2.1.8 */\r\n    {\r\n    opacity: 0;\n}\n.simplebar-track.simplebar-vertical {\r\n    background-color: #ff8080;\r\n    width: 5px;\r\n    margin-right: 5rem;\r\n    border-radius: 3px;\r\n    margin-bottom: 16px;\r\n    opacity: 1;\r\n    overflow: visible;\n}\n.simplebar-scrollbar.simplebar-visible::before {\r\n    opacity: 1;\r\n    top: 0 !important;\r\n    bottom: 0 !important;\r\n    left: -2px;\r\n    right: 0;\n}\n.simplebar-scrollbar:before {\r\n    background-color: #000000;\r\n    width: 9px;\n}\n.clients {\r\n    -ms-writing-mode: tb-lr;\r\n        writing-mode: vertical-lr;\r\n    transform: rotate(180deg);\r\n    font-size: 20px;\n}\n.background-dark {\r\n    background-color: #000;\n}\n.background-light {\r\n    background-color: #ff8080;\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n.fade-enter-active,\r\n.fade-leave-active {\r\n    transition: opacity 0.5s;\n}\n.fade-enter,\r\n.fade-leave-to\r\n\r\n/* .fade-leave-active до версии 2.1.8 */\r\n    {\r\n    opacity: 0;\n}\n.simplebar-track.simplebar-vertical {\r\n    background-color: #FF6E6E;\r\n    width: 5px;\r\n    margin-right: 5rem;\r\n    border-radius: 3px;\r\n    margin-bottom: 16px;\r\n    opacity: 1;\r\n    overflow: visible;\n}\n.simplebar-scrollbar.simplebar-visible::before {\r\n    opacity: 1;\r\n    top: 0 !important;\r\n    bottom: 0 !important;\r\n    left: -2px;\r\n    right: 0;\n}\n.simplebar-scrollbar:before {\r\n    background-color: #000000;\r\n    width: 9px;\n}\n.clients {\r\n    -ms-writing-mode: tb-lr;\r\n        writing-mode: vertical-lr;\r\n    transform: rotate(180deg);\r\n    font-size: 20px;\n}\n.background-dark {\r\n    background-color: #000;\n}\n.background-light {\r\n    background-color: #FF6E6E;\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -13342,6 +13215,30 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
 ___CSS_LOADER_EXPORT___.push([module.id, "\n[type=\"checkbox\"]:checked {\r\n    background-image: url(\"/images/circle-medium.png\");\n}\n.simplebar-track.simplebar-vertical {\r\n    background-color: #bbd54c;\r\n    width: 5px;\r\n    margin-right: 5rem;\r\n    border-radius: 3px;\r\n    margin-bottom: 16px;\r\n    opacity: 1;\r\n    overflow: visible;\r\n    visibility: visible;\n}\n.simplebar-scrollbar.simplebar-visible::before {\r\n    opacity: 1;\r\n    top: 0 !important;\r\n    bottom: 0 !important;\r\n    left: -2px;\r\n    right: 0;\n}\n.simplebar-scrollbar:before {\r\n    background-color: #000000;\r\n    width: 9px;\n}\n.clients {\r\n    -ms-writing-mode: tb-lr;\r\n        writing-mode: vertical-lr;\r\n    transform: rotate(180deg);\r\n    font-size: 20px;\n}\r\n", ""]);
+// Exports
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/Jetstream/OurСontacts.vue?vue&type=style&index=0&lang=css&":
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/Jetstream/OurСontacts.vue?vue&type=style&index=0&lang=css& ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+// Imports
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, "\n.position{\r\n    padding-right:20%;\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -35271,6 +35168,36 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 
 /***/ }),
 
+/***/ "./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/Jetstream/OurСontacts.vue?vue&type=style&index=0&lang=css&":
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/Jetstream/OurСontacts.vue?vue&type=style&index=0&lang=css& ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Our_ontacts_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./OurСontacts.vue?vue&type=style&index=0&lang=css& */ "./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/Jetstream/OurСontacts.vue?vue&type=style&index=0&lang=css&");
+
+            
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Our_ontacts_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_1__.default, options);
+
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Our_ontacts_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_1__.default.locals || {});
+
+/***/ }),
+
 /***/ "./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/Jetstream/RequestСall.vue?vue&type=style&index=0&lang=css&":
 /*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/Jetstream/RequestСall.vue?vue&type=style&index=0&lang=css& ***!
@@ -36693,15 +36620,17 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _Our_ontacts_vue_vue_type_template_id_285afb1d___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./OurСontacts.vue?vue&type=template&id=285afb1d& */ "./resources/js/Jetstream/OurСontacts.vue?vue&type=template&id=285afb1d&");
 /* harmony import */ var _Our_ontacts_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./OurСontacts.vue?vue&type=script&lang=js& */ "./resources/js/Jetstream/OurСontacts.vue?vue&type=script&lang=js&");
-/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* harmony import */ var _Our_ontacts_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./OurСontacts.vue?vue&type=style&index=0&lang=css& */ "./resources/js/Jetstream/OurСontacts.vue?vue&type=style&index=0&lang=css&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
 
+;
 
 
 /* normalize component */
-;
-var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__.default)(
+
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__.default)(
   _Our_ontacts_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__.default,
   _Our_ontacts_vue_vue_type_template_id_285afb1d___WEBPACK_IMPORTED_MODULE_0__.render,
   _Our_ontacts_vue_vue_type_template_id_285afb1d___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
@@ -38735,6 +38664,19 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/Jetstream/OurСontacts.vue?vue&type=style&index=0&lang=css&":
+/*!*********************************************************************************!*\
+  !*** ./resources/js/Jetstream/OurСontacts.vue?vue&type=style&index=0&lang=css& ***!
+  \*********************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_dist_cjs_js_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Our_ontacts_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/style-loader/dist/cjs.js!../../../node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./OurСontacts.vue?vue&type=style&index=0&lang=css& */ "./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/Jetstream/OurСontacts.vue?vue&type=style&index=0&lang=css&");
+
+
+/***/ }),
+
 /***/ "./resources/js/Jetstream/RequestСall.vue?vue&type=style&index=0&lang=css&":
 /*!*********************************************************************************!*\
   !*** ./resources/js/Jetstream/RequestСall.vue?vue&type=style&index=0&lang=css& ***!
@@ -39807,7 +39749,14 @@ var render = function() {
                 ]
               ),
               _vm._v(" "),
-              _c("span", {}, [_vm._v(" О КОМПАНИИ ")])
+              _c(
+                "span",
+                {
+                  staticClass:
+                    "font-mono font-extrabold text-xl tracking-widest"
+                },
+                [_vm._v(" О КОМПАНИИ ")]
+              )
             ]
           ),
           _vm._v(" "),
@@ -40780,7 +40729,14 @@ var render = function() {
                 ]
               ),
               _vm._v(" "),
-              _c("span", [_vm._v(" КАТАЛОГ ТОВАРОВ ")])
+              _c(
+                "span",
+                {
+                  staticClass:
+                    "font-mono font-extrabold text-xl tracking-widest"
+                },
+                [_vm._v(" КАТАЛОГ ТОВАРОВ ")]
+              )
             ]
           ),
           _vm._v(" "),
@@ -45043,7 +44999,14 @@ var render = function() {
                 ]
               ),
               _vm._v(" "),
-              _c("span", [_vm._v(" ПРОГРАММА ЛОЯЛЬНОСТИ ")])
+              _c(
+                "span",
+                {
+                  staticClass:
+                    "font-mono font-extrabold text-xl tracking-widest"
+                },
+                [_vm._v(" ПРОГРАММА ЛОЯЛЬНОСТИ ")]
+              )
             ]
           ),
           _vm._v(" "),
@@ -45106,12 +45069,12 @@ var render = function() {
           [
             _c("span", { staticClass: "mb-4 p-4" }, [
               _vm._v(
-                "\n        Все 7 предложений по программе лояльности предоставляются на ваш выбор\n        и не суммируются! "
+                "\r\n                Все 7 предложений по программе лояльности предоставляются на ваш выбор\r\n                и не суммируются! "
               ),
               _c("br"),
               _c("br"),
               _vm._v(
-                "Заключив договор с нами вы получаете доступ к\n        внушительному ассортименту товара, сертификаты на все позиции, все\n        сопроводительные документы при отгрузке, удобные варианты оплаты\n        наличными, чек, б/н, на ваш выбор и скидка 3% на весь ассортимент из\n        прайса компании.\n      "
+                "Заключив договор с нами вы получаете доступ к\r\n                внушительному ассортименту товара, сертификаты на все позиции, все\r\n                сопроводительные документы при отгрузке, удобные варианты оплаты\r\n                наличными, чек, б/н, на ваш выбор и скидка 3% на весь ассортимент из\r\n                прайса компании.\r\n            "
               )
             ]),
             _vm._v(" "),
@@ -45210,7 +45173,7 @@ var render = function() {
                 _c("div", { staticClass: "flex flex-wrap justify-center" }, [
                   _c("span", [
                     _vm._v(
-                      "\n            При оформлении заказа через сайт вам предоставляется скидка в\n            размере 3% Действует при заказе на сумму от 2000 р.\n          "
+                      "\r\n                        При оформлении заказа через сайт вам предоставляется скидка в\r\n                        размере 3% Действует при заказе на сумму от 2000 р.\r\n                    "
                     )
                   ])
                 ])
@@ -45307,7 +45270,7 @@ var render = function() {
                 _c("div", { staticClass: "flex flex-wrap justify-center" }, [
                   _c("span", [
                     _vm._v(
-                      "\n            При покупке одного вида товара ящ./уп. вам предоставляется скидка\n            на данный товар в размере от 5 до 12% по следующим группам товара:\n          "
+                      "\r\n                        При покупке одного вида товара ящ./уп. вам предоставляется скидка\r\n                        на данный товар в размере от 5 до 12% по следующим группам товара:\r\n                    "
                     )
                   ]),
                   _vm._v(" "),
@@ -45430,7 +45393,7 @@ var render = function() {
                 _c("div", { staticClass: "flex flex-wrap justify-center" }, [
                   _c("span", [
                     _vm._v(
-                      "\n            При покупке 70% товара из предлагаемого списка, определенной\n            группы продукции, по направлению вашей деятельности, вам\n            предоставляется скидка в размере 5% на всю сумму заказа\n          "
+                      "\r\n                        При покупке 70% товара из предлагаемого списка, определенной\r\n                        группы продукции, по направлению вашей деятельности, вам\r\n                        предоставляется скидка в размере 5% на всю сумму заказа\r\n                    "
                     )
                   ])
                 ])
@@ -45528,7 +45491,7 @@ var render = function() {
                 _c("div", { staticClass: "flex flex-wrap justify-center" }, [
                   _c("span", [
                     _vm._v(
-                      "\n            Вы недавно вступили в ряды бизнесменов? Вы только что открыли\n            новое заведение или предприятие? Или находитесь в стадии открытия?\n            Поздравляем Вас! Мы как никто знаем и понимаем, как не легко\n            открыть и развить свое дело. Мы готовы предложить Вам дружескую\n            руку помощи, посодействовать в этом нелегком деле, предложив Вам\n            полное закрытие ваших потребностей по обеспечению чистоты и\n            упаковке с 10% скидкой . Данная программа лояльности действует при\n            условии:\n          "
+                      "\r\n                        Вы недавно вступили в ряды бизнесменов? Вы только что открыли\r\n                        новое заведение или предприятие? Или находитесь в стадии открытия?\r\n                        Поздравляем Вас! Мы как никто знаем и понимаем, как не легко\r\n                        открыть и развить свое дело. Мы готовы предложить Вам дружескую\r\n                        руку помощи, посодействовать в этом нелегком деле, предложив Вам\r\n                        полное закрытие ваших потребностей по обеспечению чистоты и\r\n                        упаковке с 10% скидкой . Данная программа лояльности действует при\r\n                        условии:\r\n                    "
                     )
                   ]),
                   _vm._v(" "),
@@ -45538,13 +45501,13 @@ var render = function() {
                     [
                       _c("span", [
                         _vm._v(
-                          "- при условии полного сотрудничества с нами. (полноценного\n              сотрудничества)"
+                          "- при условии полного сотрудничества с нами. (полноценного\r\n                            сотрудничества)"
                         )
                       ]),
                       _vm._v(" "),
                       _c("span", [
                         _vm._v(
-                          "- действует при приобретении у нас, всего необходимого вам\n              ассортимента.\n            "
+                          "- действует при приобретении у нас, всего необходимого вам\r\n                            ассортимента.\r\n                        "
                         )
                       ]),
                       _vm._v(" "),
@@ -45556,19 +45519,19 @@ var render = function() {
                       _vm._v(" "),
                       _c("span", [
                         _vm._v(
-                          "- распространяется на заведения,предприятия до года. (если вы\n              работаете, меньше одного года.)"
+                          "- распространяется на заведения,предприятия до года. (если вы\r\n                            работаете, меньше одного года.)"
                         )
                       ]),
                       _vm._v(" "),
                       _c("span", [
                         _vm._v(
-                          "- предоставляется сроком на 6 месяцев, с момента заключения\n              договора."
+                          "- предоставляется сроком на 6 месяцев, с момента заключения\r\n                            договора."
                         )
                       ]),
                       _vm._v(" "),
                       _c("span", [
                         _vm._v(
-                          "- (заключения договора, срок действия программы лояльности 6\n              мес.)"
+                          "- (заключения договора, срок действия программы лояльности 6\r\n                            мес.)"
                         )
                       ]),
                       _vm._v(" "),
@@ -45578,7 +45541,7 @@ var render = function() {
                       _vm._v(" "),
                       _c("span", [
                         _vm._v(
-                          "(полноценного сотрудничества, программа лояльности действует\n              вне зависимости от суммы покупки.)"
+                          "(полноценного сотрудничества, программа лояльности действует\r\n                            вне зависимости от суммы покупки.)"
                         )
                       ])
                     ]
@@ -45800,7 +45763,7 @@ var render = function() {
                     [
                       _c("span", [
                         _vm._v(
-                          "\n              При оплате заказа по факту, на сумму от 3000 р каждый день\n              определенный товар в подарок:\n            "
+                          "\r\n                            При оплате заказа по факту, на сумму от 3000 р каждый день\r\n                            определенный товар в подарок:\r\n                        "
                         )
                       ]),
                       _vm._v(" "),
@@ -45808,7 +45771,7 @@ var render = function() {
                       _vm._v(" "),
                       _c("span", [
                         _vm._v(
-                          "\n              Вторник - Салфетка влаговпитывающая + Губка кухонная по 1 упк. "
+                          "\r\n                            Вторник - Салфетка влаговпитывающая + Губка кухонная по 1 упк. "
                         )
                       ]),
                       _c("span", [
@@ -45921,7 +45884,7 @@ var render = function() {
                 _c("div", { staticClass: "flex flex-wrap justify-center" }, [
                   _c("span", [
                     _vm._v(
-                      "\n            Вы - владелец нескольких организаций? Или под вашим брендом\n            открыто более 3 точек? Тогда у нас есть выгодное предложение —\n            скидка 8% на весь ассортимент. Основное условие предоставления\n            скидки - полное сотрудничество с компанией Белый Парус. Скидка\n            предоставляется сроком на 12 месяцев с момента заключения\n            договора. Ассортимент поставляемой продукции определяется\n            индивидуально с учётом ваших потребностей и пожеланий ваших\n            клиентов\n          "
+                      "\r\n                        Вы - владелец нескольких организаций? Или под вашим брендом\r\n                        открыто более 3 точек? Тогда у нас есть выгодное предложение —\r\n                        скидка 8% на весь ассортимент. Основное условие предоставления\r\n                        скидки - полное сотрудничество с компанией Белый Парус. Скидка\r\n                        предоставляется сроком на 12 месяцев с момента заключения\r\n                        договора. Ассортимент поставляемой продукции определяется\r\n                        индивидуально с учётом ваших потребностей и пожеланий ваших\r\n                        клиентов\r\n                    "
                     )
                   ])
                 ])
@@ -46141,7 +46104,7 @@ var render = function() {
         {
           staticClass:
             "rounded-full py-3 px-6 flex items-center justify-between mb-2",
-          class: [_vm.showOurContacts ? "bg-red-550" : "bg-black"]
+          class: [_vm.showOurContacts ? "bg-pink-50" : "bg-black"]
         },
         [
           _c(
@@ -46165,7 +46128,14 @@ var render = function() {
                 ]
               ),
               _vm._v(" "),
-              _c("span", {}, [_vm._v(" НАШИ КОНТАКТЫ ")])
+              _c(
+                "span",
+                {
+                  staticClass:
+                    "font-mono font-extrabold text-xl tracking-widest"
+                },
+                [_vm._v(" НАШИ КОНТАКТЫ ")]
+              )
             ]
           ),
           _vm._v(" "),
@@ -46219,14 +46189,17 @@ var render = function() {
               _vm._l(_vm.content, function(item) {
                 return _c(
                   "div",
-                  { key: item.logo, staticClass: "flex justify-center mb-5" },
+                  {
+                    key: item.logo,
+                    staticClass: "flex justify-center mb-5 position"
+                  },
                   [
                     _c("div", { staticClass: "grid grid-cols-2 gap-1" }, [
                       _c(
                         "div",
                         {
                           staticClass:
-                            "hover:text-black hover:bg-red-550 bg-black text-white rounded-full h-11 w-11 flex items-center justify-center place-self-end self-center"
+                            "hover:text-black hover:bg-pink-50 bg-black text-white rounded-full h-11 w-11 flex items-center justify-center place-self-end self-center"
                         },
                         [
                           _c(
@@ -46251,7 +46224,11 @@ var render = function() {
                             "pl-14 flex flex-col justify-items-center place-self-center"
                         },
                         _vm._l(item.text, function(sentance) {
-                          return _c("span", [_vm._v(_vm._s(sentance))])
+                          return _c(
+                            "span",
+                            { staticClass: "font-mono font-bold" },
+                            [_vm._v(_vm._s(sentance))]
+                          )
                         }),
                         0
                       )
@@ -46322,7 +46299,14 @@ var render = function() {
                 ]
               ),
               _vm._v(" "),
-              _c("span", {}, [_vm._v(" ЗАКАЗАТЬ ЗВОНОК ")])
+              _c(
+                "span",
+                {
+                  staticClass:
+                    "font-mono font-extrabold text-xl tracking-widest"
+                },
+                [_vm._v(" ЗАКАЗАТЬ ЗВОНОК ")]
+              )
             ]
           ),
           _vm._v(" "),
@@ -46675,7 +46659,14 @@ var render = function() {
                 ]
               ),
               _vm._v(" "),
-              _c("span", [_vm._v(" СФЕРА ДЕЯТЕЛЬНОСТИ ")])
+              _c(
+                "span",
+                {
+                  staticClass:
+                    "font-mono font-extrabold text-xl tracking-widest"
+                },
+                [_vm._v(" СФЕРА ДЕЯТЕЛЬНОСТИ ")]
+              )
             ]
           ),
           _vm._v(" "),
@@ -50245,7 +50236,14 @@ var render = function() {
                 ]
               ),
               _vm._v(" "),
-              _c("span", [_vm._v(" ТОП ПОЗИЦИЙ ")])
+              _c(
+                "span",
+                {
+                  staticClass:
+                    "font-mono font-extrabold text-xl tracking-widest"
+                },
+                [_vm._v(" ТОП ПОЗИЦИЙ ")]
+              )
             ]
           ),
           _vm._v(" "),
@@ -50493,7 +50491,7 @@ var render = function() {
                       "button",
                       {
                         staticClass:
-                          "rounded-full h-10 mt-8 w-10 bg-black border-0 flex items-center justify-center focus:bg-red-200 text-white focus-within:text-black",
+                          "rounded-full h-10 mt-8 w-10 bg-black border-0 flex items-center justify-center focus:bg-red-50 text-white focus-within:text-black",
                         attrs: {
                           href: _vm.route("dashboard"),
                           active: _vm.route().current("dashboard")
@@ -50531,7 +50529,7 @@ var render = function() {
                       "button",
                       {
                         staticClass:
-                          "rounded-full h-10 mt-8 w-10 bg-black border-0 flex items-center justify-center focus:bg-red-200 text-white focus-within:text-black",
+                          "rounded-full h-10 mt-8 w-10 bg-black border-0 flex items-center justify-center focus:bg-red-50 text-white focus-within:text-black",
                         attrs: {
                           href: _vm.route("admin"),
                           active: _vm.route().current("admin")
@@ -50569,7 +50567,7 @@ var render = function() {
                       "button",
                       {
                         staticClass:
-                          "rounded-full h-10 mt-8 w-10 bg-black border-0 flex items-center justify-center focus:bg-red-200 text-white focus-within:text-black",
+                          "rounded-full h-10 mt-8 w-10 bg-black border-0 flex items-center justify-center focus:bg-red-50 text-white focus-within:text-black",
                         attrs: {
                           href: _vm.route("admin"),
                           active: _vm.route().current("admin")
@@ -50607,7 +50605,7 @@ var render = function() {
                       "button",
                       {
                         staticClass:
-                          "rounded-full h-10 mt-8 w-10 bg-black border-0 flex items-center justify-center focus:bg-red-200 text-white focus-within:text-black",
+                          "rounded-full h-10 mt-8 w-10 bg-black border-0 flex items-center justify-center focus:bg-red-50 text-white focus-within:text-black",
                         attrs: {
                           href: _vm.route("admin"),
                           active: _vm.route().current("admin")
@@ -50645,7 +50643,7 @@ var render = function() {
                       "button",
                       {
                         staticClass:
-                          "rounded-full h-10 mt-8 w-10 bg-black border-0 flex items-center justify-center focus:bg-red-200 text-white focus-within:text-black",
+                          "rounded-full h-10 mt-8 w-10 bg-black border-0 flex items-center justify-center focus:bg-red-50 text-white focus-within:text-black",
                         attrs: {
                           href: _vm.route("admin"),
                           active: _vm.route().current("admin")
@@ -50683,7 +50681,7 @@ var render = function() {
                       "button",
                       {
                         staticClass:
-                          "rounded-full h-10 mt-8 w-10 bg-black border-0 flex items-center justify-center focus:bg-red-200 text-white focus-within:text-black",
+                          "rounded-full h-10 mt-8 w-10 bg-black border-0 flex items-center justify-center focus:bg-red-50 text-white focus-within:text-black",
                         attrs: {
                           href: _vm.route("admin"),
                           active: _vm.route().current("admin")
@@ -50721,7 +50719,7 @@ var render = function() {
                       "button",
                       {
                         staticClass:
-                          "rounded-full h-10 mt-8 w-10 bg-black border-0 flex items-center justify-center focus:bg-red-200 text-white focus-within:text-black",
+                          "rounded-full h-10 mt-8 w-10 bg-black border-0 flex items-center justify-center focus:bg-red-50 text-white focus-within:text-black",
                         attrs: {
                           href: _vm.route("admin"),
                           active: _vm.route().current("admin")
@@ -50759,7 +50757,7 @@ var render = function() {
                       "button",
                       {
                         staticClass:
-                          "rounded-full h-10 mt-8 w-10 bg-black border-0 flex items-center justify-center focus:bg-red-200 text-white focus-within:text-black",
+                          "rounded-full h-10 mt-8 w-10 bg-black border-0 flex items-center justify-center focus:bg-red-50 text-white focus-within:text-black",
                         attrs: {
                           href: _vm.route("admin"),
                           active: _vm.route().current("admin")
@@ -51005,7 +51003,7 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "self-center ml-5" }, [
       _c("div", { staticClass: "flex-shrink-0 flex items-center" }, [
-        _c("span", { staticClass: "self-end font-black" }, [
+        _c("span", { staticClass: "self-end font-black font-mono" }, [
           _vm._v("\r\n                        HORECA\r\n                    ")
         ])
       ])

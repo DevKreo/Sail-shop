@@ -5,7 +5,7 @@
             <svg class="w-6 h-6 transform rotate-180" viewBox="0 0 24 24">
                 <path fill="currentColor" d="M 11,4L 13,4L 13,15L 11,15L 11,4 Z M 13,18L 13,20L 11,20L 11,18L 13,18 Z" />
             </svg>
-            <span class=""> О КОМПАНИИ </span>
+            <span class="font-mono font-extrabold text-xl tracking-widest"> О КОМПАНИИ </span>
         </div>
         <button v-on:click="showAboutCompany = !showAboutCompany" :class="[showAboutCompany ?  'text-black' : 'text-white']">
             <svg v-if="!showAboutCompany" class="w-6 h-6" viewBox="0 0 24 24">
@@ -259,7 +259,7 @@ export default {
 }
 
 .simplebar-track.simplebar-vertical {
-    background-color: #ff8080;
+    background-color: #FF6E6E;
     width: 5px;
     margin-right: 5rem;
     border-radius: 3px;
@@ -292,6 +292,6 @@ export default {
 }
 
 .background-light {
-    background-color: #ff8080;
+    background-color: #FF6E6E;
 }
 </style>

@@ -12,6 +12,7 @@ module.exports = {
         extend: {
             fontFamily: {
                 sans: ['Nunito', ...defaultTheme.fontFamily.sans],
+                mono: ['JetBrains Mono'],
             },
             backgroundImage: theme => ({
                 'logo-texture': "url('../img/logo.png')",
@@ -26,12 +27,20 @@ module.exports = {
                 },
                 red:{
                     450: '#ff8080',
-                    550: '#ffbce3'
+                    550: '#ffbce3',
+                    50: '#FF6E6E'
                 },
                 blue:{
                     50: '#87a0ff'
+                },
+                pink:{
+                    50: '#FF82DC'
                 }
+            },
+            letterSpacing: {
+                widest: '.2em'
             }
+
         },
     },
 
