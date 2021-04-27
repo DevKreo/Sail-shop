@@ -6683,6 +6683,62 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 
 
@@ -13298,7 +13354,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n[type=\"checkbox\"]:checked {\r\n  background-image: url(\"/images/circle-medium.png\");\n}\n.simplebar-track.simplebar-vertical {\r\n  background-color: #bbd54c;\r\n  width: 5px;\r\n  margin-right: 5rem;\r\n  border-radius: 3px;\r\n  margin-bottom: 16px;\r\n  opacity: 1;\r\n  overflow: visible;\r\n  visibility: visible;\n}\n.simplebar-scrollbar.simplebar-visible::before {\r\n  opacity: 1;\r\n  top: 0 !important;\r\n  bottom: 0 !important;\r\n  left: -2px;\r\n  right: 0;\n}\n.simplebar-scrollbar:before {\r\n  background-color: #000000;\r\n  width: 9px;\n}\n.clients {\r\n  -ms-writing-mode: tb-lr;\r\n      writing-mode: vertical-lr;\r\n  transform: rotate(180deg);\r\n  font-size: 20px;\n}\n.card:hover {\r\n  opacity: 0.5;\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n[type=\"checkbox\"]:checked {\r\n    background-image: url(\"/images/circle-medium.png\");\n}\n.simplebar-track.simplebar-vertical {\r\n    background-color: #bbd54c;\r\n    width: 5px;\r\n    margin-right: 5rem;\r\n    border-radius: 3px;\r\n    margin-bottom: 16px;\r\n    opacity: 1;\r\n    overflow: visible;\r\n    visibility: visible;\n}\n.simplebar-scrollbar.simplebar-visible::before {\r\n    opacity: 1;\r\n    top: 0 !important;\r\n    bottom: 0 !important;\r\n    left: -2px;\r\n    right: 0;\n}\n.simplebar-scrollbar:before {\r\n    background-color: #000000;\r\n    width: 9px;\n}\n.clients {\r\n    -ms-writing-mode: tb-lr;\r\n        writing-mode: vertical-lr;\r\n    transform: rotate(180deg);\r\n    font-size: 20px;\n}\n.card:hover {\r\n    opacity: 0.5;\n}\n.circuit:active,\r\n.circuit:focus {\r\n    outline: none;\n}\n.circuit::-moz-focus-inner {\r\n    border: 0;\n}\n.parenting:hover .child,\r\n.parenting:focus .child {\r\n    transform: scale(1.2);\n}\n.parenting {\r\n    overflow: hidden;\n}\n.child {\r\n    transition: all .5s;\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -50457,62 +50513,572 @@ var render = function() {
                             [
                               _c(
                                 "div",
-                                { staticClass: "grid grid-cols-4 gap-4" },
+                                { staticClass: "grid grid-cols-3 gap-4" },
                                 [
                                   _c(
                                     "div",
                                     {
                                       staticClass:
-                                        "flex flex-col mr-5 h-64 w-64 hover:opacity-50 relative",
-                                      staticStyle: {
-                                        "background-image":
-                                          "url(images/coffe.png)"
-                                      },
-                                      on: {
-                                        mouseover: function($event) {
-                                          _vm.IsHover = true
-                                        },
-                                        mouseleave: function($event) {
-                                          _vm.IsHover = false
-                                        }
-                                      }
+                                        "group flex flex-col mr-5 h-96 w-96 relative parenting"
                                     },
                                     [
-                                      _vm.IsHover
-                                        ? _c("p", { staticClass: "ml-4" }, [
-                                            _vm._v(
-                                              "Держатели для двух стаканов"
-                                            )
-                                          ])
-                                        : _vm._e(),
+                                      _c("div", {
+                                        staticClass:
+                                          "child absolute inset-0 bg-cover bg-center z-0 group-hover:opacity-50",
+                                        staticStyle: {
+                                          "background-image":
+                                            "url(images/coffe.png)"
+                                        }
+                                      }),
                                       _vm._v(" "),
-                                      _vm.IsHover
-                                        ? _c(
-                                            "h1",
+                                      _c(
+                                        "div",
+                                        {
+                                          staticClass:
+                                            "opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-20 flex flex-col justify-start items-start text-xs text-white font-mono pl-3 pt-3"
+                                        },
+                                        [
+                                          _c(
+                                            "div",
                                             {
                                               staticClass:
-                                                "text-2xl font-bold text-blacks pb-2.5 ml-4"
+                                                "ml-1 text-black font-mono font-regular text-base"
                                             },
                                             [
                                               _vm._v(
-                                                "\n                  Eco cupholder\n                "
+                                                "Держатели для двух стаканов"
+                                              )
+                                            ]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "div",
+                                            {
+                                              staticClass:
+                                                "font-mono font-extrabold text-2xl font-bold pb-2.5 ml-1 text-black flex items-start"
+                                            },
+                                            [_vm._v("Eco cupholder")]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "button",
+                                            {
+                                              staticClass:
+                                                "circuit rounded-full h-16 w-16 opacity-100 bg-black absolute bottom-0 right-0 mr-5 mb-5 flex items-center justify-center focus:bg-red-50 focus-within:text-black",
+                                              attrs: { type: "button" }
+                                            },
+                                            [
+                                              _c(
+                                                "svg",
+                                                {
+                                                  staticStyle: {
+                                                    width: "48px",
+                                                    height: "48px"
+                                                  },
+                                                  attrs: {
+                                                    viewBox: "0 0 24 24"
+                                                  }
+                                                },
+                                                [
+                                                  _c("path", {
+                                                    attrs: {
+                                                      fill: "currentColor",
+                                                      d:
+                                                        "M8,5.14V19.14L19,12.14L8,5.14Z"
+                                                    }
+                                                  })
+                                                ]
                                               )
                                             ]
                                           )
-                                        : _vm._e(),
-                                      _vm._v(" "),
-                                      _c("button", {
-                                        directives: [
-                                          {
-                                            name: "show",
-                                            rawName: "v-show",
-                                            value: _vm.IsHover,
-                                            expression: "IsHover"
-                                          }
-                                        ],
+                                        ]
+                                      )
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "div",
+                                    {
+                                      staticClass:
+                                        "group flex flex-col mr-5 h-96 w-96 relative parenting"
+                                    },
+                                    [
+                                      _c("div", {
                                         staticClass:
-                                          "rounded-full h-16 w-16 opacity-100 bg-black absolute bottom-0 right-0"
-                                      })
+                                          "child absolute inset-0 bg-cover bg-center z-0 group-hover:opacity-50",
+                                        staticStyle: {
+                                          "background-image":
+                                            "url(images/coffe.png)"
+                                        }
+                                      }),
+                                      _vm._v(" "),
+                                      _c(
+                                        "div",
+                                        {
+                                          staticClass:
+                                            "opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-20 flex flex-col justify-start items-start text-xs text-white font-mono pl-3 pt-3"
+                                        },
+                                        [
+                                          _c(
+                                            "div",
+                                            {
+                                              staticClass:
+                                                "ml-1 text-black font-mono font-regular text-base"
+                                            },
+                                            [
+                                              _vm._v(
+                                                "Держатели для двух стаканов"
+                                              )
+                                            ]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "div",
+                                            {
+                                              staticClass:
+                                                "font-mono font-extrabold text-2xl font-bold pb-2.5 ml-1 text-black flex items-start"
+                                            },
+                                            [_vm._v("Eco cupholder")]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "button",
+                                            {
+                                              staticClass:
+                                                "circuit rounded-full h-16 w-16 opacity-100 bg-black absolute bottom-0 right-0 mr-5 mb-5 flex items-center justify-center focus:bg-red-50 focus-within:text-black",
+                                              attrs: { type: "button" }
+                                            },
+                                            [
+                                              _c(
+                                                "svg",
+                                                {
+                                                  staticStyle: {
+                                                    width: "48px",
+                                                    height: "48px"
+                                                  },
+                                                  attrs: {
+                                                    viewBox: "0 0 24 24"
+                                                  }
+                                                },
+                                                [
+                                                  _c("path", {
+                                                    attrs: {
+                                                      fill: "currentColor",
+                                                      d:
+                                                        "M8,5.14V19.14L19,12.14L8,5.14Z"
+                                                    }
+                                                  })
+                                                ]
+                                              )
+                                            ]
+                                          )
+                                        ]
+                                      )
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "div",
+                                    {
+                                      staticClass:
+                                        "group flex flex-col mr-5 h-96 w-96 relative parenting"
+                                    },
+                                    [
+                                      _c("div", {
+                                        staticClass:
+                                          "child absolute inset-0 bg-cover bg-center z-0 group-hover:opacity-50",
+                                        staticStyle: {
+                                          "background-image":
+                                            "url(images/coffe.png)"
+                                        }
+                                      }),
+                                      _vm._v(" "),
+                                      _c(
+                                        "div",
+                                        {
+                                          staticClass:
+                                            "opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-20 flex flex-col justify-start items-start text-xs text-white font-mono pl-3 pt-3"
+                                        },
+                                        [
+                                          _c(
+                                            "div",
+                                            {
+                                              staticClass:
+                                                "ml-1 text-black font-mono font-regular text-base"
+                                            },
+                                            [
+                                              _vm._v(
+                                                "Держатели для двух стаканов"
+                                              )
+                                            ]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "div",
+                                            {
+                                              staticClass:
+                                                "font-mono font-extrabold text-2xl font-bold pb-2.5 ml-1 text-black flex items-start"
+                                            },
+                                            [_vm._v("Eco cupholder")]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "button",
+                                            {
+                                              staticClass:
+                                                "circuit rounded-full h-16 w-16 opacity-100 bg-black absolute bottom-0 right-0 mr-5 mb-5 flex items-center justify-center focus:bg-red-50 focus-within:text-black",
+                                              attrs: { type: "button" }
+                                            },
+                                            [
+                                              _c(
+                                                "svg",
+                                                {
+                                                  staticStyle: {
+                                                    width: "48px",
+                                                    height: "48px"
+                                                  },
+                                                  attrs: {
+                                                    viewBox: "0 0 24 24"
+                                                  }
+                                                },
+                                                [
+                                                  _c("path", {
+                                                    attrs: {
+                                                      fill: "currentColor",
+                                                      d:
+                                                        "M8,5.14V19.14L19,12.14L8,5.14Z"
+                                                    }
+                                                  })
+                                                ]
+                                              )
+                                            ]
+                                          )
+                                        ]
+                                      )
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "div",
+                                    {
+                                      staticClass:
+                                        "group flex flex-col mr-5 h-96 w-96 relative parenting"
+                                    },
+                                    [
+                                      _c("div", {
+                                        staticClass:
+                                          "child absolute inset-0 bg-cover bg-center z-0 group-hover:opacity-50",
+                                        staticStyle: {
+                                          "background-image":
+                                            "url(images/coffe.png)"
+                                        }
+                                      }),
+                                      _vm._v(" "),
+                                      _c(
+                                        "div",
+                                        {
+                                          staticClass:
+                                            "opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-20 flex flex-col justify-start items-start text-xs text-white font-mono pl-3 pt-3"
+                                        },
+                                        [
+                                          _c(
+                                            "div",
+                                            {
+                                              staticClass:
+                                                "ml-1 text-black font-mono font-regular text-base"
+                                            },
+                                            [
+                                              _vm._v(
+                                                "Держатели для двух стаканов"
+                                              )
+                                            ]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "div",
+                                            {
+                                              staticClass:
+                                                "font-mono font-extrabold text-2xl font-bold pb-2.5 ml-1 text-black flex items-start"
+                                            },
+                                            [_vm._v("Eco cupholder")]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "button",
+                                            {
+                                              staticClass:
+                                                "circuit rounded-full h-16 w-16 opacity-100 bg-black absolute bottom-0 right-0 mr-5 mb-5 flex items-center justify-center focus:bg-red-50 focus-within:text-black",
+                                              attrs: { type: "button" }
+                                            },
+                                            [
+                                              _c(
+                                                "svg",
+                                                {
+                                                  staticStyle: {
+                                                    width: "48px",
+                                                    height: "48px"
+                                                  },
+                                                  attrs: {
+                                                    viewBox: "0 0 24 24"
+                                                  }
+                                                },
+                                                [
+                                                  _c("path", {
+                                                    attrs: {
+                                                      fill: "currentColor",
+                                                      d:
+                                                        "M8,5.14V19.14L19,12.14L8,5.14Z"
+                                                    }
+                                                  })
+                                                ]
+                                              )
+                                            ]
+                                          )
+                                        ]
+                                      )
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "div",
+                                    {
+                                      staticClass:
+                                        "group flex flex-col mr-5 h-96 w-96 relative parenting"
+                                    },
+                                    [
+                                      _c("div", {
+                                        staticClass:
+                                          "child absolute inset-0 bg-cover bg-center z-0 group-hover:opacity-50",
+                                        staticStyle: {
+                                          "background-image":
+                                            "url(images/coffe.png)"
+                                        }
+                                      }),
+                                      _vm._v(" "),
+                                      _c(
+                                        "div",
+                                        {
+                                          staticClass:
+                                            "opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-20 flex flex-col justify-start items-start text-xs text-white font-mono pl-3 pt-3"
+                                        },
+                                        [
+                                          _c(
+                                            "div",
+                                            {
+                                              staticClass:
+                                                "ml-1 text-black font-mono font-regular text-base"
+                                            },
+                                            [
+                                              _vm._v(
+                                                "Держатели для двух стаканов"
+                                              )
+                                            ]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "div",
+                                            {
+                                              staticClass:
+                                                "font-mono font-extrabold text-2xl font-bold pb-2.5 ml-1 text-black flex items-start"
+                                            },
+                                            [_vm._v("Eco cupholder")]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "button",
+                                            {
+                                              staticClass:
+                                                "circuit rounded-full h-16 w-16 opacity-100 bg-black absolute bottom-0 right-0 mr-5 mb-5 flex items-center justify-center focus:bg-red-50 focus-within:text-black",
+                                              attrs: { type: "button" }
+                                            },
+                                            [
+                                              _c(
+                                                "svg",
+                                                {
+                                                  staticStyle: {
+                                                    width: "48px",
+                                                    height: "48px"
+                                                  },
+                                                  attrs: {
+                                                    viewBox: "0 0 24 24"
+                                                  }
+                                                },
+                                                [
+                                                  _c("path", {
+                                                    attrs: {
+                                                      fill: "currentColor",
+                                                      d:
+                                                        "M8,5.14V19.14L19,12.14L8,5.14Z"
+                                                    }
+                                                  })
+                                                ]
+                                              )
+                                            ]
+                                          )
+                                        ]
+                                      )
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "div",
+                                    {
+                                      staticClass:
+                                        "group flex flex-col mr-5 h-96 w-96 relative parenting"
+                                    },
+                                    [
+                                      _c("div", {
+                                        staticClass:
+                                          "child absolute inset-0 bg-cover bg-center z-0 group-hover:opacity-50",
+                                        staticStyle: {
+                                          "background-image":
+                                            "url(images/coffe.png)"
+                                        }
+                                      }),
+                                      _vm._v(" "),
+                                      _c(
+                                        "div",
+                                        {
+                                          staticClass:
+                                            "opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-20 flex flex-col justify-start items-start text-xs text-white font-mono pl-3 pt-3"
+                                        },
+                                        [
+                                          _c(
+                                            "div",
+                                            {
+                                              staticClass:
+                                                "ml-1 text-black font-mono font-regular text-base"
+                                            },
+                                            [
+                                              _vm._v(
+                                                "Держатели для двух стаканов"
+                                              )
+                                            ]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "div",
+                                            {
+                                              staticClass:
+                                                "font-mono font-extrabold text-2xl font-bold pb-2.5 ml-1 text-black flex items-start"
+                                            },
+                                            [_vm._v("Eco cupholder")]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "button",
+                                            {
+                                              staticClass:
+                                                "circuit rounded-full h-16 w-16 opacity-100 bg-black absolute bottom-0 right-0 mr-5 mb-5 flex items-center justify-center focus:bg-red-50 focus-within:text-black",
+                                              attrs: { type: "button" }
+                                            },
+                                            [
+                                              _c(
+                                                "svg",
+                                                {
+                                                  staticStyle: {
+                                                    width: "48px",
+                                                    height: "48px"
+                                                  },
+                                                  attrs: {
+                                                    viewBox: "0 0 24 24"
+                                                  }
+                                                },
+                                                [
+                                                  _c("path", {
+                                                    attrs: {
+                                                      fill: "currentColor",
+                                                      d:
+                                                        "M8,5.14V19.14L19,12.14L8,5.14Z"
+                                                    }
+                                                  })
+                                                ]
+                                              )
+                                            ]
+                                          )
+                                        ]
+                                      )
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "div",
+                                    {
+                                      staticClass:
+                                        "group flex flex-col mr-5 h-96 w-96 relative parenting"
+                                    },
+                                    [
+                                      _c("div", {
+                                        staticClass:
+                                          "child absolute inset-0 bg-cover bg-center z-0 group-hover:opacity-50",
+                                        staticStyle: {
+                                          "background-image":
+                                            "url(images/coffe.png)"
+                                        }
+                                      }),
+                                      _vm._v(" "),
+                                      _c(
+                                        "div",
+                                        {
+                                          staticClass:
+                                            "opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-20 flex flex-col justify-start items-start text-xs text-white font-mono pl-3 pt-3"
+                                        },
+                                        [
+                                          _c(
+                                            "div",
+                                            {
+                                              staticClass:
+                                                "ml-1 text-black font-mono font-regular text-base"
+                                            },
+                                            [
+                                              _vm._v(
+                                                "Держатели для двух стаканов"
+                                              )
+                                            ]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "div",
+                                            {
+                                              staticClass:
+                                                "font-mono font-extrabold text-2xl font-bold pb-2.5 ml-1 text-black flex items-start"
+                                            },
+                                            [_vm._v("Eco cupholder")]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "button",
+                                            {
+                                              staticClass:
+                                                "circuit rounded-full h-16 w-16 opacity-100 bg-black absolute bottom-0 right-0 mr-5 mb-5 flex items-center justify-center focus:bg-red-50 focus-within:text-black",
+                                              attrs: { type: "button" }
+                                            },
+                                            [
+                                              _c(
+                                                "svg",
+                                                {
+                                                  staticStyle: {
+                                                    width: "48px",
+                                                    height: "48px"
+                                                  },
+                                                  attrs: {
+                                                    viewBox: "0 0 24 24"
+                                                  }
+                                                },
+                                                [
+                                                  _c("path", {
+                                                    attrs: {
+                                                      fill: "currentColor",
+                                                      d:
+                                                        "M8,5.14V19.14L19,12.14L8,5.14Z"
+                                                    }
+                                                  })
+                                                ]
+                                              )
+                                            ]
+                                          )
+                                        ]
+                                      )
                                     ]
                                   )
                                 ]
@@ -51126,7 +51692,7 @@ var render = function() {
         [
           _c("div", {
             staticClass:
-              "object-contain hidden  xl:block h-full min-h-full w-24 bg-log-texture absolute "
+              "object-contain hidden xl:block h-full min-h-screen w-24 bg-log-texture absolute "
           }),
           _vm._v(" "),
           _vm._t("default")

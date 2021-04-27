@@ -23,18 +23,29 @@ module.exports = {
             },
             colors: {
                 green: {
-                  450: '#b8d54b'
+                  450: '#b8d54b',
+                  50:  '#73E691',
+                  100: '#91CD5A'
                 },
                 red:{
                     450: '#ff8080',
                     550: '#ffbce3',
                     50: '#FF6E6E'
                 },
+                yellow:{
+                    50:  '#FFDC73'
+                },
                 blue:{
                     50: '#87a0ff'
                 },
                 pink:{
                     50: '#FF82DC'
+                },
+                purple:{
+                    50:  '#CD96FF'
+                },
+                aqua:{
+                    50:  '#6ED7D7'
                 }
             },
             letterSpacing: {

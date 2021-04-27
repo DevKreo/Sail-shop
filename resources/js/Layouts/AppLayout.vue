@@ -207,7 +207,7 @@
 
         <!-- Page Content -->
         <main class="relative">
-            <div class="object-contain hidden  xl:block h-full min-h-full w-24 bg-log-texture absolute "></div>
+            <div class="object-contain hidden xl:block h-full min-h-screen w-24 bg-log-texture absolute "></div>
             <slot></slot>
         </main>
     </div>
