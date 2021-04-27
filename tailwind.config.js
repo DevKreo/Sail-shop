@@ -38,7 +38,8 @@ module.exports = {
                 }
             },
             letterSpacing: {
-                widest: '.2em'
+                wider: '.1em',
+                widest: '.2em',
             }
 
         },
@@ -46,7 +47,7 @@ module.exports = {
 
     variants: {
         extend: {
-            opacity: ['disabled'],
+            opacity: ['disabled']
         },
     },
 

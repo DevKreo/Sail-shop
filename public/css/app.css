@@ -28806,7 +28806,7 @@ select{
 }
 
 .tracking-wider{
-  letter-spacing: 0.05em;
+  letter-spacing: .1em;
 }
 
 .tracking-widest{
@@ -61300,7 +61300,7 @@ select{
   }
 
   .sm\:tracking-wider{
-    letter-spacing: 0.05em;
+    letter-spacing: .1em;
   }
 
   .sm\:tracking-widest{
@@ -93729,7 +93729,7 @@ select{
   }
 
   .md\:tracking-wider{
-    letter-spacing: 0.05em;
+    letter-spacing: .1em;
   }
 
   .md\:tracking-widest{
@@ -126158,7 +126158,7 @@ select{
   }
 
   .lg\:tracking-wider{
-    letter-spacing: 0.05em;
+    letter-spacing: .1em;
   }
 
   .lg\:tracking-widest{
@@ -158587,7 +158587,7 @@ select{
   }
 
   .xl\:tracking-wider{
-    letter-spacing: 0.05em;
+    letter-spacing: .1em;
   }
 
   .xl\:tracking-widest{
@@ -191016,7 +191016,7 @@ select{
   }
 
   .\32xl\:tracking-wider{
-    letter-spacing: 0.05em;
+    letter-spacing: .1em;
   }
 
   .\32xl\:tracking-widest{

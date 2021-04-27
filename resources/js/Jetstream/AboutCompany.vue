@@ -2,7 +2,7 @@
 <div>
     <div class="rounded-full py-3 px-6 flex items-center justify-between mb-2" :class="[showAboutCompany ?  'background-light' : 'background-dark']">
         <div class="inline-flex space-x-10 items-center" :class="[showAboutCompany ?  'text-black' : 'text-white']">
-            <svg class="w-6 h-6 transform rotate-180" viewBox="0 0 24 24">
+            <svg class="w-7 h-7 transform rotate-180" viewBox="0 0 24 24">
                 <path fill="currentColor" d="M 11,4L 13,4L 13,15L 11,15L 11,4 Z M 13,18L 13,20L 11,20L 11,18L 13,18 Z" />
             </svg>
             <span class="font-mono font-extrabold text-xl tracking-widest"> О КОМПАНИИ </span>
@@ -18,7 +18,7 @@
     </div>
     <transition name="fade">
         <div class="px-20 bg-white grid grid-cols-1" v-show="showAboutCompany">
-            <span class="mb-4 p-4">
+            <span class="mb-4 p-4 font-mono font-bold">
                 Компания "Белый Парус" предоставляет комплексное
                 обслуживание в сегменте HoReCa и B2B. В нашем ассортименте:
                 профессиональные моющие средства для всех типов
@@ -27,7 +27,7 @@
             </span>
             <div class="py-3 bg-white flex items-center justify-between border-t-2 border-black">
                 <div class="text-black inline-flex space-x-10 items-center">
-                    <span class=""> С НАМИ СОТРУДНИЧАЮТ ЛУЧШИЕ </span>
+                    <span class="font-mono font-regular text-xl tracking-wider"> С НАМИ СОТРУДНИЧАЮТ ЛУЧШИЕ </span>
                 </div>
                 <button v-on:click="showPartners = !showPartners" class="text-black">
                     <svg v-if="!showPartners" class="w-6 h-6" viewBox="0 0 24 24">
@@ -42,9 +42,9 @@
     </transition>
 
     <transition name="fade">
-        <div v-show="showPartners && showAboutCompany" class="flex pl-20 mb-2.5">
+        <div v-show="showPartners && showAboutCompany"  class="flex pl-20 mb-2.5">
             <div class="clients flex-initial mb-4">
-                <span>клиенты</span>
+                <span class="font-mono font-regular text-lg tracking-wider">клиенты</span>
             </div>
             <simplebar id="partners" class="pr-40 h-screen bg-white flex-auto" data-simplebar-auto-hide="false">
                 <div class="flex flex-wrap justify-center">
@@ -59,7 +59,7 @@
         <div class="px-20 bg-white grid grid-cols-1" v-show="showAboutCompany">
             <div class="py-3 bg-white flex items-center justify-between border-t-2 border-black">
                 <div class="text-black inline-flex space-x-10 items-center">
-                    <span class=""> ПОЧЕМУ С НАМИ ? </span>
+                    <span class="font-mono font-regular text-xl tracking-wider"> ПОЧЕМУ С НАМИ ? </span>
                 </div>
                 <button v-on:click="showWhyWithUs = !showWhyWithUs" class="text-black">
                     <svg v-if="!showWhyWithUs" class="w-6 h-6" viewBox="0 0 24 24">
@@ -78,10 +78,10 @@
                 <div class="flex" v-for="item in whyWithUs" :key="item.id">
                     <div v-if="item.isPictLeft" class="grid grid-cols-5 gap-2 mb-2">
                         <div class="clients">
-                            <span>{{ item.sidetext }}</span>
+                            <span class="font-mono font-regular text-lg tracking-wider">{{ item.sidetext }}</span>
                         </div>
                         <div class="bg-black hover:bg-red-400 col-span-2 pt-3">
-                            <span class="text-white font-bold p-5 whitespace-pre ">{{ item.text }}</span>
+                            <span class="font-mono font-bold text-white p-5 whitespace-pre ">{{ item.text }}</span>
                         </div>
                         <div class="">
                             <img :src="item.img" />
@@ -92,10 +92,10 @@
                             <img :src="item.img" />
                         </div>
                         <div class="bg-black hover:bg-red-400 col-start-3 col-end-5 pt-3">
-                            <span class="text-white font-bold whitespace-pre p-5">{{ item.text }}</span>
+                            <span class="font-mono font-bold text-white whitespace-pre p-5 ">{{ item.text }}</span>
                         </div>
                         <div class="clients col-start-5 justify-self-start">
-                            <span>{{ item.sidetext }}</span>
+                            <span class="font-mono font-regular text-lg tracking-wider">{{ item.sidetext }}</span>
                         </div>
                     </div>
                 </div>
@@ -198,14 +198,14 @@ export default {
             ],
             whyWithUs: [{
                     id: "1",
-                    text: "16 лет \n     занимаемся комплексным снабжением \n     непродовольственными товарами \n     в сегменте HoReCa",
+                    text: "16 лет \n  занимаемся комплексным снабжением \n  непродовольственными товарами \n  в сегменте HoReCa",
                     img: "images/whyWithUs/16years.png",
                     sidetext: "практика",
                     isPictLeft: true
                 },
                 {
                     id: "2",
-                    text: "Более 500 довольных клиентов \n     каждый месяц",
+                    text: "Более 500 довольных клиентов \n  каждый месяц",
                     img: "images/whyWithUs/500HappyClients.png",
                     sidetext: "обслуживание",
                     isPictLeft: false
@@ -233,7 +233,7 @@ export default {
                 },
                 {
                     id: "6",
-                    text: "Качественная продукция — наша основная цель \n     удовлетворение конечного потребителя",
+                    text: "Качественная продукция — наша основная цель \n  удовлетворение конечного потребителя",
                     img: "images/whyWithUs/qualityproducts.png",
                     sidetext: "что-то",
                     isPictLeft: false

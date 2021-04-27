@@ -3074,13 +3074,13 @@ __webpack_require__.r(__webpack_exports__);
       }],
       whyWithUs: [{
         id: "1",
-        text: "16 лет \n     занимаемся комплексным снабжением \n     непродовольственными товарами \n     в сегменте HoReCa",
+        text: "16 лет \n  занимаемся комплексным снабжением \n  непродовольственными товарами \n  в сегменте HoReCa",
         img: "images/whyWithUs/16years.png",
         sidetext: "практика",
         isPictLeft: true
       }, {
         id: "2",
-        text: "Более 500 довольных клиентов \n     каждый месяц",
+        text: "Более 500 довольных клиентов \n  каждый месяц",
         img: "images/whyWithUs/500HappyClients.png",
         sidetext: "обслуживание",
         isPictLeft: false
@@ -3104,7 +3104,7 @@ __webpack_require__.r(__webpack_exports__);
         isPictLeft: true
       }, {
         id: "6",
-        text: "Качественная продукция — наша основная цель \n     удовлетворение конечного потребителя",
+        text: "Качественная продукция — наша основная цель \n  удовлетворение конечного потребителя",
         img: "images/whyWithUs/qualityproducts.png",
         sidetext: "что-то",
         isPictLeft: false
@@ -39735,7 +39735,7 @@ var render = function() {
               _c(
                 "svg",
                 {
-                  staticClass: "w-6 h-6 transform rotate-180",
+                  staticClass: "w-7 h-7 transform rotate-180",
                   attrs: { viewBox: "0 0 24 24" }
                 },
                 [
@@ -39817,7 +39817,7 @@ var render = function() {
             staticClass: "px-20 bg-white grid grid-cols-1"
           },
           [
-            _c("span", { staticClass: "mb-4 p-4" }, [
+            _c("span", { staticClass: "mb-4 p-4 font-mono font-bold" }, [
               _vm._v(
                 '\r\n                Компания "Белый Парус" предоставляет комплексное\r\n                обслуживание в сегменте HoReCa и B2B. В нашем ассортименте:\r\n                профессиональные моющие средства для всех типов\r\n                поверхностей, хозяйственные товары, бумажная продукция,\r\n                барная продукция, одноразовая пищевая упаковка и другое.\r\n            '
               )
@@ -39836,7 +39836,16 @@ var render = function() {
                     staticClass:
                       "text-black inline-flex space-x-10 items-center"
                   },
-                  [_c("span", {}, [_vm._v(" С НАМИ СОТРУДНИЧАЮТ ЛУЧШИЕ ")])]
+                  [
+                    _c(
+                      "span",
+                      {
+                        staticClass:
+                          "font-mono font-regular text-xl tracking-wider"
+                      },
+                      [_vm._v(" С НАМИ СОТРУДНИЧАЮТ ЛУЧШИЕ ")]
+                    )
+                  ]
                 ),
                 _vm._v(" "),
                 _c(
@@ -39909,7 +39918,13 @@ var render = function() {
           },
           [
             _c("div", { staticClass: "clients flex-initial mb-4" }, [
-              _c("span", [_vm._v("клиенты")])
+              _c(
+                "span",
+                {
+                  staticClass: "font-mono font-regular text-lg tracking-wider"
+                },
+                [_vm._v("клиенты")]
+              )
             ]),
             _vm._v(" "),
             _c(
@@ -39970,7 +39985,16 @@ var render = function() {
                     staticClass:
                       "text-black inline-flex space-x-10 items-center"
                   },
-                  [_c("span", {}, [_vm._v(" ПОЧЕМУ С НАМИ ? ")])]
+                  [
+                    _c(
+                      "span",
+                      {
+                        staticClass:
+                          "font-mono font-regular text-xl tracking-wider"
+                      },
+                      [_vm._v(" ПОЧЕМУ С НАМИ ? ")]
+                    )
+                  ]
                 ),
                 _vm._v(" "),
                 _c(
@@ -40056,7 +40080,14 @@ var render = function() {
                         { staticClass: "grid grid-cols-5 gap-2 mb-2" },
                         [
                           _c("div", { staticClass: "clients" }, [
-                            _c("span", [_vm._v(_vm._s(item.sidetext))])
+                            _c(
+                              "span",
+                              {
+                                staticClass:
+                                  "font-mono font-regular text-lg tracking-wider"
+                              },
+                              [_vm._v(_vm._s(item.sidetext))]
+                            )
                           ]),
                           _vm._v(" "),
                           _c(
@@ -40070,7 +40101,7 @@ var render = function() {
                                 "span",
                                 {
                                   staticClass:
-                                    "text-white font-bold p-5 whitespace-pre "
+                                    "font-mono font-bold text-white p-5 whitespace-pre "
                                 },
                                 [_vm._v(_vm._s(item.text))]
                               )
@@ -40101,7 +40132,7 @@ var render = function() {
                                 "span",
                                 {
                                   staticClass:
-                                    "text-white font-bold whitespace-pre p-5"
+                                    "font-mono font-bold text-white whitespace-pre p-5 "
                                 },
                                 [_vm._v(_vm._s(item.text))]
                               )
@@ -40114,7 +40145,16 @@ var render = function() {
                               staticClass:
                                 "clients col-start-5 justify-self-start"
                             },
-                            [_c("span", [_vm._v(_vm._s(item.sidetext))])]
+                            [
+                              _c(
+                                "span",
+                                {
+                                  staticClass:
+                                    "font-mono font-regular text-lg tracking-wider"
+                                },
+                                [_vm._v(_vm._s(item.sidetext))]
+                              )
+                            ]
                           )
                         ]
                       )
@@ -40717,7 +40757,7 @@ var render = function() {
             [
               _c(
                 "svg",
-                { staticClass: "w-6 h-6", attrs: { viewBox: "0 0 24 24" } },
+                { staticClass: "w-7 h-7", attrs: { viewBox: "0 0 24 24" } },
                 [
                   _c("path", {
                     attrs: {
@@ -44987,7 +45027,7 @@ var render = function() {
             [
               _c(
                 "svg",
-                { staticClass: "w-6 h-6", attrs: { viewBox: "0 0 24 24" } },
+                { staticClass: "w-7 h-7", attrs: { viewBox: "0 0 24 24" } },
                 [
                   _c("path", {
                     attrs: {
@@ -46116,7 +46156,7 @@ var render = function() {
             [
               _c(
                 "svg",
-                { staticClass: "w-6 h-6", attrs: { viewBox: "0 0 24 24" } },
+                { staticClass: "w-7 h-7", attrs: { viewBox: "0 0 24 24" } },
                 [
                   _c("path", {
                     attrs: {
@@ -46287,7 +46327,7 @@ var render = function() {
             [
               _c(
                 "svg",
-                { staticClass: "w-6 h-6", attrs: { viewBox: "0 0 24 24" } },
+                { staticClass: "w-7 h-7", attrs: { viewBox: "0 0 24 24" } },
                 [
                   _c("path", {
                     attrs: {
@@ -46647,7 +46687,7 @@ var render = function() {
             [
               _c(
                 "svg",
-                { staticClass: "w-6 h-6", attrs: { viewBox: "0 0 24 24" } },
+                { staticClass: "w-7 h-7", attrs: { viewBox: "0 0 24 24" } },
                 [
                   _c("path", {
                     attrs: {
@@ -50224,7 +50264,7 @@ var render = function() {
             [
               _c(
                 "svg",
-                { staticClass: "w-6 h-6", attrs: { viewBox: "0 0 24 24" } },
+                { staticClass: "w-7 h-7", attrs: { viewBox: "0 0 24 24" } },
                 [
                   _c("path", {
                     attrs: {
