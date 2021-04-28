@@ -40,7 +40,7 @@
                     </svg>
                 </button>
             </div>
-            <div v-show="showSaleOrderFromSite && showLoyaltyProgram" class="flex pl-20 mb-8">
+            <div v-show="showSaleOrderFromSite && showLoyaltyProgram" class="flex pl-20 mb-8 pb-8">
                 <div class="flex flex-wrap justify-center">
                     <span class="font-mono font-regular text-base leading-6">
                         При оформлении заказа через сайт вам предоставляется скидка в размере 3% 
@@ -62,7 +62,7 @@
                     </svg>
                 </button>
             </div>
-            <div v-show="showLoyaltyProgram && showWholesaleTrade" class="flex pl-20 mb-8">
+            <div v-show="showLoyaltyProgram && showWholesaleTrade" class="flex pl-20 mb-8 pb-8">
                 <div class="flex flex-wrap justify-center font-mono font-regular text-base leading-6">
                     <span>
                         При покупке одного вида товара ящ./уп. вам предоставляется скидка
@@ -93,7 +93,7 @@
                     </svg>
                 </button>
             </div>
-            <div v-show="showSaleGroupOfItems && showLoyaltyProgram" class="flex pl-20 mb-8">
+            <div v-show="showSaleGroupOfItems && showLoyaltyProgram" class="flex pl-20 mb-8 pb-8">
                 <div class="flex flex-wrap justify-center">
                     <span class="font-mono font-regular text-base leading-6">
                         При покупке 70% товара из предлагаемого списка, определенной
@@ -116,7 +116,7 @@
                     </svg>
                 </button>
             </div>
-            <div v-show="showStartap && showLoyaltyProgram" class="flex pl-20 mb-8">
+            <div v-show="showStartap && showLoyaltyProgram" class="flex pl-20 mb-8 pb-8">
                 <div class="flex flex-wrap justify-center font-mono font-regular text-base leading-6">
                     <span>
                         Вы недавно вступили в ряды бизнесменов? Вы только что открыли
@@ -151,7 +151,7 @@
                     </svg>
                 </button>
             </div>
-            <div v-show="showMoreCostMoreSale && showLoyaltyProgram" class="flex pl-20 mb-8">
+            <div v-show="showMoreCostMoreSale && showLoyaltyProgram" class="flex pl-20 mb-8 pb-8">
                 <div class="flex flex-wrap justify-center">
                     <div class="flex flex-col items-start mr-auto whitespace-pre-wrap font-mono font-regular text-base leading-6">
                         <span> При покупке товара в ассортименте на суммы:<br><br></span>
@@ -177,7 +177,7 @@
                     </svg>
                 </button>
             </div>
-            <div v-show="showGiftEveryDay && showLoyaltyProgram" class="flex pl-20 mb-8">
+            <div v-show="showGiftEveryDay && showLoyaltyProgram" class="flex pl-20 mb-8 pb-8">
                 <div class="flex flex-wrap justify-center">
                     <div class="flex flex-col items-start mr-auto whitespace-pre-wrap font-mono font-regular text-base leading-6">
                         <span> При оплате заказа по факту, на сумму от 3000 ₽ каждый день определенный товар в <br /> подарок:<br><br></span>
@@ -203,7 +203,7 @@
                     </svg>
                 </button>
             </div>
-            <div v-show="showNetworkBusiness && showLoyaltyProgram" class="flex pl-20 mb-8">
+            <div v-show="showNetworkBusiness && showLoyaltyProgram" class="flex pl-20 mb-8 pb-16">
                 <div class="flex flex-wrap justify-center">
                     <span>
                         Вы - владелец нескольких организаций? Или под вашим брендом

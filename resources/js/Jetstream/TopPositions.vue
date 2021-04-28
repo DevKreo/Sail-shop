@@ -21,7 +21,7 @@
             <transition name="fade">
                 <div v-if="showTopPosition" class="flex mb-2.5">
                     <div class="clients flex-initial mb-4 mr-4">
-                        <span>featured</span>
+                        <span calss="font-mono font-regular text-xl tracking-wider">рекомендуемые товары</span>
                     </div>
                     <simplebar class="pr-40 max-h-screen bg-white flex-auto" data-simplebar-auto-hide="false">
                         <div class="grid grid-cols-3 gap-4">
