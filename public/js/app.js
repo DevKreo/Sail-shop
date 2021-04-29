@@ -40052,12 +40052,16 @@ var render = function() {
         "div",
         {
           staticClass:
-            "rounded-full py-3 px-6 bg-black flex items-center justify-between mb-2"
+            "rounded-full py-3 px-6 flex items-center justify-between mb-2",
+          class: [_vm.showCatalog ? "bg-green-100" : "bg-black"]
         },
         [
           _c(
             "div",
-            { staticClass: "text-white inline-flex space-x-10 items-center" },
+            {
+              staticClass: "inline-flex space-x-10 items-center",
+              class: [_vm.showCatalog ? "text-black" : "text-white"]
+            },
             [
               _c(
                 "svg",
@@ -43235,12 +43239,16 @@ var render = function() {
         "div",
         {
           staticClass:
-            "rounded-full py-3 px-6 bg-black flex items-center justify-between mb-2"
+            "rounded-full py-3 px-6 flex items-center justify-between mb-2",
+          class: [_vm.showLoyaltyProgram ? "bg-yellow-50" : "bg-black"]
         },
         [
           _c(
             "div",
-            { staticClass: "text-white inline-flex space-x-10 items-center" },
+            {
+              staticClass: "inline-flex space-x-10 items-center",
+              class: [_vm.showLoyaltyProgram ? "text-black" : "text-white"]
+            },
             [
               _c(
                 "svg",
@@ -45011,12 +45019,16 @@ var render = function() {
         "div",
         {
           staticClass:
-            "rounded-full py-3 px-6 bg-black flex items-center justify-between mb-2"
+            "rounded-full py-3 px-6 flex items-center justify-between mb-2",
+          class: [_vm.showSphere ? "bg-aqua-50" : "bg-black"]
         },
         [
           _c(
             "div",
-            { staticClass: "text-white inline-flex space-x-10 items-center" },
+            {
+              staticClass: "inline-flex space-x-10 items-center",
+              class: [_vm.showSphere ? "text-black" : "text-white"]
+            },
             [
               _c(
                 "svg",
@@ -47548,12 +47560,16 @@ var render = function() {
         "div",
         {
           staticClass:
-            "rounded-full py-3 px-6 bg-black flex items-center justify-between mb-2"
+            "rounded-full py-3 px-6 flex items-center justify-between mb-2",
+          class: [_vm.showTopPosition ? "bg-green-50" : "bg-black"]
         },
         [
           _c(
             "div",
-            { staticClass: "text-white inline-flex space-x-10 items-center" },
+            {
+              staticClass: "inline-flex space-x-10 items-center",
+              class: [_vm.showTopPosition ? "text-black" : "text-white"]
+            },
             [
               _c(
                 "svg",
@@ -48383,7 +48399,7 @@ var render = function() {
                       "button",
                       {
                         staticClass:
-                          "rounded-full h-10 mt-8 w-10 bg-black border-0 flex items-center justify-center focus:bg-red-50 text-white focus-within:text-black",
+                          "rounded-full h-10 mt-8 w-10 bg-black border-0 flex items-center justify-center focus:bg-yellow-50 text-white focus-within:text-black",
                         attrs: {
                           href: _vm.route("admin"),
                           active: _vm.route().current("admin")
@@ -48421,7 +48437,7 @@ var render = function() {
                       "button",
                       {
                         staticClass:
-                          "rounded-full h-10 mt-8 w-10 bg-black border-0 flex items-center justify-center focus:bg-red-50 text-white focus-within:text-black",
+                          "rounded-full h-10 mt-8 w-10 bg-black border-0 flex items-center justify-center focus:bg-green-100 text-white focus-within:text-black",
                         attrs: {
                           href: _vm.route("admin"),
                           active: _vm.route().current("admin")
@@ -48459,7 +48475,7 @@ var render = function() {
                       "button",
                       {
                         staticClass:
-                          "rounded-full h-10 mt-8 w-10 bg-black border-0 flex items-center justify-center focus:bg-red-50 text-white focus-within:text-black",
+                          "rounded-full h-10 mt-8 w-10 bg-black border-0 flex items-center justify-center focus:bg-green-50 text-white focus-within:text-black",
                         attrs: {
                           href: _vm.route("admin"),
                           active: _vm.route().current("admin")
@@ -48497,7 +48513,7 @@ var render = function() {
                       "button",
                       {
                         staticClass:
-                          "rounded-full h-10 mt-8 w-10 bg-black border-0 flex items-center justify-center focus:bg-red-50 text-white focus-within:text-black",
+                          "rounded-full h-10 mt-8 w-10 bg-black border-0 flex items-center justify-center focus:bg-aqua-50 text-white focus-within:text-black",
                         attrs: {
                           href: _vm.route("admin"),
                           active: _vm.route().current("admin")
@@ -48535,45 +48551,7 @@ var render = function() {
                       "button",
                       {
                         staticClass:
-                          "rounded-full h-10 mt-8 w-10 bg-black border-0 flex items-center justify-center focus:bg-red-50 text-white focus-within:text-black",
-                        attrs: {
-                          href: _vm.route("admin"),
-                          active: _vm.route().current("admin")
-                        }
-                      },
-                      [
-                        _c(
-                          "svg",
-                          {
-                            staticClass: "w-9 h-9",
-                            attrs: { viewBox: "0 0 24 24" }
-                          },
-                          [
-                            _c("path", {
-                              attrs: {
-                                fill: "currentColor",
-                                d:
-                                  "M21,16.5C21,16.88 20.79,17.21 20.47,17.38L12.57,21.82C12.41,21.94 12.21,22 12,22C11.79,22 11.59,21.94 11.43,21.82L3.53,17.38C3.21,17.21 3,16.88 3,16.5V7.5C3,7.12 3.21,6.79 3.53,6.62L11.43,2.18C11.59,2.06 11.79,2 12,2C12.21,2 12.41,2.06 12.57,2.18L20.47,6.62C20.79,6.79 21,7.12 21,7.5V16.5M12,4.15L10.11,5.22L16,8.61L17.96,7.5L12,4.15M6.04,7.5L12,10.85L13.96,9.75L8.08,6.35L6.04,7.5M5,15.91L11,19.29V12.58L5,9.21V15.91M19,15.91V9.21L13,12.58V19.29L19,15.91Z"
-                              }
-                            })
-                          ]
-                        )
-                      ]
-                    )
-                  ]
-                ),
-                _vm._v(" "),
-                _c(
-                  "div",
-                  {
-                    staticClass: "hidden space-x-8 sm:-my-px sm:ml-10 sm:flex"
-                  },
-                  [
-                    _c(
-                      "button",
-                      {
-                        staticClass:
-                          "rounded-full h-10 mt-8 w-10 bg-black border-0 flex items-center justify-center focus:bg-red-50 text-white focus-within:text-black",
+                          "rounded-full h-10 mt-8 w-10 bg-black border-0 flex items-center justify-center focus:bg-blue-50 text-white focus-within:text-black",
                         attrs: {
                           href: _vm.route("admin"),
                           active: _vm.route().current("admin")
@@ -48611,7 +48589,45 @@ var render = function() {
                       "button",
                       {
                         staticClass:
-                          "rounded-full h-10 mt-8 w-10 bg-black border-0 flex items-center justify-center focus:bg-red-50 text-white focus-within:text-black",
+                          "rounded-full h-10 mt-8 w-10 bg-black border-0 flex items-center justify-center focus:bg-purple-50 text-white focus-within:text-black",
+                        attrs: {
+                          href: _vm.route("admin"),
+                          active: _vm.route().current("admin")
+                        }
+                      },
+                      [
+                        _c(
+                          "svg",
+                          {
+                            staticClass: "w-9 h-9",
+                            attrs: { viewBox: "0 0 24 24" }
+                          },
+                          [
+                            _c("path", {
+                              attrs: {
+                                fill: "currentColor",
+                                d:
+                                  "M21,16.5C21,16.88 20.79,17.21 20.47,17.38L12.57,21.82C12.41,21.94 12.21,22 12,22C11.79,22 11.59,21.94 11.43,21.82L3.53,17.38C3.21,17.21 3,16.88 3,16.5V7.5C3,7.12 3.21,6.79 3.53,6.62L11.43,2.18C11.59,2.06 11.79,2 12,2C12.21,2 12.41,2.06 12.57,2.18L20.47,6.62C20.79,6.79 21,7.12 21,7.5V16.5M12,4.15L10.11,5.22L16,8.61L17.96,7.5L12,4.15M6.04,7.5L12,10.85L13.96,9.75L8.08,6.35L6.04,7.5M5,15.91L11,19.29V12.58L5,9.21V15.91M19,15.91V9.21L13,12.58V19.29L19,15.91Z"
+                              }
+                            })
+                          ]
+                        )
+                      ]
+                    )
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass: "hidden space-x-8 sm:-my-px sm:ml-10 sm:flex"
+                  },
+                  [
+                    _c(
+                      "button",
+                      {
+                        staticClass:
+                          "rounded-full h-10 mt-8 w-10 bg-black border-0 flex items-center justify-center focus:bg-pink-50 text-white focus-within:text-black",
                         attrs: {
                           href: _vm.route("admin"),
                           active: _vm.route().current("admin")

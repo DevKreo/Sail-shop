@@ -1,7 +1,7 @@
 <template>
 <div>
-    <div class="rounded-full py-3 px-6 bg-black flex items-center justify-between mb-2">
-        <div class="text-white inline-flex space-x-10 items-center">
+    <div class="rounded-full py-3 px-6 flex items-center justify-between mb-2":class="[showTopPosition ?  'bg-green-50' : 'bg-black']">
+        <div class="inline-flex space-x-10 items-center":class="[showTopPosition ?  'text-black' : 'text-white']">
             <svg class="w-7 h-7" viewBox="0 0 24 24">
                 <path fill="currentColor" d="M12,15.39L8.24,17.66L9.23,13.38L5.91,10.5L10.29,10.13L12,6.09L13.71,10.13L18.09,10.5L14.77,13.38L15.76,17.66M22,9.24L14.81,8.63L12,2L9.19,8.63L2,9.24L7.45,13.97L5.82,21L12,17.27L18.18,21L16.54,13.97L22,9.24Z" />
             </svg>
