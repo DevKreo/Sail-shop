@@ -28,7 +28,7 @@
             </span>
             <div class="py-3 bg-white flex items-center justify-between border-t-2 border-black">
                 <div class="text-black inline-flex space-x-10 items-center">
-                    <img class="ml-0.5" src="images/LoyaltyIcons/SalesForOrderFromSite.png" />
+                    <img class="ml-8" src="images/LoyaltyIcons/SalesForOrderFromSite.png" />
                     <span class="font-mono font-regular text-xl tracking-wider"> CКИДКА ПРИ ОФОРМЛЕНИИ ЗАКАЗА ЧЕРЕЗ САЙТ </span>
                 </div>
                 <button v-on:click="showSaleOrderFromSite = !showSaleOrderFromSite" class="text-black">
@@ -50,7 +50,7 @@
             </div>
             <div class="py-3 bg-white flex items-center justify-between border-t-2 border-black">
                 <div class="text-black inline-flex space-x-11 items-center">
-                    <img src="images/LoyaltyIcons/Wholesale_Trade.png" />
+                    <img class="ml-6"src="images/LoyaltyIcons/Wholesale_Trade.png" />
                     <span class="font-mono font-regular text-xl tracking-wider"> ОПТОВАЯ СКИДКА </span>
                 </div>
                 <button v-on:click="showWholesaleTrade = !showWholesaleTrade" class="text-black">
@@ -81,7 +81,7 @@
             </div>
             <div class="py-3 bg-white flex items-center justify-between border-t-2 border-black">
                 <div class="text-black inline-flex space-x-11 items-center">
-                    <img src="images/LoyaltyIcons/SaleForGroupOfItems.png" />
+                    <img class="ml-6"src="images/LoyaltyIcons/SaleForGroupOfItems.png" />
                     <span class="font-mono font-regular text-xl tracking-wider"> СКИДКА НА ГРУППУ ТОВАРОВ </span>
                 </div>
                 <button v-on:click="showSaleGroupOfItems = !showSaleGroupOfItems" class="text-black">
@@ -104,7 +104,7 @@
             </div>
             <div class="py-3 bg-white flex items-center justify-between border-t-2 border-black">
                 <div class="text-black inline-flex space-x-12 items-center">
-                    <img class="ml-2.5" src="images/LoyaltyIcons/Startap.png" />
+                    <img class="ml-6" src="images/LoyaltyIcons/Startap.png" />
                     <span class="font-mono font-regular text-xl tracking-wider"> ПРЕДЛОЖЕНИЕ ДЛЯ СТАРТАПОВ </span>
                 </div>
                 <button v-on:click="showStartap = !showStartap" class="text-black">
@@ -139,7 +139,7 @@
             </div>
             <div class="py-3 bg-white flex items-center justify-between border-t-2 border-black">
                 <div class="text-black inline-flex space-x-10 items-center">
-                    <img src="images/LoyaltyIcons/MoreCostMoreSale.png" />
+                    <img class="ml-7"src="images/LoyaltyIcons/MoreCostMoreSale.png" />
                     <span class="font-mono font-regular text-xl tracking-wider"> ЧЕМ БОЛЬШЕ СУММА, ТЕМ ВЫШЕ СКИДКА </span>
                 </div>
                 <button v-on:click="showMoreCostMoreSale = !showMoreCostMoreSale" class="text-black">
@@ -165,7 +165,7 @@
             </div>
             <div class="py-3 bg-white flex items-center justify-between border-t-2 border-black">
                 <div class="text-black inline-flex space-x-10 items-center">
-                    <img class="ml-0.5" src="images/LoyaltyIcons/GiftsEveryday.png" />
+                    <img class="ml-7" src="images/LoyaltyIcons/GiftsEveryday.png" />
                     <span class="font-mono font-regular text-xl tracking-wider"> ПОДАРКИ КАЖДЫЙ ДЕНЬ </span>
                 </div>
                 <button v-on:click="showGiftEveryDay = !showGiftEveryDay" class="text-black">
@@ -191,7 +191,7 @@
             </div>
             <div class="py-3 bg-white flex items-center justify-between border-t-2 border-black">
                 <div class="text-black inline-flex space-x-10 items-center">
-                    <img src="images/LoyaltyIcons/networkBusiness.png" />
+                    <img class="ml-7"src="images/LoyaltyIcons/networkBusiness.png" />
                     <span class="font-mono font-regular text-xl tracking-wider"> ПРЕДЛОЖЕНИЕ ДЛЯ СЕТЕВОГО БИЗНЕСА </span>
                 </div>
                 <button v-on:click="showNetworkBusiness = !showNetworkBusiness" class="text-black">

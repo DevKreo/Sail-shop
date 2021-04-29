@@ -23,7 +23,7 @@
             <div class="py-3 bg-white flex items-center justify-between border-t-2 border-black">
                 <div class="text-black inline-flex space-x-10 items-center">
                     <img class="ml-6" src="images/FieldOfActivity/cafe_bars_restorants.png" />
-                    <span class=""> КАФЕ / БАРЫ / РЕСТОРАНЫ </span>
+                    <span class="font-mono font-regular text-xl tracking-wider"> КАФЕ / БАРЫ / РЕСТОРАНЫ </span>
                 </div>
                 <button v-on:click="showCafeBarsResourants = !showCafeBarsResourants" class="text-black">
                     <svg v-if="!showCafeBarsResourants" class="w-6 h-6" viewBox="0 0 24 24">
@@ -51,7 +51,7 @@
             <div class="py-3 bg-white flex items-center justify-between border-t-2 border-black">
                 <div class="text-black inline-flex space-x-10  items-center">
                     <img class="ml-5" src="images/FieldOfActivity/fastfood.png" />
-                    <span class=""> ТОЧКА ФАСТ-ФУД </span>
+                    <span class="font-mono font-regular text-xl tracking-wider"> ТОЧКА ФАСТ-ФУД </span>
                 </div>
                 <button v-on:click="showFastFood = !showFastFood" class="text-black">
                     <svg v-if="!showFastFood" class="w-6 h-6" viewBox="0 0 24 24">
@@ -79,7 +79,7 @@
             <div class="py-3 bg-white flex items-center justify-between border-t-2 border-black">
                 <div class="text-black inline-flex space-x-10  items-center">
                     <img class="ml-5" src="images/FieldOfActivity/canteen.png" />
-                    <span class=""> СТОЛОВАЯ </span>
+                    <span class="font-mono font-regular text-xl tracking-wider"> СТОЛОВАЯ </span>
                 </div>
                 <button v-on:click="showCanteen = !showCanteen" class="text-black">
                     <svg v-if="!showCanteen" class="w-6 h-6" viewBox="0 0 24 24">
@@ -106,8 +106,8 @@
             <!-- Отель -->
             <div class="py-3 bg-white flex items-center justify-between border-t-2 border-black">
                 <div class="text-black inline-flex space-x-12 items-center">
-                    <img class="ml-9 mr-1" src="images/FieldOfActivity/hotel.png" />
-                    <span class=""> ОТЕЛЬ </span>
+                    <img class="ml-9" src="images/FieldOfActivity/hotel.png" />
+                    <span class="font-mono font-regular text-xl tracking-wider"> ОТЕЛЬ </span>
                 </div>
                 <button v-on:click="showHotel = !showHotel" class="text-black">
                     <svg v-if="!showHotel" class="w-6 h-6" viewBox="0 0 24 24">

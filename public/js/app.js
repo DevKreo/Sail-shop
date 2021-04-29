@@ -40265,7 +40265,7 @@ var render = function() {
                       },
                       [
                         _c("img", {
-                          staticClass: "m-0.5",
+                          staticClass: "ml-6",
                           attrs: {
                             src: "images/Catalog/disposable_food_package.png"
                           }
@@ -40275,7 +40275,7 @@ var render = function() {
                           "span",
                           {
                             staticClass:
-                              "font-mono font-regular text-xl tracking-wider"
+                              "font-mono font-regular text-xl tracking-wider pl-6"
                           },
                           [_vm._v(" ОДНОРАЗОВАЯ ПИЩЕВАЯ УПАКОВКА ")]
                         )
@@ -40383,7 +40383,7 @@ var render = function() {
                       },
                       [
                         _c("img", {
-                          staticClass: "ml-3.5",
+                          staticClass: "ml-6",
                           attrs: { src: "images/Catalog/bar_group.png" }
                         }),
                         _vm._v(" "),
@@ -40391,7 +40391,7 @@ var render = function() {
                           "span",
                           {
                             staticClass:
-                              "font-mono font-regular text-xl tracking-wider"
+                              "font-mono font-regular text-xl tracking-wider pl-4"
                           },
                           [_vm._v(" БАРНАЯ ГРУППА ")]
                         )
@@ -40734,7 +40734,7 @@ var render = function() {
                       },
                       [
                         _c("img", {
-                          staticClass: "ml-5",
+                          staticClass: "ml-6",
                           attrs: { src: "images/Catalog/household_goods.png" }
                         }),
                         _vm._v(" "),
@@ -40742,7 +40742,7 @@ var render = function() {
                           "span",
                           {
                             staticClass:
-                              "font-mono font-regular text-xl tracking-wider"
+                              "font-mono font-regular text-xl tracking-wider pl-3"
                           },
                           [_vm._v(" ХОЗЯЙСТВЕННЫЕ ТОВАРЫ ")]
                         )
@@ -43354,7 +43354,7 @@ var render = function() {
                   },
                   [
                     _c("img", {
-                      staticClass: "ml-0.5",
+                      staticClass: "ml-8",
                       attrs: {
                         src: "images/LoyaltyIcons/SalesForOrderFromSite.png"
                       }
@@ -43471,6 +43471,7 @@ var render = function() {
                   },
                   [
                     _c("img", {
+                      staticClass: "ml-6",
                       attrs: { src: "images/LoyaltyIcons/Wholesale_Trade.png" }
                     }),
                     _vm._v(" "),
@@ -43608,6 +43609,7 @@ var render = function() {
                   },
                   [
                     _c("img", {
+                      staticClass: "ml-6",
                       attrs: {
                         src: "images/LoyaltyIcons/SaleForGroupOfItems.png"
                       }
@@ -43720,7 +43722,7 @@ var render = function() {
                   },
                   [
                     _c("img", {
-                      staticClass: "ml-2.5",
+                      staticClass: "ml-6",
                       attrs: { src: "images/LoyaltyIcons/Startap.png" }
                     }),
                     _vm._v(" "),
@@ -43901,6 +43903,7 @@ var render = function() {
                   },
                   [
                     _c("img", {
+                      staticClass: "ml-7",
                       attrs: { src: "images/LoyaltyIcons/MoreCostMoreSale.png" }
                     }),
                     _vm._v(" "),
@@ -44029,7 +44032,7 @@ var render = function() {
                   },
                   [
                     _c("img", {
-                      staticClass: "ml-0.5",
+                      staticClass: "ml-7",
                       attrs: { src: "images/LoyaltyIcons/GiftsEveryday.png" }
                     }),
                     _vm._v(" "),
@@ -44171,6 +44174,7 @@ var render = function() {
                   },
                   [
                     _c("img", {
+                      staticClass: "ml-7",
                       attrs: { src: "images/LoyaltyIcons/networkBusiness.png" }
                     }),
                     _vm._v(" "),
@@ -45109,7 +45113,14 @@ var render = function() {
                           }
                         }),
                         _vm._v(" "),
-                        _c("span", {}, [_vm._v(" КАФЕ / БАРЫ / РЕСТОРАНЫ ")])
+                        _c(
+                          "span",
+                          {
+                            staticClass:
+                              "font-mono font-regular text-xl tracking-wider"
+                          },
+                          [_vm._v(" КАФЕ / БАРЫ / РЕСТОРАНЫ ")]
+                        )
                       ]
                     ),
                     _vm._v(" "),
@@ -45218,7 +45229,14 @@ var render = function() {
                           attrs: { src: "images/FieldOfActivity/fastfood.png" }
                         }),
                         _vm._v(" "),
-                        _c("span", {}, [_vm._v(" ТОЧКА ФАСТ-ФУД ")])
+                        _c(
+                          "span",
+                          {
+                            staticClass:
+                              "font-mono font-regular text-xl tracking-wider"
+                          },
+                          [_vm._v(" ТОЧКА ФАСТ-ФУД ")]
+                        )
                       ]
                     ),
                     _vm._v(" "),
@@ -45327,7 +45345,14 @@ var render = function() {
                           attrs: { src: "images/FieldOfActivity/canteen.png" }
                         }),
                         _vm._v(" "),
-                        _c("span", {}, [_vm._v(" СТОЛОВАЯ ")])
+                        _c(
+                          "span",
+                          {
+                            staticClass:
+                              "font-mono font-regular text-xl tracking-wider"
+                          },
+                          [_vm._v(" СТОЛОВАЯ ")]
+                        )
                       ]
                     ),
                     _vm._v(" "),
@@ -45432,11 +45457,18 @@ var render = function() {
                       },
                       [
                         _c("img", {
-                          staticClass: "ml-9 mr-1",
+                          staticClass: "ml-9",
                           attrs: { src: "images/FieldOfActivity/hotel.png" }
                         }),
                         _vm._v(" "),
-                        _c("span", {}, [_vm._v(" ОТЕЛЬ ")])
+                        _c(
+                          "span",
+                          {
+                            staticClass:
+                              "font-mono font-regular text-xl tracking-wider"
+                          },
+                          [_vm._v(" ОТЕЛЬ ")]
+                        )
                       ]
                     ),
                     _vm._v(" "),

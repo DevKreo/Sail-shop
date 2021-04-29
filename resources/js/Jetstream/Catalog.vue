@@ -51,8 +51,8 @@
             <!--  Одноразовая пищевая упаковка  -->
             <div class="py-3 bg-white flex items-center justify-between border-t-2 border-black">
                 <div class="text-black inline-flex space-x-4 items-center">
-                    <img class="m-0.5" src="images/Catalog/disposable_food_package.png" />
-                    <span class="font-mono font-regular text-xl tracking-wider"> ОДНОРАЗОВАЯ ПИЩЕВАЯ УПАКОВКА </span>
+                    <img class="ml-6" src="images/Catalog/disposable_food_package.png" />
+                    <span class="font-mono font-regular text-xl tracking-wider pl-6"> ОДНОРАЗОВАЯ ПИЩЕВАЯ УПАКОВКА </span>
                 </div>
                 <button v-on:click="showDisposableFoodPackage = !showDisposableFoodPackage" class="text-black">
                     <svg v-if="!showDisposableFoodPackage" class="w-6 h-6" viewBox="0 0 24 24">
@@ -79,8 +79,8 @@
             <!--  Барная группа  -->
             <div class="py-3 bg-white flex items-center justify-between border-t-2 border-black">
                 <div class="text-black inline-flex space-x-7 items-center">
-                    <img class="ml-3.5" src="images/Catalog/bar_group.png" />
-                    <span class="font-mono font-regular text-xl tracking-wider"> БАРНАЯ ГРУППА </span>
+                    <img class="ml-6" src="images/Catalog/bar_group.png" />
+                    <span class="font-mono font-regular text-xl tracking-wider pl-4"> БАРНАЯ ГРУППА </span>
                 </div>
                 <button v-on:click="showBarGroup = !showBarGroup" class="text-black">
                     <svg v-if="!showBarGroup" class="w-6 h-6" viewBox="0 0 24 24">
@@ -163,8 +163,8 @@
             <!--  Хозяйственные товары  -->
             <div class="py-3 bg-white flex items-center justify-between border-t-2 border-black">
                 <div class="text-black inline-flex space-x-8 items-center">
-                    <img class="ml-5" src="images/Catalog/household_goods.png" />
-                    <span class="font-mono font-regular text-xl tracking-wider"> ХОЗЯЙСТВЕННЫЕ ТОВАРЫ </span>
+                    <img class="ml-6" src="images/Catalog/household_goods.png" />
+                    <span class="font-mono font-regular text-xl tracking-wider pl-3"> ХОЗЯЙСТВЕННЫЕ ТОВАРЫ </span>
                 </div>
                 <button v-on:click="showHouseholdGoods = !showHouseholdGoods" class="text-black">
                     <svg v-if="!showHouseholdGoods" class="w-6 h-6" viewBox="0 0 24 24">
