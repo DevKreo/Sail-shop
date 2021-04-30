@@ -1,200 +1,30 @@
 <template>
 <div>
-    <div class="rounded-full py-3 px-6 flex items-center justify-between mb-2":class="[showCatalog ?  'bg-green-100' : 'bg-black']">
-        <div class="inline-flex space-x-10 items-center":class="[showCatalog ?  'text-black' : 'text-white']">
+    <div class="rounded-full py-3 px-6 flex items-center justify-between mb-2" :class="[showCheckout ?  'bg-purple-50' : 'bg-black']">
+        <div class="inline-flex space-x-10 items-center" :class="[showCheckout ?  'text-black' : 'text-white']">
             <svg class="w-7 h-7" viewBox="0 0 24 24">
-                <path fill="currentColor" d="M19 6H17C17 3.2 14.8 1 12 1S7 3.2 7 6H5C3.9 6 3 6.9 3 8V20C3 21.1 3.9 22 5 22H19C20.1 22 21 21.1 21 20V8C21 6.9 20.1 6 19 6M12 3C13.7 3 15 4.3 15 6H9C9 4.3 10.3 3 12 3M19 20H5V8H19V20M12 12C10.3 12 9 10.7 9 9H7C7 11.8 9.2 14 12 14S17 11.8 17 9H15C15 10.7 13.7 12 12 12Z" />
+                <path fill="currentColor" d="M21,16.5C21,16.88 20.79,17.21 20.47,17.38L12.57,21.82C12.41,21.94 12.21,22 12,22C11.79,22 11.59,21.94 11.43,21.82L3.53,17.38C3.21,17.21 3,16.88 3,16.5V7.5C3,7.12 3.21,6.79 3.53,6.62L11.43,2.18C11.59,2.06 11.79,2 12,2C12.21,2 12.41,2.06 12.57,2.18L20.47,6.62C20.79,6.79 21,7.12 21,7.5V16.5M12,4.15L10.11,5.22L16,8.61L17.96,7.5L12,4.15M6.04,7.5L12,10.85L13.96,9.75L8.08,6.35L6.04,7.5M5,15.91L11,19.29V12.58L5,9.21V15.91M19,15.91V9.21L13,12.58V19.29L19,15.91Z" />
             </svg>
-            <span class="font-mono font-extrabold text-xl tracking-widest"> КАТАЛОГ ТОВАРОВ </span>
+            <span class="font-mono font-extrabold text-xl tracking-widest"> ОФОРМИТЬ ЗАКАЗ </span>
         </div>
-        <button v-on:click="showCatalog = !showCatalog" class="text-white">
-            <svg v-if="!showCatalog" class="w-6 h-6" viewBox="0 0 24 24">
+        <button v-on:click="showCheckout = !showCheckout" class="text-white">
+            <svg v-if="!showCheckout" class="w-6 h-6" viewBox="0 0 24 24">
                 <path fill="currentColor" d="M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z" />
             </svg>
-            <svg v-if="showCatalog" class="w-6 h-6" viewBox="0 0 24 24">
+            <svg v-if="showCheckout" class="w-6 h-6" viewBox="0 0 24 24">
                 <path fill="currentColor" d="M19,13H5V11H19V13Z" />
             </svg>
         </button>
     </div>
     <transition name="fade">
-        <div class="px-20 bg-white grid grid-cols-1" v-if="showCatalog">
-
-            <!--  Одноразовая посуда  -->
-            <div class="py-3 bg-white flex items-center justify-between border-t-2 border-black">
-                <div class="text-black inline-flex space-x-10 items-center">
-                    <img class="ml-6" src="images/Catalog/disposable_tableware.png" />
-                    <span class="font-mono font-regular text-xl tracking-wider"> ОДНОРАЗОВАЯ ПОСУДА </span>
-                </div>
-                <button v-on:click="showDisposableTableware = !showDisposableTableware" class="text-black">
-                    <svg v-if="!showDisposableTableware" class="w-6 h-6" viewBox="0 0 24 24">
-                        <path fill="currentColor" d="M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z" />
-                    </svg>
-                    <svg v-if="showDisposableTableware" class="w-6 h-6" viewBox="0 0 24 24">
-                        <path fill="currentColor" d="M19,13H5V11H19V13Z" />
-                    </svg>
-                </button>
-            </div>
+        <div class="px-20 bg-white grid grid-cols-1" v-if="showCheckout">
             <transition name="fade">
-                <div v-if="showCatalog && showDisposableTableware" class="flex pl-20 mb-8">
-                    <div class="grid grid-cols-3 gap-4 mx-auto items-center font-mono font-regular flex-auto pt-4 pb-8">
-                        <div v-for="items in settings1" :key="items.id">
-                            <label class="inline-flex items-auto">
-                                <input type="checkbox" class="form-checkbox rounded-full text-green-450 mt-1" checked />
-                                <span class="ml-2">{{ items.value }}</span>
-                            </label>
-                        </div>
-                    </div>
-                </div>
-            </transition>
-
-
-            <!--  Одноразовая пищевая упаковка  -->
-            <div class="py-3 bg-white flex items-center justify-between border-t-2 border-black">
-                <div class="text-black inline-flex space-x-4 items-center">
-                    <img class="ml-6" src="images/Catalog/disposable_food_package.png" />
-                    <span class="font-mono font-regular text-xl tracking-wider pl-6"> ОДНОРАЗОВАЯ ПИЩЕВАЯ УПАКОВКА </span>
-                </div>
-                <button v-on:click="showDisposableFoodPackage = !showDisposableFoodPackage" class="text-black">
-                    <svg v-if="!showDisposableFoodPackage" class="w-6 h-6" viewBox="0 0 24 24">
-                        <path fill="currentColor" d="M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z" />
-                    </svg>
-                    <svg v-if="showDisposableFoodPackage" class="w-6 h-6" viewBox="0 0 24 24">
-                        <path fill="currentColor" d="M19,13H5V11H19V13Z" />
-                    </svg>
-                </button>
-            </div>
-            <transition name="fade">
-                <div v-if="showCatalog && showDisposableFoodPackage" class="flex pl-20 mb-8">
-                    <div class="grid grid-cols-3 gap-4 mx-auto items-center font-mono font-regular flex-auto pt-4 pb-8">
-                        <div v-for="items in settings2" :key="items.id">
-                            <label class="inline-flex items-auto">
-                                <input type="checkbox" class="form-checkbox rounded-full text-green-450 mt-1" checked />
-                                <span class="ml-2">{{ items.value }}</span>
-                            </label>
-                        </div>
-                    </div>
-                </div>
-            </transition>
-
-            <!--  Барная группа  -->
-            <div class="py-3 bg-white flex items-center justify-between border-t-2 border-black">
-                <div class="text-black inline-flex space-x-7 items-center">
-                    <img class="ml-6" src="images/Catalog/bar_group.png" />
-                    <span class="font-mono font-regular text-xl tracking-wider pl-4"> БАРНАЯ ГРУППА </span>
-                </div>
-                <button v-on:click="showBarGroup = !showBarGroup" class="text-black">
-                    <svg v-if="!showBarGroup" class="w-6 h-6" viewBox="0 0 24 24">
-                        <path fill="currentColor" d="M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z" />
-                    </svg>
-                    <svg v-if="showBarGroup" class="w-6 h-6" viewBox="0 0 24 24">
-                        <path fill="currentColor" d="M19,13H5V11H19V13Z" />
-                    </svg>
-                </button>
-            </div>
-            <transition name="fade">
-                <div v-if="showCatalog && showBarGroup" class="flex pl-20 mb-8">
-                    <div class="grid grid-cols-3 gap-4 mx-auto items-center font-mono font-regular flex-auto pt-4 pb-8">
-                        <div v-for="items in settings3" :key="items.id">
-                            <label class="inline-flex items-auto">
-                                <input type="checkbox" class="form-checkbox rounded-full text-green-450 mt-1" checked />
-                                <span class="ml-2">{{ items.value }}</span>
-                            </label>
-                        </div>
-                    </div>
-                </div>
-            </transition>
-
-            <!--  Бумажная профессиональная продукция  -->
-            <div class="py-3 bg-white flex items-center justify-between border-t-2 border-black">
-                <div class="text-black inline-flex space-x-10 items-center">
-                    <img class="ml-6" src="images/Catalog/paper_prof.png" />
-                    <span class="font-mono font-regular text-xl tracking-wider"> БУМАЖНАЯ ПРОФЕССИОНАЛЬНАЯ ПРОДУКЦИЯ </span>
-                </div>
-                <button v-on:click="showPaperProf = !showPaperProf" class="text-black">
-                    <svg v-if="!showPaperProf" class="w-6 h-6" viewBox="0 0 24 24">
-                        <path fill="currentColor" d="M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z" />
-                    </svg>
-                    <svg v-if="showPaperProf" class="w-6 h-6" viewBox="0 0 24 24">
-                        <path fill="currentColor" d="M19,13H5V11H19V13Z" />
-                    </svg>
-                </button>
-            </div>
-            <transition name="fade">
-                <div v-if="showCatalog && showPaperProf" class="flex pl-20 mb-8">
-                    <div class="grid grid-cols-3 gap-4 mx-auto items-center font-mono font-regular flex-auto pt-4 pb-8">
-                        <div v-for="items in settings4" :key="items.id">
-                            <label class="inline-flex items-auto">
-                                <input type="checkbox" class="form-checkbox rounded-full text-green-450 mt-1" checked />
-                                <span class="ml-2">{{ items.value }}</span>
-                            </label>
-                        </div>
-                    </div>
-                </div>
-            </transition>
-
-            <!--  Профессиональная и бытовая химия  -->
-            <div class="py-3 bg-white flex items-center justify-between border-t-2 border-black">
-                <div class="text-black inline-flex space-x-12 items-center">
-                    <img class="ml-9" src="images/Catalog/prof_and_household_chemistry.png" />
-                    <span class="font-mono font-regular text-xl tracking-wider"> ПРОФЕССИОНАЛЬНАЯ И БЫТОВАЯ ХИМИЯ </span>
-                </div>
-                <button v-on:click="showProfAndHouseholdChemistry = !showProfAndHouseholdChemistry" class="text-black">
-                    <svg v-if="!showProfAndHouseholdChemistry" class="w-6 h-6" viewBox="0 0 24 24">
-                        <path fill="currentColor" d="M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z" />
-                    </svg>
-                    <svg v-if="showProfAndHouseholdChemistry" class="w-6 h-6" viewBox="0 0 24 24">
-                        <path fill="currentColor" d="M19,13H5V11H19V13Z" />
-                    </svg>
-                </button>
-            </div>
-            <transition name="fade">
-                <div v-if="showCatalog && showProfAndHouseholdChemistry" class="flex pl-20 mb-8">
-                    <div class="grid grid-cols-3 gap-4 mx-auto items-center font-mono font-regular flex-auto pt-4 pb-8">
-                        <div v-for="items in settings5" :key="items.id">
-                            <label class="inline-flex items-auto">
-                                <input type="checkbox" class="form-checkbox rounded-full text-green-450 mt-1" checked />
-                                <span class="ml-2">{{ items.value }}</span>
-                            </label>
-                        </div>
-                    </div>
-                </div>
-            </transition>
-
-            <!--  Хозяйственные товары  -->
-            <div class="py-3 bg-white flex items-center justify-between border-t-2 border-black">
-                <div class="text-black inline-flex space-x-8 items-center">
-                    <img class="ml-6" src="images/Catalog/household_goods.png" />
-                    <span class="font-mono font-regular text-xl tracking-wider pl-3"> ХОЗЯЙСТВЕННЫЕ ТОВАРЫ </span>
-                </div>
-                <button v-on:click="showHouseholdGoods = !showHouseholdGoods" class="text-black">
-                    <svg v-if="!showHouseholdGoods" class="w-6 h-6" viewBox="0 0 24 24">
-                        <path fill="currentColor" d="M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z" />
-                    </svg>
-                    <svg v-if="showHouseholdGoods" class="w-6 h-6" viewBox="0 0 24 24">
-                        <path fill="currentColor" d="M19,13H5V11H19V13Z" />
-                    </svg>
-                </button>
-            </div>
-            <transition name="fade">
-                <div v-if="showCatalog && showHouseholdGoods" class="flex pl-20 mb-8">
-                    <div class="grid grid-cols-3 gap-4 mx-auto font-mono font-regular flex-auto pt-4 pb-8">
-                        <div v-for="items in settings6" :key="items.id">
-                            <label class="inline-flex items-center">
-                                <input type="checkbox" class="form-checkbox rounded-full text-green-450" checked />
-                                <span class="ml-2">{{ items.value }}</span>
-                            </label>
-                        </div>
-                    </div>
-                </div>
-            </transition>
-
-            <transition name="fade">
-                <div v-if="showCatalog && showHouseholdGoods" class="flex pl-20 mb-2.5">
+                <div v-if="showCheckout" class="flex mb-2.5">
                     <div class="clients flex-initial mb-4 mr-4">
-                        <span calss="font-mono font-regular text-xl tracking-wider">хозяйственные товары</span>
+                        <span calss="font-mono font-regular text-xl tracking-wider">ваши заказы</span>
                     </div>
-                    <simplebar class="pr-40 max-h-screen bg-white flex-auto font-mono" data-simplebar-auto-hide="false">
-
+                    <simplebar class="pr-40 max-h-screen bg-white flex-auto" data-simplebar-auto-hide="false">
+                      
                         <div class="grid grid-cols-4 gap-4">
                             <div class="flex flex-col bg-white mr-5">
                                 <img src="images/coffe.png" class="self-center" />
@@ -203,14 +33,13 @@
                                     <h1 class="text-2xl font-extrabold text-black border-b-2 pb-2.5">
                                         Eco cupholder
                                     </h1>
-
                                     <div class="flex flex-row justify-between mt-2.5 mb-5">
-                                        <button class="text-gray-400 focus:text-green-450">
+                                        <button class="text-gray-400 focus:text-purple-50">
                                             <svg class="w-6 h-6" viewBox="0 0 24 24">
                                                 <path fill="currentColor" d="M12.1,18.55L12,18.65L11.89,18.55C7.14,14.24 4,11.39 4,8.5C4,6.5 5.5,5 7.5,5C9.04,5 10.54,6 11.07,7.36H12.93C13.46,6 14.96,5 16.5,5C18.5,5 20,6.5 20,8.5C20,11.39 16.86,14.24 12.1,18.55M16.5,3C14.76,3 13.09,3.81 12,5.08C10.91,3.81 9.24,3 7.5,3C4.42,3 2,5.41 2,8.5C2,12.27 5.4,15.36 10.55,20.03L12,21.35L13.45,20.03C18.6,15.36 22,12.27 22,8.5C22,5.41 19.58,3 16.5,3Z" />
                                             </svg>
                                         </button>
-                                        <button class="text-gray-400 focus:text-green-450" v-on:click="showDescription1 = !showDescription1">
+                                        <button class="text-gray-400 focus:text-purple-50" v-on:click="showDescription1 = !showDescription1">
                                             <svg v-if="!showDescription1" class="w-6 h-6" viewBox="0 0 24 24">
                                                 <path fill="currentColor" d="M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z" />
                                             </svg>
@@ -220,7 +49,7 @@
                                         </button>
                                     </div>
                                     <transition name="fade">
-                                        <div v-if="showCatalog && showHouseholdGoods && showDescription1" class="font-mono font-regular text-xs font-semibold">
+                                        <div v-if="showCheckout && showDescription1" class="font-mono font-regular text-xs font-semibold">
                                             <div class="mb-5">
                                                 <span>Держатели на 2 стакана предназначены для заведений
                                                     работающих, работающих по системе take away</span>
@@ -242,7 +71,7 @@
                                             </div>
                                         </div>
                                     </transition>
-                                    <div class="flex border-2 border-green-450 rounded-full h-8 w-32">
+                                    <div class="flex border-2 border-purple-50 rounded-full h-8 w-32">
                                         <a class="self-center pr-2"><svg style="width: 32px; height: 32px" viewBox="2 0 24 24">
                                                 <path fill="currentColor" d="M12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22M17,14L12,9L7,14H17Z" />
                                             </svg>
@@ -266,14 +95,13 @@
                                     <h1 class="text-2xl font-extrabold text-black border-b-2 pb-2.5">
                                         Eco cupholder
                                     </h1>
-
                                     <div class="flex flex-row justify-between mt-2.5 mb-5">
-                                        <button class="text-gray-400 focus:text-green-450">
+                                        <button class="text-gray-400 focus:text-purple-50">
                                             <svg class="w-6 h-6" viewBox="0 0 24 24">
                                                 <path fill="currentColor" d="M12.1,18.55L12,18.65L11.89,18.55C7.14,14.24 4,11.39 4,8.5C4,6.5 5.5,5 7.5,5C9.04,5 10.54,6 11.07,7.36H12.93C13.46,6 14.96,5 16.5,5C18.5,5 20,6.5 20,8.5C20,11.39 16.86,14.24 12.1,18.55M16.5,3C14.76,3 13.09,3.81 12,5.08C10.91,3.81 9.24,3 7.5,3C4.42,3 2,5.41 2,8.5C2,12.27 5.4,15.36 10.55,20.03L12,21.35L13.45,20.03C18.6,15.36 22,12.27 22,8.5C22,5.41 19.58,3 16.5,3Z" />
                                             </svg>
                                         </button>
-                                        <button class="text-gray-400 focus:text-green-450" v-on:click="showDescription2 = !showDescription2">
+                                        <button class="text-gray-400 focus:text-purple-50" v-on:click="showDescription2 = !showDescription2">
                                             <svg v-if="!showDescription2" class="w-6 h-6" viewBox="0 0 24 24">
                                                 <path fill="currentColor" d="M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z" />
                                             </svg>
@@ -283,7 +111,7 @@
                                         </button>
                                     </div>
                                     <transition name="fade">
-                                        <div v-if="showCatalog && showHouseholdGoods && showDescription2" class="font-mono font-regular text-xs font-semibold">
+                                        <div v-if="showCheckout && showDescription2" class="font-mono font-regular text-xs font-semibold">
                                             <div class="mb-5">
                                                 <span>Держатели на 2 стакана предназначены для заведений
                                                     работающих, работающих по системе take away</span>
@@ -305,7 +133,7 @@
                                             </div>
                                         </div>
                                     </transition>
-                                    <div class="flex border-2 border-green-450 rounded-full h-8 w-32">
+                                    <div class="flex border-2 border-purple-50 rounded-full h-8 w-32">
                                         <a class="self-center pr-2"><svg style="width: 32px; height: 32px" viewBox="2 0 24 24">
                                                 <path fill="currentColor" d="M12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22M17,14L12,9L7,14H17Z" />
                                             </svg>
@@ -321,6 +149,7 @@
                                     </div>
                                 </div>
                             </div>
+
                             <div class="flex flex-col bg-white mr-5">
                                 <img src="images/coffe.png" class="self-center" />
                                 <div class="pt-5 pb-5">
@@ -328,14 +157,13 @@
                                     <h1 class="text-2xl font-extrabold text-black border-b-2 pb-2.5">
                                         Eco cupholder
                                     </h1>
-
                                     <div class="flex flex-row justify-between mt-2.5 mb-5">
-                                        <button class="text-gray-400 focus:text-green-450">
+                                        <button class="text-gray-400 focus:text-purple-50">
                                             <svg class="w-6 h-6" viewBox="0 0 24 24">
                                                 <path fill="currentColor" d="M12.1,18.55L12,18.65L11.89,18.55C7.14,14.24 4,11.39 4,8.5C4,6.5 5.5,5 7.5,5C9.04,5 10.54,6 11.07,7.36H12.93C13.46,6 14.96,5 16.5,5C18.5,5 20,6.5 20,8.5C20,11.39 16.86,14.24 12.1,18.55M16.5,3C14.76,3 13.09,3.81 12,5.08C10.91,3.81 9.24,3 7.5,3C4.42,3 2,5.41 2,8.5C2,12.27 5.4,15.36 10.55,20.03L12,21.35L13.45,20.03C18.6,15.36 22,12.27 22,8.5C22,5.41 19.58,3 16.5,3Z" />
                                             </svg>
                                         </button>
-                                        <button class="text-gray-400 focus:text-green-450" v-on:click="showDescription3 = !showDescription3">
+                                        <button class="text-gray-400 focus:text-purple-50" v-on:click="showDescription3 = !showDescription3">
                                             <svg v-if="!showDescription3" class="w-6 h-6" viewBox="0 0 24 24">
                                                 <path fill="currentColor" d="M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z" />
                                             </svg>
@@ -345,7 +173,7 @@
                                         </button>
                                     </div>
                                     <transition name="fade">
-                                        <div v-if="showCatalog && showHouseholdGoods && showDescription3" class="font-mono font-regular text-xs font-semibold">
+                                        <div v-if="showCheckout && showDescription3" class="font-mono font-regular text-xs font-semibold">
                                             <div class="mb-5">
                                                 <span>Держатели на 2 стакана предназначены для заведений
                                                     работающих, работающих по системе take away</span>
@@ -367,7 +195,7 @@
                                             </div>
                                         </div>
                                     </transition>
-                                    <div class="flex border-2 border-green-450 rounded-full h-8 w-32">
+                                    <div class="flex border-2 border-purple-50 rounded-full h-8 w-32">
                                         <a class="self-center pr-2"><svg style="width: 32px; height: 32px" viewBox="2 0 24 24">
                                                 <path fill="currentColor" d="M12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22M17,14L12,9L7,14H17Z" />
                                             </svg>
@@ -376,13 +204,13 @@
                                     </div>
                                     <div class="flex bg-black text-white rounded-full h-8 w-32 justify-end mt-2.5">
                                         <span class="self-center mr-6">00000</span>
-
                                         <svg style="width: 26px; height: 26px" viewBox="0 0 24 24" class="self-center pr-2">
                                             <path fill="currentColor" d="M6,10H7V3H14.5C17,3 19,5 19,7.5C19,10 17,12 14.5,12H9V14H15V16H9V21H7V16H6V14H7V12H6V10M14.5,5H9V10H14.5A2.5,2.5 0 0,0 17,7.5A2.5,2.5 0 0,0 14.5,5Z" />
                                         </svg>
                                     </div>
                                 </div>
                             </div>
+
                             <div class="flex flex-col bg-white mr-5">
                                 <img src="images/coffe.png" class="self-center" />
                                 <div class="pt-5 pb-5">
@@ -390,14 +218,13 @@
                                     <h1 class="text-2xl font-extrabold text-black border-b-2 pb-2.5">
                                         Eco cupholder
                                     </h1>
-
                                     <div class="flex flex-row justify-between mt-2.5 mb-5">
-                                        <button class="text-gray-400 focus:text-green-450">
+                                        <button class="text-gray-400 focus:text-purple-50">
                                             <svg class="w-6 h-6" viewBox="0 0 24 24">
                                                 <path fill="currentColor" d="M12.1,18.55L12,18.65L11.89,18.55C7.14,14.24 4,11.39 4,8.5C4,6.5 5.5,5 7.5,5C9.04,5 10.54,6 11.07,7.36H12.93C13.46,6 14.96,5 16.5,5C18.5,5 20,6.5 20,8.5C20,11.39 16.86,14.24 12.1,18.55M16.5,3C14.76,3 13.09,3.81 12,5.08C10.91,3.81 9.24,3 7.5,3C4.42,3 2,5.41 2,8.5C2,12.27 5.4,15.36 10.55,20.03L12,21.35L13.45,20.03C18.6,15.36 22,12.27 22,8.5C22,5.41 19.58,3 16.5,3Z" />
                                             </svg>
                                         </button>
-                                        <button class="text-gray-400 focus:text-green-450" v-on:click="showDescription4 = !showDescription4">
+                                        <button class="text-gray-400 focus:text-purple-50" v-on:click="showDescription4 = !showDescription4">
                                             <svg v-if="!showDescription4" class="w-6 h-6" viewBox="0 0 24 24">
                                                 <path fill="currentColor" d="M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z" />
                                             </svg>
@@ -407,7 +234,7 @@
                                         </button>
                                     </div>
                                     <transition name="fade">
-                                        <div v-if="showCatalog && showHouseholdGoods && showDescription4" class="font-mono font-regular text-xs font-semibold">
+                                        <div v-if="showCheckout && showDescription4" class="font-mono font-regular text-xs font-semibold">
                                             <div class="mb-5">
                                                 <span>Держатели на 2 стакана предназначены для заведений
                                                     работающих, работающих по системе take away</span>
@@ -429,7 +256,7 @@
                                             </div>
                                         </div>
                                     </transition>
-                                    <div class="flex border-2 border-green-450 rounded-full h-8 w-32">
+                                    <div class="flex border-2 border-purple-50 rounded-full h-8 w-32">
                                         <a class="self-center pr-2"><svg style="width: 32px; height: 32px" viewBox="2 0 24 24">
                                                 <path fill="currentColor" d="M12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22M17,14L12,9L7,14H17Z" />
                                             </svg>
@@ -438,13 +265,13 @@
                                     </div>
                                     <div class="flex bg-black text-white rounded-full h-8 w-32 justify-end mt-2.5">
                                         <span class="self-center mr-6">00000</span>
-
                                         <svg style="width: 26px; height: 26px" viewBox="0 0 24 24" class="self-center pr-2">
                                             <path fill="currentColor" d="M6,10H7V3H14.5C17,3 19,5 19,7.5C19,10 17,12 14.5,12H9V14H15V16H9V21H7V16H6V14H7V12H6V10M14.5,5H9V10H14.5A2.5,2.5 0 0,0 17,7.5A2.5,2.5 0 0,0 14.5,5Z" />
                                         </svg>
                                     </div>
                                 </div>
                             </div>
+
                             <div class="flex flex-col bg-white mr-5">
                                 <img src="images/coffe.png" class="self-center" />
                                 <div class="pt-5 pb-5">
@@ -452,24 +279,23 @@
                                     <h1 class="text-2xl font-extrabold text-black border-b-2 pb-2.5">
                                         Eco cupholder
                                     </h1>
-
                                     <div class="flex flex-row justify-between mt-2.5 mb-5">
-                                        <button class="text-gray-400 focus:text-green-450">
+                                        <button class="text-gray-400 focus:text-purple-50">
                                             <svg class="w-6 h-6" viewBox="0 0 24 24">
                                                 <path fill="currentColor" d="M12.1,18.55L12,18.65L11.89,18.55C7.14,14.24 4,11.39 4,8.5C4,6.5 5.5,5 7.5,5C9.04,5 10.54,6 11.07,7.36H12.93C13.46,6 14.96,5 16.5,5C18.5,5 20,6.5 20,8.5C20,11.39 16.86,14.24 12.1,18.55M16.5,3C14.76,3 13.09,3.81 12,5.08C10.91,3.81 9.24,3 7.5,3C4.42,3 2,5.41 2,8.5C2,12.27 5.4,15.36 10.55,20.03L12,21.35L13.45,20.03C18.6,15.36 22,12.27 22,8.5C22,5.41 19.58,3 16.5,3Z" />
                                             </svg>
                                         </button>
-                                        <button class="text-gray-400 focus:text-green-450" v-on:click="showDescription = !showDescription">
-                                            <svg v-if="!showDescription" class="w-6 h-6" viewBox="0 0 24 24">
+                                        <button class="text-gray-400 focus:text-purple-50" v-on:click="showDescription5 = !showDescription5">
+                                            <svg v-if="!showDescription5" class="w-6 h-6" viewBox="0 0 24 24">
                                                 <path fill="currentColor" d="M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z" />
                                             </svg>
-                                            <svg v-if="showDescription" class="w-6 h-6" viewBox="0 0 24 24">
+                                            <svg v-if="showDescription5" class="w-6 h-6" viewBox="0 0 24 24">
                                                 <path fill="currentColor" d="M19,13H5V11H19V13Z" />
                                             </svg>
                                         </button>
                                     </div>
                                     <transition name="fade">
-                                        <div v-if="showCatalog && showHouseholdGoods && showDescription" class="font-mono font-regular text-xs font-semibold">
+                                        <div v-if="showCheckout && showDescription5" class="font-mono font-regular text-xs font-semibold">
                                             <div class="mb-5">
                                                 <span>Держатели на 2 стакана предназначены для заведений
                                                     работающих, работающих по системе take away</span>
@@ -491,7 +317,7 @@
                                             </div>
                                         </div>
                                     </transition>
-                                    <div class="flex border-2 border-green-450 rounded-full h-8 w-32">
+                                    <div class="flex border-2 border-purple-50 rounded-full h-8 w-32">
                                         <a class="self-center pr-2"><svg style="width: 32px; height: 32px" viewBox="2 0 24 24">
                                                 <path fill="currentColor" d="M12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22M17,14L12,9L7,14H17Z" />
                                             </svg>
@@ -500,7 +326,6 @@
                                     </div>
                                     <div class="flex bg-black text-white rounded-full h-8 w-32 justify-end mt-2.5">
                                         <span class="self-center mr-6">00000</span>
-
                                         <svg style="width: 26px; height: 26px" viewBox="0 0 24 24" class="self-center pr-2">
                                             <path fill="currentColor" d="M6,10H7V3H14.5C17,3 19,5 19,7.5C19,10 17,12 14.5,12H9V14H15V16H9V21H7V16H6V14H7V12H6V10M14.5,5H9V10H14.5A2.5,2.5 0 0,0 17,7.5A2.5,2.5 0 0,0 14.5,5Z" />
                                         </svg>
@@ -508,11 +333,12 @@
                                 </div>
                             </div>
                         </div>
+
+                       
+                        
                     </simplebar>
                 </div>
             </transition>
-
-            
         </div>
     </transition>
 </div>
@@ -522,240 +348,25 @@
 import JetApplicationLogo from "@/Jetstream/ApplicationLogo";
 import simplebar from "simplebar-vue";
 import "simplebar/dist/simplebar.min.css";
+import Button from "./Button.vue";
 
 export default {
     components: {
         JetApplicationLogo,
         simplebar,
+        Button,
     },
     data() {
         return {
-            showBarGroup: false,
-            showDisposableFoodPackage: false,
-            showDisposableTableware: false,
-            showHouseholdGoods: false,
-            showPaperProf: false,
-            showProfAndHouseholdChemistry: false,
-            showCatalog: false,
+            showCheckout: false,
+            IsHover: false,
             showDescription1: false,
             showDescription2: false,
             showDescription3: false,
             showDescription4: false,
-            settings1: [{
-                    id: "1",
-                    value: "Бумажные стаканы",
-                },
-                {
-                    id: "2",
-                    value: "Пластиковые стаканы",
-                },
-                {
-                    id: "3",
-                    value: "Тарелки, миски",
-                },
-                {
-                    id: "4",
-                    value: "Столовые принадлежности",
-                },
-            ],
-
-            settings2: [{
-                    id: "1",
-                    value: "Пластиковые емкости",
-                },
-                {
-                    id: "2",
-                    value: "Пластиковые бутылки",
-                },
-                {
-                    id: "3",
-                    value: "Крафт-емкости",
-                },
-                {
-                    id: "4",
-                    value: "Бумажная упаковка",
-                },
-                {
-                    id: "5",
-                    value: "Алюминиевая упаковка",
-                },
-            ],
-
-            settings3: [{
-                    id: "1",
-                    value: "Трубочки",
-                },
-                {
-                    id: "2",
-                    value: "Палочки для размешивания",
-                },
-                {
-                    id: "3",
-                    value: "Шпажки",
-                },
-                {
-                    id: "4",
-                    value: "Зубочистки",
-                },
-            ],
-
-            settings4: [{
-                    id: "1",
-                    value: "Салфетки",
-                },
-                {
-                    id: "2",
-                    value: "Полотенца",
-                }, {
-                    id: "3",
-                    value: "Туалетная бумага",
-                }, {
-                    id: "4",
-                    value: "Накладки на унитаз",
-                },
-
-            ],
-
-            settings5: [{
-                    id: "1",
-                    value: "Моющее для полов",
-                },
-                {
-                    id: "2",
-                    value: "Моющее для посуды",
-                },
-                {
-                    id: "3",
-                    value: "Жидкое мыло для рук",
-                },
-                {
-                    id: "4",
-                    value: "Анти-жир",
-                },
-                {
-                    id: "5",
-                    value: "Дезинфекция",
-                },
-                {
-                    id: "6",
-                    value: "Линейка ЖМС",
-                },
-                {
-                    id: "7",
-                    value: "Мыло хозяйственное",
-                },
-                {
-                    id: "8",
-                    value: "Кислотные средства для удаления известкового налета",
-                },
-                {
-                    id: "9",
-                    value: "Средства для чистки канализационных труб",
-                },
-                {
-                    id: "10",
-                    value: "Средства для мытья окон и зеркал",
-                },
-                {
-                    id: "11",
-                    value: "Освежители воздуха",
-                },
-                {
-                    id: "12",
-                    value: "Средства для стирки",
-                },
-                {
-                    id: "13",
-                    value: "Средства по уходу за мебелью",
-                },
-            ],
-
-            settings6: [{
-                    id: "1",
-                    value: "Мешки для мусора",
-                },
-                {
-                    id: "2",
-                    value: "Кухонные принадлежности",
-                },
-                {
-                    id: "3",
-                    value: "Пленка ПЭ/ПВХ",
-                },
-                {
-                    id: "4",
-                    value: "Перчатки",
-                },
-                {
-                    id: "5",
-                    value: "Пакеты ",
-                },
-                {
-                    id: "6",
-                    value: "Губки, протирочные принадлежности",
-                },
-                {
-                    id: "7",
-                    value: "МОПы",
-                },
-                {
-                    id: "8",
-                    value: "Товары защитного назначения",
-                },
-                {
-                    id: "9",
-                    value: "Одноразовая продукция для гостиниц",
-                },
-                {
-                    id: "10",
-                    value: "Канцелярия ",
-                },
-                {
-                    id: "11",
-                    value: "Оборудование для уборки",
-                },
-                {
-                    id: "12",
-                    value: "Диспенсеры",
-                },
-            ],
+            showDescription5: false,
         };
     },
 };
 </script>
 
-<style>
-[type="checkbox"]:checked {
-    background-image: url("/images/circle-medium.png");
-}
-
-.simplebar-track.simplebar-vertical {
-    background-color: #bbd54c;
-    width: 5px;
-    margin-right: 5rem;
-    border-radius: 3px;
-    margin-bottom: 16px;
-    opacity: 1;
-    overflow: visible;
-    visibility: visible;
-}
-
-.simplebar-scrollbar.simplebar-visible::before {
-    opacity: 1;
-    top: 0 !important;
-    bottom: 0 !important;
-    left: -2px;
-    right: 0;
-}
-
-.simplebar-scrollbar:before {
-    background-color: #000000;
-    width: 9px;
-}
-
-.clients {
-    writing-mode: vertical-lr;
-    transform: rotate(180deg);
-    font-size: 20px;
-}
-</style>

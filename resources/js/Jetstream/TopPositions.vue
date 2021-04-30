@@ -11,7 +11,7 @@
             <svg v-if="!showTopPosition" class="w-6 h-6" viewBox="0 0 24 24">
                 <path fill="currentColor" d="M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z" />
             </svg>
-            <svg v-if="showTopPosition" class="w-5 h-5" viewBox="0 0 24 24">
+            <svg v-if="showTopPosition" class="w-6 h-6" viewBox="0 0 24 24">
                 <path fill="currentColor" d="M19,13H5V11H19V13Z" />
             </svg>
         </button>
@@ -116,6 +116,7 @@
                                     </button>
                                 </div>
                             </div>
+
 
                         </div>
                     </simplebar>

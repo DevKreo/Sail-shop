@@ -11,7 +11,7 @@
             <svg v-if="!showLoyaltyProgram" class="w-6 h-6" viewBox="0 0 24 24">
                 <path fill="currentColor" d="M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z" />
             </svg>
-            <svg v-if="showLoyaltyProgram" class="w-5 h-5" viewBox="0 0 24 24">
+            <svg v-if="showLoyaltyProgram" class="w-6 h-6" viewBox="0 0 24 24">
                 <path fill="currentColor" d="M19,13H5V11H19V13Z" />
             </svg>
         </button>
@@ -35,7 +35,7 @@
                     <svg v-if="!showSaleOrderFromSite" class="w-6 h-6" viewBox="0 0 24 24">
                         <path fill="currentColor" d="M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z" />
                     </svg>
-                    <svg v-if="showSaleOrderFromSite" class="w-5 h-5" viewBox="0 0 24 24">
+                    <svg v-if="showSaleOrderFromSite" class="w-6 h-6" viewBox="0 0 24 24">
                         <path fill="currentColor" d="M19,13H5V11H19V13Z" />
                     </svg>
                 </button>
@@ -57,7 +57,7 @@
                     <svg v-if="!showWholesaleTrade" class="w-6 h-6" viewBox="0 0 24 24">
                         <path fill="currentColor" d="M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z" />
                     </svg>
-                    <svg v-if="showWholesaleTrade" class="w-5 h-5" viewBox="0 0 24 24">
+                    <svg v-if="showWholesaleTrade" class="w-6 h-6" viewBox="0 0 24 24">
                         <path fill="currentColor" d="M19,13H5V11H19V13Z" />
                     </svg>
                 </button>
@@ -88,7 +88,7 @@
                     <svg v-if="!showSaleGroupOfItems" class="w-6 h-6" viewBox="0 0 24 24">
                         <path fill="currentColor" d="M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z" />
                     </svg>
-                    <svg v-if="showSaleGroupOfItems" class="w-5 h-5" viewBox="0 0 24 24">
+                    <svg v-if="showSaleGroupOfItems" class="w-6 h-6" viewBox="0 0 24 24">
                         <path fill="currentColor" d="M19,13H5V11H19V13Z" />
                     </svg>
                 </button>
@@ -111,7 +111,7 @@
                     <svg v-if="!showStartap" class="w-6 h-6" viewBox="0 0 24 24">
                         <path fill="currentColor" d="M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z" />
                     </svg>
-                    <svg v-if="showStartap" class="w-5 h-5" viewBox="0 0 24 24">
+                    <svg v-if="showStartap" class="w-6 h-6" viewBox="0 0 24 24">
                         <path fill="currentColor" d="M19,13H5V11H19V13Z" />
                     </svg>
                 </button>
@@ -146,7 +146,7 @@
                     <svg v-if="!showMoreCostMoreSale" class="w-6 h-6" viewBox="0 0 24 24">
                         <path fill="currentColor" d="M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z" />
                     </svg>
-                    <svg v-if="showMoreCostMoreSale" class="w-5 h-5" viewBox="0 0 24 24">
+                    <svg v-if="showMoreCostMoreSale" class="w-6 h-6" viewBox="0 0 24 24">
                         <path fill="currentColor" d="M19,13H5V11H19V13Z" />
                     </svg>
                 </button>
@@ -172,7 +172,7 @@
                     <svg v-if="!showGiftEveryDay" class="w-6 h-6" viewBox="0 0 24 24">
                         <path fill="currentColor" d="M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z" />
                     </svg>
-                    <svg v-if="showGiftEveryDay" class="w-5 h-5" viewBox="0 0 24 24">
+                    <svg v-if="showGiftEveryDay" class="w-6 h-6" viewBox="0 0 24 24">
                         <path fill="currentColor" d="M19,13H5V11H19V13Z" />
                     </svg>
                 </button>
@@ -198,7 +198,7 @@
                     <svg v-if="!showNetworkBusiness" class="w-6 h-6" viewBox="0 0 24 24">
                         <path fill="currentColor" d="M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z" />
                     </svg>
-                    <svg v-if="showNetworkBusiness" class="w-5 h-5" viewBox="0 0 24 24">
+                    <svg v-if="showNetworkBusiness" class="w-6 h-6" viewBox="0 0 24 24">
                         <path fill="currentColor" d="M19,13H5V11H19V13Z" />
                     </svg>
                 </button>

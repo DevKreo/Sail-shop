@@ -30,7 +30,7 @@ module.exports = {
                 red:{
                     450: '#ff8080',
                     550: '#ffbce3',
-                    50: '#FF6E6E'
+                    50:  '#FF6E6E'
                 },
                 yellow:{
                     50:  '#FFDC73'
@@ -42,10 +42,10 @@ module.exports = {
                     50: '#FF82DC'
                 },
                 purple:{
-                    50:  '#CD96FF'
+                    50: '#CD96FF'
                 },
                 aqua:{
-                    50:  '#6ED7D7'
+                    50: '#6ED7D7'
                 }
             },
             letterSpacing: {

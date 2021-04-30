@@ -18,6 +18,7 @@
                 <cooperation />
                 <shippingAndPayment />
                 <requestСall />
+                <checkout />
                 <ourСontacts />
             </div>
         </div>
@@ -100,6 +101,7 @@ import OurClients from '@/Jetstream/OurClients'
 import Cooperation from '@/Jetstream/Cooperation'
 import ShippingAndPayment from '@/Jetstream/ShippingAndPayment'
 import RequestСall from '@/Jetstream/RequestСall'
+import Checkout from '@/Jetstream/Checkout'
 import OurСontacts from '@/Jetstream/OurСontacts'
 export default {
     components: {
@@ -113,6 +115,7 @@ export default {
         Cooperation,
         ShippingAndPayment,
         RequestСall,
+        Checkout,
         OurСontacts,
     },
     props: {
