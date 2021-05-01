@@ -1,7 +1,7 @@
 <template>
 <div>
-    <div class="rounded-full py-3 px-6 flex items-center justify-between mb-2":class="[showCatalog ?  'bg-green-100' : 'bg-black']">
-        <div class="inline-flex space-x-10 items-center":class="[showCatalog ?  'text-black' : 'text-white']">
+    <div class="rounded-full py-3 px-6 flex items-center justify-between mb-2" :class="[showCatalog ?  'bg-green-100' : 'bg-black']">
+        <div class="inline-flex space-x-10 items-center" :class="[showCatalog ?  'text-black' : 'text-white']">
             <svg class="w-7 h-7" viewBox="0 0 24 24">
                 <path fill="currentColor" d="M19 6H17C17 3.2 14.8 1 12 1S7 3.2 7 6H5C3.9 6 3 6.9 3 8V20C3 21.1 3.9 22 5 22H19C20.1 22 21 21.1 21 20V8C21 6.9 20.1 6 19 6M12 3C13.7 3 15 4.3 15 6H9C9 4.3 10.3 3 12 3M19 20H5V8H19V20M12 12C10.3 12 9 10.7 9 9H7C7 11.8 9.2 14 12 14S17 11.8 17 9H15C15 10.7 13.7 12 12 12Z" />
             </svg>
@@ -39,14 +39,13 @@
                     <div class="grid grid-cols-3 gap-4 mx-auto items-center font-mono font-regular flex-auto pt-4 pb-8">
                         <div v-for="items in settings1" :key="items.id">
                             <label class="inline-flex items-auto">
-                                <input type="checkbox" class="form-checkbox rounded-full text-green-450 mt-1" checked />
+                                <input type="checkbox" class="form-checkbox rounded-full text-green-100 mt-1" checked />
                                 <span class="ml-2">{{ items.value }}</span>
                             </label>
                         </div>
                     </div>
                 </div>
             </transition>
-
 
             <!--  Одноразовая пищевая упаковка  -->
             <div class="py-3 bg-white flex items-center justify-between border-t-2 border-black">
@@ -68,7 +67,7 @@
                     <div class="grid grid-cols-3 gap-4 mx-auto items-center font-mono font-regular flex-auto pt-4 pb-8">
                         <div v-for="items in settings2" :key="items.id">
                             <label class="inline-flex items-auto">
-                                <input type="checkbox" class="form-checkbox rounded-full text-green-450 mt-1" checked />
+                                <input type="checkbox" class="form-checkbox rounded-full text-green-100 mt-1" checked />
                                 <span class="ml-2">{{ items.value }}</span>
                             </label>
                         </div>
@@ -96,7 +95,7 @@
                     <div class="grid grid-cols-3 gap-4 mx-auto items-center font-mono font-regular flex-auto pt-4 pb-8">
                         <div v-for="items in settings3" :key="items.id">
                             <label class="inline-flex items-auto">
-                                <input type="checkbox" class="form-checkbox rounded-full text-green-450 mt-1" checked />
+                                <input type="checkbox" class="form-checkbox rounded-full text-green-100 mt-1" checked />
                                 <span class="ml-2">{{ items.value }}</span>
                             </label>
                         </div>
@@ -124,7 +123,7 @@
                     <div class="grid grid-cols-3 gap-4 mx-auto items-center font-mono font-regular flex-auto pt-4 pb-8">
                         <div v-for="items in settings4" :key="items.id">
                             <label class="inline-flex items-auto">
-                                <input type="checkbox" class="form-checkbox rounded-full text-green-450 mt-1" checked />
+                                <input type="checkbox" class="form-checkbox rounded-full text-green-100 mt-1" checked />
                                 <span class="ml-2">{{ items.value }}</span>
                             </label>
                         </div>
@@ -152,7 +151,7 @@
                     <div class="grid grid-cols-3 gap-4 mx-auto items-center font-mono font-regular flex-auto pt-4 pb-8">
                         <div v-for="items in settings5" :key="items.id">
                             <label class="inline-flex items-auto">
-                                <input type="checkbox" class="form-checkbox rounded-full text-green-450 mt-1" checked />
+                                <input type="checkbox" class="form-checkbox rounded-full text-green-100 mt-1" checked />
                                 <span class="ml-2">{{ items.value }}</span>
                             </label>
                         </div>
@@ -180,7 +179,7 @@
                     <div class="grid grid-cols-3 gap-4 mx-auto font-mono font-regular flex-auto pt-4 pb-8">
                         <div v-for="items in settings6" :key="items.id">
                             <label class="inline-flex items-center">
-                                <input type="checkbox" class="form-checkbox rounded-full text-green-450" checked />
+                                <input type="checkbox" class="form-checkbox rounded-full text-green-100" checked />
                                 <span class="ml-2">{{ items.value }}</span>
                             </label>
                         </div>
@@ -194,7 +193,6 @@
                         <span calss="font-mono font-regular text-xl tracking-wider">хозяйственные товары</span>
                     </div>
                     <simplebar class="pr-40 max-h-screen bg-white flex-auto font-mono" data-simplebar-auto-hide="false">
-
                         <div class="grid grid-cols-4 gap-4">
                             <div class="flex flex-col bg-white mr-5">
                                 <img src="images/coffe.png" class="self-center" />
@@ -203,14 +201,16 @@
                                     <h1 class="text-2xl font-extrabold text-black border-b-2 pb-2.5">
                                         Eco cupholder
                                     </h1>
-
                                     <div class="flex flex-row justify-between mt-2.5 mb-5">
-                                        <button class="text-gray-400 focus:text-green-450">
-                                            <svg class="w-6 h-6" viewBox="0 0 24 24">
+                                        <button class="text-gray-400" v-on:click="showHert1 = !showHert1">
+                                            <svg v-if="!showHert1" class="w-6 h-6" viewBox="0 0 24 24" calss="text-gray-400">
                                                 <path fill="currentColor" d="M12.1,18.55L12,18.65L11.89,18.55C7.14,14.24 4,11.39 4,8.5C4,6.5 5.5,5 7.5,5C9.04,5 10.54,6 11.07,7.36H12.93C13.46,6 14.96,5 16.5,5C18.5,5 20,6.5 20,8.5C20,11.39 16.86,14.24 12.1,18.55M16.5,3C14.76,3 13.09,3.81 12,5.08C10.91,3.81 9.24,3 7.5,3C4.42,3 2,5.41 2,8.5C2,12.27 5.4,15.36 10.55,20.03L12,21.35L13.45,20.03C18.6,15.36 22,12.27 22,8.5C22,5.41 19.58,3 16.5,3Z" />
                                             </svg>
+                                            <svg v-if="showHert1" style="width:24px;height:24px" viewBox="0 0 24 24" class="text-green-100">
+                                                <path fill="currentColor" d="M12,21.35L10.55,20.03C5.4,15.36 2,12.27 2,8.5C2,5.41 4.42,3 7.5,3C9.24,3 10.91,3.81 12,5.08C13.09,3.81 14.76,3 16.5,3C19.58,3 22,5.41 22,8.5C22,12.27 18.6,15.36 13.45,20.03L12,21.35Z" />
+                                            </svg>
                                         </button>
-                                        <button class="text-gray-400 focus:text-green-450" v-on:click="showDescription1 = !showDescription1">
+                                        <button class="text-gray-400 focus:text-green-100" v-on:click="showDescription1 = !showDescription1">
                                             <svg v-if="!showDescription1" class="w-6 h-6" viewBox="0 0 24 24">
                                                 <path fill="currentColor" d="M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z" />
                                             </svg>
@@ -242,7 +242,7 @@
                                             </div>
                                         </div>
                                     </transition>
-                                    <div class="flex border-2 border-green-450 rounded-full h-8 w-32">
+                                    <div class="flex border-2 border-green-100 rounded-full h-8 w-32">
                                         <a class="self-center pr-2"><svg style="width: 32px; height: 32px" viewBox="2 0 24 24">
                                                 <path fill="currentColor" d="M12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22M17,14L12,9L7,14H17Z" />
                                             </svg>
@@ -251,7 +251,6 @@
                                     </div>
                                     <div class="flex bg-black text-white rounded-full h-8 w-32 justify-end mt-2.5">
                                         <span class="self-center mr-6">00000</span>
-
                                         <svg style="width: 26px; height: 26px" viewBox="0 0 24 24" class="self-center pr-2">
                                             <path fill="currentColor" d="M6,10H7V3H14.5C17,3 19,5 19,7.5C19,10 17,12 14.5,12H9V14H15V16H9V21H7V16H6V14H7V12H6V10M14.5,5H9V10H14.5A2.5,2.5 0 0,0 17,7.5A2.5,2.5 0 0,0 14.5,5Z" />
                                         </svg>
@@ -266,14 +265,16 @@
                                     <h1 class="text-2xl font-extrabold text-black border-b-2 pb-2.5">
                                         Eco cupholder
                                     </h1>
-
                                     <div class="flex flex-row justify-between mt-2.5 mb-5">
-                                        <button class="text-gray-400 focus:text-green-450">
-                                            <svg class="w-6 h-6" viewBox="0 0 24 24">
+                                        <button class="text-gray-400" v-on:click="showHert2 = !showHert2">
+                                            <svg v-if="!showHert2" class="w-6 h-6" viewBox="0 0 24 24" calss="text-gray-400">
                                                 <path fill="currentColor" d="M12.1,18.55L12,18.65L11.89,18.55C7.14,14.24 4,11.39 4,8.5C4,6.5 5.5,5 7.5,5C9.04,5 10.54,6 11.07,7.36H12.93C13.46,6 14.96,5 16.5,5C18.5,5 20,6.5 20,8.5C20,11.39 16.86,14.24 12.1,18.55M16.5,3C14.76,3 13.09,3.81 12,5.08C10.91,3.81 9.24,3 7.5,3C4.42,3 2,5.41 2,8.5C2,12.27 5.4,15.36 10.55,20.03L12,21.35L13.45,20.03C18.6,15.36 22,12.27 22,8.5C22,5.41 19.58,3 16.5,3Z" />
                                             </svg>
+                                            <svg v-if="showHert2" style="width:24px;height:24px" viewBox="0 0 24 24" class="text-green-100">
+                                                <path fill="currentColor" d="M12,21.35L10.55,20.03C5.4,15.36 2,12.27 2,8.5C2,5.41 4.42,3 7.5,3C9.24,3 10.91,3.81 12,5.08C13.09,3.81 14.76,3 16.5,3C19.58,3 22,5.41 22,8.5C22,12.27 18.6,15.36 13.45,20.03L12,21.35Z" />
+                                            </svg>
                                         </button>
-                                        <button class="text-gray-400 focus:text-green-450" v-on:click="showDescription2 = !showDescription2">
+                                        <button class="text-gray-400 focus:text-green-100" v-on:click="showDescription2 = !showDescription2">
                                             <svg v-if="!showDescription2" class="w-6 h-6" viewBox="0 0 24 24">
                                                 <path fill="currentColor" d="M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z" />
                                             </svg>
@@ -305,7 +306,7 @@
                                             </div>
                                         </div>
                                     </transition>
-                                    <div class="flex border-2 border-green-450 rounded-full h-8 w-32">
+                                    <div class="flex border-2 border-green-100 rounded-full h-8 w-32">
                                         <a class="self-center pr-2"><svg style="width: 32px; height: 32px" viewBox="2 0 24 24">
                                                 <path fill="currentColor" d="M12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22M17,14L12,9L7,14H17Z" />
                                             </svg>
@@ -328,14 +329,16 @@
                                     <h1 class="text-2xl font-extrabold text-black border-b-2 pb-2.5">
                                         Eco cupholder
                                     </h1>
-
                                     <div class="flex flex-row justify-between mt-2.5 mb-5">
-                                        <button class="text-gray-400 focus:text-green-450">
-                                            <svg class="w-6 h-6" viewBox="0 0 24 24">
+                                        <button class="text-gray-400" v-on:click="showHert3 = !showHert3">
+                                            <svg v-if="!showHert3" class="w-6 h-6" viewBox="0 0 24 24" calss="text-gray-400">
                                                 <path fill="currentColor" d="M12.1,18.55L12,18.65L11.89,18.55C7.14,14.24 4,11.39 4,8.5C4,6.5 5.5,5 7.5,5C9.04,5 10.54,6 11.07,7.36H12.93C13.46,6 14.96,5 16.5,5C18.5,5 20,6.5 20,8.5C20,11.39 16.86,14.24 12.1,18.55M16.5,3C14.76,3 13.09,3.81 12,5.08C10.91,3.81 9.24,3 7.5,3C4.42,3 2,5.41 2,8.5C2,12.27 5.4,15.36 10.55,20.03L12,21.35L13.45,20.03C18.6,15.36 22,12.27 22,8.5C22,5.41 19.58,3 16.5,3Z" />
                                             </svg>
+                                            <svg v-if="showHert3" style="width:24px;height:24px" viewBox="0 0 24 24" class="text-green-100">
+                                                <path fill="currentColor" d="M12,21.35L10.55,20.03C5.4,15.36 2,12.27 2,8.5C2,5.41 4.42,3 7.5,3C9.24,3 10.91,3.81 12,5.08C13.09,3.81 14.76,3 16.5,3C19.58,3 22,5.41 22,8.5C22,12.27 18.6,15.36 13.45,20.03L12,21.35Z" />
+                                            </svg>
                                         </button>
-                                        <button class="text-gray-400 focus:text-green-450" v-on:click="showDescription3 = !showDescription3">
+                                        <button class="text-gray-400 focus:text-green-100" v-on:click="showDescription3 = !showDescription3">
                                             <svg v-if="!showDescription3" class="w-6 h-6" viewBox="0 0 24 24">
                                                 <path fill="currentColor" d="M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z" />
                                             </svg>
@@ -367,7 +370,7 @@
                                             </div>
                                         </div>
                                     </transition>
-                                    <div class="flex border-2 border-green-450 rounded-full h-8 w-32">
+                                    <div class="flex border-2 border-green-100 rounded-full h-8 w-32">
                                         <a class="self-center pr-2"><svg style="width: 32px; height: 32px" viewBox="2 0 24 24">
                                                 <path fill="currentColor" d="M12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22M17,14L12,9L7,14H17Z" />
                                             </svg>
@@ -390,14 +393,17 @@
                                     <h1 class="text-2xl font-extrabold text-black border-b-2 pb-2.5">
                                         Eco cupholder
                                     </h1>
-
                                     <div class="flex flex-row justify-between mt-2.5 mb-5">
-                                        <button class="text-gray-400 focus:text-green-450">
-                                            <svg class="w-6 h-6" viewBox="0 0 24 24">
+                                        <button class="text-gray-400"v-on:click="showHert4 = !showHert4">
+                                            <svg v-if="!showHert4" class="w-6 h-6" viewBox="0 0 24 24" calss="text-gray-400">
                                                 <path fill="currentColor" d="M12.1,18.55L12,18.65L11.89,18.55C7.14,14.24 4,11.39 4,8.5C4,6.5 5.5,5 7.5,5C9.04,5 10.54,6 11.07,7.36H12.93C13.46,6 14.96,5 16.5,5C18.5,5 20,6.5 20,8.5C20,11.39 16.86,14.24 12.1,18.55M16.5,3C14.76,3 13.09,3.81 12,5.08C10.91,3.81 9.24,3 7.5,3C4.42,3 2,5.41 2,8.5C2,12.27 5.4,15.36 10.55,20.03L12,21.35L13.45,20.03C18.6,15.36 22,12.27 22,8.5C22,5.41 19.58,3 16.5,3Z" />
                                             </svg>
+
+                                            <svg v-if="showHert4" style="width:24px;height:24px" viewBox="0 0 24 24" class="text-green-100">
+                                                <path fill="currentColor" d="M12,21.35L10.55,20.03C5.4,15.36 2,12.27 2,8.5C2,5.41 4.42,3 7.5,3C9.24,3 10.91,3.81 12,5.08C13.09,3.81 14.76,3 16.5,3C19.58,3 22,5.41 22,8.5C22,12.27 18.6,15.36 13.45,20.03L12,21.35Z" />
+                                            </svg>
                                         </button>
-                                        <button class="text-gray-400 focus:text-green-450" v-on:click="showDescription4 = !showDescription4">
+                                        <button class="text-gray-400 focus:text-green-100" v-on:click="showDescription4 = !showDescription4">
                                             <svg v-if="!showDescription4" class="w-6 h-6" viewBox="0 0 24 24">
                                                 <path fill="currentColor" d="M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z" />
                                             </svg>
@@ -429,7 +435,7 @@
                                             </div>
                                         </div>
                                     </transition>
-                                    <div class="flex border-2 border-green-450 rounded-full h-8 w-32">
+                                    <div class="flex border-2 border-green-100 rounded-full h-8 w-32">
                                         <a class="self-center pr-2"><svg style="width: 32px; height: 32px" viewBox="2 0 24 24">
                                                 <path fill="currentColor" d="M12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22M17,14L12,9L7,14H17Z" />
                                             </svg>
@@ -452,18 +458,20 @@
                                     <h1 class="text-2xl font-extrabold text-black border-b-2 pb-2.5">
                                         Eco cupholder
                                     </h1>
-
                                     <div class="flex flex-row justify-between mt-2.5 mb-5">
-                                        <button class="text-gray-400 focus:text-green-450">
-                                            <svg class="w-6 h-6" viewBox="0 0 24 24">
+                                        <button class="text-gray-400"v-on:click="showHert5 = !showHert5">
+                                            <svg v-if="!showHert5" class="w-6 h-6" viewBox="0 0 24 24" calss="text-gray-400">
                                                 <path fill="currentColor" d="M12.1,18.55L12,18.65L11.89,18.55C7.14,14.24 4,11.39 4,8.5C4,6.5 5.5,5 7.5,5C9.04,5 10.54,6 11.07,7.36H12.93C13.46,6 14.96,5 16.5,5C18.5,5 20,6.5 20,8.5C20,11.39 16.86,14.24 12.1,18.55M16.5,3C14.76,3 13.09,3.81 12,5.08C10.91,3.81 9.24,3 7.5,3C4.42,3 2,5.41 2,8.5C2,12.27 5.4,15.36 10.55,20.03L12,21.35L13.45,20.03C18.6,15.36 22,12.27 22,8.5C22,5.41 19.58,3 16.5,3Z" />
                                             </svg>
+                                            <svg v-if="showHert5" style="width:24px;height:24px" viewBox="0 0 24 24" class="text-green-100">
+                                                <path fill="currentColor" d="M12,21.35L10.55,20.03C5.4,15.36 2,12.27 2,8.5C2,5.41 4.42,3 7.5,3C9.24,3 10.91,3.81 12,5.08C13.09,3.81 14.76,3 16.5,3C19.58,3 22,5.41 22,8.5C22,12.27 18.6,15.36 13.45,20.03L12,21.35Z" />
+                                            </svg>
                                         </button>
-                                        <button class="text-gray-400 focus:text-green-450" v-on:click="showDescription = !showDescription">
-                                            <svg v-if="!showDescription" class="w-6 h-6" viewBox="0 0 24 24">
+                                        <button class="text-gray-400 focus:text-green-100" v-on:click="showDescription5 = !showDescription5">
+                                            <svg v-if="!showDescription5" class="w-6 h-6" viewBox="0 0 24 24">
                                                 <path fill="currentColor" d="M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z" />
                                             </svg>
-                                            <svg v-if="showDescription" class="w-6 h-6" viewBox="0 0 24 24">
+                                            <svg v-if="showDescription5" class="w-6 h-6" viewBox="0 0 24 24">
                                                 <path fill="currentColor" d="M19,13H5V11H19V13Z" />
                                             </svg>
                                         </button>
@@ -491,7 +499,7 @@
                                             </div>
                                         </div>
                                     </transition>
-                                    <div class="flex border-2 border-green-450 rounded-full h-8 w-32">
+                                    <div class="flex border-2 border-green-100 rounded-full h-8 w-32">
                                         <a class="self-center pr-2"><svg style="width: 32px; height: 32px" viewBox="2 0 24 24">
                                                 <path fill="currentColor" d="M12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22M17,14L12,9L7,14H17Z" />
                                             </svg>
@@ -512,7 +520,6 @@
                 </div>
             </transition>
 
-            
         </div>
     </transition>
 </div>
@@ -537,10 +544,16 @@ export default {
             showPaperProf: false,
             showProfAndHouseholdChemistry: false,
             showCatalog: false,
+            showHert1: false,
+            showHert2: false,
+            showHert3: false,
+            showHert4: false,
+            showHert5: false,
             showDescription1: false,
             showDescription2: false,
             showDescription3: false,
             showDescription4: false,
+            showDescription5: false,
             settings1: [{
                     id: "1",
                     value: "Бумажные стаканы",
@@ -724,13 +737,13 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 [type="checkbox"]:checked {
     background-image: url("/images/circle-medium.png");
 }
 
-.simplebar-track.simplebar-vertical {
-    background-color: #bbd54c;
+/deep/ .simplebar-track.simplebar-vertical {
+    background-color: #91CD5A;
     width: 5px;
     margin-right: 5rem;
     border-radius: 3px;
@@ -740,7 +753,7 @@ export default {
     visibility: visible;
 }
 
-.simplebar-scrollbar.simplebar-visible::before {
+/deep/ .simplebar-scrollbar.simplebar-visible::before {
     opacity: 1;
     top: 0 !important;
     bottom: 0 !important;
@@ -748,7 +761,7 @@ export default {
     right: 0;
 }
 
-.simplebar-scrollbar:before {
+/deep/ .simplebar-scrollbar:before {
     background-color: #000000;
     width: 9px;
 }

@@ -628,13 +628,13 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 [type="checkbox"]:checked {
     background-image: url("/images/circle-medium.png");
 }
 
-.simplebar-track.simplebar-vertical {
-    background-color: #bbd54c;
+/deep/.simplebar-track.simplebar-vertical {
+    background-color: #6ED7D7;
     width: 5px;
     margin-right: 5rem;
     border-radius: 3px;
@@ -644,7 +644,7 @@ export default {
     visibility: visible;
 }
 
-.simplebar-scrollbar.simplebar-visible::before {
+/deep/.simplebar-scrollbar.simplebar-visible::before {
     opacity: 1;
     top: 0 !important;
     bottom: 0 !important;
@@ -652,7 +652,7 @@ export default {
     right: 0;
 }
 
-.simplebar-scrollbar:before {
+/deep/.simplebar-scrollbar:before {
     background-color: #000000;
     width: 9px;
 }

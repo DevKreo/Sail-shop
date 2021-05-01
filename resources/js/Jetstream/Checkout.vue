@@ -370,3 +370,29 @@ export default {
 };
 </script>
 
+<style scoped>
+/deep/.simplebar-track.simplebar-vertical {
+    background-color: #CD96FF;
+    width: 5px;
+    margin-right: 5rem;
+    border-radius: 3px;
+    margin-bottom: 16px;
+    opacity: 1;
+    overflow: visible;
+    visibility: visible;
+}
+
+/deep/.simplebar-scrollbar.simplebar-visible::before {
+    opacity: 1;
+    top: 0 !important;
+    bottom: 0 !important;
+    left: -2px;
+    right: 0;
+}
+
+/deep/.simplebar-scrollbar:before {
+    background-color: #000000;
+    width: 9px;
+}
+
+</style>
