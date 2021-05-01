@@ -227,15 +227,18 @@
                             <div class="flex flex-col bg-white mr-5">
                                 <img src="images/coffe.png" class="self-center" />
                                 <div class="pt-5 pb-5">
-                                    <p class="text-sm font-regular pb-2">Держатели для двух стаканов</p>
-                                    <h1 class="text-2xl font-extrabold text-black border-b-2 pb-2.5">
+                                    <p class="font-mono text-sm font-regular pb-2">Держатели для двух стаканов</p>
+                                    <h1 class="font-mono text-2xl font-extrabold text-black border-b-2 pb-2.5">
                                         Eco cupholder
                                     </h1>
 
                                     <div class="flex flex-row justify-between mt-2.5 mb-5">
-                                        <button class="text-gray-400 focus:text-aqua-50">
-                                            <svg class="w-6 h-6" viewBox="0 0 24 24">
+                                        <button class="text-gray-400"v-on:click="showHert1 = !showHert1">
+                                            <svg v-if="!showHert1" class="w-6 h-6" viewBox="0 0 24 24" calss="text-gray-400">
                                                 <path fill="currentColor" d="M12.1,18.55L12,18.65L11.89,18.55C7.14,14.24 4,11.39 4,8.5C4,6.5 5.5,5 7.5,5C9.04,5 10.54,6 11.07,7.36H12.93C13.46,6 14.96,5 16.5,5C18.5,5 20,6.5 20,8.5C20,11.39 16.86,14.24 12.1,18.55M16.5,3C14.76,3 13.09,3.81 12,5.08C10.91,3.81 9.24,3 7.5,3C4.42,3 2,5.41 2,8.5C2,12.27 5.4,15.36 10.55,20.03L12,21.35L13.45,20.03C18.6,15.36 22,12.27 22,8.5C22,5.41 19.58,3 16.5,3Z" />
+                                            </svg>
+                                            <svg v-if="showHert1" style="width:24px;height:24px" viewBox="0 0 24 24" class="text-aqua-50">
+                                                <path fill="currentColor" d="M12,21.35L10.55,20.03C5.4,15.36 2,12.27 2,8.5C2,5.41 4.42,3 7.5,3C9.24,3 10.91,3.81 12,5.08C13.09,3.81 14.76,3 16.5,3C19.58,3 22,5.41 22,8.5C22,12.27 18.6,15.36 13.45,20.03L12,21.35Z" />
                                             </svg>
                                         </button>
                                         <button class="text-gray-400 focus:text-aqua-50" v-on:click="showDescription1 = !showDescription1">
@@ -275,10 +278,10 @@
                                                 <path fill="currentColor" d="M12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22M17,14L12,9L7,14H17Z" />
                                             </svg>
                                         </a>
-                                        <span class="self-center">1 Штука</span>
+                                        <span class="font-mono font-regular self-center">1 Штука</span>
                                     </div>
                                     <div class="flex bg-black text-white rounded-full h-8 w-32 justify-end mt-2.5">
-                                        <span class="self-center mr-6">00000</span>
+                                        <span class="font-mono font-regular self-center mr-6">00000</span>
 
                                         <svg style="width: 26px; height: 26px" viewBox="0 0 24 24" class="self-center pr-2">
                                             <path fill="currentColor" d="M6,10H7V3H14.5C17,3 19,5 19,7.5C19,10 17,12 14.5,12H9V14H15V16H9V21H7V16H6V14H7V12H6V10M14.5,5H9V10H14.5A2.5,2.5 0 0,0 17,7.5A2.5,2.5 0 0,0 14.5,5Z" />
@@ -296,9 +299,12 @@
                                     </h1>
 
                                     <div class="flex flex-row justify-between mt-2.5 mb-5">
-                                        <button class="text-gray-400 focus:text-aqua-50">
-                                            <svg class="w-6 h-6" viewBox="0 0 24 24">
+                                        <button class="text-gray-400"v-on:click="showHert2 = !showHert2">
+                                            <svg v-if="!showHert2" class="w-6 h-6" viewBox="0 0 24 24" calss="text-gray-400">
                                                 <path fill="currentColor" d="M12.1,18.55L12,18.65L11.89,18.55C7.14,14.24 4,11.39 4,8.5C4,6.5 5.5,5 7.5,5C9.04,5 10.54,6 11.07,7.36H12.93C13.46,6 14.96,5 16.5,5C18.5,5 20,6.5 20,8.5C20,11.39 16.86,14.24 12.1,18.55M16.5,3C14.76,3 13.09,3.81 12,5.08C10.91,3.81 9.24,3 7.5,3C4.42,3 2,5.41 2,8.5C2,12.27 5.4,15.36 10.55,20.03L12,21.35L13.45,20.03C18.6,15.36 22,12.27 22,8.5C22,5.41 19.58,3 16.5,3Z" />
+                                            </svg>
+                                            <svg v-if="showHert2" style="width:24px;height:24px" viewBox="0 0 24 24" class="text-aqua-50">
+                                                <path fill="currentColor" d="M12,21.35L10.55,20.03C5.4,15.36 2,12.27 2,8.5C2,5.41 4.42,3 7.5,3C9.24,3 10.91,3.81 12,5.08C13.09,3.81 14.76,3 16.5,3C19.58,3 22,5.41 22,8.5C22,12.27 18.6,15.36 13.45,20.03L12,21.35Z" />
                                             </svg>
                                         </button>
                                         <button class="text-gray-400 focus:text-aqua-50" v-on:click="showDescription2 = !showDescription2">
@@ -338,10 +344,10 @@
                                                 <path fill="currentColor" d="M12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22M17,14L12,9L7,14H17Z" />
                                             </svg>
                                         </a>
-                                        <span class="self-center">1 Штука</span>
+                                        <span class="font-mono font-regular self-center">1 Штука</span>
                                     </div>
                                     <div class="flex bg-black text-white rounded-full h-8 w-32 justify-end mt-2.5">
-                                        <span class="self-center mr-6">00000</span>
+                                        <span class="font-mono font-regular self-center mr-6">00000</span>
 
                                         <svg style="width: 26px; height: 26px" viewBox="0 0 24 24" class="self-center pr-2">
                                             <path fill="currentColor" d="M6,10H7V3H14.5C17,3 19,5 19,7.5C19,10 17,12 14.5,12H9V14H15V16H9V21H7V16H6V14H7V12H6V10M14.5,5H9V10H14.5A2.5,2.5 0 0,0 17,7.5A2.5,2.5 0 0,0 14.5,5Z" />
@@ -352,15 +358,18 @@
                             <div class="flex flex-col bg-white mr-5">
                                 <img src="images/coffe.png" class="self-center" />
                                 <div class="pt-5 pb-5">
-                                    <p class="text-sm font-regular pb-2">Держатели для двух стаканов</p>
-                                    <h1 class="text-2xl font-extrabold text-black border-b-2 pb-2.5">
+                                    <p class="font-mono text-sm font-regular pb-2">Держатели для двух стаканов</p>
+                                    <h1 class="font-mono text-2xl font-extrabold text-black border-b-2 pb-2.5">
                                         Eco cupholder
                                     </h1>
 
                                     <div class="flex flex-row justify-between mt-2.5 mb-5">
-                                        <button class="text-gray-400 focus:text-aqua-50">
-                                            <svg class="w-6 h-6" viewBox="0 0 24 24">
+                                        <button class="text-gray-400"v-on:click="showHert3 = !showHert3">
+                                            <svg v-if="!showHert3" class="w-6 h-6" viewBox="0 0 24 24" calss="text-gray-400">
                                                 <path fill="currentColor" d="M12.1,18.55L12,18.65L11.89,18.55C7.14,14.24 4,11.39 4,8.5C4,6.5 5.5,5 7.5,5C9.04,5 10.54,6 11.07,7.36H12.93C13.46,6 14.96,5 16.5,5C18.5,5 20,6.5 20,8.5C20,11.39 16.86,14.24 12.1,18.55M16.5,3C14.76,3 13.09,3.81 12,5.08C10.91,3.81 9.24,3 7.5,3C4.42,3 2,5.41 2,8.5C2,12.27 5.4,15.36 10.55,20.03L12,21.35L13.45,20.03C18.6,15.36 22,12.27 22,8.5C22,5.41 19.58,3 16.5,3Z" />
+                                            </svg>
+                                            <svg v-if="showHert3" style="width:24px;height:24px" viewBox="0 0 24 24" class="text-aqua-50">
+                                                <path fill="currentColor" d="M12,21.35L10.55,20.03C5.4,15.36 2,12.27 2,8.5C2,5.41 4.42,3 7.5,3C9.24,3 10.91,3.81 12,5.08C13.09,3.81 14.76,3 16.5,3C19.58,3 22,5.41 22,8.5C22,12.27 18.6,15.36 13.45,20.03L12,21.35Z" />
                                             </svg>
                                         </button>
                                         <button class="text-gray-400 focus:text-aqua-50" v-on:click="showDescription3 = !showDescription3">
@@ -400,10 +409,10 @@
                                                 <path fill="currentColor" d="M12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22M17,14L12,9L7,14H17Z" />
                                             </svg>
                                         </a>
-                                        <span class="self-center">1 Штука</span>
+                                        <span class="font-mono font-regular self-center">1 Штука</span>
                                     </div>
                                     <div class="flex bg-black text-white rounded-full h-8 w-32 justify-end mt-2.5">
-                                        <span class="self-center mr-6">00000</span>
+                                        <span class="font-mono font-regular self-center mr-6">00000</span>
 
                                         <svg style="width: 26px; height: 26px" viewBox="0 0 24 24" class="self-center pr-2">
                                             <path fill="currentColor" d="M6,10H7V3H14.5C17,3 19,5 19,7.5C19,10 17,12 14.5,12H9V14H15V16H9V21H7V16H6V14H7V12H6V10M14.5,5H9V10H14.5A2.5,2.5 0 0,0 17,7.5A2.5,2.5 0 0,0 14.5,5Z" />
@@ -414,15 +423,18 @@
                             <div class="flex flex-col bg-white mr-5">
                                 <img src="images/coffe.png" class="self-center" />
                                 <div class="pt-5 pb-5">
-                                    <p class="text-sm font-regular pb-2">Держатели для двух стаканов</p>
-                                    <h1 class="text-2xl font-extrabold text-black border-b-2 pb-2.5">
+                                    <p class="font-mono text-sm font-regular pb-2">Держатели для двух стаканов</p>
+                                    <h1 class="font-mono text-2xl font-extrabold text-black border-b-2 pb-2.5">
                                         Eco cupholder
                                     </h1>
 
                                     <div class="flex flex-row justify-between mt-2.5 mb-5">
-                                        <button class="text-gray-400 focus:text-aqua-50">
-                                            <svg class="w-6 h-6" viewBox="0 0 24 24">
+                                        <button class="text-gray-400"v-on:click="showHert4 = !showHert4">
+                                            <svg v-if="!showHert4" class="w-6 h-6" viewBox="0 0 24 24" calss="text-gray-400">
                                                 <path fill="currentColor" d="M12.1,18.55L12,18.65L11.89,18.55C7.14,14.24 4,11.39 4,8.5C4,6.5 5.5,5 7.5,5C9.04,5 10.54,6 11.07,7.36H12.93C13.46,6 14.96,5 16.5,5C18.5,5 20,6.5 20,8.5C20,11.39 16.86,14.24 12.1,18.55M16.5,3C14.76,3 13.09,3.81 12,5.08C10.91,3.81 9.24,3 7.5,3C4.42,3 2,5.41 2,8.5C2,12.27 5.4,15.36 10.55,20.03L12,21.35L13.45,20.03C18.6,15.36 22,12.27 22,8.5C22,5.41 19.58,3 16.5,3Z" />
+                                            </svg>
+                                            <svg v-if="showHert4" style="width:24px;height:24px" viewBox="0 0 24 24" class="text-aqua-50">
+                                                <path fill="currentColor" d="M12,21.35L10.55,20.03C5.4,15.36 2,12.27 2,8.5C2,5.41 4.42,3 7.5,3C9.24,3 10.91,3.81 12,5.08C13.09,3.81 14.76,3 16.5,3C19.58,3 22,5.41 22,8.5C22,12.27 18.6,15.36 13.45,20.03L12,21.35Z" />
                                             </svg>
                                         </button>
                                         <button class="text-gray-400 focus:text-aqua-50" v-on:click="showDescription4 = !showDescription4">
@@ -462,10 +474,10 @@
                                                 <path fill="currentColor" d="M12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22M17,14L12,9L7,14H17Z" />
                                             </svg>
                                         </a>
-                                        <span class="self-center">1 Штука</span>
+                                        <span class="font-mono self-center">1 Штука</span>
                                     </div>
                                     <div class="flex bg-black text-white rounded-full h-8 w-32 justify-end mt-2.5">
-                                        <span class="self-center mr-6">00000</span>
+                                        <span class="font-mono self-center mr-6">00000</span>
 
                                         <svg style="width: 26px; height: 26px" viewBox="0 0 24 24" class="self-center pr-2">
                                             <path fill="currentColor" d="M6,10H7V3H14.5C17,3 19,5 19,7.5C19,10 17,12 14.5,12H9V14H15V16H9V21H7V16H6V14H7V12H6V10M14.5,5H9V10H14.5A2.5,2.5 0 0,0 17,7.5A2.5,2.5 0 0,0 14.5,5Z" />
@@ -476,15 +488,18 @@
                             <div class="flex flex-col bg-white mr-5">
                                 <img src="images/coffe.png" class="self-center" />
                                 <div class="pt-5 pb-5">
-                                    <p class="text-sm font-regular pb-2">Держатели для двух стаканов</p>
-                                    <h1 class="text-2xl font-extrabold text-black border-b-2 pb-2.5">
+                                    <p class="font-mono text-sm font-regular pb-2">Держатели для двух стаканов</p>
+                                    <h1 class="font-mono text-2xl font-extrabold text-black border-b-2 pb-2.5">
                                         Eco cupholder
                                     </h1>
 
                                     <div class="flex flex-row justify-between mt-2.5 mb-5">
-                                        <button class="text-gray-400 focus:text-aqua-50">
-                                            <svg class="w-6 h-6" viewBox="0 0 24 24">
+                                        <button class="text-gray-400"v-on:click="showHert5 = !showHert5">
+                                            <svg v-if="!showHert5" class="w-6 h-6" viewBox="0 0 24 24" calss="text-gray-400">
                                                 <path fill="currentColor" d="M12.1,18.55L12,18.65L11.89,18.55C7.14,14.24 4,11.39 4,8.5C4,6.5 5.5,5 7.5,5C9.04,5 10.54,6 11.07,7.36H12.93C13.46,6 14.96,5 16.5,5C18.5,5 20,6.5 20,8.5C20,11.39 16.86,14.24 12.1,18.55M16.5,3C14.76,3 13.09,3.81 12,5.08C10.91,3.81 9.24,3 7.5,3C4.42,3 2,5.41 2,8.5C2,12.27 5.4,15.36 10.55,20.03L12,21.35L13.45,20.03C18.6,15.36 22,12.27 22,8.5C22,5.41 19.58,3 16.5,3Z" />
+                                            </svg>
+                                            <svg v-if="showHert5" style="width:24px;height:24px" viewBox="0 0 24 24" class="text-aqua-50">
+                                                <path fill="currentColor" d="M12,21.35L10.55,20.03C5.4,15.36 2,12.27 2,8.5C2,5.41 4.42,3 7.5,3C9.24,3 10.91,3.81 12,5.08C13.09,3.81 14.76,3 16.5,3C19.58,3 22,5.41 22,8.5C22,12.27 18.6,15.36 13.45,20.03L12,21.35Z" />
                                             </svg>
                                         </button>
                                         <button class="text-gray-400 focus:text-aqua-50" v-on:click="showDescription = !showDescription">
@@ -524,10 +539,10 @@
                                                 <path fill="currentColor" d="M12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22M17,14L12,9L7,14H17Z" />
                                             </svg>
                                         </a>
-                                        <span class="self-center">1 Штука</span>
+                                        <span class="font-mono font-regular self-center">1 Штука</span>
                                     </div>
                                     <div class="flex bg-black text-white rounded-full h-8 w-32 justify-end mt-2.5">
-                                        <span class="self-center mr-6">00000</span>
+                                        <span class="font-mono font-regular self-center mr-6">00000</span>
 
                                         <svg style="width: 26px; height: 26px" viewBox="0 0 24 24" class="self-center pr-2">
                                             <path fill="currentColor" d="M6,10H7V3H14.5C17,3 19,5 19,7.5C19,10 17,12 14.5,12H9V14H15V16H9V21H7V16H6V14H7V12H6V10M14.5,5H9V10H14.5A2.5,2.5 0 0,0 17,7.5A2.5,2.5 0 0,0 14.5,5Z" />
@@ -564,6 +579,11 @@ export default {
             showOffice: false,
             showMedicalInst: false,
             showSphere: false,
+            showHert1: false,
+            showHert2: false,
+            showHert3: false,
+            showHert4: false,
+            showHert5: false,
             showDescription1: false,
             showDescription2: false,
             showDescription3: false,

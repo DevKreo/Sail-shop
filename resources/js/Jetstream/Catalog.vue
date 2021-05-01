@@ -261,7 +261,7 @@
                             <div class="flex flex-col bg-white mr-5">
                                 <img src="images/coffe.png" class="self-center" />
                                 <div class="pt-5 pb-5">
-                                    <p class="text-sm font-regular pb-2">Держатели для двух стаканов</p>
+                                    <p class="text-sm font-mono font-regular pb-2">Держатели для двух стаканов</p>
                                     <h1 class="text-2xl font-extrabold text-black border-b-2 pb-2.5">
                                         Eco cupholder
                                     </h1>
@@ -325,7 +325,7 @@
                             <div class="flex flex-col bg-white mr-5">
                                 <img src="images/coffe.png" class="self-center" />
                                 <div class="pt-5 pb-5">
-                                    <p class="text-sm font-regular pb-2">Держатели для двух стаканов</p>
+                                    <p class="text-sm font-mono font-regular pb-2">Держатели для двух стаканов</p>
                                     <h1 class="text-2xl font-extrabold text-black border-b-2 pb-2.5">
                                         Eco cupholder
                                     </h1>
@@ -389,7 +389,7 @@
                             <div class="flex flex-col bg-white mr-5">
                                 <img src="images/coffe.png" class="self-center" />
                                 <div class="pt-5 pb-5">
-                                    <p class="text-sm font-regular pb-2">Держатели для двух стаканов</p>
+                                    <p class="text-sm font-mono font-regular pb-2">Держатели для двух стаканов</p>
                                     <h1 class="text-2xl font-extrabold text-black border-b-2 pb-2.5">
                                         Eco cupholder
                                     </h1>
@@ -454,7 +454,7 @@
                             <div class="flex flex-col bg-white mr-5">
                                 <img src="images/coffe.png" class="self-center" />
                                 <div class="pt-5 pb-5">
-                                    <p class="text-sm font-regular pb-2">Держатели для двух стаканов</p>
+                                    <p class="text-sm font-mono font-regular pb-2">Держатели для двух стаканов</p>
                                     <h1 class="text-2xl font-extrabold text-black border-b-2 pb-2.5">
                                         Eco cupholder
                                     </h1>
