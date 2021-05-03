@@ -22,6 +22,7 @@
                     <div class="flex justify-between h-24">
                         <div class="flex mx-auto">
                             <!-- Navigation Links -->
+                            <!-- AboutCompany -->
                             <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
                                 <button :href="route('dashboard')" :active="route().current('dashboard')" class="rounded-full h-10 mt-8 w-10 bg-black border-0 flex items-center justify-center focus:bg-red-50 text-white focus-within:text-black">
                                     <svg class="w-9 h-9 transform rotate-180" viewBox="0 0 24 24">
@@ -29,6 +30,7 @@
                                     </svg>
                                 </button>
                             </div>
+                            <!-- LoyaltyProgram -->
                             <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
                                 <button :href="route('admin')" :active="route().current('admin')" class="rounded-full h-10 mt-8 w-10 bg-black border-0 flex items-center justify-center focus:bg-yellow-50 text-white focus-within:text-black">
                                     <svg class="w-9 h-9" viewBox="0 0 24 24">
@@ -36,7 +38,7 @@
                                     </svg>
                                 </button>
                             </div>
-
+                            <!-- Catalog -->
                             <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
                                 <button :href="route('admin')" :active="route().current('admin')" class="rounded-full h-10 mt-8 w-10 bg-black border-0 flex items-center justify-center focus:bg-green-100 text-white focus-within:text-black">
                                     <svg class="w-9 h-9" viewBox="0 0 24 24">
@@ -44,13 +46,16 @@
                                     </svg>
                                 </button>
                             </div>
+                            <!-- TopPositions -->
                             <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
-                                <button :href="route('admin')" :active="route().current('admin')" class="rounded-full h-10 mt-8 w-10 bg-black border-0 flex items-center justify-center focus:bg-green-50 text-white focus-within:text-black">
+                                <button :href="route('admin')" :active="route().current('admin')" type="button" @click="scrollTo('TopPositions')" class="rounded-full h-10 mt-8 w-10 bg-black border-0 flex items-center justify-center focus:bg-green-50 text-white focus-within:text-black">
                                     <svg class="w-9 h-9" viewBox="0 0 24 24">
                                         <path fill="currentColor" d="M12,15.39L8.24,17.66L9.23,13.38L5.91,10.5L10.29,10.13L12,6.09L13.71,10.13L18.09,10.5L14.77,13.38L15.76,17.66M22,9.24L14.81,8.63L12,2L9.19,8.63L2,9.24L7.45,13.97L5.82,21L12,17.27L18.18,21L16.54,13.97L22,9.24Z" />
                                     </svg>
                                 </button>
                             </div>
+
+                            <!-- Sphere -->
                             <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
                                 <button :href="route('admin')" :active="route().current('admin')" class="rounded-full h-10 mt-8 w-10 bg-black border-0 flex items-center justify-center focus:bg-aqua-50 text-white focus-within:text-black">
                                     <svg class="w-9 h-9" viewBox="0 0 24 24">
@@ -58,6 +63,7 @@
                                     </svg>
                                 </button>
                             </div>
+                            <!-- RequestСall -->
                             <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
                                 <button :href="route('admin')" :active="route().current('admin')" class="rounded-full h-10 mt-8 w-10 bg-black border-0 flex items-center justify-center focus:bg-blue-50 text-white focus-within:text-black">
                                     <svg class="w-9 h-9" viewBox="0 0 24 24">
@@ -65,6 +71,7 @@
                                     </svg>
                                 </button>
                             </div>
+                            <!-- Checkout -->
                             <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
                                 <button :href="route('admin')" :active="route().current('admin')" class="rounded-full h-10 mt-8 w-10 bg-black border-0 flex items-center justify-center focus:bg-purple-50 text-white focus-within:text-black">
                                     <svg class="w-9 h-9" viewBox="0 0 24 24">
@@ -72,6 +79,7 @@
                                     </svg>
                                 </button>
                             </div>
+                            <!-- OurСontacts -->
                             <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
                                 <button :href="route('admin')" :active="route().current('admin')" class="rounded-full h-10 mt-8 w-10 bg-black border-0 flex items-center justify-center focus:bg-pink-50 text-white focus-within:text-black">
                                     <svg class="w-9 h-9" viewBox="0 0 24 24">
@@ -234,7 +242,9 @@ export default {
 
     data() {
         return {
-            showingNavigationDropdown: false
+            showingNavigationDropdown: false,
+            showTopPosition: false,
+            IsHover: false,
         };
     },
 

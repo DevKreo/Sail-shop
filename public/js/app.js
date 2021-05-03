@@ -6773,6 +6773,14 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
 
 
 
@@ -6790,7 +6798,9 @@ __webpack_require__.r(__webpack_exports__);
   },
   data: function data() {
     return {
-      showingNavigationDropdown: false
+      showingNavigationDropdown: false,
+      showTopPosition: false,
+      IsHover: false
     };
   },
   methods: {
@@ -45317,7 +45327,7 @@ var render = function() {
                           "div",
                           {
                             staticClass:
-                              "grid grid-cols-1 gap-1 justify-items-center my-5 font-mono font-bold text-sm "
+                              "grid grid-cols-1 gap-3 justify-items-center my-5 font-mono p-6 font-bold text-sm"
                           },
                           [
                             _c(
@@ -45333,10 +45343,10 @@ var render = function() {
                                 _vm._v(" "),
                                 _c("input", {
                                   staticClass:
-                                    "ml-4 form-control bg-white rounded-full h-9  w-1/4",
+                                    "text-base line-through ml-4 form-control bg-white rounded-full h-9 w-1/4",
                                   attrs: {
                                     type: "text",
-                                    placeholder: "000000.00"
+                                    placeholder: "  000000.00  "
                                   }
                                 }),
                                 _vm._v(" "),
@@ -45351,9 +45361,9 @@ var render = function() {
                                       "span",
                                       {
                                         staticClass:
-                                          "font-mono font-regular self-center mr-6"
+                                          "whitespace-pre-wrap font-mono font-regular self-center mr-6 text-base"
                                       },
-                                      [_vm._v("0000000.00   ₽")]
+                                      [_vm._v("  0000000.00 ₽")]
                                     )
                                   ]
                                 )
@@ -45373,7 +45383,7 @@ var render = function() {
                                 _vm._v(" "),
                                 _c("input", {
                                   staticClass:
-                                    "form-control bg-white rounded-full h-9 pl-5 w-1/2",
+                                    "font-regular form-control bg-white rounded-full h-9 pl-5 w-1/2",
                                   attrs: {
                                     type: "tell",
                                     autocomplete: "tel",
@@ -45397,7 +45407,7 @@ var render = function() {
                                 _vm._v(" "),
                                 _c("input", {
                                   staticClass:
-                                    "bg-white rounded-full h-9 pl-5 w-1/2",
+                                    "font-regular bg-white rounded-full h-9 pl-5 w-1/2",
                                   attrs: {
                                     type: "text",
                                     placeholder:
@@ -45420,7 +45430,7 @@ var render = function() {
                                 _vm._v(" "),
                                 _c("input", {
                                   staticClass:
-                                    "bg-white rounded-full h-9 pl-5 w-1/2",
+                                    "font-regular bg-white rounded-full h-9 pl-5 w-1/2",
                                   attrs: {
                                     type: "text",
                                     placeholder:
@@ -45443,7 +45453,7 @@ var render = function() {
                                 _vm._v(" "),
                                 _c("input", {
                                   staticClass:
-                                    "bg-white rounded-full h-9 pl-5 w-1/2",
+                                    "font-regular bg-white rounded-full h-9 pl-5 w-1/2",
                                   attrs: {
                                     type: "text",
                                     placeholder:
@@ -45466,7 +45476,7 @@ var render = function() {
                                 _vm._v(" "),
                                 _c("input", {
                                   staticClass:
-                                    "bg-white rounded-full h-9 pl-5 w-1/2",
+                                    "font-regular bg-white rounded-full h-9 pl-5 w-1/2",
                                   attrs: {
                                     type: "text",
                                     placeholder:
@@ -45489,7 +45499,7 @@ var render = function() {
                                 _vm._v(" "),
                                 _c("input", {
                                   staticClass:
-                                    "bg-white rounded-full h-9 pl-5 w-1/2",
+                                    "font-regular bg-white rounded-full h-9 pl-5 w-1/2",
                                   attrs: {
                                     type: "text",
                                     placeholder:
@@ -45512,7 +45522,7 @@ var render = function() {
                                 _vm._v(" "),
                                 _c("input", {
                                   staticClass:
-                                    "bg-white rounded-full h-9 pl-5 w-1/2",
+                                    "font-regular bg-white rounded-full h-9 pl-5 w-1/2",
                                   attrs: {
                                     type: "text",
                                     placeholder:
@@ -51733,7 +51743,13 @@ var render = function() {
                           "rounded-full h-10 mt-8 w-10 bg-black border-0 flex items-center justify-center focus:bg-green-50 text-white focus-within:text-black",
                         attrs: {
                           href: _vm.route("admin"),
-                          active: _vm.route().current("admin")
+                          active: _vm.route().current("admin"),
+                          type: "button"
+                        },
+                        on: {
+                          click: function($event) {
+                            return _vm.scrollTo("TopPositions")
+                          }
                         }
                       },
                       [
