@@ -4478,6 +4478,9 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
 
 
 
@@ -43887,7 +43890,7 @@ var render = function() {
                                               "div",
                                               {
                                                 staticClass:
-                                                  "flex flex-wrap border-2 border-purple-50 rounded-full h-9 w-32"
+                                                  "flex flex-wrap border-2 border-purple-50 rounded-full h-9 w-1/2"
                                               },
                                               [
                                                 _c(
@@ -43914,9 +43917,11 @@ var render = function() {
                                                         _c(
                                                           "svg",
                                                           {
+                                                            staticClass:
+                                                              "transform -rotate-90",
                                                             attrs: {
                                                               viewBox:
-                                                                "2 0 24 24"
+                                                                "4 0 24 24"
                                                             }
                                                           },
                                                           [
@@ -43925,7 +43930,7 @@ var render = function() {
                                                                 fill:
                                                                   "currentColor",
                                                                 d:
-                                                                  "M7,15L12,10L17,15H7Z"
+                                                                  "M8,5.14V19.14L19,12.14L8,5.14Z"
                                                               }
                                                             })
                                                           ]
@@ -43950,9 +43955,11 @@ var render = function() {
                                                         _c(
                                                           "svg",
                                                           {
+                                                            staticClass:
+                                                              "transform rotate-90",
                                                             attrs: {
                                                               viewBox:
-                                                                "2 0 24 24"
+                                                                "4 0 24 24"
                                                             }
                                                           },
                                                           [
@@ -43961,7 +43968,7 @@ var render = function() {
                                                                 fill:
                                                                   "currentColor",
                                                                 d:
-                                                                  "M7,10L12,15L17,10H7Z"
+                                                                  "M8,5.14V19.14L19,12.14L8,5.14Z"
                                                               }
                                                             })
                                                           ]
@@ -43973,13 +43980,17 @@ var render = function() {
                                                 _vm._v(" "),
                                                 _c(
                                                   "div",
-                                                  { staticClass: "flex w-2/3" },
+                                                  {
+                                                    staticClass:
+                                                      "flex w-2/3 pl-2"
+                                                  },
                                                   [
                                                     _c(
-                                                      "span",
+                                                      "p",
                                                       {
                                                         staticClass:
-                                                          "font-mono font-regular self-center"
+                                                          "font-mono font-regular self-center",
+                                                        attrs: { text: "input" }
                                                       },
                                                       [
                                                         _vm._v(
@@ -43997,7 +44008,7 @@ var render = function() {
                                               "div",
                                               {
                                                 staticClass:
-                                                  "flex bg-black text-white rounded-full h-8 w-32 justify-end mt-2.5"
+                                                  "flex bg-black text-white rounded-full h-8 w-1/2 justify-end mt-2.5"
                                               },
                                               [
                                                 _c(

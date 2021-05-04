@@ -76,22 +76,24 @@
                                                 </div>
                                             </div>
                                         </transition>
-                                        <div class="flex flex-wrap border-2 border-purple-50 rounded-full h-9 w-32">
+                                        <div class="flex flex-wrap border-2 border-purple-50 rounded-full h-9 w-1/2">
                                             <div class="flex flex-col w-8 h-8 rounded-full bg-black border-0 flex items-center justify-center focus:bg-red-50 text-white">
-                                                <button v-on:click="counter++" class="circuit self-center w-5"><svg viewBox="2 0 24 24">
-                                                        <path fill="currentColor" d="M7,15L12,10L17,15H7Z" />
+                                                <button v-on:click="counter++" class="circuit self-center w-5">
+                                                    <svg class="transform -rotate-90" viewBox="4 0 24 24">
+                                                        <path fill="currentColor" d="M8,5.14V19.14L19,12.14L8,5.14Z" />
                                                     </svg>
                                                 </button>
-                                                <button v-on:click="counter--" class="circuit self-center w-5"><svg viewBox="2 0 24 24">
-                                                        <path fill="currentColor" d="M7,10L12,15L17,10H7Z" />
+                                                <button v-on:click="counter--" class="circuit self-center w-5">
+                                                    <svg class="transform rotate-90" viewBox="4 0 24 24">
+                                                        <path fill="currentColor" d="M8,5.14V19.14L19,12.14L8,5.14Z" />
                                                     </svg>
                                                 </button>
                                             </div>
-                                            <div class="flex w-2/3">
-                                                <span class="font-mono font-regular self-center">{{counter}} Штука</span>
+                                            <div class="flex w-2/3 pl-2">
+                                                <p class="font-mono font-regular self-center" text="input">{{counter}} Штука</p>
                                             </div>
                                         </div>
-                                        <div class="flex bg-black text-white rounded-full h-8 w-32 justify-end mt-2.5">
+                                        <div class="flex bg-black text-white rounded-full h-8 w-1/2 justify-end mt-2.5">
                                             <span class="font-mono font-regular self-center mr-6">00000</span>
 
                                             <svg style="width: 26px; height: 26px" viewBox="0 0 24 24" class="self-center pr-2">
@@ -100,6 +102,7 @@
                                         </div>
                                     </div>
                                 </div>
+
 
                                 <div class="flex flex-col bg-white mr-5">
                                     <img src="images/coffe.png" class="self-center" />
