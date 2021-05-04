@@ -31,7 +31,7 @@
                                 <div class="opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-20 flex flex-col justify-start items-start text-xs text-white font-mono pl-3 pt-3">
                                     <div class="ml-1 text-black font-mono font-regular text-base">Держатели для двух стаканов</div>
                                     <div class="font-mono font-extrabold text-2xl font-bold pb-2.5 ml-1 text-black flex items-start">Eco cupholder</div>
-                                    <button type="button" class="circuit rounded-full h-16 w-16 opacity-100 bg-black absolute bottom-0 right-0 mr-5 mb-5 flex items-center justify-center focus:bg-red-50 focus-within:text-black">
+                                    <button type="button" class="circuit rounded-full h-16 w-16 opacity-100 bg-black absolute bottom-0 right-0 mr-5 mb-5 flex items-center justify-center focus:bg-green-50 focus-within:text-black">
                                         <svg style="width:48px;height:48px" viewBox="0 0 24 24">
                                             <path fill="currentColor" d="M8,5.14V19.14L19,12.14L8,5.14Z" />
                                         </svg>
@@ -44,7 +44,7 @@
                                 <div class="opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-20 flex flex-col justify-start items-start text-xs text-white font-mono pl-3 pt-3">
                                     <div class="ml-1 text-black font-mono font-regular text-base">Держатели для двух стаканов</div>
                                     <div class="font-mono font-extrabold text-2xl font-bold pb-2.5 ml-1 text-black flex items-start">Eco cupholder</div>
-                                    <button type="button" class="circuit rounded-full h-16 w-16 opacity-100 bg-black absolute bottom-0 right-0 mr-5 mb-5 flex items-center justify-center focus:bg-red-50 focus-within:text-black">
+                                    <button type="button" class="circuit rounded-full h-16 w-16 opacity-100 bg-black absolute bottom-0 right-0 mr-5 mb-5 flex items-center justify-center focus:bg-green-50 focus-within:text-black">
                                         <svg style="width:48px;height:48px" viewBox="0 0 24 24">
                                             <path fill="currentColor" d="M8,5.14V19.14L19,12.14L8,5.14Z" />
                                         </svg>
@@ -57,7 +57,7 @@
                                 <div class="opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-20 flex flex-col justify-start items-start text-xs text-white font-mono pl-3 pt-3">
                                     <div class="ml-1 text-black font-mono font-regular text-base">Держатели для двух стаканов</div>
                                     <div class="font-mono font-extrabold text-2xl font-bold pb-2.5 ml-1 text-black flex items-start">Eco cupholder</div>
-                                    <button type="button" class="circuit rounded-full h-16 w-16 opacity-100 bg-black absolute bottom-0 right-0 mr-5 mb-5 flex items-center justify-center focus:bg-red-50 focus-within:text-black">
+                                    <button type="button" class="circuit rounded-full h-16 w-16 opacity-100 bg-black absolute bottom-0 right-0 mr-5 mb-5 flex items-center justify-center focus:bg-green-50 focus-within:text-black">
                                         <svg style="width:48px;height:48px" viewBox="0 0 24 24">
                                             <path fill="currentColor" d="M8,5.14V19.14L19,12.14L8,5.14Z" />
                                         </svg>
@@ -70,7 +70,7 @@
                                 <div class="opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-20 flex flex-col justify-start items-start text-xs text-white font-mono pl-3 pt-3">
                                     <div class="ml-1 text-black font-mono font-regular text-base">Держатели для двух стаканов</div>
                                     <div class="font-mono font-extrabold text-2xl font-bold pb-2.5 ml-1 text-black flex items-start">Eco cupholder</div>
-                                    <button type="button" class="circuit rounded-full h-16 w-16 opacity-100 bg-black absolute bottom-0 right-0 mr-5 mb-5 flex items-center justify-center focus:bg-red-50 focus-within:text-black">
+                                    <button type="button" class="circuit rounded-full h-16 w-16 opacity-100 bg-black absolute bottom-0 right-0 mr-5 mb-5 flex items-center justify-center focus:bg-green-50 focus-within:text-black">
                                         <svg style="width:48px;height:48px" viewBox="0 0 24 24">
                                             <path fill="currentColor" d="M8,5.14V19.14L19,12.14L8,5.14Z" />
                                         </svg>
@@ -83,7 +83,7 @@
                                 <div class="opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-20 flex flex-col justify-start items-start text-xs text-white font-mono pl-3 pt-3">
                                     <div class="ml-1 text-black font-mono font-regular text-base">Держатели для двух стаканов</div>
                                     <div class="font-mono font-extrabold text-2xl font-bold pb-2.5 ml-1 text-black flex items-start">Eco cupholder</div>
-                                    <button type="button" class="circuit rounded-full h-16 w-16 opacity-100 bg-black absolute bottom-0 right-0 mr-5 mb-5 flex items-center justify-center focus:bg-red-50 focus-within:text-black">
+                                    <button type="button" class="circuit rounded-full h-16 w-16 opacity-100 bg-black absolute bottom-0 right-0 mr-5 mb-5 flex items-center justify-center focus:bg-green-50 focus-within:text-black">
                                         <svg style="width:48px;height:48px" viewBox="0 0 24 24">
                                             <path fill="currentColor" d="M8,5.14V19.14L19,12.14L8,5.14Z" />
                                         </svg>
@@ -96,7 +96,7 @@
                                 <div class="opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-20 flex flex-col justify-start items-start text-xs text-white font-mono pl-3 pt-3">
                                     <div class="ml-1 text-black font-mono font-regular text-base">Держатели для двух стаканов</div>
                                     <div class="font-mono font-extrabold text-2xl font-bold pb-2.5 ml-1 text-black flex items-start">Eco cupholder</div>
-                                    <button type="button" class="circuit rounded-full h-16 w-16 opacity-100 bg-black absolute bottom-0 right-0 mr-5 mb-5 flex items-center justify-center focus:bg-red-50 focus-within:text-black">
+                                    <button type="button" class="circuit rounded-full h-16 w-16 opacity-100 bg-black absolute bottom-0 right-0 mr-5 mb-5 flex items-center justify-center focus:bg-green-50 focus-within:text-black">
                                         <svg style="width:48px;height:48px" viewBox="0 0 24 24">
                                             <path fill="currentColor" d="M8,5.14V19.14L19,12.14L8,5.14Z" />
                                         </svg>
@@ -109,7 +109,7 @@
                                 <div class="opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-20 flex flex-col justify-start items-start text-xs text-white font-mono pl-3 pt-3">
                                     <div class="ml-1 text-black font-mono font-regular text-base">Держатели для двух стаканов</div>
                                     <div class="font-mono font-extrabold text-2xl font-bold pb-2.5 ml-1 text-black flex items-start">Eco cupholder</div>
-                                    <button type="button" class="circuit rounded-full h-16 w-16 opacity-100 bg-black absolute bottom-0 right-0 mr-5 mb-5 flex items-center justify-center focus:bg-red-50 focus-within:text-black">
+                                    <button type="button" class="circuit rounded-full h-16 w-16 opacity-100 bg-black absolute bottom-0 right-0 mr-5 mb-5 flex items-center justify-center focus:bg-green-50 focus-within:text-black">
                                         <svg style="width:48px;height:48px" viewBox="0 0 24 24">
                                             <path fill="currentColor" d="M8,5.14V19.14L19,12.14L8,5.14Z" />
                                         </svg>

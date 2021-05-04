@@ -27,15 +27,15 @@
 
                         <simplebar class="pr-40 max-h-screen bg-white block flex-auto" data-simplebar-auto-hide="false">
 
-                            <div class="grid grid-cols-4 gap-4">
-                                <div class="flex flex-col bg-white mr-5">
+                            <div class="grid grid-cols-4 gap-4 ">
+                                <div class="flex flex-col bg-white mr-5 ">
                                     <img src="images/coffe.png" class="self-center" />
                                     <div class="pt-5 pb-5">
                                         <p class="font-mono text-sm font-regular pb-2">Держатели для двух стаканов</p>
                                         <h1 class="font-mono text-2xl font-extrabold text-black border-b-2 pb-2.5">
                                             Eco cupholder
                                         </h1>
-                                        <div class="flex flex-row justify-between mt-2.5 mb-5">
+                                        <div class="flex flex-row justify-between mt-2.5 mb-5 ">
                                             <button class="text-gray-400" v-on:click="showHert1 = !showHert1">
                                                 <svg v-if="!showHert1" class="w-6 h-6" viewBox="0 0 24 24" calss="text-gray-400">
                                                     <path fill="currentColor" d="M12.1,18.55L12,18.65L11.89,18.55C7.14,14.24 4,11.39 4,8.5C4,6.5 5.5,5 7.5,5C9.04,5 10.54,6 11.07,7.36H12.93C13.46,6 14.96,5 16.5,5C18.5,5 20,6.5 20,8.5C20,11.39 16.86,14.24 12.1,18.55M16.5,3C14.76,3 13.09,3.81 12,5.08C10.91,3.81 9.24,3 7.5,3C4.42,3 2,5.41 2,8.5C2,12.27 5.4,15.36 10.55,20.03L12,21.35L13.45,20.03C18.6,15.36 22,12.27 22,8.5C22,5.41 19.58,3 16.5,3Z" />
@@ -76,12 +76,20 @@
                                                 </div>
                                             </div>
                                         </transition>
-                                        <div class="flex border-2 border-purple-50 rounded-full h-8 w-32">
-                                            <a class="self-center pr-2"><svg style="width: 32px; height: 32px" viewBox="2 0 24 24">
-                                                    <path fill="currentColor" d="M12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22M17,14L12,9L7,14H17Z" />
-                                                </svg>
-                                            </a>
-                                            <span class="font-mono font-regular self-center">1 Штука</span>
+                                        <div class="flex flex-wrap border-2 border-purple-50 rounded-full h-9 w-32">
+                                            <div class="flex flex-col w-8 h-8 rounded-full bg-black border-0 flex items-center justify-center focus:bg-red-50 text-white">
+                                                <button v-on:click="counter++" class="circuit self-center w-5"><svg viewBox="2 0 24 24">
+                                                        <path fill="currentColor" d="M7,15L12,10L17,15H7Z" />
+                                                    </svg>
+                                                </button>
+                                                <button v-on:click="counter--" class="circuit self-center w-5"><svg viewBox="2 0 24 24">
+                                                        <path fill="currentColor" d="M7,10L12,15L17,10H7Z" />
+                                                    </svg>
+                                                </button>
+                                            </div>
+                                            <div class="flex w-2/3">
+                                                <span class="font-mono font-regular self-center">{{counter}} Штука</span>
+                                            </div>
                                         </div>
                                         <div class="flex bg-black text-white rounded-full h-8 w-32 justify-end mt-2.5">
                                             <span class="font-mono font-regular self-center mr-6">00000</span>
@@ -362,7 +370,7 @@
                             <span class="text-white">Общая сумма заказа</span>
                             <input type="text" placeholder="  000000.00  " class="text-base line-through ml-4 form-control bg-white rounded-full h-9 w-1/4">
                             <div class="flex bg-black text-white rounded-full h-9 w-1/4">
-                                <span class="whitespace-pre-wrap font-mono font-regular self-center mr-6 text-base">  0000000.00 ₽</span>
+                                <span class="whitespace-pre-wrap font-mono font-regular self-center mr-6 text-base"> 0000000.00 ₽</span>
                             </div>
                         </div>
                         <div class="hover:text-black hover:bg-purple-50 flex items-center justify-between bg-black rounded-full py-3 px-6 w-1/2 h-12 indent">
@@ -430,6 +438,7 @@ export default {
             showDescription3: false,
             showDescription4: false,
             showDescription5: false,
+            counter: 0,
         };
     },
 };
@@ -464,5 +473,14 @@ export default {
     writing-mode: vertical-lr;
     transform: rotate(180deg);
     font-size: 20px;
+}
+
+.circuit:active,
+.circuit:focus {
+    outline: none;
+}
+
+.circuit::-moz-focus-inner {
+    border: 0;
 }
 </style>

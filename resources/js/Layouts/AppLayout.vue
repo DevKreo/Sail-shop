@@ -218,6 +218,7 @@
             <div class="object-contain hidden xl:block h-full min-h-screen w-24 bg-log-texture absolute "></div>
             <slot></slot>
         </main>
+
     </div>
 </div>
 </template>

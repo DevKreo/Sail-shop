@@ -204,7 +204,7 @@
                 </button>
             </div>
             <div v-show="showNetworkBusiness && showLoyaltyProgram" class="flex pl-20 mb-8 pb-16">
-                <div class="flex flex-wrap justify-center">
+                <div class="flex flex-wrap justify-center font-mono font-regular text-base leading-6">
                     <span>
                         Вы - владелец нескольких организаций? Или под вашим брендом
                         открыто более 3 точек? Тогда у нас есть выгодное предложение —

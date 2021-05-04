@@ -1,7 +1,7 @@
 <template>
 <div>
     <div class="rounded-full py-3 px-6 flex items-center justify-between mb-2" :class="[showCatalog ?  'bg-green-100' : 'bg-black']">
-        <div class="inline-flex space-x-10 items-center" :class="[showCatalog ?  'text-black' : 'text-white']">
+        <div class="inline-flex space-x-10 items-center" :class="[showCatalog ?  'text-black' : 'text-white']" id="nav_Catalog">
             <svg class="w-7 h-7" viewBox="0 0 24 24">
                 <path fill="currentColor" d="M19 6H17C17 3.2 14.8 1 12 1S7 3.2 7 6H5C3.9 6 3 6.9 3 8V20C3 21.1 3.9 22 5 22H19C20.1 22 21 21.1 21 20V8C21 6.9 20.1 6 19 6M12 3C13.7 3 15 4.3 15 6H9C9 4.3 10.3 3 12 3M19 20H5V8H19V20M12 12C10.3 12 9 10.7 9 9H7C7 11.8 9.2 14 12 14S17 11.8 17 9H15C15 10.7 13.7 12 12 12Z" />
             </svg>
@@ -18,6 +18,27 @@
     </div>
     <transition name="fade">
         <div class="px-20 bg-white grid grid-cols-1" v-if="showCatalog">
+
+            <!-- Иконки наверх, инстаграмм, звонок -->
+            <div>
+                <div class="p-5 rounded-lg text-white fixed right-0 bottom-1/2 grid grid-cols-1 gap-1">
+                    <a href="#nav_Catalog" class="bg-green-100 w-12 h-12 text-sm font-bold tracking-wider text-black hover:bg-black hover:text-white inline-flex items-center justify-center">
+                        <svg class="w-10 h-10" viewBox="0 0 24 24">
+                            <path fill="currentColor" d="M7,15L12,10L17,15H7Z" />
+                        </svg>
+                    </a>
+                    <a class="bg-green-100 w-12 h-12 text-sm font-bold tracking-wider text-black hover:bg-black hover:text-white inline-flex items-center justify-center">
+                        <svg class="w-6 h-6" viewBox="0 0 24 24">
+                            <path fill="currentColor" d="M20,15.5C18.8,15.5 17.5,15.3 16.4,14.9C16.3,14.9 16.2,14.9 16.1,14.9C15.8,14.9 15.6,15 15.4,15.2L13.2,17.4C10.4,15.9 8,13.6 6.6,10.8L8.8,8.6C9.1,8.3 9.2,7.9 9,7.6C8.7,6.5 8.5,5.2 8.5,4C8.5,3.5 8,3 7.5,3H4C3.5,3 3,3.5 3,4C3,13.4 10.6,21 20,21C20.5,21 21,20.5 21,20V16.5C21,16 20.5,15.5 20,15.5M5,5H6.5C6.6,5.9 6.8,6.8 7,7.6L5.8,8.8C5.4,7.6 5.1,6.3 5,5M19,19C17.7,18.9 16.4,18.6 15.2,18.2L16.4,17C17.2,17.2 18.1,17.4 19,17.4V19Z" />
+                        </svg>
+                    </a>
+                    <a href="https://www.instagram.com/horeca_iys/" class="bg-green-100 w-12 h-12 text-sm font-bold tracking-wider text-black hover:bg-black hover:text-white inline-flex items-center justify-center">
+                        <svg class="w-6 h-6" viewBox="0 0 24 24">
+                            <path fill="currentColor" d="M7.8,2H16.2C19.4,2 22,4.6 22,7.8V16.2A5.8,5.8 0 0,1 16.2,22H7.8C4.6,22 2,19.4 2,16.2V7.8A5.8,5.8 0 0,1 7.8,2M7.6,4A3.6,3.6 0 0,0 4,7.6V16.4C4,18.39 5.61,20 7.6,20H16.4A3.6,3.6 0 0,0 20,16.4V7.6C20,5.61 18.39,4 16.4,4H7.6M17.25,5.5A1.25,1.25 0 0,1 18.5,6.75A1.25,1.25 0 0,1 17.25,8A1.25,1.25 0 0,1 16,6.75A1.25,1.25 0 0,1 17.25,5.5M12,7A5,5 0 0,1 17,12A5,5 0 0,1 12,17A5,5 0 0,1 7,12A5,5 0 0,1 12,7M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9Z" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
 
             <!--  Одноразовая посуда  -->
             <div class="py-3 bg-white flex items-center justify-between border-t-2 border-black">
@@ -394,7 +415,7 @@
                                         Eco cupholder
                                     </h1>
                                     <div class="flex flex-row justify-between mt-2.5 mb-5">
-                                        <button class="text-gray-400"v-on:click="showHert4 = !showHert4">
+                                        <button class="text-gray-400" v-on:click="showHert4 = !showHert4">
                                             <svg v-if="!showHert4" class="w-6 h-6" viewBox="0 0 24 24" calss="text-gray-400">
                                                 <path fill="currentColor" d="M12.1,18.55L12,18.65L11.89,18.55C7.14,14.24 4,11.39 4,8.5C4,6.5 5.5,5 7.5,5C9.04,5 10.54,6 11.07,7.36H12.93C13.46,6 14.96,5 16.5,5C18.5,5 20,6.5 20,8.5C20,11.39 16.86,14.24 12.1,18.55M16.5,3C14.76,3 13.09,3.81 12,5.08C10.91,3.81 9.24,3 7.5,3C4.42,3 2,5.41 2,8.5C2,12.27 5.4,15.36 10.55,20.03L12,21.35L13.45,20.03C18.6,15.36 22,12.27 22,8.5C22,5.41 19.58,3 16.5,3Z" />
                                             </svg>
@@ -459,7 +480,7 @@
                                         Eco cupholder
                                     </h1>
                                     <div class="flex flex-row justify-between mt-2.5 mb-5">
-                                        <button class="text-gray-400"v-on:click="showHert5 = !showHert5">
+                                        <button class="text-gray-400" v-on:click="showHert5 = !showHert5">
                                             <svg v-if="!showHert5" class="w-6 h-6" viewBox="0 0 24 24" calss="text-gray-400">
                                                 <path fill="currentColor" d="M12.1,18.55L12,18.65L11.89,18.55C7.14,14.24 4,11.39 4,8.5C4,6.5 5.5,5 7.5,5C9.04,5 10.54,6 11.07,7.36H12.93C13.46,6 14.96,5 16.5,5C18.5,5 20,6.5 20,8.5C20,11.39 16.86,14.24 12.1,18.55M16.5,3C14.76,3 13.09,3.81 12,5.08C10.91,3.81 9.24,3 7.5,3C4.42,3 2,5.41 2,8.5C2,12.27 5.4,15.36 10.55,20.03L12,21.35L13.45,20.03C18.6,15.36 22,12.27 22,8.5C22,5.41 19.58,3 16.5,3Z" />
                                             </svg>
