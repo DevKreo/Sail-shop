@@ -17,7 +17,7 @@
         </button>
     </div>
     <transition name="fade">
-        <div class="px-20 bg-white grid grid-cols-1" v-if="showCatalog">
+        <div class="px-5 sm:px-20 bg-white grid grid-cols-1" v-if="showCatalog">
 
             <!-- Иконки наверх, инстаграмм, звонок -->
             <div>

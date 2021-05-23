@@ -40814,7 +40814,7 @@ var render = function() {
         _vm.showCatalog
           ? _c(
               "div",
-              { staticClass: "px-20 bg-white grid grid-cols-1" },
+              { staticClass: "px-5 sm:px-20 bg-white grid grid-cols-1" },
               [
                 _c("div", [
                   _c(
@@ -46573,12 +46573,15 @@ var render = function() {
                 expression: "showLoyaltyProgram"
               }
             ],
-            staticClass: "px-20 bg-white grid grid-cols-1"
+            staticClass: "px-5 sm:px-20 bg-white grid grid-cols-1"
           },
           [
             _c(
               "span",
-              { staticClass: "mb-4 p-4 font-mono font-bold leading-8" },
+              {
+                staticClass:
+                  "mb-4 p-4 font-mono font-bold leading-8 text-justify"
+              },
               [
                 _vm._v(
                   "\r\n                Все 7 предложений по программе лояльности предоставляются на ваш выбор\r\n                и не суммируются! "
@@ -46602,11 +46605,11 @@ var render = function() {
                   "div",
                   {
                     staticClass:
-                      "text-black inline-flex space-x-10 items-center"
+                      "text-black inline-flex space-x-4 sm:space-x-10 items-center"
                   },
                   [
                     _c("img", {
-                      staticClass: "ml-8",
+                      staticClass: "ml-4 sm:ml-8",
                       attrs: {
                         src: "images/LoyaltyIcons/SalesForOrderFromSite.png"
                       }
@@ -46685,14 +46688,15 @@ var render = function() {
                     expression: "showSaleOrderFromSite && showLoyaltyProgram"
                   }
                 ],
-                staticClass: "flex pl-20 mb-8 pb-8"
+                staticClass: "flex pl-5 sm:px-20 mb-8 pb-8"
               },
               [
                 _c("div", { staticClass: "flex flex-wrap justify-center" }, [
                   _c(
                     "span",
                     {
-                      staticClass: "font-mono font-regular text-base leading-6"
+                      staticClass:
+                        "font-mono font-regular text-base leading-6 text-justify"
                     },
                     [
                       _vm._v(
@@ -46719,11 +46723,11 @@ var render = function() {
                   "div",
                   {
                     staticClass:
-                      "text-black inline-flex space-x-11 items-center"
+                      "text-black inline-flex space-x-4 sm:space-x-11 items-center"
                   },
                   [
                     _c("img", {
-                      staticClass: "ml-6",
+                      staticClass: "ml-3 sm:ml-6",
                       attrs: { src: "images/LoyaltyIcons/Wholesale_Trade.png" }
                     }),
                     _vm._v(" "),
@@ -46800,14 +46804,14 @@ var render = function() {
                     expression: "showLoyaltyProgram && showWholesaleTrade"
                   }
                 ],
-                staticClass: "flex pl-20 mb-8 pb-8"
+                staticClass: "flex pl-5 sm:px-20  mb-8 pb-8"
               },
               [
                 _c(
                   "div",
                   {
                     staticClass:
-                      "flex flex-wrap justify-center font-mono font-regular text-base leading-6"
+                      "flex flex-wrap justify-center font-mono font-regular text-base leading-6 text-justify"
                   },
                   [
                     _c("span", [
@@ -46820,7 +46824,10 @@ var render = function() {
                     _vm._v(" "),
                     _c(
                       "div",
-                      { staticClass: "flex flex-col items-start mr-auto" },
+                      {
+                        staticClass:
+                          "flex flex-col items-start mr-auto text-left"
+                      },
                       [
                         _c("span", [
                           _vm._v("- Бумажная профессиональная продукция")
@@ -46857,11 +46864,11 @@ var render = function() {
                   "div",
                   {
                     staticClass:
-                      "text-black inline-flex space-x-11 items-center"
+                      "text-black inline-flex space-x-4 sm:space-x-11 items-center"
                   },
                   [
                     _c("img", {
-                      staticClass: "ml-6",
+                      staticClass: "ml-3 sm:ml-6",
                       attrs: {
                         src: "images/LoyaltyIcons/SaleForGroupOfItems.png"
                       }
@@ -46940,14 +46947,15 @@ var render = function() {
                     expression: "showSaleGroupOfItems && showLoyaltyProgram"
                   }
                 ],
-                staticClass: "flex pl-20 mb-8 pb-8"
+                staticClass: "flex pl-5 sm:px-20 mb-8 pb-8"
               },
               [
                 _c("div", { staticClass: "flex flex-wrap justify-center" }, [
                   _c(
                     "span",
                     {
-                      staticClass: "font-mono font-regular text-base leading-6"
+                      staticClass:
+                        "font-mono font-regular text-base leading-6 text-justify"
                     },
                     [
                       _vm._v(
@@ -46970,11 +46978,11 @@ var render = function() {
                   "div",
                   {
                     staticClass:
-                      "text-black inline-flex space-x-12 items-center"
+                      "text-black inline-flex space-x-4 sm:space-x-12 items-center"
                   },
                   [
                     _c("img", {
-                      staticClass: "ml-6",
+                      staticClass: "ml-4 sm:ml-6",
                       attrs: { src: "images/LoyaltyIcons/Startap.png" }
                     }),
                     _vm._v(" "),
@@ -47051,14 +47059,14 @@ var render = function() {
                     expression: "showStartap && showLoyaltyProgram"
                   }
                 ],
-                staticClass: "flex pl-20 mb-8 pb-8"
+                staticClass: "flex pl-5 sm:px-20 mb-8 pb-8"
               },
               [
                 _c(
                   "div",
                   {
                     staticClass:
-                      "flex flex-wrap justify-center font-mono font-regular text-base leading-6"
+                      "flex flex-wrap justify-center font-mono font-regular text-base leading-6 text-justify"
                   },
                   [
                     _c("span", [
@@ -47083,7 +47091,7 @@ var render = function() {
                       "div",
                       {
                         staticClass:
-                          "flex flex-col items-start mr-auto whitespace-pre-wrap"
+                          "flex flex-col items-start mr-auto sm:whitespace-pre-wrap text-justify"
                       },
                       [
                         _c("span", [
@@ -47151,11 +47159,11 @@ var render = function() {
                   "div",
                   {
                     staticClass:
-                      "text-black inline-flex space-x-10 items-center"
+                      "text-black inline-flex space-x-4 sm:space-x-10 items-center"
                   },
                   [
                     _c("img", {
-                      staticClass: "ml-7",
+                      staticClass: "ml-4 sm:ml-7",
                       attrs: { src: "images/LoyaltyIcons/MoreCostMoreSale.png" }
                     }),
                     _vm._v(" "),
@@ -47232,7 +47240,7 @@ var render = function() {
                     expression: "showMoreCostMoreSale && showLoyaltyProgram"
                   }
                 ],
-                staticClass: "flex pl-20 mb-8 pb-8"
+                staticClass: "flex pl-5 sm:px-20 mb-8 pb-8"
               },
               [
                 _c("div", { staticClass: "flex flex-wrap justify-center" }, [
@@ -47240,11 +47248,11 @@ var render = function() {
                     "div",
                     {
                       staticClass:
-                        "flex flex-col items-start mr-auto whitespace-pre-wrap font-mono font-regular text-base leading-6"
+                        "flex flex-col items-start mr-auto whitespace-pre-wrap font-mono font-regular text-base leading-6 text-justify"
                     },
                     [
                       _c("span", [
-                        _vm._v(" При покупке товара в ассортименте на суммы:"),
+                        _vm._v("При покупке товара в ассортименте на суммы:"),
                         _c("br"),
                         _c("br")
                       ]),
@@ -47280,11 +47288,11 @@ var render = function() {
                   "div",
                   {
                     staticClass:
-                      "text-black inline-flex space-x-10 items-center"
+                      "text-black inline-flex space-x-4 sm:space-x-10 items-center"
                   },
                   [
                     _c("img", {
-                      staticClass: "ml-7",
+                      staticClass: "ml-4 sm:ml-7",
                       attrs: { src: "images/LoyaltyIcons/GiftsEveryday.png" }
                     }),
                     _vm._v(" "),
@@ -47361,7 +47369,7 @@ var render = function() {
                     expression: "showGiftEveryDay && showLoyaltyProgram"
                   }
                 ],
-                staticClass: "flex pl-20 mb-8 pb-8"
+                staticClass: "flex pl-5 sm:px-20 mb-8 pb-8"
               },
               [
                 _c("div", { staticClass: "flex flex-wrap justify-center" }, [
@@ -47369,41 +47377,39 @@ var render = function() {
                     "div",
                     {
                       staticClass:
-                        "flex flex-col items-start mr-auto whitespace-pre-wrap font-mono font-regular text-base leading-6"
+                        "flex flex-col items-start mr-auto whitespace-pre-wrap font-mono font-regular text-base leading-6 text-left"
                     },
                     [
-                      _c("span", [
+                      _c("span", { staticClass: "text-justify" }, [
                         _vm._v(
-                          " При оплате заказа по факту, на сумму от 3000 ₽ каждый день определенный товар в "
+                          "При оплате заказа по факту, на сумму от 3000 ₽ каждый день определенный товар в подарок:"
                         ),
-                        _c("br"),
-                        _vm._v(" подарок:"),
                         _c("br"),
                         _c("br")
                       ]),
                       _vm._v(" "),
-                      _c("span", [_vm._v(" Понедельник - Белизна 4 л. ")]),
+                      _c("span", [_vm._v("Понедельник - Белизна 4 л. ")]),
                       _vm._v(" "),
                       _c("span", [
                         _vm._v(
-                          " Вторник     - Салфетка влаговпитывающая + Губка кухонная по 1 упк. "
+                          "Вторник     - Салфетка влаговпитывающая + Губка кухонная по 1 упк. "
                         )
                       ]),
                       _vm._v(" "),
                       _c("span", [
                         _vm._v(
-                          " Среда       - Салфетка барная Баттерфлай 2 упк. "
+                          "Среда       - Салфетка барная Баттерфлай 2 упк. "
                         )
                       ]),
                       _vm._v(" "),
                       _c("span", [
                         _vm._v(
-                          " Четверг     - Мешки для мусора 160л.+ 60л. по 1 р. "
+                          "Четверг     - Мешки для мусора 160л.+ 60л. по 1 р. "
                         )
                       ]),
                       _vm._v(" "),
                       _c("span", [
-                        _vm._v(" Пятница     - Жидкое мыло MARAFET 5 л. ")
+                        _vm._v("Пятница     - Жидкое мыло MARAFET 5 л. ")
                       ])
                     ]
                   )
@@ -47422,11 +47428,11 @@ var render = function() {
                   "div",
                   {
                     staticClass:
-                      "text-black inline-flex space-x-10 items-center"
+                      "text-black inline-flex space-x-4 sm:space-x-10 items-center"
                   },
                   [
                     _c("img", {
-                      staticClass: "ml-7",
+                      staticClass: "ml-4 sm:ml-7",
                       attrs: { src: "images/LoyaltyIcons/networkBusiness.png" }
                     }),
                     _vm._v(" "),
@@ -47503,14 +47509,14 @@ var render = function() {
                     expression: "showNetworkBusiness && showLoyaltyProgram"
                   }
                 ],
-                staticClass: "flex pl-20 mb-8 pb-16"
+                staticClass: "flex pl-5 sm:px-20 mb-8 pb-16"
               },
               [
                 _c(
                   "div",
                   {
                     staticClass:
-                      "flex flex-wrap justify-center font-mono font-regular text-base leading-6"
+                      "flex flex-wrap justify-center font-mono font-regular text-base leading-6 text-justify"
                   },
                   [
                     _c("span", [
