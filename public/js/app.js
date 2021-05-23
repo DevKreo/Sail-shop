@@ -13032,7 +13032,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.fade-enter-active[data-v-19b12c64],\r\n.fade-leave-active[data-v-19b12c64] {\r\n    transition: opacity 0.5s;\n}\n.fade-enter[data-v-19b12c64],\r\n.fade-leave-to[data-v-19b12c64]\r\n\r\n/* .fade-leave-active до версии 2.1.8 */\r\n    {\r\n    opacity: 0;\n}\n[data-v-19b12c64] .simplebar-track.simplebar-vertical {\r\n    background-color: #FF6E6E; \r\n    width: 5px;\r\n    margin-right: 5rem;\r\n    border-radius: 3px;\r\n    margin-bottom: 16px;\r\n    opacity: 1;\r\n    overflow: visible;\n}\n[data-v-19b12c64] .simplebar-scrollbar.simplebar-visible::before {\r\n    opacity: 1;\r\n    top: 0 !important;\r\n    bottom: 0 !important;\r\n    left: -2px;\r\n    right: 0;\n}\n[data-v-19b12c64] .simplebar-scrollbar:before {\r\n    background-color: #000000;\r\n    width: 9px;\n}\n.clients[data-v-19b12c64] {\r\n    -ms-writing-mode: tb-lr;\r\n        writing-mode: vertical-lr;\r\n    transform: rotate(180deg);\r\n    font-size: 20px;\n}\n.background-dark[data-v-19b12c64] {\r\n    background-color: #000;\n}\n.background-light[data-v-19b12c64] {\r\n    background-color: #FF6E6E;\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n.fade-enter-active[data-v-19b12c64],\r\n.fade-leave-active[data-v-19b12c64] {\r\n    transition: opacity 0.5s;\n}\n.fade-enter[data-v-19b12c64],\r\n.fade-leave-to[data-v-19b12c64]\r\n\r\n/* .fade-leave-active до версии 2.1.8 */\r\n    {\r\n    opacity: 0;\n}\n[data-v-19b12c64] .simplebar-track.simplebar-vertical {\r\n    background-color: #FF6E6E;\r\n    width: 5px;\r\n    margin-right: 0.2rem;\r\n    border-radius: 3px;\r\n    margin-bottom: 16px;\r\n    opacity: 1;\r\n    overflow: visible;\n}\n[data-v-19b12c64] .simplebar-scrollbar.simplebar-visible::before {\r\n    opacity: 1;\r\n    top: 0 !important;\r\n    bottom: 0 !important;\r\n    left: -2px;\r\n    right: 0;\n}\n[data-v-19b12c64] .simplebar-scrollbar:before {\r\n    background-color: #000000;\r\n    width: 9px;\n}\n.clients[data-v-19b12c64] {\r\n    -ms-writing-mode: tb-lr;\r\n        writing-mode: vertical-lr;\r\n    transform: rotate(180deg);\r\n    font-size: 20px;\n}\n.background-dark[data-v-19b12c64] {\r\n    background-color: #000;\n}\n.background-light[data-v-19b12c64] {\r\n    background-color: #FF6E6E;\n}\n@media(min-width:640px) {\n[data-v-19b12c64] .simplebar-track.simplebar-vertical {\r\n        background-color: #FF6E6E;\r\n        width: 5px;\r\n        margin-right: 5rem;\r\n        border-radius: 3px;\r\n        margin-bottom: 16px;\r\n        opacity: 1;\r\n        overflow: visible;\n}\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -39711,7 +39711,7 @@ var render = function() {
           _c(
             "div",
             {
-              staticClass: "inline-flex space-x-10 items-center",
+              staticClass: "inline-flex space-x-2 sm:space-x-10 items-center",
               class: [_vm.showAboutCompany ? "text-black" : "text-white"]
             },
             [
@@ -39736,7 +39736,7 @@ var render = function() {
                 "span",
                 {
                   staticClass:
-                    "font-mono font-extrabold text-xl tracking-widest"
+                    "pt-1 font-mono font-extrabold text-xl tracking-widest"
                 },
                 [_vm._v(" О КОМПАНИИ ")]
               )
@@ -39797,7 +39797,7 @@ var render = function() {
                 expression: "showAboutCompany"
               }
             ],
-            staticClass: "px-20 bg-white grid grid-cols-1"
+            staticClass: "px-5 sm:px-20 bg-white grid grid-cols-1"
           },
           [
             _c("span", { staticClass: "mb-4 p-4 font-mono font-bold" }, [
@@ -39897,7 +39897,7 @@ var render = function() {
                 expression: "showPartners && showAboutCompany"
               }
             ],
-            staticClass: "flex pl-20 mb-2.5"
+            staticClass: "flex pl-2.5 pr-6 sm:pl-20 mb-2.5"
           },
           [
             _c("div", { staticClass: "clients flex-initial mb-4" }, [
@@ -39913,7 +39913,7 @@ var render = function() {
             _c(
               "simplebar",
               {
-                staticClass: "pr-40 h-screen bg-white flex-auto",
+                staticClass: "sm:pr-40 h-screen bg-white flex-auto",
                 attrs: { id: "partners", "data-simplebar-auto-hide": "false" }
               },
               [
@@ -39926,7 +39926,7 @@ var render = function() {
                       {
                         key: item.id,
                         staticClass:
-                          "w-72 h-72 mr-4 mb-4 bg-gray-300 hover:bg-red-450"
+                          "w-72 h-auto mr-4 mb-4 bg-gray-300 hover:bg-red-450"
                       },
                       [_c("img", { attrs: { src: item.src } })]
                     )
@@ -39952,7 +39952,7 @@ var render = function() {
                 expression: "showAboutCompany"
               }
             ],
-            staticClass: "px-20 bg-white grid grid-cols-1"
+            staticClass: "px-5 sm:px-20 bg-white grid grid-cols-1"
           },
           [
             _c(
@@ -40046,13 +40046,13 @@ var render = function() {
                 expression: "showWhyWithUs && showAboutCompany"
               }
             ],
-            staticClass: "flex pl-20 mb-2.5"
+            staticClass: "flex sm:pl-20 mb-2.5"
           },
           [
             _c(
               "simplebar",
               {
-                staticClass: "pr-40 h-screen bg-white flex-auto",
+                staticClass: "sm:pr-40 h-screen bg-white flex-auto",
                 attrs: { id: "partners", "data-simplebar-auto-hide": "false" }
               },
               _vm._l(_vm.whyWithUs, function(item) {

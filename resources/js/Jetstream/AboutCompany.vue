@@ -1,11 +1,11 @@
 <template>
 <div>
     <div class="rounded-full py-3 px-6 flex items-center justify-between mb-2" :class="[showAboutCompany ?  'background-light' : 'background-dark']">
-        <div class="inline-flex space-x-10 items-center" :class="[showAboutCompany ?  'text-black' : 'text-white']">
+        <div class="inline-flex space-x-2 sm:space-x-10 items-center" :class="[showAboutCompany ?  'text-black' : 'text-white']">
             <svg class="w-7 h-7 transform rotate-180" viewBox="0 0 24 24">
                 <path fill="currentColor" d="M 11,4L 13,4L 13,15L 11,15L 11,4 Z M 13,18L 13,20L 11,20L 11,18L 13,18 Z" />
             </svg>
-            <span class="font-mono font-extrabold text-xl tracking-widest"> О КОМПАНИИ </span>
+            <span class="pt-1 font-mono font-extrabold text-xl tracking-widest"> О КОМПАНИИ </span>
         </div>
         <button v-on:click="showAboutCompany = !showAboutCompany" :class="[showAboutCompany ?  'text-black' : 'text-white']">
             <svg v-if="!showAboutCompany" class="w-6 h-6" viewBox="0 0 24 24">
@@ -17,7 +17,7 @@
         </button>
     </div>
     <transition name="fade">
-        <div class="px-20 bg-white grid grid-cols-1" v-show="showAboutCompany">
+        <div class="px-5 sm:px-20 bg-white grid grid-cols-1" v-show="showAboutCompany">
             <span class="mb-4 p-4 font-mono font-bold">
                 Компания "Белый Парус" предоставляет комплексное
                 обслуживание в сегменте HoReCa и B2B. В нашем ассортименте:
@@ -42,13 +42,13 @@
     </transition>
 
     <transition name="fade">
-        <div v-show="showPartners && showAboutCompany"  class="flex pl-20 mb-2.5">
+        <div v-show="showPartners && showAboutCompany" class="flex pl-2.5 pr-6 sm:pl-20 mb-2.5">
             <div class="clients flex-initial mb-4">
                 <span class="font-mono font-regular text-lg tracking-wider">клиенты</span>
             </div>
-            <simplebar id="partners" class="pr-40 h-screen bg-white flex-auto" data-simplebar-auto-hide="false">
+            <simplebar id="partners" class="sm:pr-40 h-screen bg-white flex-auto" data-simplebar-auto-hide="false">
                 <div class="flex flex-wrap justify-center">
-                    <div class="w-72 h-72 mr-4 mb-4 bg-gray-300 hover:bg-red-450" v-for="item in partners" :key="item.id">
+                    <div class="w-72 h-auto mr-4 mb-4 bg-gray-300 hover:bg-red-450" v-for="item in partners" :key="item.id">
                         <img :src="item.src" />
                     </div>
                 </div>
@@ -56,7 +56,7 @@
         </div>
     </transition>
     <transition name="fade">
-        <div class="px-20 bg-white grid grid-cols-1" v-show="showAboutCompany">
+        <div class="px-5 sm:px-20 bg-white grid grid-cols-1" v-show="showAboutCompany">
             <div class="py-3 bg-white flex items-center justify-between border-t-2 border-black">
                 <div class="text-black inline-flex space-x-10 items-center">
                     <span class="font-mono font-regular text-xl tracking-wider"> ПОЧЕМУ С НАМИ ? </span>
@@ -73,8 +73,8 @@
         </div>
     </transition>
     <transition name="fade">
-        <div v-show="showWhyWithUs && showAboutCompany" class="flex pl-20 mb-2.5">
-            <simplebar id="partners" class="pr-40 h-screen bg-white flex-auto" data-simplebar-auto-hide="false">
+        <div v-show="showWhyWithUs && showAboutCompany" class="flex sm:pl-20 mb-2.5">
+            <simplebar id="partners" class="sm:pr-40 h-screen bg-white flex-auto" data-simplebar-auto-hide="false">
                 <div class="flex" v-for="item in whyWithUs" :key="item.id">
                     <div v-if="item.isPictLeft" class="grid grid-cols-5 gap-2 mb-2">
                         <div class="clients">
@@ -259,9 +259,9 @@ export default {
 }
 
 /deep/ .simplebar-track.simplebar-vertical {
-    background-color: #FF6E6E; 
+    background-color: #FF6E6E;
     width: 5px;
-    margin-right: 5rem;
+    margin-right: 0.2rem;
     border-radius: 3px;
     margin-bottom: 16px;
     opacity: 1;
@@ -293,5 +293,17 @@ export default {
 
 .background-light {
     background-color: #FF6E6E;
+}
+
+@media(min-width:640px) {
+    /deep/ .simplebar-track.simplebar-vertical {
+        background-color: #FF6E6E;
+        width: 5px;
+        margin-right: 5rem;
+        border-radius: 3px;
+        margin-bottom: 16px;
+        opacity: 1;
+        overflow: visible;
+    }
 }
 </style>
