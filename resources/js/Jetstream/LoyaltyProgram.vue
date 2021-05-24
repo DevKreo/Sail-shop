@@ -1,11 +1,11 @@
 <template>
 <div>
     <div class="rounded-full py-3 px-6 flex items-center justify-between mb-2":class="[showLoyaltyProgram ?  'bg-yellow-50' : 'bg-black']">
-        <div class="inline-flex space-x-10 items-center":class="[showLoyaltyProgram ?  'text-black' : 'text-white']">
-            <svg class="w-7 h-7" viewBox="0 0 24 24">
+        <div class="inline-flex space-x-3 sm:space-x-10 items-center":class="[showLoyaltyProgram ?  'text-black' : 'text-white']">
+            <svg class="w-5 h-5 sm:w-7 sm:h-7" viewBox="0 0 24 24">
                 <path fill="currentColor" d="M12.1,18.55L12,18.65L11.89,18.55C7.14,14.24 4,11.39 4,8.5C4,6.5 5.5,5 7.5,5C9.04,5 10.54,6 11.07,7.36H12.93C13.46,6 14.96,5 16.5,5C18.5,5 20,6.5 20,8.5C20,11.39 16.86,14.24 12.1,18.55M16.5,3C14.76,3 13.09,3.81 12,5.08C10.91,3.81 9.24,3 7.5,3C4.42,3 2,5.41 2,8.5C2,12.27 5.4,15.36 10.55,20.03L12,21.35L13.45,20.03C18.6,15.36 22,12.27 22,8.5C22,5.41 19.58,3 16.5,3Z" />
             </svg>
-            <span class="font-mono font-extrabold text-xl tracking-widest"> ПРОГРАММА ЛОЯЛЬНОСТИ </span>
+            <span class="font-mono font-extrabold text-sm sm:text-xl tracking-widest"> ПРОГРАММА ЛОЯЛЬНОСТИ </span>
         </div>
         <button v-on:click="showLoyaltyProgram = !showLoyaltyProgram" class="text-white">
             <svg v-if="!showLoyaltyProgram" class="w-6 h-6" viewBox="0 0 24 24">
@@ -18,7 +18,7 @@
     </div>
     <transition name="fade">
         <div class="px-5 sm:px-20 bg-white grid grid-cols-1" v-show="showLoyaltyProgram">
-            <span class="mb-4 p-4 font-mono font-bold leading-8 text-justify">
+            <span class="mb-4 p-4 font-mono font-bold leading-snug sm:leading-8 text-sm sm:text-base text-justify">
                 Все 7 предложений по программе лояльности предоставляются на ваш выбор
                 и не суммируются! <br><br>Заключив договор с нами вы получаете доступ к
                 внушительному ассортименту товара, сертификаты на все позиции, все
@@ -28,8 +28,8 @@
             </span>
             <div class="py-3 bg-white flex items-center justify-between border-t-2 border-black">
                 <div class="text-black inline-flex space-x-4 sm:space-x-10 items-center">
-                    <img class="ml-4 sm:ml-8" src="images/LoyaltyIcons/SalesForOrderFromSite.png" />
-                    <span class="font-mono font-regular text-xl tracking-wider"> CКИДКА ПРИ ОФОРМЛЕНИИ ЗАКАЗА ЧЕРЕЗ САЙТ </span>
+                    <img class="ml-4 sm:ml-8 w-8 sm:w-12  " src="images/LoyaltyIcons/SalesForOrderFromSite.png" />
+                    <span class="font-mono font-regular text-sm sm:text-xl tracking-wider"> CКИДКА ПРИ ОФОРМЛЕНИИ ЗАКАЗА ЧЕРЕЗ САЙТ </span>
                 </div>
                 <button v-on:click="showSaleOrderFromSite = !showSaleOrderFromSite" class="text-black">
                     <svg v-if="!showSaleOrderFromSite" class="w-6 h-6" viewBox="0 0 24 24">

@@ -46490,13 +46490,16 @@ var render = function() {
           _c(
             "div",
             {
-              staticClass: "inline-flex space-x-10 items-center",
+              staticClass: "inline-flex space-x-3 sm:space-x-10 items-center",
               class: [_vm.showLoyaltyProgram ? "text-black" : "text-white"]
             },
             [
               _c(
                 "svg",
-                { staticClass: "w-7 h-7", attrs: { viewBox: "0 0 24 24" } },
+                {
+                  staticClass: "w-5 h-5 sm:w-7 sm:h-7",
+                  attrs: { viewBox: "0 0 24 24" }
+                },
                 [
                   _c("path", {
                     attrs: {
@@ -46512,7 +46515,7 @@ var render = function() {
                 "span",
                 {
                   staticClass:
-                    "font-mono font-extrabold text-xl tracking-widest"
+                    "font-mono font-extrabold text-sm sm:text-xl tracking-widest"
                 },
                 [_vm._v(" ПРОГРАММА ЛОЯЛЬНОСТИ ")]
               )
@@ -46580,7 +46583,7 @@ var render = function() {
               "span",
               {
                 staticClass:
-                  "mb-4 p-4 font-mono font-bold leading-8 text-justify"
+                  "mb-4 p-4 font-mono font-bold leading-snug sm:leading-8 text-sm sm:text-base text-justify"
               },
               [
                 _vm._v(
@@ -46609,7 +46612,7 @@ var render = function() {
                   },
                   [
                     _c("img", {
-                      staticClass: "ml-4 sm:ml-8",
+                      staticClass: "ml-4 sm:ml-8 w-8 sm:w-12  ",
                       attrs: {
                         src: "images/LoyaltyIcons/SalesForOrderFromSite.png"
                       }
@@ -46619,7 +46622,7 @@ var render = function() {
                       "span",
                       {
                         staticClass:
-                          "font-mono font-regular text-xl tracking-wider"
+                          "font-mono font-regular text-sm sm:text-xl tracking-wider"
                       },
                       [_vm._v(" CКИДКА ПРИ ОФОРМЛЕНИИ ЗАКАЗА ЧЕРЕЗ САЙТ ")]
                     )
