@@ -39711,14 +39711,14 @@ var render = function() {
           _c(
             "div",
             {
-              staticClass: "inline-flex space-x-2 sm:space-x-10 items-center",
+              staticClass: "inline-flex space-x-1 sm:space-x-10 items-center",
               class: [_vm.showAboutCompany ? "text-black" : "text-white"]
             },
             [
               _c(
                 "svg",
                 {
-                  staticClass: "w-7 h-7 transform rotate-180",
+                  staticClass: "w-7 h-7 transform rotate-180 pl-2 sm:pl-0",
                   attrs: { viewBox: "0 0 24 24" }
                 },
                 [
@@ -39736,7 +39736,7 @@ var render = function() {
                 "span",
                 {
                   staticClass:
-                    "pt-1 font-mono font-extrabold text-xl tracking-widest"
+                    "font-mono font-extrabold text-sm sm:text-xl tracking-widest"
                 },
                 [_vm._v(" О КОМПАНИИ ")]
               )
@@ -39800,11 +39800,18 @@ var render = function() {
             staticClass: "px-5 sm:px-20 bg-white grid grid-cols-1"
           },
           [
-            _c("span", { staticClass: "mb-4 p-4 font-mono font-bold" }, [
-              _vm._v(
-                '\r\n                Компания "Белый Парус" предоставляет комплексное\r\n                обслуживание в сегменте HoReCa и B2B. В нашем ассортименте:\r\n                профессиональные моющие средства для всех типов\r\n                поверхностей, хозяйственные товары, бумажная продукция,\r\n                барная продукция, одноразовая пищевая упаковка и другое.\r\n            '
-              )
-            ]),
+            _c(
+              "span",
+              {
+                staticClass:
+                  "mb-2 sm:mb-4 p-4 font-mono font-bold leading-5 sm:leading-8 text-sm sm:text-base text-justify"
+              },
+              [
+                _vm._v(
+                  '\r\n                Компания "Белый Парус" предоставляет комплексное\r\n                обслуживание в сегменте HoReCa и B2B. В нашем ассортименте:\r\n                профессиональные моющие средства для всех типов\r\n                поверхностей, хозяйственные товары, бумажная продукция,\r\n                барная продукция, одноразовая пищевая упаковка и другое.\r\n            '
+                )
+              ]
+            ),
             _vm._v(" "),
             _c(
               "div",
@@ -39817,14 +39824,14 @@ var render = function() {
                   "div",
                   {
                     staticClass:
-                      "text-black inline-flex space-x-10 items-center"
+                      "pl-4 text-black inline-flex space-x-10 items-center"
                   },
                   [
                     _c(
                       "span",
                       {
                         staticClass:
-                          "font-mono font-regular text-xl tracking-wider"
+                          "font-mono font-regular text-sm sm:text-xl tracking-wider"
                       },
                       [_vm._v(" С НАМИ СОТРУДНИЧАЮТ ЛУЧШИЕ ")]
                     )
@@ -39904,7 +39911,8 @@ var render = function() {
               _c(
                 "span",
                 {
-                  staticClass: "font-mono font-regular text-lg tracking-wider"
+                  staticClass:
+                    "font-mono font-regular text-sm sm:text-lg tracking-wider"
                 },
                 [_vm._v("клиенты")]
               )
@@ -39966,14 +39974,14 @@ var render = function() {
                   "div",
                   {
                     staticClass:
-                      "text-black inline-flex space-x-10 items-center"
+                      "pl-4 text-black inline-flex space-x-10 items-center"
                   },
                   [
                     _c(
                       "span",
                       {
                         staticClass:
-                          "font-mono font-regular text-xl tracking-wider"
+                          "font-mono font-regular text-sm sm:text-xl tracking-wider"
                       },
                       [_vm._v(" ПОЧЕМУ С НАМИ ? ")]
                     )
@@ -46576,14 +46584,14 @@ var render = function() {
                 expression: "showLoyaltyProgram"
               }
             ],
-            staticClass: "px-5 sm:px-20 bg-white grid grid-cols-1"
+            staticClass: "px-2 sm:px-20 bg-white grid grid-cols-1"
           },
           [
             _c(
               "span",
               {
                 staticClass:
-                  "mb-4 p-4 font-mono font-bold leading-snug sm:leading-8 text-sm sm:text-base text-justify"
+                  "mb-2 sm:mb-4 p-4 font-mono font-bold leading-5 sm:leading-8 text-sm sm:text-base text-justify"
               },
               [
                 _vm._v(
@@ -46691,7 +46699,7 @@ var render = function() {
                     expression: "showSaleOrderFromSite && showLoyaltyProgram"
                   }
                 ],
-                staticClass: "flex pl-5 sm:px-20 mb-8 pb-8"
+                staticClass: "flex px-2 sm:px-20 mb-3 sm:mb-8 pb-3 sm:pb-8"
               },
               [
                 _c("div", { staticClass: "flex flex-wrap justify-center" }, [
@@ -46699,7 +46707,7 @@ var render = function() {
                     "span",
                     {
                       staticClass:
-                        "font-mono font-regular text-base leading-6 text-justify"
+                        "font-mono font-regular text-sm sm:text-base leading-5 sm:leading-6 text-justify"
                     },
                     [
                       _vm._v(
@@ -46730,7 +46738,7 @@ var render = function() {
                   },
                   [
                     _c("img", {
-                      staticClass: "ml-3 sm:ml-6",
+                      staticClass: "ml-3 sm:ml-6 w-8 sm:w-12",
                       attrs: { src: "images/LoyaltyIcons/Wholesale_Trade.png" }
                     }),
                     _vm._v(" "),
@@ -46738,7 +46746,7 @@ var render = function() {
                       "span",
                       {
                         staticClass:
-                          "font-mono font-regular text-xl tracking-wider"
+                          "font-mono font-regular text-sm sm:text-xl tracking-wider"
                       },
                       [_vm._v(" ОПТОВАЯ СКИДКА ")]
                     )
@@ -46807,14 +46815,14 @@ var render = function() {
                     expression: "showLoyaltyProgram && showWholesaleTrade"
                   }
                 ],
-                staticClass: "flex pl-5 sm:px-20  mb-8 pb-8"
+                staticClass: "flex px-2 sm:px-20 mb-2 sm:mb-8 pb-2 sm:pb-8"
               },
               [
                 _c(
                   "div",
                   {
                     staticClass:
-                      "flex flex-wrap justify-center font-mono font-regular text-base leading-6 text-justify"
+                      "flex flex-wrap justify-center font-mono font-regular text-sm sm:text-base leading-5 sm:leading-6 text-justify"
                   },
                   [
                     _c("span", [
@@ -46871,7 +46879,7 @@ var render = function() {
                   },
                   [
                     _c("img", {
-                      staticClass: "ml-3 sm:ml-6",
+                      staticClass: "ml-3 sm:ml-6 w-8 sm:w-12",
                       attrs: {
                         src: "images/LoyaltyIcons/SaleForGroupOfItems.png"
                       }
@@ -46881,7 +46889,7 @@ var render = function() {
                       "span",
                       {
                         staticClass:
-                          "font-mono font-regular text-xl tracking-wider"
+                          "font-mono font-regular text-sm sm:text-xl tracking-wider"
                       },
                       [_vm._v(" СКИДКА НА ГРУППУ ТОВАРОВ ")]
                     )
@@ -46950,7 +46958,7 @@ var render = function() {
                     expression: "showSaleGroupOfItems && showLoyaltyProgram"
                   }
                 ],
-                staticClass: "flex pl-5 sm:px-20 mb-8 pb-8"
+                staticClass: "flex px-2 sm:px-20 mb-2 sm:mb-8 pb-2 sm:pb-8"
               },
               [
                 _c("div", { staticClass: "flex flex-wrap justify-center" }, [
@@ -46958,7 +46966,7 @@ var render = function() {
                     "span",
                     {
                       staticClass:
-                        "font-mono font-regular text-base leading-6 text-justify"
+                        "font-mono font-regular text-sm sm:text-base leading-5 sm:leading-6 text-justify"
                     },
                     [
                       _vm._v(
@@ -46985,7 +46993,7 @@ var render = function() {
                   },
                   [
                     _c("img", {
-                      staticClass: "ml-4 sm:ml-6",
+                      staticClass: "ml-4 sm:ml-6 w-8 sm:w-12",
                       attrs: { src: "images/LoyaltyIcons/Startap.png" }
                     }),
                     _vm._v(" "),
@@ -46993,7 +47001,7 @@ var render = function() {
                       "span",
                       {
                         staticClass:
-                          "font-mono font-regular text-xl tracking-wider"
+                          "font-mono font-regular text-sm sm:text-xl tracking-wider"
                       },
                       [_vm._v(" ПРЕДЛОЖЕНИЕ ДЛЯ СТАРТАПОВ ")]
                     )
@@ -47062,14 +47070,14 @@ var render = function() {
                     expression: "showStartap && showLoyaltyProgram"
                   }
                 ],
-                staticClass: "flex pl-5 sm:px-20 mb-8 pb-8"
+                staticClass: "flex px-2 sm:px-20 mb-2 sm:mb-8 pb-2 sm:pb-8"
               },
               [
                 _c(
                   "div",
                   {
                     staticClass:
-                      "flex flex-wrap justify-center font-mono font-regular text-base leading-6 text-justify"
+                      "flex flex-wrap justify-center font-mono font-regular text-sm sm:text-base leading-5 sm:leading-6 text-justify"
                   },
                   [
                     _c("span", [
@@ -47166,7 +47174,7 @@ var render = function() {
                   },
                   [
                     _c("img", {
-                      staticClass: "ml-4 sm:ml-7",
+                      staticClass: "ml-4 sm:ml-7 w-8 sm:w-12",
                       attrs: { src: "images/LoyaltyIcons/MoreCostMoreSale.png" }
                     }),
                     _vm._v(" "),
@@ -47174,7 +47182,7 @@ var render = function() {
                       "span",
                       {
                         staticClass:
-                          "font-mono font-regular text-xl tracking-wider"
+                          "font-mono font-regular text-sm sm:text-xl tracking-wider"
                       },
                       [_vm._v(" ЧЕМ БОЛЬШЕ СУММА, ТЕМ ВЫШЕ СКИДКА ")]
                     )
@@ -47243,7 +47251,7 @@ var render = function() {
                     expression: "showMoreCostMoreSale && showLoyaltyProgram"
                   }
                 ],
-                staticClass: "flex pl-5 sm:px-20 mb-8 pb-8"
+                staticClass: "flex px-2 sm:px-20 mb-2 sm:mb-8 pb-2 sm:pb-8"
               },
               [
                 _c("div", { staticClass: "flex flex-wrap justify-center" }, [
@@ -47251,7 +47259,7 @@ var render = function() {
                     "div",
                     {
                       staticClass:
-                        "flex flex-col items-start mr-auto whitespace-pre-wrap font-mono font-regular text-base leading-6 text-justify"
+                        "flex flex-col items-start mr-auto whitespace-pre-wrap font-mono font-regular text-sm sm:text-base leading-5 sm:leading-6 text-justify"
                     },
                     [
                       _c("span", [
@@ -47295,7 +47303,7 @@ var render = function() {
                   },
                   [
                     _c("img", {
-                      staticClass: "ml-4 sm:ml-7",
+                      staticClass: "ml-4 sm:ml-7 w-8 sm:w-12",
                       attrs: { src: "images/LoyaltyIcons/GiftsEveryday.png" }
                     }),
                     _vm._v(" "),
@@ -47303,7 +47311,7 @@ var render = function() {
                       "span",
                       {
                         staticClass:
-                          "font-mono font-regular text-xl tracking-wider"
+                          "font-mono font-regular text-sm sm:text-xl tracking-wider"
                       },
                       [_vm._v(" ПОДАРКИ КАЖДЫЙ ДЕНЬ ")]
                     )
@@ -47372,7 +47380,7 @@ var render = function() {
                     expression: "showGiftEveryDay && showLoyaltyProgram"
                   }
                 ],
-                staticClass: "flex pl-5 sm:px-20 mb-8 pb-8"
+                staticClass: "flex px-2 sm:px-20 mb-2 sm:mb-8 pb-2 sm:pb-8"
               },
               [
                 _c("div", { staticClass: "flex flex-wrap justify-center" }, [
@@ -47380,7 +47388,7 @@ var render = function() {
                     "div",
                     {
                       staticClass:
-                        "flex flex-col items-start mr-auto whitespace-pre-wrap font-mono font-regular text-base leading-6 text-left"
+                        "flex flex-col items-start mr-auto whitespace-pre-wrap font-mono font-regular text-sm sm:text-base leading-5 sm:leading-6 text-left"
                     },
                     [
                       _c("span", { staticClass: "text-justify" }, [
@@ -47435,7 +47443,7 @@ var render = function() {
                   },
                   [
                     _c("img", {
-                      staticClass: "ml-4 sm:ml-7",
+                      staticClass: "ml-4 sm:ml-7 w-8 sm:w-12",
                       attrs: { src: "images/LoyaltyIcons/networkBusiness.png" }
                     }),
                     _vm._v(" "),
@@ -47443,7 +47451,7 @@ var render = function() {
                       "span",
                       {
                         staticClass:
-                          "font-mono font-regular text-xl tracking-wider"
+                          "font-mono font-regular text-sm sm:text-xl tracking-wider"
                       },
                       [_vm._v(" ПРЕДЛОЖЕНИЕ ДЛЯ СЕТЕВОГО БИЗНЕСА ")]
                     )
@@ -47512,14 +47520,14 @@ var render = function() {
                     expression: "showNetworkBusiness && showLoyaltyProgram"
                   }
                 ],
-                staticClass: "flex pl-5 sm:px-20 mb-8 pb-16"
+                staticClass: "flex px-2 sm:px-20 mb-2 sm:mb-8 pb-3 sm:pb-8"
               },
               [
                 _c(
                   "div",
                   {
                     staticClass:
-                      "flex flex-wrap justify-center font-mono font-regular text-base leading-6 text-justify"
+                      "flex flex-wrap justify-center font-mono font-regular text-sm sm:text-base leading-5 sm:leading-6 text-justify"
                   },
                   [
                     _c("span", [
