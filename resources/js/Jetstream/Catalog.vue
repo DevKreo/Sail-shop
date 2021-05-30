@@ -1,11 +1,11 @@
 <template>
 <div>
     <div class="rounded-full py-3 px-6 flex items-center justify-between mb-2" :class="[showCatalog ?  'bg-green-100' : 'bg-black']">
-        <div class="inline-flex space-x-10 items-center" :class="[showCatalog ?  'text-black' : 'text-white']" id="nav_Catalog">
-            <svg class="w-7 h-7" viewBox="0 0 24 24">
+        <div class="inline-flex space-x-3 sm:space-x-10 items-center" :class="[showCatalog ?  'text-black' : 'text-white']" id="nav_Catalog">
+            <svg class="w-5 h-5 sm:w-7 sm:h-7" viewBox="0 0 24 24">
                 <path fill="currentColor" d="M19 6H17C17 3.2 14.8 1 12 1S7 3.2 7 6H5C3.9 6 3 6.9 3 8V20C3 21.1 3.9 22 5 22H19C20.1 22 21 21.1 21 20V8C21 6.9 20.1 6 19 6M12 3C13.7 3 15 4.3 15 6H9C9 4.3 10.3 3 12 3M19 20H5V8H19V20M12 12C10.3 12 9 10.7 9 9H7C7 11.8 9.2 14 12 14S17 11.8 17 9H15C15 10.7 13.7 12 12 12Z" />
             </svg>
-            <span class="font-mono font-extrabold text-xl tracking-widest"> КАТАЛОГ ТОВАРОВ </span>
+            <span class="font-mono font-extrabold text-sm sm:text-xl tracking-widest"> КАТАЛОГ ТОВАРОВ </span>
         </div>
         <button v-on:click="showCatalog = !showCatalog" class="text-white">
             <svg v-if="!showCatalog" class="w-6 h-6" viewBox="0 0 24 24">
@@ -21,19 +21,19 @@
 
             <!-- Иконки наверх, инстаграмм, звонок -->
             <div>
-                <div class="p-5 rounded-lg text-white fixed right-0 bottom-1/2 grid grid-cols-1 gap-1">
-                    <a href="#nav_Catalog" class="bg-green-100 w-12 h-12 text-sm font-bold tracking-wider text-black hover:bg-black hover:text-white inline-flex items-center justify-center">
-                        <svg class="w-10 h-10" viewBox="0 0 24 24">
+                <div class="p-2.5 sm:p-5 rounded-lg text-white fixed right-0 bottom-1/2 grid grid-cols-1 gap-1">
+                    <a href="#nav_Catalog" class="bg-green-100 w-7 sm:w-12 h-7 sm:h-12 text-sm font-bold tracking-wider text-black hover:bg-black hover:text-white inline-flex items-center justify-center">
+                        <svg class="w-5 sm:w-8 h-5 sm:h-8" viewBox="0 0 24 24">
                             <path fill="currentColor" d="M7,15L12,10L17,15H7Z" />
                         </svg>
                     </a>
-                    <a class="bg-green-100 w-12 h-12 text-sm font-bold tracking-wider text-black hover:bg-black hover:text-white inline-flex items-center justify-center">
-                        <svg class="w-6 h-6" viewBox="0 0 24 24">
+                    <a class="bg-green-100 w-7 sm:w-12 h-7 sm:h-12 text-sm font-bold tracking-wider text-black hover:bg-black hover:text-white inline-flex items-center justify-center">
+                        <svg class="w-5 sm:w-6 h-5 sm:h-6" viewBox="0 0 24 24">
                             <path fill="currentColor" d="M20,15.5C18.8,15.5 17.5,15.3 16.4,14.9C16.3,14.9 16.2,14.9 16.1,14.9C15.8,14.9 15.6,15 15.4,15.2L13.2,17.4C10.4,15.9 8,13.6 6.6,10.8L8.8,8.6C9.1,8.3 9.2,7.9 9,7.6C8.7,6.5 8.5,5.2 8.5,4C8.5,3.5 8,3 7.5,3H4C3.5,3 3,3.5 3,4C3,13.4 10.6,21 20,21C20.5,21 21,20.5 21,20V16.5C21,16 20.5,15.5 20,15.5M5,5H6.5C6.6,5.9 6.8,6.8 7,7.6L5.8,8.8C5.4,7.6 5.1,6.3 5,5M19,19C17.7,18.9 16.4,18.6 15.2,18.2L16.4,17C17.2,17.2 18.1,17.4 19,17.4V19Z" />
                         </svg>
                     </a>
-                    <a href="https://www.instagram.com/horeca_iys/" class="bg-green-100 w-12 h-12 text-sm font-bold tracking-wider text-black hover:bg-black hover:text-white inline-flex items-center justify-center">
-                        <svg class="w-6 h-6" viewBox="0 0 24 24">
+                    <a href="https://www.instagram.com/horeca_iys/" class="bg-green-100 w-7 sm:w-12 h-7 sm:h-12 text-sm font-bold tracking-wider text-black hover:bg-black hover:text-white inline-flex items-center justify-center">
+                        <svg class="w-5 sm:w-6 h-5 sm:h-6" viewBox="0 0 24 24">
                             <path fill="currentColor" d="M7.8,2H16.2C19.4,2 22,4.6 22,7.8V16.2A5.8,5.8 0 0,1 16.2,22H7.8C4.6,22 2,19.4 2,16.2V7.8A5.8,5.8 0 0,1 7.8,2M7.6,4A3.6,3.6 0 0,0 4,7.6V16.4C4,18.39 5.61,20 7.6,20H16.4A3.6,3.6 0 0,0 20,16.4V7.6C20,5.61 18.39,4 16.4,4H7.6M17.25,5.5A1.25,1.25 0 0,1 18.5,6.75A1.25,1.25 0 0,1 17.25,8A1.25,1.25 0 0,1 16,6.75A1.25,1.25 0 0,1 17.25,5.5M12,7A5,5 0 0,1 17,12A5,5 0 0,1 12,17A5,5 0 0,1 7,12A5,5 0 0,1 12,7M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9Z" />
                         </svg>
                     </a>
@@ -42,9 +42,9 @@
 
             <!--  Одноразовая посуда  -->
             <div class="py-3 bg-white flex items-center justify-between border-t-2 border-black">
-                <div class="text-black inline-flex space-x-10 items-center">
-                    <img class="ml-6" src="images/Catalog/disposable_tableware.png" />
-                    <span class="font-mono font-regular text-xl tracking-wider"> ОДНОРАЗОВАЯ ПОСУДА </span>
+                <div class="text-black inline-flex space-x-4 sm:space-x-10 items-center">
+                    <img class="ml-3 sm:ml-6 w-8 sm:w-12" src="images/Catalog/disposable_tableware.png" />
+                    <span class="font-mono font-regular text-sm sm:text-xl tracking-wider"> ОДНОРАЗОВАЯ ПОСУДА </span>
                 </div>
                 <button v-on:click="showDisposableTableware = !showDisposableTableware" class="text-black">
                     <svg v-if="!showDisposableTableware" class="w-6 h-6" viewBox="0 0 24 24">
@@ -70,9 +70,9 @@
 
             <!--  Одноразовая пищевая упаковка  -->
             <div class="py-3 bg-white flex items-center justify-between border-t-2 border-black">
-                <div class="text-black inline-flex space-x-4 items-center">
-                    <img class="ml-6" src="images/Catalog/disposable_food_package.png" />
-                    <span class="font-mono font-regular text-xl tracking-wider pl-6"> ОДНОРАЗОВАЯ ПИЩЕВАЯ УПАКОВКА </span>
+                <div class="text-black inline-flex space-x-4 sm:space-x-10 items-center">
+                    <img class="ml-3 sm:ml-6 w-8 sm:w-12  " src="images/Catalog/disposable_food_package.png" />
+                    <span class="font-mono font-regular text-sm sm:text-xl tracking-wider"> ОДНОРАЗОВАЯ ПИЩЕВАЯ УПАКОВКА </span>
                 </div>
                 <button v-on:click="showDisposableFoodPackage = !showDisposableFoodPackage" class="text-black">
                     <svg v-if="!showDisposableFoodPackage" class="w-6 h-6" viewBox="0 0 24 24">
@@ -98,9 +98,9 @@
 
             <!--  Барная группа  -->
             <div class="py-3 bg-white flex items-center justify-between border-t-2 border-black">
-                <div class="text-black inline-flex space-x-7 items-center">
-                    <img class="ml-6" src="images/Catalog/bar_group.png" />
-                    <span class="font-mono font-regular text-xl tracking-wider pl-4"> БАРНАЯ ГРУППА </span>
+                <div class="text-black inline-flex space-x-4 sm:space-x-10 items-center">
+                    <img class="ml-3 sm:ml-6 w-8 sm:w-12" src="images/Catalog/bar_group.png" />
+                    <span class="font-mono font-regular text-sm sm:text-xl tracking-wider"> БАРНАЯ ГРУППА </span>
                 </div>
                 <button v-on:click="showBarGroup = !showBarGroup" class="text-black">
                     <svg v-if="!showBarGroup" class="w-6 h-6" viewBox="0 0 24 24">
@@ -126,9 +126,9 @@
 
             <!--  Бумажная профессиональная продукция  -->
             <div class="py-3 bg-white flex items-center justify-between border-t-2 border-black">
-                <div class="text-black inline-flex space-x-10 items-center">
-                    <img class="ml-6" src="images/Catalog/paper_prof.png" />
-                    <span class="font-mono font-regular text-xl tracking-wider"> БУМАЖНАЯ ПРОФЕССИОНАЛЬНАЯ ПРОДУКЦИЯ </span>
+                <div class="text-black inline-flex space-x-4 sm:space-x-10 items-center">
+                    <img class="ml-3 sm:ml-6 w-8 sm:w-12" src="images/Catalog/paper_prof.png" />
+                    <span class="font-mono font-regular text-sm sm:text-xl tracking-wider"> БУМАЖНАЯ ПРОФЕССИОНАЛЬНАЯ ПРОДУКЦИЯ </span>
                 </div>
                 <button v-on:click="showPaperProf = !showPaperProf" class="text-black">
                     <svg v-if="!showPaperProf" class="w-6 h-6" viewBox="0 0 24 24">
@@ -154,9 +154,9 @@
 
             <!--  Профессиональная и бытовая химия  -->
             <div class="py-3 bg-white flex items-center justify-between border-t-2 border-black">
-                <div class="text-black inline-flex space-x-12 items-center">
-                    <img class="ml-9" src="images/Catalog/prof_and_household_chemistry.png" />
-                    <span class="font-mono font-regular text-xl tracking-wider"> ПРОФЕССИОНАЛЬНАЯ И БЫТОВАЯ ХИМИЯ </span>
+                <div class="text-black inline-flex space-x-5 sm:space-x-12 items-center">
+                    <img class="ml-4 sm:ml-8 w-6 sm:w-8" src="images/Catalog/prof_and_household_chemistry.png" />
+                    <span class="font-mono font-regular text-sm sm:text-xl tracking-wider"> ПРОФЕССИОНАЛЬНАЯ И БЫТОВАЯ ХИМИЯ </span>
                 </div>
                 <button v-on:click="showProfAndHouseholdChemistry = !showProfAndHouseholdChemistry" class="text-black">
                     <svg v-if="!showProfAndHouseholdChemistry" class="w-6 h-6" viewBox="0 0 24 24">
@@ -182,9 +182,9 @@
 
             <!--  Хозяйственные товары  -->
             <div class="py-3 bg-white flex items-center justify-between border-t-2 border-black">
-                <div class="text-black inline-flex space-x-8 items-center">
-                    <img class="ml-6" src="images/Catalog/household_goods.png" />
-                    <span class="font-mono font-regular text-xl tracking-wider pl-3"> ХОЗЯЙСТВЕННЫЕ ТОВАРЫ </span>
+                <div class="text-black inline-flex space-x-4 sm:space-x-10 items-center">
+                    <img class="ml-3 sm:ml-6 w-8 sm:w-12" src="images/Catalog/household_goods.png" />
+                    <span class="font-mono font-regular text-sm sm:text-xl tracking-wider"> ХОЗЯЙСТВЕННЫЕ ТОВАРЫ </span>
                 </div>
                 <button v-on:click="showHouseholdGoods = !showHouseholdGoods" class="text-black">
                     <svg v-if="!showHouseholdGoods" class="w-6 h-6" viewBox="0 0 24 24">

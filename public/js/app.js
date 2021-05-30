@@ -40746,14 +40746,17 @@ var render = function() {
           _c(
             "div",
             {
-              staticClass: "inline-flex space-x-10 items-center",
+              staticClass: "inline-flex space-x-3 sm:space-x-10 items-center",
               class: [_vm.showCatalog ? "text-black" : "text-white"],
               attrs: { id: "nav_Catalog" }
             },
             [
               _c(
                 "svg",
-                { staticClass: "w-7 h-7", attrs: { viewBox: "0 0 24 24" } },
+                {
+                  staticClass: "w-5 h-5 sm:w-7 sm:h-7",
+                  attrs: { viewBox: "0 0 24 24" }
+                },
                 [
                   _c("path", {
                     attrs: {
@@ -40769,7 +40772,7 @@ var render = function() {
                 "span",
                 {
                   staticClass:
-                    "font-mono font-extrabold text-xl tracking-widest"
+                    "font-mono font-extrabold text-sm sm:text-xl tracking-widest"
                 },
                 [_vm._v(" КАТАЛОГ ТОВАРОВ ")]
               )
@@ -40829,21 +40832,21 @@ var render = function() {
                     "div",
                     {
                       staticClass:
-                        "p-5 rounded-lg text-white fixed right-0 bottom-1/2 grid grid-cols-1 gap-1"
+                        "p-2.5 sm:p-5 rounded-lg text-white fixed right-0 bottom-1/2 grid grid-cols-1 gap-1"
                     },
                     [
                       _c(
                         "a",
                         {
                           staticClass:
-                            "bg-green-100 w-12 h-12 text-sm font-bold tracking-wider text-black hover:bg-black hover:text-white inline-flex items-center justify-center",
+                            "bg-green-100 w-7 sm:w-12 h-7 sm:h-12 text-sm font-bold tracking-wider text-black hover:bg-black hover:text-white inline-flex items-center justify-center",
                           attrs: { href: "#nav_Catalog" }
                         },
                         [
                           _c(
                             "svg",
                             {
-                              staticClass: "w-10 h-10",
+                              staticClass: "w-5 sm:w-8 h-5 sm:h-8",
                               attrs: { viewBox: "0 0 24 24" }
                             },
                             [
@@ -40862,13 +40865,13 @@ var render = function() {
                         "a",
                         {
                           staticClass:
-                            "bg-green-100 w-12 h-12 text-sm font-bold tracking-wider text-black hover:bg-black hover:text-white inline-flex items-center justify-center"
+                            "bg-green-100 w-7 sm:w-12 h-7 sm:h-12 text-sm font-bold tracking-wider text-black hover:bg-black hover:text-white inline-flex items-center justify-center"
                         },
                         [
                           _c(
                             "svg",
                             {
-                              staticClass: "w-6 h-6",
+                              staticClass: "w-5 sm:w-6 h-5 sm:h-6",
                               attrs: { viewBox: "0 0 24 24" }
                             },
                             [
@@ -40888,7 +40891,7 @@ var render = function() {
                         "a",
                         {
                           staticClass:
-                            "bg-green-100 w-12 h-12 text-sm font-bold tracking-wider text-black hover:bg-black hover:text-white inline-flex items-center justify-center",
+                            "bg-green-100 w-7 sm:w-12 h-7 sm:h-12 text-sm font-bold tracking-wider text-black hover:bg-black hover:text-white inline-flex items-center justify-center",
                           attrs: {
                             href: "https://www.instagram.com/horeca_iys/"
                           }
@@ -40897,7 +40900,7 @@ var render = function() {
                           _c(
                             "svg",
                             {
-                              staticClass: "w-6 h-6",
+                              staticClass: "w-5 sm:w-6 h-5 sm:h-6",
                               attrs: { viewBox: "0 0 24 24" }
                             },
                             [
@@ -40927,11 +40930,11 @@ var render = function() {
                       "div",
                       {
                         staticClass:
-                          "text-black inline-flex space-x-10 items-center"
+                          "text-black inline-flex space-x-4 sm:space-x-10 items-center"
                       },
                       [
                         _c("img", {
-                          staticClass: "ml-6",
+                          staticClass: "ml-3 sm:ml-6 w-8 sm:w-12",
                           attrs: {
                             src: "images/Catalog/disposable_tableware.png"
                           }
@@ -40941,7 +40944,7 @@ var render = function() {
                           "span",
                           {
                             staticClass:
-                              "font-mono font-regular text-xl tracking-wider"
+                              "font-mono font-regular text-sm sm:text-xl tracking-wider"
                           },
                           [_vm._v(" ОДНОРАЗОВАЯ ПОСУДА ")]
                         )
@@ -41045,11 +41048,11 @@ var render = function() {
                       "div",
                       {
                         staticClass:
-                          "text-black inline-flex space-x-4 items-center"
+                          "text-black inline-flex space-x-4 sm:space-x-10 items-center"
                       },
                       [
                         _c("img", {
-                          staticClass: "ml-6",
+                          staticClass: "ml-3 sm:ml-6 w-8 sm:w-12  ",
                           attrs: {
                             src: "images/Catalog/disposable_food_package.png"
                           }
@@ -41059,7 +41062,7 @@ var render = function() {
                           "span",
                           {
                             staticClass:
-                              "font-mono font-regular text-xl tracking-wider pl-6"
+                              "font-mono font-regular text-sm sm:text-xl tracking-wider"
                           },
                           [_vm._v(" ОДНОРАЗОВАЯ ПИЩЕВАЯ УПАКОВКА ")]
                         )
@@ -41163,11 +41166,11 @@ var render = function() {
                       "div",
                       {
                         staticClass:
-                          "text-black inline-flex space-x-7 items-center"
+                          "text-black inline-flex space-x-4 sm:space-x-10 items-center"
                       },
                       [
                         _c("img", {
-                          staticClass: "ml-6",
+                          staticClass: "ml-3 sm:ml-6 w-8 sm:w-12",
                           attrs: { src: "images/Catalog/bar_group.png" }
                         }),
                         _vm._v(" "),
@@ -41175,7 +41178,7 @@ var render = function() {
                           "span",
                           {
                             staticClass:
-                              "font-mono font-regular text-xl tracking-wider pl-4"
+                              "font-mono font-regular text-sm sm:text-xl tracking-wider"
                           },
                           [_vm._v(" БАРНАЯ ГРУППА ")]
                         )
@@ -41279,11 +41282,11 @@ var render = function() {
                       "div",
                       {
                         staticClass:
-                          "text-black inline-flex space-x-10 items-center"
+                          "text-black inline-flex space-x-4 sm:space-x-10 items-center"
                       },
                       [
                         _c("img", {
-                          staticClass: "ml-6",
+                          staticClass: "ml-3 sm:ml-6 w-8 sm:w-12",
                           attrs: { src: "images/Catalog/paper_prof.png" }
                         }),
                         _vm._v(" "),
@@ -41291,7 +41294,7 @@ var render = function() {
                           "span",
                           {
                             staticClass:
-                              "font-mono font-regular text-xl tracking-wider"
+                              "font-mono font-regular text-sm sm:text-xl tracking-wider"
                           },
                           [_vm._v(" БУМАЖНАЯ ПРОФЕССИОНАЛЬНАЯ ПРОДУКЦИЯ ")]
                         )
@@ -41395,11 +41398,11 @@ var render = function() {
                       "div",
                       {
                         staticClass:
-                          "text-black inline-flex space-x-12 items-center"
+                          "text-black inline-flex space-x-5 sm:space-x-12 items-center"
                       },
                       [
                         _c("img", {
-                          staticClass: "ml-9",
+                          staticClass: "ml-4 sm:ml-8 w-6 sm:w-8",
                           attrs: {
                             src:
                               "images/Catalog/prof_and_household_chemistry.png"
@@ -41410,7 +41413,7 @@ var render = function() {
                           "span",
                           {
                             staticClass:
-                              "font-mono font-regular text-xl tracking-wider"
+                              "font-mono font-regular text-sm sm:text-xl tracking-wider"
                           },
                           [_vm._v(" ПРОФЕССИОНАЛЬНАЯ И БЫТОВАЯ ХИМИЯ ")]
                         )
@@ -41514,11 +41517,11 @@ var render = function() {
                       "div",
                       {
                         staticClass:
-                          "text-black inline-flex space-x-8 items-center"
+                          "text-black inline-flex space-x-4 sm:space-x-10 items-center"
                       },
                       [
                         _c("img", {
-                          staticClass: "ml-6",
+                          staticClass: "ml-3 sm:ml-6 w-8 sm:w-12",
                           attrs: { src: "images/Catalog/household_goods.png" }
                         }),
                         _vm._v(" "),
@@ -41526,7 +41529,7 @@ var render = function() {
                           "span",
                           {
                             staticClass:
-                              "font-mono font-regular text-xl tracking-wider pl-3"
+                              "font-mono font-regular text-sm sm:text-xl tracking-wider"
                           },
                           [_vm._v(" ХОЗЯЙСТВЕННЫЕ ТОВАРЫ ")]
                         )
