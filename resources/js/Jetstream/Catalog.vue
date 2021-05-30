@@ -1,6 +1,6 @@
 <template>
 <div>
-    <div class="rounded-full py-3 px-6 flex items-center justify-between mb-2" :class="[showCatalog ?  'bg-green-100' : 'bg-black']">
+    <div class="rounded-full py-3 px-4 sm:px-6 flex items-center justify-between mb-2" :class="[showCatalog ?  'bg-green-100' : 'bg-black']">
         <div class="inline-flex space-x-3 sm:space-x-10 items-center" :class="[showCatalog ?  'text-black' : 'text-white']" id="nav_Catalog">
             <svg class="w-5 h-5 sm:w-7 sm:h-7" viewBox="0 0 24 24">
                 <path fill="currentColor" d="M19 6H17C17 3.2 14.8 1 12 1S7 3.2 7 6H5C3.9 6 3 6.9 3 8V20C3 21.1 3.9 22 5 22H19C20.1 22 21 21.1 21 20V8C21 6.9 20.1 6 19 6M12 3C13.7 3 15 4.3 15 6H9C9 4.3 10.3 3 12 3M19 20H5V8H19V20M12 12C10.3 12 9 10.7 9 9H7C7 11.8 9.2 14 12 14S17 11.8 17 9H15C15 10.7 13.7 12 12 12Z" />
@@ -17,13 +17,13 @@
         </button>
     </div>
     <transition name="fade">
-        <div class="px-5 sm:px-20 bg-white grid grid-cols-1" v-if="showCatalog">
+        <div class="px-2 sm:px-20 bg-white grid grid-cols-1" v-if="showCatalog">
 
             <!-- Иконки наверх, инстаграмм, звонок -->
             <div>
-                <div class="p-2.5 sm:p-5 rounded-lg text-white fixed right-0 bottom-1/2 grid grid-cols-1 gap-1">
+                <div class="p-2.5 sm:p-5 rounded-lg text-white fixed right-0 bottom-0 sm:bottom-1/2 grid grid-cols-1 gap-1">
                     <a href="#nav_Catalog" class="bg-green-100 w-7 sm:w-12 h-7 sm:h-12 text-sm font-bold tracking-wider text-black hover:bg-black hover:text-white inline-flex items-center justify-center">
-                        <svg class="w-5 sm:w-8 h-5 sm:h-8" viewBox="0 0 24 24">
+                        <svg class="w-5 sm:w-10 h-5 sm:h-10" viewBox="0 0 24 24">
                             <path fill="currentColor" d="M7,15L12,10L17,15H7Z" />
                         </svg>
                     </a>
@@ -56,8 +56,8 @@
                 </button>
             </div>
             <transition name="fade">
-                <div v-if="showCatalog && showDisposableTableware" class="flex pl-20 mb-8">
-                    <div class="grid grid-cols-3 gap-4 mx-auto items-center font-mono font-regular flex-auto pt-4 pb-8">
+                <div v-if="showCatalog && showDisposableTableware" class="flex pl-2 sm:pl-20 mb-2 sm:mb-8">
+                    <div class="grid grid-cols-2 sm:grid-cols-3 gap-2 sm:gap-4 mx-auto items-start font-mono font-regular text-sm sm:text-base flex-auto pt-2 sm:pt-4 pb-2 sm:pb-8">
                         <div v-for="items in settings1" :key="items.id">
                             <label class="inline-flex items-auto">
                                 <input type="checkbox" class="form-checkbox rounded-full text-green-100 mt-1" checked />
@@ -84,8 +84,8 @@
                 </button>
             </div>
             <transition name="fade">
-                <div v-if="showCatalog && showDisposableFoodPackage" class="flex pl-20 mb-8">
-                    <div class="grid grid-cols-3 gap-4 mx-auto items-center font-mono font-regular flex-auto pt-4 pb-8">
+                <div v-if="showCatalog && showDisposableFoodPackage" class="flex pl-2 sm:pl-20 mb-2 sm:mb-8">
+                    <div class="grid grid-cols-2 sm:grid-cols-3 gap-2 sm:gap-4 mx-auto items-start font-mono font-regular text-sm sm:text-base flex-auto pt-2 sm:pt-4 pb-2 sm:pb-8">
                         <div v-for="items in settings2" :key="items.id">
                             <label class="inline-flex items-auto">
                                 <input type="checkbox" class="form-checkbox rounded-full text-green-100 mt-1" checked />
@@ -112,8 +112,8 @@
                 </button>
             </div>
             <transition name="fade">
-                <div v-if="showCatalog && showBarGroup" class="flex pl-20 mb-8">
-                    <div class="grid grid-cols-3 gap-4 mx-auto items-center font-mono font-regular flex-auto pt-4 pb-8">
+                <div v-if="showCatalog && showBarGroup" class="flex pl-2 sm:pl-20 mb-2 sm:mb-8">
+                    <div class="grid grid-cols-2 sm:grid-cols-3 gap-2 sm:gap-4 mx-auto items-start font-mono font-regular text-sm sm:text-base flex-auto pt-2 sm:pt-4 pb-2 sm:pb-8">
                         <div v-for="items in settings3" :key="items.id">
                             <label class="inline-flex items-auto">
                                 <input type="checkbox" class="form-checkbox rounded-full text-green-100 mt-1" checked />
@@ -140,8 +140,8 @@
                 </button>
             </div>
             <transition name="fade">
-                <div v-if="showCatalog && showPaperProf" class="flex pl-20 mb-8">
-                    <div class="grid grid-cols-3 gap-4 mx-auto items-center font-mono font-regular flex-auto pt-4 pb-8">
+                <div v-if="showCatalog && showPaperProf" class="flex pl-2 sm:pl-20 mb-2 sm:mb-8">
+                    <div class="grid grid-cols-2 sm:grid-cols-3 gap-2 sm:gap-4 mx-auto items-start font-mono font-regular text-sm sm:text-base flex-auto pt-2 sm:pt-4 pb-2 sm:pb-8">
                         <div v-for="items in settings4" :key="items.id">
                             <label class="inline-flex items-auto">
                                 <input type="checkbox" class="form-checkbox rounded-full text-green-100 mt-1" checked />
@@ -168,8 +168,8 @@
                 </button>
             </div>
             <transition name="fade">
-                <div v-if="showCatalog && showProfAndHouseholdChemistry" class="flex pl-20 mb-8">
-                    <div class="grid grid-cols-3 gap-4 mx-auto items-center font-mono font-regular flex-auto pt-4 pb-8">
+                <div v-if="showCatalog && showProfAndHouseholdChemistry" class="flex pl-2 sm:pl-20 mb-2 sm:mb-8">
+                    <div class="grid grid-cols-2 sm:grid-cols-3 gap-2 sm:gap-4 mx-auto items-start font-mono font-regular text-sm sm:text-base flex-auto pt-2 sm:pt-4 pb-2 sm:pb-8">
                         <div v-for="items in settings5" :key="items.id">
                             <label class="inline-flex items-auto">
                                 <input type="checkbox" class="form-checkbox rounded-full text-green-100 mt-1" checked />
@@ -196,10 +196,10 @@
                 </button>
             </div>
             <transition name="fade">
-                <div v-if="showCatalog && showHouseholdGoods" class="flex pl-20 mb-8">
-                    <div class="grid grid-cols-3 gap-4 mx-auto font-mono font-regular flex-auto pt-4 pb-8">
+                <div v-if="showCatalog && showHouseholdGoods" class="flex pl-2 sm:pl-20 mb-2 sm:mb-8">
+                    <div class="grid grid-cols-2 sm:grid-cols-3 gap-2 sm:gap-4 mx-auto items-start font-mono font-regular text-sm sm:text-base flex-auto pt-2 sm:pt-4 pb-2 sm:pb-8">
                         <div v-for="items in settings6" :key="items.id">
-                            <label class="inline-flex items-center">
+                            <label class="inline-flex items-start">
                                 <input type="checkbox" class="form-checkbox rounded-full text-green-100" checked />
                                 <span class="ml-2">{{ items.value }}</span>
                             </label>
@@ -209,20 +209,20 @@
             </transition>
 
             <transition name="fade">
-                <div v-if="showCatalog && showHouseholdGoods" class="flex pl-20 mb-2.5">
-                    <div class="clients flex-initial mb-4 mr-4">
-                        <span calss="font-mono font-regular text-xl tracking-wider">хозяйственные товары</span>
+                <div v-if="showCatalog && showHouseholdGoods" class="flex pl-2 sm:pl-10 lg:pl-15 mb-2.5">
+                    <div class="clients flex-initial mb-4 mr-1 sm:mr-4">
+                        <span calss="font-mono font-regular text-sm sm:text-lg tracking-wider">хозяйственные товары</span>
                     </div>
-                    <simplebar class="pr-40 max-h-screen bg-white flex-auto font-mono" data-simplebar-auto-hide="false">
-                        <div class="grid grid-cols-4 gap-4">
+                    <simplebar id="partners" class="pr-0.5 sm:pr-5 xl:pr-10 h-screen bg-white flex-auto font-mono" data-simplebar-auto-hide="false">
+                        <div class="grid grid-cols-1 lg:grid-cols-3 xl:grid-cols-4 gap-2 sm:gap-4">
                             <div class="flex flex-col bg-white mr-5">
                                 <img src="images/coffe.png" class="self-center" />
-                                <div class="pt-5 pb-5">
+                                <div class="pt-1 sm:pt-5 pb-2 sm:pb-5">
                                     <p class=" font-mono text-sm font-regular pb-2">Держатели для двух стаканов</p>
-                                    <h1 class="text-2xl font-extrabold text-black border-b-2 pb-2.5">
+                                    <h1 class="text-xl sm:text-2xl font-extrabold text-black border-b-2 pb-1 sm:pb-2.5">
                                         Eco cupholder
                                     </h1>
-                                    <div class="flex flex-row justify-between mt-2.5 mb-5">
+                                    <div class="flex flex-row justify-between mt-1 sm:mt-2.5 mb-1 sm:mb-5">
                                         <button class="text-gray-400" v-on:click="showHert1 = !showHert1">
                                             <svg v-if="!showHert1" class="w-6 h-6" viewBox="0 0 24 24" calss="text-gray-400">
                                                 <path fill="currentColor" d="M12.1,18.55L12,18.65L11.89,18.55C7.14,14.24 4,11.39 4,8.5C4,6.5 5.5,5 7.5,5C9.04,5 10.54,6 11.07,7.36H12.93C13.46,6 14.96,5 16.5,5C18.5,5 20,6.5 20,8.5C20,11.39 16.86,14.24 12.1,18.55M16.5,3C14.76,3 13.09,3.81 12,5.08C10.91,3.81 9.24,3 7.5,3C4.42,3 2,5.41 2,8.5C2,12.27 5.4,15.36 10.55,20.03L12,21.35L13.45,20.03C18.6,15.36 22,12.27 22,8.5C22,5.41 19.58,3 16.5,3Z" />
@@ -242,16 +242,16 @@
                                     </div>
                                     <transition name="fade">
                                         <div v-if="showCatalog && showHouseholdGoods && showDescription1" class="font-mono font-regular text-xs font-semibold">
-                                            <div class="mb-5">
+                                            <div class="mb-1 sm:mb-5">
                                                 <span>Держатели на 2 стакана предназначены для заведений
                                                     работающих, работающих по системе take away</span>
                                             </div>
-                                            <div class="mb-5">
+                                            <div class="mb-1 sm:mb-5">
                                                 <span>Картонные держатели для одноразовых стаканов -
                                                     незаменимый органайзер для организации продажи
                                                     напитков на вынос</span>
                                             </div>
-                                            <div class="mb-5">
+                                            <div class="mb-1 sm:mb-5">
                                                 <span>Основные характеристики изделия: <br />
                                                     Упаковка: 150шт. <br />
                                                     Цвет: Крафт <br />
@@ -270,7 +270,7 @@
                                         </a>
                                         <span class="self-center">1 Штука</span>
                                     </div>
-                                    <div class="flex bg-black text-white rounded-full h-8 w-32 justify-end mt-2.5">
+                                    <div class="flex bg-black text-white rounded-full h-8 w-32 justify-end mt-1 sm:mt-2.5">
                                         <span class="self-center mr-6">00000</span>
                                         <svg style="width: 26px; height: 26px" viewBox="0 0 24 24" class="self-center pr-2">
                                             <path fill="currentColor" d="M6,10H7V3H14.5C17,3 19,5 19,7.5C19,10 17,12 14.5,12H9V14H15V16H9V21H7V16H6V14H7V12H6V10M14.5,5H9V10H14.5A2.5,2.5 0 0,0 17,7.5A2.5,2.5 0 0,0 14.5,5Z" />
@@ -281,12 +281,12 @@
 
                             <div class="flex flex-col bg-white mr-5">
                                 <img src="images/coffe.png" class="self-center" />
-                                <div class="pt-5 pb-5">
+                                <div class="pt-1 sm:pt-5 pb-2 sm:pb-5">
                                     <p class="text-sm font-mono font-regular pb-2">Держатели для двух стаканов</p>
-                                    <h1 class="text-2xl font-extrabold text-black border-b-2 pb-2.5">
+                                    <h1 class="text-xl sm:text-2xl font-extrabold text-black border-b-2 pb-1 sm:pb-2.5">
                                         Eco cupholder
                                     </h1>
-                                    <div class="flex flex-row justify-between mt-2.5 mb-5">
+                                    <div class="flex flex-row justify-between mt-1 sm:mt-2.5 mb-1 sm:mb-5">
                                         <button class="text-gray-400" v-on:click="showHert2 = !showHert2">
                                             <svg v-if="!showHert2" class="w-6 h-6" viewBox="0 0 24 24" calss="text-gray-400">
                                                 <path fill="currentColor" d="M12.1,18.55L12,18.65L11.89,18.55C7.14,14.24 4,11.39 4,8.5C4,6.5 5.5,5 7.5,5C9.04,5 10.54,6 11.07,7.36H12.93C13.46,6 14.96,5 16.5,5C18.5,5 20,6.5 20,8.5C20,11.39 16.86,14.24 12.1,18.55M16.5,3C14.76,3 13.09,3.81 12,5.08C10.91,3.81 9.24,3 7.5,3C4.42,3 2,5.41 2,8.5C2,12.27 5.4,15.36 10.55,20.03L12,21.35L13.45,20.03C18.6,15.36 22,12.27 22,8.5C22,5.41 19.58,3 16.5,3Z" />
@@ -306,16 +306,16 @@
                                     </div>
                                     <transition name="fade">
                                         <div v-if="showCatalog && showHouseholdGoods && showDescription2" class="font-mono font-regular text-xs font-semibold">
-                                            <div class="mb-5">
+                                            <div class="mb-1 sm:mb-5">
                                                 <span>Держатели на 2 стакана предназначены для заведений
                                                     работающих, работающих по системе take away</span>
                                             </div>
-                                            <div class="mb-5">
+                                            <div class="mb-1 sm:mb-5">
                                                 <span>Картонные держатели для одноразовых стаканов -
                                                     незаменимый органайзер для организации продажи
                                                     напитков на вынос</span>
                                             </div>
-                                            <div class="mb-5">
+                                            <div class="mb-1 sm:mb-5">
                                                 <span>Основные характеристики изделия: <br />
                                                     Упаковка: 150шт. <br />
                                                     Цвет: Крафт <br />
@@ -334,7 +334,7 @@
                                         </a>
                                         <span class="self-center">1 Штука</span>
                                     </div>
-                                    <div class="flex bg-black text-white rounded-full h-8 w-32 justify-end mt-2.5">
+                                    <div class="flex bg-black text-white rounded-full h-8 w-32 justify-end mt-1 sm:mt-2.5">
                                         <span class="self-center mr-6">00000</span>
 
                                         <svg style="width: 26px; height: 26px" viewBox="0 0 24 24" class="self-center pr-2">
@@ -345,12 +345,12 @@
                             </div>
                             <div class="flex flex-col bg-white mr-5">
                                 <img src="images/coffe.png" class="self-center" />
-                                <div class="pt-5 pb-5">
+                                <div class="pt-1 sm:pt-5 pb-2 sm:pb-5">
                                     <p class="text-sm font-mono font-regular pb-2">Держатели для двух стаканов</p>
-                                    <h1 class="text-2xl font-extrabold text-black border-b-2 pb-2.5">
+                                    <h1 class="text-xl sm:text-2xl font-extrabold text-black border-b-2 pb-1 sm:pb-2.5">
                                         Eco cupholder
                                     </h1>
-                                    <div class="flex flex-row justify-between mt-2.5 mb-5">
+                                    <div class="flex flex-row justify-between mt-1 sm:mt-2.5 mb-1 sm:mb-5">
                                         <button class="text-gray-400" v-on:click="showHert3 = !showHert3">
                                             <svg v-if="!showHert3" class="w-6 h-6" viewBox="0 0 24 24" calss="text-gray-400">
                                                 <path fill="currentColor" d="M12.1,18.55L12,18.65L11.89,18.55C7.14,14.24 4,11.39 4,8.5C4,6.5 5.5,5 7.5,5C9.04,5 10.54,6 11.07,7.36H12.93C13.46,6 14.96,5 16.5,5C18.5,5 20,6.5 20,8.5C20,11.39 16.86,14.24 12.1,18.55M16.5,3C14.76,3 13.09,3.81 12,5.08C10.91,3.81 9.24,3 7.5,3C4.42,3 2,5.41 2,8.5C2,12.27 5.4,15.36 10.55,20.03L12,21.35L13.45,20.03C18.6,15.36 22,12.27 22,8.5C22,5.41 19.58,3 16.5,3Z" />
@@ -370,16 +370,16 @@
                                     </div>
                                     <transition name="fade">
                                         <div v-if="showCatalog && showHouseholdGoods && showDescription3" class="font-mono font-regular text-xs font-semibold">
-                                            <div class="mb-5">
+                                            <div class="mb-1 sm:mb-5">
                                                 <span>Держатели на 2 стакана предназначены для заведений
                                                     работающих, работающих по системе take away</span>
                                             </div>
-                                            <div class="mb-5">
+                                            <div class="mb-1 sm:mb-5">
                                                 <span>Картонные держатели для одноразовых стаканов -
                                                     незаменимый органайзер для организации продажи
                                                     напитков на вынос</span>
                                             </div>
-                                            <div class="mb-5">
+                                            <div class="mb-1 sm:mb-5">
                                                 <span>Основные характеристики изделия: <br />
                                                     Упаковка: 150шт. <br />
                                                     Цвет: Крафт <br />
@@ -398,7 +398,7 @@
                                         </a>
                                         <span class="self-center">1 Штука</span>
                                     </div>
-                                    <div class="flex bg-black text-white rounded-full h-8 w-32 justify-end mt-2.5">
+                                    <div class="flex bg-black text-white rounded-full h-8 w-32 justify-end mt-1 sm:mt-2.5">
                                         <span class="self-center mr-6">00000</span>
 
                                         <svg style="width: 26px; height: 26px" viewBox="0 0 24 24" class="self-center pr-2">
@@ -409,12 +409,12 @@
                             </div>
                             <div class="flex flex-col bg-white mr-5">
                                 <img src="images/coffe.png" class="self-center" />
-                                <div class="pt-5 pb-5">
+                                <div class="pt-1 sm:pt-5 pb-2 sm:pb-5">
                                     <p class="text-sm font-mono font-regular pb-2">Держатели для двух стаканов</p>
-                                    <h1 class="text-2xl font-extrabold text-black border-b-2 pb-2.5">
+                                    <h1 class="text-xl sm:text-2xl font-extrabold text-black border-b-2 pb-1 sm:pb-2.5">
                                         Eco cupholder
                                     </h1>
-                                    <div class="flex flex-row justify-between mt-2.5 mb-5">
+                                    <div class="flex flex-row justify-between mt-1 sm:mt-2.5 mb-1 sm:mb-5">
                                         <button class="text-gray-400" v-on:click="showHert4 = !showHert4">
                                             <svg v-if="!showHert4" class="w-6 h-6" viewBox="0 0 24 24" calss="text-gray-400">
                                                 <path fill="currentColor" d="M12.1,18.55L12,18.65L11.89,18.55C7.14,14.24 4,11.39 4,8.5C4,6.5 5.5,5 7.5,5C9.04,5 10.54,6 11.07,7.36H12.93C13.46,6 14.96,5 16.5,5C18.5,5 20,6.5 20,8.5C20,11.39 16.86,14.24 12.1,18.55M16.5,3C14.76,3 13.09,3.81 12,5.08C10.91,3.81 9.24,3 7.5,3C4.42,3 2,5.41 2,8.5C2,12.27 5.4,15.36 10.55,20.03L12,21.35L13.45,20.03C18.6,15.36 22,12.27 22,8.5C22,5.41 19.58,3 16.5,3Z" />
@@ -435,16 +435,16 @@
                                     </div>
                                     <transition name="fade">
                                         <div v-if="showCatalog && showHouseholdGoods && showDescription4" class="font-mono font-regular text-xs font-semibold">
-                                            <div class="mb-5">
+                                            <div class="mb-1 sm:mb-5">
                                                 <span>Держатели на 2 стакана предназначены для заведений
                                                     работающих, работающих по системе take away</span>
                                             </div>
-                                            <div class="mb-5">
+                                            <div class="mb-1 sm:mb-5">
                                                 <span>Картонные держатели для одноразовых стаканов -
                                                     незаменимый органайзер для организации продажи
                                                     напитков на вынос</span>
                                             </div>
-                                            <div class="mb-5">
+                                            <div class="mb-1 sm:mb-5">
                                                 <span>Основные характеристики изделия: <br />
                                                     Упаковка: 150шт. <br />
                                                     Цвет: Крафт <br />
@@ -463,7 +463,7 @@
                                         </a>
                                         <span class="self-center">1 Штука</span>
                                     </div>
-                                    <div class="flex bg-black text-white rounded-full h-8 w-32 justify-end mt-2.5">
+                                    <div class="flex bg-black text-white rounded-full h-8 w-32 justify-end mt-1 sm:mt-2.5">
                                         <span class="self-center mr-6">00000</span>
 
                                         <svg style="width: 26px; height: 26px" viewBox="0 0 24 24" class="self-center pr-2">
@@ -474,12 +474,12 @@
                             </div>
                             <div class="flex flex-col bg-white mr-5">
                                 <img src="images/coffe.png" class="self-center" />
-                                <div class="pt-5 pb-5">
+                                <div class="pt-1 sm:pt-5 pb-2 sm:pb-5">
                                     <p class="text-sm font-mono font-regular pb-2">Держатели для двух стаканов</p>
-                                    <h1 class="text-2xl font-extrabold text-black border-b-2 pb-2.5">
+                                    <h1 class="text-xl sm:text-2xl font-extrabold text-black border-b-2 pb-1 sm:pb-2.5">
                                         Eco cupholder
                                     </h1>
-                                    <div class="flex flex-row justify-between mt-2.5 mb-5">
+                                    <div class="flex flex-row justify-between mt-1 sm:mt-2.5 mb-1 sm:mb-5">
                                         <button class="text-gray-400" v-on:click="showHert5 = !showHert5">
                                             <svg v-if="!showHert5" class="w-6 h-6" viewBox="0 0 24 24" calss="text-gray-400">
                                                 <path fill="currentColor" d="M12.1,18.55L12,18.65L11.89,18.55C7.14,14.24 4,11.39 4,8.5C4,6.5 5.5,5 7.5,5C9.04,5 10.54,6 11.07,7.36H12.93C13.46,6 14.96,5 16.5,5C18.5,5 20,6.5 20,8.5C20,11.39 16.86,14.24 12.1,18.55M16.5,3C14.76,3 13.09,3.81 12,5.08C10.91,3.81 9.24,3 7.5,3C4.42,3 2,5.41 2,8.5C2,12.27 5.4,15.36 10.55,20.03L12,21.35L13.45,20.03C18.6,15.36 22,12.27 22,8.5C22,5.41 19.58,3 16.5,3Z" />
@@ -499,16 +499,16 @@
                                     </div>
                                     <transition name="fade">
                                         <div v-if="showCatalog && showHouseholdGoods && showDescription" class="font-mono font-regular text-xs font-semibold">
-                                            <div class="mb-5">
+                                            <div class="mb-1 sm:mb-5">
                                                 <span>Держатели на 2 стакана предназначены для заведений
                                                     работающих, работающих по системе take away</span>
                                             </div>
-                                            <div class="mb-5">
+                                            <div class="mb-1 sm:mb-5">
                                                 <span>Картонные держатели для одноразовых стаканов -
                                                     незаменимый органайзер для организации продажи
                                                     напитков на вынос</span>
                                             </div>
-                                            <div class="mb-5">
+                                            <div class="mb-1 sm:mb-5">
                                                 <span>Основные характеристики изделия: <br />
                                                     Упаковка: 150шт. <br />
                                                     Цвет: Крафт <br />
@@ -527,7 +527,7 @@
                                         </a>
                                         <span class="self-center">1 Штука</span>
                                     </div>
-                                    <div class="flex bg-black text-white rounded-full h-8 w-32 justify-end mt-2.5">
+                                    <div class="flex bg-black text-white rounded-full h-8 w-32 justify-end mt-1 sm:mt-2.5">
                                         <span class="self-center mr-6">00000</span>
 
                                         <svg style="width: 26px; height: 26px" viewBox="0 0 24 24" class="self-center pr-2">
@@ -766,7 +766,7 @@ export default {
 /deep/ .simplebar-track.simplebar-vertical {
     background-color: #91CD5A;
     width: 5px;
-    margin-right: 5rem;
+    margin-right: 0.5rem;
     border-radius: 3px;
     margin-bottom: 16px;
     opacity: 1;
@@ -790,6 +790,29 @@ export default {
 .clients {
     writing-mode: vertical-lr;
     transform: rotate(180deg);
-    font-size: 20px;
+    font-size: 15px;
+}
+@media(min-width:640px) {
+    /deep/ .simplebar-track.simplebar-vertical {
+        background-color: #91CD5A;
+        width: 5px;
+        margin-right: 5rem;
+        border-radius: 3px;
+        margin-bottom: 16px;
+        opacity: 1;
+        overflow: visible;
+    }
+}
+
+@media(min-width: 1024px) {
+    /deep/ .simplebar-track.simplebar-vertical {
+        background-color: #91CD5A;
+        width: 5px;
+        margin-right: 1.5rem;
+        border-radius: 3px;
+        margin-bottom: 16px;
+        opacity: 1;
+        overflow: visible;
+    }
 }
 </style>

@@ -13056,7 +13056,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n[type=\"checkbox\"][data-v-e88279d6]:checked {\r\n    background-image: url(\"/images/circle-medium.png\");\n}\n[data-v-e88279d6] .simplebar-track.simplebar-vertical {\r\n    background-color: #91CD5A;\r\n    width: 5px;\r\n    margin-right: 5rem;\r\n    border-radius: 3px;\r\n    margin-bottom: 16px;\r\n    opacity: 1;\r\n    overflow: visible;\r\n    visibility: visible;\n}\n[data-v-e88279d6] .simplebar-scrollbar.simplebar-visible::before {\r\n    opacity: 1;\r\n    top: 0 !important;\r\n    bottom: 0 !important;\r\n    left: -2px;\r\n    right: 0;\n}\n[data-v-e88279d6] .simplebar-scrollbar:before {\r\n    background-color: #000000;\r\n    width: 9px;\n}\n.clients[data-v-e88279d6] {\r\n    -ms-writing-mode: tb-lr;\r\n        writing-mode: vertical-lr;\r\n    transform: rotate(180deg);\r\n    font-size: 20px;\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n[type=\"checkbox\"][data-v-e88279d6]:checked {\r\n    background-image: url(\"/images/circle-medium.png\");\n}\n[data-v-e88279d6] .simplebar-track.simplebar-vertical {\r\n    background-color: #91CD5A;\r\n    width: 5px;\r\n    margin-right: 0.5rem;\r\n    border-radius: 3px;\r\n    margin-bottom: 16px;\r\n    opacity: 1;\r\n    overflow: visible;\r\n    visibility: visible;\n}\n[data-v-e88279d6] .simplebar-scrollbar.simplebar-visible::before {\r\n    opacity: 1;\r\n    top: 0 !important;\r\n    bottom: 0 !important;\r\n    left: -2px;\r\n    right: 0;\n}\n[data-v-e88279d6] .simplebar-scrollbar:before {\r\n    background-color: #000000;\r\n    width: 9px;\n}\n.clients[data-v-e88279d6] {\r\n    -ms-writing-mode: tb-lr;\r\n        writing-mode: vertical-lr;\r\n    transform: rotate(180deg);\r\n    font-size: 15px;\n}\n@media(min-width:640px) {\n[data-v-e88279d6] .simplebar-track.simplebar-vertical {\r\n        background-color: #91CD5A;\r\n        width: 5px;\r\n        margin-right: 5rem;\r\n        border-radius: 3px;\r\n        margin-bottom: 16px;\r\n        opacity: 1;\r\n        overflow: visible;\n}\n}\n@media(min-width: 1024px) {\n[data-v-e88279d6] .simplebar-track.simplebar-vertical {\r\n        background-color: #91CD5A;\r\n        width: 5px;\r\n        margin-right: 1.5rem;\r\n        border-radius: 3px;\r\n        margin-bottom: 16px;\r\n        opacity: 1;\r\n        overflow: visible;\n}\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -39704,7 +39704,7 @@ var render = function() {
         "div",
         {
           staticClass:
-            "rounded-full py-3 px-6 flex items-center justify-between mb-2",
+            "rounded-full py-3 px-4 sm:px-6 flex items-center justify-between mb-2",
           class: [_vm.showAboutCompany ? "background-light" : "background-dark"]
         },
         [
@@ -39797,7 +39797,7 @@ var render = function() {
                 expression: "showAboutCompany"
               }
             ],
-            staticClass: "px-5 sm:px-20 bg-white grid grid-cols-1"
+            staticClass: "px-2 sm:px-20 bg-white grid grid-cols-1"
           },
           [
             _c(
@@ -39904,7 +39904,7 @@ var render = function() {
                 expression: "showPartners && showAboutCompany"
               }
             ],
-            staticClass: "flex pl-2.5 pr-6 sm:pl-20 mb-2.5"
+            staticClass: "flex pl-3 pr-3 sm:pl-20 mb-2.5"
           },
           [
             _c("div", { staticClass: "clients flex-initial mb-4" }, [
@@ -39960,7 +39960,7 @@ var render = function() {
                 expression: "showAboutCompany"
               }
             ],
-            staticClass: "px-5 sm:px-20 bg-white grid grid-cols-1"
+            staticClass: "px-2 sm:px-20 bg-white grid grid-cols-1"
           },
           [
             _c(
@@ -40739,7 +40739,7 @@ var render = function() {
         "div",
         {
           staticClass:
-            "rounded-full py-3 px-6 flex items-center justify-between mb-2",
+            "rounded-full py-3 px-4 sm:px-6 flex items-center justify-between mb-2",
           class: [_vm.showCatalog ? "bg-green-100" : "bg-black"]
         },
         [
@@ -40825,14 +40825,14 @@ var render = function() {
         _vm.showCatalog
           ? _c(
               "div",
-              { staticClass: "px-5 sm:px-20 bg-white grid grid-cols-1" },
+              { staticClass: "px-2 sm:px-20 bg-white grid grid-cols-1" },
               [
                 _c("div", [
                   _c(
                     "div",
                     {
                       staticClass:
-                        "p-2.5 sm:p-5 rounded-lg text-white fixed right-0 bottom-1/2 grid grid-cols-1 gap-1"
+                        "p-2.5 sm:p-5 rounded-lg text-white fixed right-0 bottom-0 sm:bottom-1/2 grid grid-cols-1 gap-1"
                     },
                     [
                       _c(
@@ -40846,7 +40846,7 @@ var render = function() {
                           _c(
                             "svg",
                             {
-                              staticClass: "w-5 sm:w-8 h-5 sm:h-8",
+                              staticClass: "w-5 sm:w-10 h-5 sm:h-10",
                               attrs: { viewBox: "0 0 24 24" }
                             },
                             [
@@ -41005,35 +41005,39 @@ var render = function() {
                 _vm._v(" "),
                 _c("transition", { attrs: { name: "fade" } }, [
                   _vm.showCatalog && _vm.showDisposableTableware
-                    ? _c("div", { staticClass: "flex pl-20 mb-8" }, [
-                        _c(
-                          "div",
-                          {
-                            staticClass:
-                              "grid grid-cols-3 gap-4 mx-auto items-center font-mono font-regular flex-auto pt-4 pb-8"
-                          },
-                          _vm._l(_vm.settings1, function(items) {
-                            return _c("div", { key: items.id }, [
-                              _c(
-                                "label",
-                                { staticClass: "inline-flex items-auto" },
-                                [
-                                  _c("input", {
-                                    staticClass:
-                                      "form-checkbox rounded-full text-green-100 mt-1",
-                                    attrs: { type: "checkbox", checked: "" }
-                                  }),
-                                  _vm._v(" "),
-                                  _c("span", { staticClass: "ml-2" }, [
-                                    _vm._v(_vm._s(items.value))
-                                  ])
-                                ]
-                              )
-                            ])
-                          }),
-                          0
-                        )
-                      ])
+                    ? _c(
+                        "div",
+                        { staticClass: "flex pl-2 sm:pl-20 mb-2 sm:mb-8" },
+                        [
+                          _c(
+                            "div",
+                            {
+                              staticClass:
+                                "grid grid-cols-2 sm:grid-cols-3 gap-2 sm:gap-4 mx-auto items-start font-mono font-regular text-sm sm:text-base flex-auto pt-2 sm:pt-4 pb-2 sm:pb-8"
+                            },
+                            _vm._l(_vm.settings1, function(items) {
+                              return _c("div", { key: items.id }, [
+                                _c(
+                                  "label",
+                                  { staticClass: "inline-flex items-auto" },
+                                  [
+                                    _c("input", {
+                                      staticClass:
+                                        "form-checkbox rounded-full text-green-100 mt-1",
+                                      attrs: { type: "checkbox", checked: "" }
+                                    }),
+                                    _vm._v(" "),
+                                    _c("span", { staticClass: "ml-2" }, [
+                                      _vm._v(_vm._s(items.value))
+                                    ])
+                                  ]
+                                )
+                              ])
+                            }),
+                            0
+                          )
+                        ]
+                      )
                     : _vm._e()
                 ]),
                 _vm._v(" "),
@@ -41123,35 +41127,39 @@ var render = function() {
                 _vm._v(" "),
                 _c("transition", { attrs: { name: "fade" } }, [
                   _vm.showCatalog && _vm.showDisposableFoodPackage
-                    ? _c("div", { staticClass: "flex pl-20 mb-8" }, [
-                        _c(
-                          "div",
-                          {
-                            staticClass:
-                              "grid grid-cols-3 gap-4 mx-auto items-center font-mono font-regular flex-auto pt-4 pb-8"
-                          },
-                          _vm._l(_vm.settings2, function(items) {
-                            return _c("div", { key: items.id }, [
-                              _c(
-                                "label",
-                                { staticClass: "inline-flex items-auto" },
-                                [
-                                  _c("input", {
-                                    staticClass:
-                                      "form-checkbox rounded-full text-green-100 mt-1",
-                                    attrs: { type: "checkbox", checked: "" }
-                                  }),
-                                  _vm._v(" "),
-                                  _c("span", { staticClass: "ml-2" }, [
-                                    _vm._v(_vm._s(items.value))
-                                  ])
-                                ]
-                              )
-                            ])
-                          }),
-                          0
-                        )
-                      ])
+                    ? _c(
+                        "div",
+                        { staticClass: "flex pl-2 sm:pl-20 mb-2 sm:mb-8" },
+                        [
+                          _c(
+                            "div",
+                            {
+                              staticClass:
+                                "grid grid-cols-2 sm:grid-cols-3 gap-2 sm:gap-4 mx-auto items-start font-mono font-regular text-sm sm:text-base flex-auto pt-2 sm:pt-4 pb-2 sm:pb-8"
+                            },
+                            _vm._l(_vm.settings2, function(items) {
+                              return _c("div", { key: items.id }, [
+                                _c(
+                                  "label",
+                                  { staticClass: "inline-flex items-auto" },
+                                  [
+                                    _c("input", {
+                                      staticClass:
+                                        "form-checkbox rounded-full text-green-100 mt-1",
+                                      attrs: { type: "checkbox", checked: "" }
+                                    }),
+                                    _vm._v(" "),
+                                    _c("span", { staticClass: "ml-2" }, [
+                                      _vm._v(_vm._s(items.value))
+                                    ])
+                                  ]
+                                )
+                              ])
+                            }),
+                            0
+                          )
+                        ]
+                      )
                     : _vm._e()
                 ]),
                 _vm._v(" "),
@@ -41239,35 +41247,39 @@ var render = function() {
                 _vm._v(" "),
                 _c("transition", { attrs: { name: "fade" } }, [
                   _vm.showCatalog && _vm.showBarGroup
-                    ? _c("div", { staticClass: "flex pl-20 mb-8" }, [
-                        _c(
-                          "div",
-                          {
-                            staticClass:
-                              "grid grid-cols-3 gap-4 mx-auto items-center font-mono font-regular flex-auto pt-4 pb-8"
-                          },
-                          _vm._l(_vm.settings3, function(items) {
-                            return _c("div", { key: items.id }, [
-                              _c(
-                                "label",
-                                { staticClass: "inline-flex items-auto" },
-                                [
-                                  _c("input", {
-                                    staticClass:
-                                      "form-checkbox rounded-full text-green-100 mt-1",
-                                    attrs: { type: "checkbox", checked: "" }
-                                  }),
-                                  _vm._v(" "),
-                                  _c("span", { staticClass: "ml-2" }, [
-                                    _vm._v(_vm._s(items.value))
-                                  ])
-                                ]
-                              )
-                            ])
-                          }),
-                          0
-                        )
-                      ])
+                    ? _c(
+                        "div",
+                        { staticClass: "flex pl-2 sm:pl-20 mb-2 sm:mb-8" },
+                        [
+                          _c(
+                            "div",
+                            {
+                              staticClass:
+                                "grid grid-cols-2 sm:grid-cols-3 gap-2 sm:gap-4 mx-auto items-start font-mono font-regular text-sm sm:text-base flex-auto pt-2 sm:pt-4 pb-2 sm:pb-8"
+                            },
+                            _vm._l(_vm.settings3, function(items) {
+                              return _c("div", { key: items.id }, [
+                                _c(
+                                  "label",
+                                  { staticClass: "inline-flex items-auto" },
+                                  [
+                                    _c("input", {
+                                      staticClass:
+                                        "form-checkbox rounded-full text-green-100 mt-1",
+                                      attrs: { type: "checkbox", checked: "" }
+                                    }),
+                                    _vm._v(" "),
+                                    _c("span", { staticClass: "ml-2" }, [
+                                      _vm._v(_vm._s(items.value))
+                                    ])
+                                  ]
+                                )
+                              ])
+                            }),
+                            0
+                          )
+                        ]
+                      )
                     : _vm._e()
                 ]),
                 _vm._v(" "),
@@ -41355,35 +41367,39 @@ var render = function() {
                 _vm._v(" "),
                 _c("transition", { attrs: { name: "fade" } }, [
                   _vm.showCatalog && _vm.showPaperProf
-                    ? _c("div", { staticClass: "flex pl-20 mb-8" }, [
-                        _c(
-                          "div",
-                          {
-                            staticClass:
-                              "grid grid-cols-3 gap-4 mx-auto items-center font-mono font-regular flex-auto pt-4 pb-8"
-                          },
-                          _vm._l(_vm.settings4, function(items) {
-                            return _c("div", { key: items.id }, [
-                              _c(
-                                "label",
-                                { staticClass: "inline-flex items-auto" },
-                                [
-                                  _c("input", {
-                                    staticClass:
-                                      "form-checkbox rounded-full text-green-100 mt-1",
-                                    attrs: { type: "checkbox", checked: "" }
-                                  }),
-                                  _vm._v(" "),
-                                  _c("span", { staticClass: "ml-2" }, [
-                                    _vm._v(_vm._s(items.value))
-                                  ])
-                                ]
-                              )
-                            ])
-                          }),
-                          0
-                        )
-                      ])
+                    ? _c(
+                        "div",
+                        { staticClass: "flex pl-2 sm:pl-20 mb-2 sm:mb-8" },
+                        [
+                          _c(
+                            "div",
+                            {
+                              staticClass:
+                                "grid grid-cols-2 sm:grid-cols-3 gap-2 sm:gap-4 mx-auto items-start font-mono font-regular text-sm sm:text-base flex-auto pt-2 sm:pt-4 pb-2 sm:pb-8"
+                            },
+                            _vm._l(_vm.settings4, function(items) {
+                              return _c("div", { key: items.id }, [
+                                _c(
+                                  "label",
+                                  { staticClass: "inline-flex items-auto" },
+                                  [
+                                    _c("input", {
+                                      staticClass:
+                                        "form-checkbox rounded-full text-green-100 mt-1",
+                                      attrs: { type: "checkbox", checked: "" }
+                                    }),
+                                    _vm._v(" "),
+                                    _c("span", { staticClass: "ml-2" }, [
+                                      _vm._v(_vm._s(items.value))
+                                    ])
+                                  ]
+                                )
+                              ])
+                            }),
+                            0
+                          )
+                        ]
+                      )
                     : _vm._e()
                 ]),
                 _vm._v(" "),
@@ -41474,35 +41490,39 @@ var render = function() {
                 _vm._v(" "),
                 _c("transition", { attrs: { name: "fade" } }, [
                   _vm.showCatalog && _vm.showProfAndHouseholdChemistry
-                    ? _c("div", { staticClass: "flex pl-20 mb-8" }, [
-                        _c(
-                          "div",
-                          {
-                            staticClass:
-                              "grid grid-cols-3 gap-4 mx-auto items-center font-mono font-regular flex-auto pt-4 pb-8"
-                          },
-                          _vm._l(_vm.settings5, function(items) {
-                            return _c("div", { key: items.id }, [
-                              _c(
-                                "label",
-                                { staticClass: "inline-flex items-auto" },
-                                [
-                                  _c("input", {
-                                    staticClass:
-                                      "form-checkbox rounded-full text-green-100 mt-1",
-                                    attrs: { type: "checkbox", checked: "" }
-                                  }),
-                                  _vm._v(" "),
-                                  _c("span", { staticClass: "ml-2" }, [
-                                    _vm._v(_vm._s(items.value))
-                                  ])
-                                ]
-                              )
-                            ])
-                          }),
-                          0
-                        )
-                      ])
+                    ? _c(
+                        "div",
+                        { staticClass: "flex pl-2 sm:pl-20 mb-2 sm:mb-8" },
+                        [
+                          _c(
+                            "div",
+                            {
+                              staticClass:
+                                "grid grid-cols-2 sm:grid-cols-3 gap-2 sm:gap-4 mx-auto items-start font-mono font-regular text-sm sm:text-base flex-auto pt-2 sm:pt-4 pb-2 sm:pb-8"
+                            },
+                            _vm._l(_vm.settings5, function(items) {
+                              return _c("div", { key: items.id }, [
+                                _c(
+                                  "label",
+                                  { staticClass: "inline-flex items-auto" },
+                                  [
+                                    _c("input", {
+                                      staticClass:
+                                        "form-checkbox rounded-full text-green-100 mt-1",
+                                      attrs: { type: "checkbox", checked: "" }
+                                    }),
+                                    _vm._v(" "),
+                                    _c("span", { staticClass: "ml-2" }, [
+                                      _vm._v(_vm._s(items.value))
+                                    ])
+                                  ]
+                                )
+                              ])
+                            }),
+                            0
+                          )
+                        ]
+                      )
                     : _vm._e()
                 ]),
                 _vm._v(" "),
@@ -41590,35 +41610,39 @@ var render = function() {
                 _vm._v(" "),
                 _c("transition", { attrs: { name: "fade" } }, [
                   _vm.showCatalog && _vm.showHouseholdGoods
-                    ? _c("div", { staticClass: "flex pl-20 mb-8" }, [
-                        _c(
-                          "div",
-                          {
-                            staticClass:
-                              "grid grid-cols-3 gap-4 mx-auto font-mono font-regular flex-auto pt-4 pb-8"
-                          },
-                          _vm._l(_vm.settings6, function(items) {
-                            return _c("div", { key: items.id }, [
-                              _c(
-                                "label",
-                                { staticClass: "inline-flex items-center" },
-                                [
-                                  _c("input", {
-                                    staticClass:
-                                      "form-checkbox rounded-full text-green-100",
-                                    attrs: { type: "checkbox", checked: "" }
-                                  }),
-                                  _vm._v(" "),
-                                  _c("span", { staticClass: "ml-2" }, [
-                                    _vm._v(_vm._s(items.value))
-                                  ])
-                                ]
-                              )
-                            ])
-                          }),
-                          0
-                        )
-                      ])
+                    ? _c(
+                        "div",
+                        { staticClass: "flex pl-2 sm:pl-20 mb-2 sm:mb-8" },
+                        [
+                          _c(
+                            "div",
+                            {
+                              staticClass:
+                                "grid grid-cols-2 sm:grid-cols-3 gap-2 sm:gap-4 mx-auto items-start font-mono font-regular text-sm sm:text-base flex-auto pt-2 sm:pt-4 pb-2 sm:pb-8"
+                            },
+                            _vm._l(_vm.settings6, function(items) {
+                              return _c("div", { key: items.id }, [
+                                _c(
+                                  "label",
+                                  { staticClass: "inline-flex items-start" },
+                                  [
+                                    _c("input", {
+                                      staticClass:
+                                        "form-checkbox rounded-full text-green-100",
+                                      attrs: { type: "checkbox", checked: "" }
+                                    }),
+                                    _vm._v(" "),
+                                    _c("span", { staticClass: "ml-2" }, [
+                                      _vm._v(_vm._s(items.value))
+                                    ])
+                                  ]
+                                )
+                              ])
+                            }),
+                            0
+                          )
+                        ]
+                      )
                     : _vm._e()
                 ]),
                 _vm._v(" "),
@@ -41626,18 +41650,21 @@ var render = function() {
                   _vm.showCatalog && _vm.showHouseholdGoods
                     ? _c(
                         "div",
-                        { staticClass: "flex pl-20 mb-2.5" },
+                        { staticClass: "flex pl-2 sm:pl-10 lg:pl-15 mb-2.5" },
                         [
                           _c(
                             "div",
-                            { staticClass: "clients flex-initial mb-4 mr-4" },
+                            {
+                              staticClass:
+                                "clients flex-initial mb-4 mr-1 sm:mr-4"
+                            },
                             [
                               _c(
                                 "span",
                                 {
                                   attrs: {
                                     calss:
-                                      "font-mono font-regular text-xl tracking-wider"
+                                      "font-mono font-regular text-sm sm:text-lg tracking-wider"
                                   }
                                 },
                                 [_vm._v("хозяйственные товары")]
@@ -41649,13 +41676,19 @@ var render = function() {
                             "simplebar",
                             {
                               staticClass:
-                                "pr-40 max-h-screen bg-white flex-auto font-mono",
-                              attrs: { "data-simplebar-auto-hide": "false" }
+                                "pr-0.5 sm:pr-5 xl:pr-10 h-screen bg-white flex-auto font-mono",
+                              attrs: {
+                                id: "partners",
+                                "data-simplebar-auto-hide": "false"
+                              }
                             },
                             [
                               _c(
                                 "div",
-                                { staticClass: "grid grid-cols-4 gap-4" },
+                                {
+                                  staticClass:
+                                    "grid grid-cols-1 lg:grid-cols-3 xl:grid-cols-4 gap-2 sm:gap-4"
+                                },
                                 [
                                   _c(
                                     "div",
@@ -41670,7 +41703,10 @@ var render = function() {
                                       _vm._v(" "),
                                       _c(
                                         "div",
-                                        { staticClass: "pt-5 pb-5" },
+                                        {
+                                          staticClass:
+                                            "pt-1 sm:pt-5 pb-2 sm:pb-5"
+                                        },
                                         [
                                           _c(
                                             "p",
@@ -41689,7 +41725,7 @@ var render = function() {
                                             "h1",
                                             {
                                               staticClass:
-                                                "text-2xl font-extrabold text-black border-b-2 pb-2.5"
+                                                "text-xl sm:text-2xl font-extrabold text-black border-b-2 pb-1 sm:pb-2.5"
                                             },
                                             [
                                               _vm._v(
@@ -41702,7 +41738,7 @@ var render = function() {
                                             "div",
                                             {
                                               staticClass:
-                                                "flex flex-row justify-between mt-2.5 mb-5"
+                                                "flex flex-row justify-between mt-1 sm:mt-2.5 mb-1 sm:mb-5"
                                             },
                                             [
                                               _c(
@@ -41849,7 +41885,10 @@ var render = function() {
                                                     [
                                                       _c(
                                                         "div",
-                                                        { staticClass: "mb-5" },
+                                                        {
+                                                          staticClass:
+                                                            "mb-1 sm:mb-5"
+                                                        },
                                                         [
                                                           _c("span", [
                                                             _vm._v(
@@ -41861,7 +41900,10 @@ var render = function() {
                                                       _vm._v(" "),
                                                       _c(
                                                         "div",
-                                                        { staticClass: "mb-5" },
+                                                        {
+                                                          staticClass:
+                                                            "mb-1 sm:mb-5"
+                                                        },
                                                         [
                                                           _c("span", [
                                                             _vm._v(
@@ -41873,7 +41915,10 @@ var render = function() {
                                                       _vm._v(" "),
                                                       _c(
                                                         "div",
-                                                        { staticClass: "mb-5" },
+                                                        {
+                                                          staticClass:
+                                                            "mb-1 sm:mb-5"
+                                                        },
                                                         [
                                                           _c("span", [
                                                             _vm._v(
@@ -41963,7 +42008,7 @@ var render = function() {
                                             "div",
                                             {
                                               staticClass:
-                                                "flex bg-black text-white rounded-full h-8 w-32 justify-end mt-2.5"
+                                                "flex bg-black text-white rounded-full h-8 w-32 justify-end mt-1 sm:mt-2.5"
                                             },
                                             [
                                               _c(
@@ -42019,7 +42064,10 @@ var render = function() {
                                       _vm._v(" "),
                                       _c(
                                         "div",
-                                        { staticClass: "pt-5 pb-5" },
+                                        {
+                                          staticClass:
+                                            "pt-1 sm:pt-5 pb-2 sm:pb-5"
+                                        },
                                         [
                                           _c(
                                             "p",
@@ -42038,7 +42086,7 @@ var render = function() {
                                             "h1",
                                             {
                                               staticClass:
-                                                "text-2xl font-extrabold text-black border-b-2 pb-2.5"
+                                                "text-xl sm:text-2xl font-extrabold text-black border-b-2 pb-1 sm:pb-2.5"
                                             },
                                             [
                                               _vm._v(
@@ -42051,7 +42099,7 @@ var render = function() {
                                             "div",
                                             {
                                               staticClass:
-                                                "flex flex-row justify-between mt-2.5 mb-5"
+                                                "flex flex-row justify-between mt-1 sm:mt-2.5 mb-1 sm:mb-5"
                                             },
                                             [
                                               _c(
@@ -42198,7 +42246,10 @@ var render = function() {
                                                     [
                                                       _c(
                                                         "div",
-                                                        { staticClass: "mb-5" },
+                                                        {
+                                                          staticClass:
+                                                            "mb-1 sm:mb-5"
+                                                        },
                                                         [
                                                           _c("span", [
                                                             _vm._v(
@@ -42210,7 +42261,10 @@ var render = function() {
                                                       _vm._v(" "),
                                                       _c(
                                                         "div",
-                                                        { staticClass: "mb-5" },
+                                                        {
+                                                          staticClass:
+                                                            "mb-1 sm:mb-5"
+                                                        },
                                                         [
                                                           _c("span", [
                                                             _vm._v(
@@ -42222,7 +42276,10 @@ var render = function() {
                                                       _vm._v(" "),
                                                       _c(
                                                         "div",
-                                                        { staticClass: "mb-5" },
+                                                        {
+                                                          staticClass:
+                                                            "mb-1 sm:mb-5"
+                                                        },
                                                         [
                                                           _c("span", [
                                                             _vm._v(
@@ -42312,7 +42369,7 @@ var render = function() {
                                             "div",
                                             {
                                               staticClass:
-                                                "flex bg-black text-white rounded-full h-8 w-32 justify-end mt-2.5"
+                                                "flex bg-black text-white rounded-full h-8 w-32 justify-end mt-1 sm:mt-2.5"
                                             },
                                             [
                                               _c(
@@ -42368,7 +42425,10 @@ var render = function() {
                                       _vm._v(" "),
                                       _c(
                                         "div",
-                                        { staticClass: "pt-5 pb-5" },
+                                        {
+                                          staticClass:
+                                            "pt-1 sm:pt-5 pb-2 sm:pb-5"
+                                        },
                                         [
                                           _c(
                                             "p",
@@ -42387,7 +42447,7 @@ var render = function() {
                                             "h1",
                                             {
                                               staticClass:
-                                                "text-2xl font-extrabold text-black border-b-2 pb-2.5"
+                                                "text-xl sm:text-2xl font-extrabold text-black border-b-2 pb-1 sm:pb-2.5"
                                             },
                                             [
                                               _vm._v(
@@ -42400,7 +42460,7 @@ var render = function() {
                                             "div",
                                             {
                                               staticClass:
-                                                "flex flex-row justify-between mt-2.5 mb-5"
+                                                "flex flex-row justify-between mt-1 sm:mt-2.5 mb-1 sm:mb-5"
                                             },
                                             [
                                               _c(
@@ -42547,7 +42607,10 @@ var render = function() {
                                                     [
                                                       _c(
                                                         "div",
-                                                        { staticClass: "mb-5" },
+                                                        {
+                                                          staticClass:
+                                                            "mb-1 sm:mb-5"
+                                                        },
                                                         [
                                                           _c("span", [
                                                             _vm._v(
@@ -42559,7 +42622,10 @@ var render = function() {
                                                       _vm._v(" "),
                                                       _c(
                                                         "div",
-                                                        { staticClass: "mb-5" },
+                                                        {
+                                                          staticClass:
+                                                            "mb-1 sm:mb-5"
+                                                        },
                                                         [
                                                           _c("span", [
                                                             _vm._v(
@@ -42571,7 +42637,10 @@ var render = function() {
                                                       _vm._v(" "),
                                                       _c(
                                                         "div",
-                                                        { staticClass: "mb-5" },
+                                                        {
+                                                          staticClass:
+                                                            "mb-1 sm:mb-5"
+                                                        },
                                                         [
                                                           _c("span", [
                                                             _vm._v(
@@ -42661,7 +42730,7 @@ var render = function() {
                                             "div",
                                             {
                                               staticClass:
-                                                "flex bg-black text-white rounded-full h-8 w-32 justify-end mt-2.5"
+                                                "flex bg-black text-white rounded-full h-8 w-32 justify-end mt-1 sm:mt-2.5"
                                             },
                                             [
                                               _c(
@@ -42717,7 +42786,10 @@ var render = function() {
                                       _vm._v(" "),
                                       _c(
                                         "div",
-                                        { staticClass: "pt-5 pb-5" },
+                                        {
+                                          staticClass:
+                                            "pt-1 sm:pt-5 pb-2 sm:pb-5"
+                                        },
                                         [
                                           _c(
                                             "p",
@@ -42736,7 +42808,7 @@ var render = function() {
                                             "h1",
                                             {
                                               staticClass:
-                                                "text-2xl font-extrabold text-black border-b-2 pb-2.5"
+                                                "text-xl sm:text-2xl font-extrabold text-black border-b-2 pb-1 sm:pb-2.5"
                                             },
                                             [
                                               _vm._v(
@@ -42749,7 +42821,7 @@ var render = function() {
                                             "div",
                                             {
                                               staticClass:
-                                                "flex flex-row justify-between mt-2.5 mb-5"
+                                                "flex flex-row justify-between mt-1 sm:mt-2.5 mb-1 sm:mb-5"
                                             },
                                             [
                                               _c(
@@ -42896,7 +42968,10 @@ var render = function() {
                                                     [
                                                       _c(
                                                         "div",
-                                                        { staticClass: "mb-5" },
+                                                        {
+                                                          staticClass:
+                                                            "mb-1 sm:mb-5"
+                                                        },
                                                         [
                                                           _c("span", [
                                                             _vm._v(
@@ -42908,7 +42983,10 @@ var render = function() {
                                                       _vm._v(" "),
                                                       _c(
                                                         "div",
-                                                        { staticClass: "mb-5" },
+                                                        {
+                                                          staticClass:
+                                                            "mb-1 sm:mb-5"
+                                                        },
                                                         [
                                                           _c("span", [
                                                             _vm._v(
@@ -42920,7 +42998,10 @@ var render = function() {
                                                       _vm._v(" "),
                                                       _c(
                                                         "div",
-                                                        { staticClass: "mb-5" },
+                                                        {
+                                                          staticClass:
+                                                            "mb-1 sm:mb-5"
+                                                        },
                                                         [
                                                           _c("span", [
                                                             _vm._v(
@@ -43010,7 +43091,7 @@ var render = function() {
                                             "div",
                                             {
                                               staticClass:
-                                                "flex bg-black text-white rounded-full h-8 w-32 justify-end mt-2.5"
+                                                "flex bg-black text-white rounded-full h-8 w-32 justify-end mt-1 sm:mt-2.5"
                                             },
                                             [
                                               _c(
@@ -43066,7 +43147,10 @@ var render = function() {
                                       _vm._v(" "),
                                       _c(
                                         "div",
-                                        { staticClass: "pt-5 pb-5" },
+                                        {
+                                          staticClass:
+                                            "pt-1 sm:pt-5 pb-2 sm:pb-5"
+                                        },
                                         [
                                           _c(
                                             "p",
@@ -43085,7 +43169,7 @@ var render = function() {
                                             "h1",
                                             {
                                               staticClass:
-                                                "text-2xl font-extrabold text-black border-b-2 pb-2.5"
+                                                "text-xl sm:text-2xl font-extrabold text-black border-b-2 pb-1 sm:pb-2.5"
                                             },
                                             [
                                               _vm._v(
@@ -43098,7 +43182,7 @@ var render = function() {
                                             "div",
                                             {
                                               staticClass:
-                                                "flex flex-row justify-between mt-2.5 mb-5"
+                                                "flex flex-row justify-between mt-1 sm:mt-2.5 mb-1 sm:mb-5"
                                             },
                                             [
                                               _c(
@@ -43245,7 +43329,10 @@ var render = function() {
                                                     [
                                                       _c(
                                                         "div",
-                                                        { staticClass: "mb-5" },
+                                                        {
+                                                          staticClass:
+                                                            "mb-1 sm:mb-5"
+                                                        },
                                                         [
                                                           _c("span", [
                                                             _vm._v(
@@ -43257,7 +43344,10 @@ var render = function() {
                                                       _vm._v(" "),
                                                       _c(
                                                         "div",
-                                                        { staticClass: "mb-5" },
+                                                        {
+                                                          staticClass:
+                                                            "mb-1 sm:mb-5"
+                                                        },
                                                         [
                                                           _c("span", [
                                                             _vm._v(
@@ -43269,7 +43359,10 @@ var render = function() {
                                                       _vm._v(" "),
                                                       _c(
                                                         "div",
-                                                        { staticClass: "mb-5" },
+                                                        {
+                                                          staticClass:
+                                                            "mb-1 sm:mb-5"
+                                                        },
                                                         [
                                                           _c("span", [
                                                             _vm._v(
@@ -43359,7 +43452,7 @@ var render = function() {
                                             "div",
                                             {
                                               staticClass:
-                                                "flex bg-black text-white rounded-full h-8 w-32 justify-end mt-2.5"
+                                                "flex bg-black text-white rounded-full h-8 w-32 justify-end mt-1 sm:mt-2.5"
                                             },
                                             [
                                               _c(
@@ -46494,7 +46587,7 @@ var render = function() {
         "div",
         {
           staticClass:
-            "rounded-full py-3 px-6 flex items-center justify-between mb-2",
+            "rounded-full py-3 px-4 sm:px-6 flex items-center justify-between mb-2",
           class: [_vm.showLoyaltyProgram ? "bg-yellow-50" : "bg-black"]
         },
         [

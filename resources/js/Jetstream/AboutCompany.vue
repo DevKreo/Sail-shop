@@ -1,6 +1,6 @@
 <template>
 <div>
-    <div class="rounded-full py-3 px-6 flex items-center justify-between mb-2" :class="[showAboutCompany ?  'background-light' : 'background-dark']">
+    <div class="rounded-full py-3 px-4 sm:px-6 flex items-center justify-between mb-2" :class="[showAboutCompany ?  'background-light' : 'background-dark']">
         <div class="inline-flex space-x-1 sm:space-x-10 items-center" :class="[showAboutCompany ?  'text-black' : 'text-white']">
             <svg class="w-7 h-7 transform rotate-180 pl-2 sm:pl-0" viewBox="0 0 24 24">
                 <path fill="currentColor" d="M 11,4L 13,4L 13,15L 11,15L 11,4 Z M 13,18L 13,20L 11,20L 11,18L 13,18 Z" />
@@ -17,7 +17,7 @@
         </button>
     </div>
     <transition name="fade">
-        <div class="px-5 sm:px-20 bg-white grid grid-cols-1" v-show="showAboutCompany">
+        <div class="px-2 sm:px-20 bg-white grid grid-cols-1" v-show="showAboutCompany">
             <span class="mb-2 sm:mb-4 p-4 font-mono font-bold leading-5 sm:leading-8 text-sm sm:text-base text-justify">
                 Компания "Белый Парус" предоставляет комплексное
                 обслуживание в сегменте HoReCa и B2B. В нашем ассортименте:
@@ -42,7 +42,7 @@
     </transition>
 
     <transition name="fade">
-        <div v-show="showPartners && showAboutCompany" class="flex pl-2.5 pr-6 sm:pl-20 mb-2.5">
+        <div v-show="showPartners && showAboutCompany" class="flex pl-3 pr-3 sm:pl-20 mb-2.5">
             <div class="clients flex-initial mb-4">
                 <span class="font-mono font-regular text-sm sm:text-lg tracking-wider">клиенты</span>
             </div>
@@ -56,7 +56,7 @@
         </div>
     </transition>
     <transition name="fade">
-        <div class="px-5 sm:px-20 bg-white grid grid-cols-1" v-show="showAboutCompany">
+        <div class="px-2 sm:px-20 bg-white grid grid-cols-1" v-show="showAboutCompany">
             <div class="py-3 bg-white flex items-center justify-between border-t-2 border-black">
                 <div class="pl-4 text-black inline-flex space-x-10 items-center">
                     <span class="font-mono font-regular text-sm sm:text-xl tracking-wider"> ПОЧЕМУ С НАМИ ? </span>
