@@ -76,26 +76,26 @@
         <div v-show="showWhyWithUs && showAboutCompany" class="flex sm:pl-20 mb-2.5">
             <simplebar id="partners" class="sm:pr-40 h-screen bg-white flex-auto" data-simplebar-auto-hide="false">
                 <div class="flex" v-for="item in whyWithUs" :key="item.id">
-                    <div v-if="item.isPictLeft" class="grid grid-cols-5 gap-2 mb-2">
+                    <div v-if="item.isPictLeft" class="grid grid-cols-5 gap-2 mb-2 ">
                         <div class="clients">
-                            <span class="font-mono font-regular text-lg tracking-wider">{{ item.sidetext }}</span>
+                            <span class="font-mono font-regular text-sm sm:text-base md:text-lg tracking-wider ">{{ item.sidetext }}</span>
                         </div>
-                        <div class="bg-black hover:bg-red-400 col-span-2 pt-3">
-                            <span class="font-mono font-bold text-white p-5 whitespace-pre ">{{ item.text }}</span>
+                        <div class="bg-black hover:bg-red-400 col-span-2 py-2 sm:py-3 px-1 sm:px-3 md:px-2 lg:px-3 2xl:px-0">
+                            <span class="font-mono font-bold text-white p-0 2xl:p-5 whitespace-normal sm:whitespace-pre-line 2xl:whitespace-pre break-words lg:break-normal text-xs sm:text-base">{{ item.text }}</span>
                         </div>
-                        <div class="">
-                            <img :src="item.img" />
+                        <div class="sm:flex-shrink-0">
+                            <img class="w-full object-cover h-full" :src="item.img" />
                         </div>
                     </div>
                     <div v-else class="grid grid-cols-5 gap-2 mb-2">
-                        <div class=" col-start-2">
-                            <img :src="item.img" />
+                        <div class="col-start-2 sm:flex-shrink-0">
+                            <img class="w-full object-cover h-full" :src="item.img" />
                         </div>
-                        <div class="bg-black hover:bg-red-400 col-start-3 col-end-5 pt-3">
-                            <span class="font-mono font-bold text-white whitespace-pre p-5 ">{{ item.text }}</span>
+                        <div class="bg-black hover:bg-red-400 col-start-3 col-end-5 py-2 sm:py-3 px-1 sm:px-3 md:px-2 lg:px-3 2xl:px-0">
+                            <span class="font-mono font-bold text-white p-0 2xl:p-5 whitespace-normal sm:whitespace-pre-line 2xl:whitespace-pre break-words lg:break-normal text-xs sm:text-base">{{ item.text }}</span>
                         </div>
                         <div class="clients col-start-5 justify-self-start">
-                            <span class="font-mono font-regular text-lg tracking-wider">{{ item.sidetext }}</span>
+                            <span class="font-mono font-regular tracking-wider text-sm sm:text-base md:text-lg">{{ item.sidetext }}</span>
                         </div>
                     </div>
                 </div>
@@ -304,6 +304,20 @@ export default {
         margin-bottom: 16px;
         opacity: 1;
         overflow: visible;
+    }
+
+    .clients {
+        writing-mode: vertical-lr;
+        transform: rotate(180deg);
+        font-size: 10px;
+    }
+}
+
+@media(min-width: 1024px) {
+    .clients {
+        writing-mode: vertical-lr;
+        transform: rotate(180deg);
+        font-size: 17px;
     }
 }
 </style>

@@ -13034,7 +13034,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.fade-enter-active[data-v-19b12c64],\r\n.fade-leave-active[data-v-19b12c64] {\r\n    transition: opacity 0.5s;\n}\n.fade-enter[data-v-19b12c64],\r\n.fade-leave-to[data-v-19b12c64]\r\n\r\n/* .fade-leave-active до версии 2.1.8 */\r\n    {\r\n    opacity: 0;\n}\n[data-v-19b12c64] .simplebar-track.simplebar-vertical {\r\n    background-color: #FF6E6E;\r\n    width: 5px;\r\n    margin-right: 0.2rem;\r\n    border-radius: 3px;\r\n    margin-bottom: 16px;\r\n    opacity: 1;\r\n    overflow: visible;\n}\n[data-v-19b12c64] .simplebar-scrollbar.simplebar-visible::before {\r\n    opacity: 1;\r\n    top: 0 !important;\r\n    bottom: 0 !important;\r\n    left: -2px;\r\n    right: 0;\n}\n[data-v-19b12c64] .simplebar-scrollbar:before {\r\n    background-color: #000000;\r\n    width: 9px;\n}\n.clients[data-v-19b12c64] {\r\n    -ms-writing-mode: tb-lr;\r\n        writing-mode: vertical-lr;\r\n    transform: rotate(180deg);\r\n    font-size: 20px;\n}\n.background-dark[data-v-19b12c64] {\r\n    background-color: #000;\n}\n.background-light[data-v-19b12c64] {\r\n    background-color: #FF6E6E;\n}\n@media(min-width:640px) {\n[data-v-19b12c64] .simplebar-track.simplebar-vertical {\r\n        background-color: #FF6E6E;\r\n        width: 5px;\r\n        margin-right: 5rem;\r\n        border-radius: 3px;\r\n        margin-bottom: 16px;\r\n        opacity: 1;\r\n        overflow: visible;\n}\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n.fade-enter-active[data-v-19b12c64],\r\n.fade-leave-active[data-v-19b12c64] {\r\n    transition: opacity 0.5s;\n}\n.fade-enter[data-v-19b12c64],\r\n.fade-leave-to[data-v-19b12c64]\r\n\r\n/* .fade-leave-active до версии 2.1.8 */\r\n    {\r\n    opacity: 0;\n}\n[data-v-19b12c64] .simplebar-track.simplebar-vertical {\r\n    background-color: #FF6E6E;\r\n    width: 5px;\r\n    margin-right: 0.2rem;\r\n    border-radius: 3px;\r\n    margin-bottom: 16px;\r\n    opacity: 1;\r\n    overflow: visible;\n}\n[data-v-19b12c64] .simplebar-scrollbar.simplebar-visible::before {\r\n    opacity: 1;\r\n    top: 0 !important;\r\n    bottom: 0 !important;\r\n    left: -2px;\r\n    right: 0;\n}\n[data-v-19b12c64] .simplebar-scrollbar:before {\r\n    background-color: #000000;\r\n    width: 9px;\n}\n.clients[data-v-19b12c64] {\r\n    -ms-writing-mode: tb-lr;\r\n        writing-mode: vertical-lr;\r\n    transform: rotate(180deg);\r\n    font-size: 20px;\n}\n.background-dark[data-v-19b12c64] {\r\n    background-color: #000;\n}\n.background-light[data-v-19b12c64] {\r\n    background-color: #FF6E6E;\n}\n@media(min-width:640px) {\n[data-v-19b12c64] .simplebar-track.simplebar-vertical {\r\n        background-color: #FF6E6E;\r\n        width: 5px;\r\n        margin-right: 5rem;\r\n        border-radius: 3px;\r\n        margin-bottom: 16px;\r\n        opacity: 1;\r\n        overflow: visible;\n}\n.clients[data-v-19b12c64] {\r\n        -ms-writing-mode: tb-lr;\r\n            writing-mode: vertical-lr;\r\n        transform: rotate(180deg);\r\n        font-size: 10px;\n}\n}\n@media(min-width: 1024px) {\n.clients[data-v-19b12c64] {\r\n        -ms-writing-mode: tb-lr;\r\n            writing-mode: vertical-lr;\r\n        transform: rotate(180deg);\r\n        font-size: 17px;\n}\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -40070,14 +40070,14 @@ var render = function() {
                   item.isPictLeft
                     ? _c(
                         "div",
-                        { staticClass: "grid grid-cols-5 gap-2 mb-2" },
+                        { staticClass: "grid grid-cols-5 gap-2 mb-2 " },
                         [
                           _c("div", { staticClass: "clients" }, [
                             _c(
                               "span",
                               {
                                 staticClass:
-                                  "font-mono font-regular text-lg tracking-wider"
+                                  "font-mono font-regular text-sm sm:text-base md:text-lg tracking-wider "
                               },
                               [_vm._v(_vm._s(item.sidetext))]
                             )
@@ -40087,22 +40087,25 @@ var render = function() {
                             "div",
                             {
                               staticClass:
-                                "bg-black hover:bg-red-400 col-span-2 pt-3"
+                                "bg-black hover:bg-red-400 col-span-2 py-2 sm:py-3 px-1 sm:px-3 md:px-2 lg:px-3 2xl:px-0"
                             },
                             [
                               _c(
                                 "span",
                                 {
                                   staticClass:
-                                    "font-mono font-bold text-white p-5 whitespace-pre "
+                                    "font-mono font-bold text-white p-0 2xl:p-5 whitespace-normal sm:whitespace-pre-line 2xl:whitespace-pre break-words lg:break-normal text-xs sm:text-base"
                                 },
                                 [_vm._v(_vm._s(item.text))]
                               )
                             ]
                           ),
                           _vm._v(" "),
-                          _c("div", {}, [
-                            _c("img", { attrs: { src: item.img } })
+                          _c("div", { staticClass: "sm:flex-shrink-0" }, [
+                            _c("img", {
+                              staticClass: "w-full object-cover h-full",
+                              attrs: { src: item.img }
+                            })
                           ])
                         ]
                       )
@@ -40110,22 +40113,29 @@ var render = function() {
                         "div",
                         { staticClass: "grid grid-cols-5 gap-2 mb-2" },
                         [
-                          _c("div", { staticClass: " col-start-2" }, [
-                            _c("img", { attrs: { src: item.img } })
-                          ]),
+                          _c(
+                            "div",
+                            { staticClass: "col-start-2 sm:flex-shrink-0" },
+                            [
+                              _c("img", {
+                                staticClass: "w-full object-cover h-full",
+                                attrs: { src: item.img }
+                              })
+                            ]
+                          ),
                           _vm._v(" "),
                           _c(
                             "div",
                             {
                               staticClass:
-                                "bg-black hover:bg-red-400 col-start-3 col-end-5 pt-3"
+                                "bg-black hover:bg-red-400 col-start-3 col-end-5 py-2 sm:py-3 px-1 sm:px-3 md:px-2 lg:px-3 2xl:px-0"
                             },
                             [
                               _c(
                                 "span",
                                 {
                                   staticClass:
-                                    "font-mono font-bold text-white whitespace-pre p-5 "
+                                    "font-mono font-bold text-white p-0 2xl:p-5 whitespace-normal sm:whitespace-pre-line 2xl:whitespace-pre break-words lg:break-normal text-xs sm:text-base"
                                 },
                                 [_vm._v(_vm._s(item.text))]
                               )
@@ -40143,7 +40153,7 @@ var render = function() {
                                 "span",
                                 {
                                   staticClass:
-                                    "font-mono font-regular text-lg tracking-wider"
+                                    "font-mono font-regular tracking-wider text-sm sm:text-base md:text-lg"
                                 },
                                 [_vm._v(_vm._s(item.sidetext))]
                               )
