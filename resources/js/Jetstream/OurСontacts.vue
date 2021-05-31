@@ -1,11 +1,11 @@
 <template>
 <div>
-    <div class="rounded-full py-3 px-6 flex items-center justify-between mb-2" :class="[showOurContacts ?  'bg-pink-50' : 'bg-black']">
-        <div class="inline-flex space-x-10 items-center" :class="[showOurContacts ?  'text-black' : 'text-white']">
-            <svg class="w-7 h-7" viewBox="0 0 24 24">
+    <div class="rounded-full py-3 px-4 sm:px-6 flex items-center justify-between mb-2" :class="[showOurContacts ?  'bg-pink-50' : 'bg-black']">
+        <div class="inline-flex space-x-3 sm:space-x-10 items-center" :class="[showOurContacts ?  'text-black' : 'text-white']">
+            <svg class="w-5 h-5 sm:w-7 sm:h-7" viewBox="0 0 24 24">
                 <path fill="currentColor" d="M12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5M12,2A7,7 0 0,0 5,9C5,14.25 12,22 12,22C12,22 19,14.25 19,9A7,7 0 0,0 12,2Z" />
             </svg>
-            <span class="font-mono font-extrabold text-xl tracking-widest"> НАШИ КОНТАКТЫ </span>
+            <span class="font-mono font-extrabold text-sm sm:text-xl tracking-widest"> НАШИ КОНТАКТЫ </span>
         </div>
         <button v-on:click="showOurContacts = !showOurContacts" :class="[showOurContacts ?  'text-black' : 'text-white']">
             <svg v-if="!showOurContacts" class="w-6 h-6" viewBox="0 0 24 24">
@@ -17,15 +17,15 @@
         </button>
     </div>
     <transition name="fade">
-        <div v-if="showOurContacts" class="my-5">
+        <div v-if="showOurContacts" class="px-2 sm:px-20">
             <div class="flex justify-center mb-5 position" v-for="item in content" :key="item.logo">
                 <div class="grid grid-cols-2 gap-1">
-                    <div class="hover:text-black hover:bg-pink-50 bg-black text-white rounded-full h-11 w-11 flex items-center justify-center place-self-end self-center">
+                    <div class="hover:text-black hover:bg-pink-50 bg-black text-white rounded-full h-11 w-11 flex items-center justify-center place-self-start sm:place-self-end self-center">
                         <svg class="w-6 h-6" viewBox="0 0 24 24">
                             <path fill="currentColor" :d="item.logo" />
                         </svg>
                     </div>
-                    <div class="pl-14 flex flex-col justify-items-center place-self-center">
+                    <div class="pl-1 sm:pl-14 flex flex-col justify-items-center place-self-center whitespace-pre">
                         <span class="font-mono font-bold" v-for="sentance in item.text">{{sentance}}</span>
                     </div>
                 </div>
@@ -77,6 +77,12 @@ export default {
 
 <style>
 .position{
-    padding-right:20%;
+    padding-right:30%;
+}
+
+@media(min-width: 1024px) {
+   .position{
+    padding-right:20%; 
+   }
 }
 </style>
