@@ -794,6 +794,7 @@ export default {
     transform: rotate(180deg);
     font-size: 15px;
 }
+
 @media(min-width:640px) {
     /deep/ .simplebar-track.simplebar-vertical {
         background-color: #91CD5A;
@@ -804,6 +805,7 @@ export default {
         opacity: 1;
         overflow: visible;
     }
+    
     .clients {
     writing-mode: vertical-lr;
     transform: rotate(180deg);
@@ -821,6 +823,7 @@ export default {
         opacity: 1;
         overflow: visible;
     }
+
     .clients {
     writing-mode: vertical-lr;
     transform: rotate(180deg);
