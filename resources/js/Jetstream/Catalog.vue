@@ -211,15 +211,17 @@
             <transition name="fade">
                 <div v-if="showCatalog && showHouseholdGoods" class="flex pl-2 sm:pl-10 lg:pl-15 mb-2.5">
                     <div class="clients flex-initial mb-4 mr-1 sm:mr-4">
-                        <span calss="font-mono font-regular text-sm sm:text-lg tracking-wider">хозяйственные товары</span>
+                        <span calss="font-mono font-regular tracking-wider">хозяйственные товары</span>
                     </div>
-                    <simplebar id="partners" class="pr-0.5 sm:pr-5 xl:pr-10 h-screen bg-white flex-auto font-mono" data-simplebar-auto-hide="false">
-                        <div class="grid grid-cols-1 lg:grid-cols-3 xl:grid-cols-4 gap-2 sm:gap-4">
+                    <simplebar class="pr-0.5 sm:pr-5 xl:pr-10 h-screen bg-white flex-auto font-mono" data-simplebar-auto-hide="false">
+
+                        <div class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-4 gap-2 sm:gap-4">
+
                             <div class="flex flex-col bg-white mr-5">
                                 <img src="images/coffe.png" class="self-center" />
                                 <div class="pt-1 sm:pt-5 pb-2 sm:pb-5">
-                                    <p class=" font-mono text-sm font-regular pb-2">Держатели для двух стаканов</p>
-                                    <h1 class="text-xl sm:text-2xl font-extrabold text-black border-b-2 pb-1 sm:pb-2.5">
+                                    <p class="font-mono text-sm font-regular pb-2">Держатели для двух стаканов</p>
+                                    <h1 class="font-mono text-xl sm:text-2xl font-extrabold text-black border-b-2 pb-1 sm:pb-2.5">
                                         Eco cupholder
                                     </h1>
                                     <div class="flex flex-row justify-between mt-1 sm:mt-2.5 mb-1 sm:mb-5">
@@ -271,7 +273,7 @@
                                         <span class="self-center">1 Штука</span>
                                     </div>
                                     <div class="flex bg-black text-white rounded-full h-8 w-32 justify-end mt-1 sm:mt-2.5">
-                                        <span class="self-center mr-6">00000</span>
+                                        <span class="font-mono font-regular self-center mr-6">00000</span>
                                         <svg style="width: 26px; height: 26px" viewBox="0 0 24 24" class="self-center pr-2">
                                             <path fill="currentColor" d="M6,10H7V3H14.5C17,3 19,5 19,7.5C19,10 17,12 14.5,12H9V14H15V16H9V21H7V16H6V14H7V12H6V10M14.5,5H9V10H14.5A2.5,2.5 0 0,0 17,7.5A2.5,2.5 0 0,0 14.5,5Z" />
                                         </svg>
@@ -335,7 +337,7 @@
                                         <span class="self-center">1 Штука</span>
                                     </div>
                                     <div class="flex bg-black text-white rounded-full h-8 w-32 justify-end mt-1 sm:mt-2.5">
-                                        <span class="self-center mr-6">00000</span>
+                                        <span class="font-mono font-regular self-center mr-6">00000</span>
 
                                         <svg style="width: 26px; height: 26px" viewBox="0 0 24 24" class="self-center pr-2">
                                             <path fill="currentColor" d="M6,10H7V3H14.5C17,3 19,5 19,7.5C19,10 17,12 14.5,12H9V14H15V16H9V21H7V16H6V14H7V12H6V10M14.5,5H9V10H14.5A2.5,2.5 0 0,0 17,7.5A2.5,2.5 0 0,0 14.5,5Z" />
@@ -399,7 +401,7 @@
                                         <span class="self-center">1 Штука</span>
                                     </div>
                                     <div class="flex bg-black text-white rounded-full h-8 w-32 justify-end mt-1 sm:mt-2.5">
-                                        <span class="self-center mr-6">00000</span>
+                                        <span class="font-mono font-regular self-center mr-6">00000</span>
 
                                         <svg style="width: 26px; height: 26px" viewBox="0 0 24 24" class="self-center pr-2">
                                             <path fill="currentColor" d="M6,10H7V3H14.5C17,3 19,5 19,7.5C19,10 17,12 14.5,12H9V14H15V16H9V21H7V16H6V14H7V12H6V10M14.5,5H9V10H14.5A2.5,2.5 0 0,0 17,7.5A2.5,2.5 0 0,0 14.5,5Z" />
@@ -464,7 +466,7 @@
                                         <span class="self-center">1 Штука</span>
                                     </div>
                                     <div class="flex bg-black text-white rounded-full h-8 w-32 justify-end mt-1 sm:mt-2.5">
-                                        <span class="self-center mr-6">00000</span>
+                                        <span class="font-mono font-regular self-center mr-6">00000</span>
 
                                         <svg style="width: 26px; height: 26px" viewBox="0 0 24 24" class="self-center pr-2">
                                             <path fill="currentColor" d="M6,10H7V3H14.5C17,3 19,5 19,7.5C19,10 17,12 14.5,12H9V14H15V16H9V21H7V16H6V14H7V12H6V10M14.5,5H9V10H14.5A2.5,2.5 0 0,0 17,7.5A2.5,2.5 0 0,0 14.5,5Z" />
@@ -528,7 +530,7 @@
                                         <span class="self-center">1 Штука</span>
                                     </div>
                                     <div class="flex bg-black text-white rounded-full h-8 w-32 justify-end mt-1 sm:mt-2.5">
-                                        <span class="self-center mr-6">00000</span>
+                                        <span class="font-mono font-regular self-center mr-6">00000</span>
 
                                         <svg style="width: 26px; height: 26px" viewBox="0 0 24 24" class="self-center pr-2">
                                             <path fill="currentColor" d="M6,10H7V3H14.5C17,3 19,5 19,7.5C19,10 17,12 14.5,12H9V14H15V16H9V21H7V16H6V14H7V12H6V10M14.5,5H9V10H14.5A2.5,2.5 0 0,0 17,7.5A2.5,2.5 0 0,0 14.5,5Z" />
@@ -802,6 +804,11 @@ export default {
         opacity: 1;
         overflow: visible;
     }
+    .clients {
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    font-size: 10px;
+    }
 }
 
 @media(min-width: 1024px) {
@@ -813,6 +820,11 @@ export default {
         margin-bottom: 16px;
         opacity: 1;
         overflow: visible;
+    }
+    .clients {
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    font-size: 17px;
     }
 }
 </style>

@@ -3840,6 +3840,8 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
 
 
 
@@ -13056,7 +13058,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n[type=\"checkbox\"][data-v-e88279d6]:checked {\r\n    background-image: url(\"/images/circle-medium.png\");\n}\n[data-v-e88279d6] .simplebar-track.simplebar-vertical {\r\n    background-color: #91CD5A;\r\n    width: 5px;\r\n    margin-right: 0.5rem;\r\n    border-radius: 3px;\r\n    margin-bottom: 16px;\r\n    opacity: 1;\r\n    overflow: visible;\r\n    visibility: visible;\n}\n[data-v-e88279d6] .simplebar-scrollbar.simplebar-visible::before {\r\n    opacity: 1;\r\n    top: 0 !important;\r\n    bottom: 0 !important;\r\n    left: -2px;\r\n    right: 0;\n}\n[data-v-e88279d6] .simplebar-scrollbar:before {\r\n    background-color: #000000;\r\n    width: 9px;\n}\n.clients[data-v-e88279d6] {\r\n    -ms-writing-mode: tb-lr;\r\n        writing-mode: vertical-lr;\r\n    transform: rotate(180deg);\r\n    font-size: 15px;\n}\n@media(min-width:640px) {\n[data-v-e88279d6] .simplebar-track.simplebar-vertical {\r\n        background-color: #91CD5A;\r\n        width: 5px;\r\n        margin-right: 5rem;\r\n        border-radius: 3px;\r\n        margin-bottom: 16px;\r\n        opacity: 1;\r\n        overflow: visible;\n}\n}\n@media(min-width: 1024px) {\n[data-v-e88279d6] .simplebar-track.simplebar-vertical {\r\n        background-color: #91CD5A;\r\n        width: 5px;\r\n        margin-right: 1.5rem;\r\n        border-radius: 3px;\r\n        margin-bottom: 16px;\r\n        opacity: 1;\r\n        overflow: visible;\n}\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n[type=\"checkbox\"][data-v-e88279d6]:checked {\r\n    background-image: url(\"/images/circle-medium.png\");\n}\n[data-v-e88279d6] .simplebar-track.simplebar-vertical {\r\n    background-color: #91CD5A;\r\n    width: 5px;\r\n    margin-right: 0.5rem;\r\n    border-radius: 3px;\r\n    margin-bottom: 16px;\r\n    opacity: 1;\r\n    overflow: visible;\r\n    visibility: visible;\n}\n[data-v-e88279d6] .simplebar-scrollbar.simplebar-visible::before {\r\n    opacity: 1;\r\n    top: 0 !important;\r\n    bottom: 0 !important;\r\n    left: -2px;\r\n    right: 0;\n}\n[data-v-e88279d6] .simplebar-scrollbar:before {\r\n    background-color: #000000;\r\n    width: 9px;\n}\n.clients[data-v-e88279d6] {\r\n    -ms-writing-mode: tb-lr;\r\n        writing-mode: vertical-lr;\r\n    transform: rotate(180deg);\r\n    font-size: 15px;\n}\n@media(min-width:640px) {\n[data-v-e88279d6] .simplebar-track.simplebar-vertical {\r\n        background-color: #91CD5A;\r\n        width: 5px;\r\n        margin-right: 5rem;\r\n        border-radius: 3px;\r\n        margin-bottom: 16px;\r\n        opacity: 1;\r\n        overflow: visible;\n}\n.clients[data-v-e88279d6] {\r\n    -ms-writing-mode: tb-lr;\r\n        writing-mode: vertical-lr;\r\n    transform: rotate(180deg);\r\n    font-size: 10px;\n}\n}\n@media(min-width: 1024px) {\n[data-v-e88279d6] .simplebar-track.simplebar-vertical {\r\n        background-color: #91CD5A;\r\n        width: 5px;\r\n        margin-right: 1.5rem;\r\n        border-radius: 3px;\r\n        margin-bottom: 16px;\r\n        opacity: 1;\r\n        overflow: visible;\n}\n.clients[data-v-e88279d6] {\r\n    -ms-writing-mode: tb-lr;\r\n        writing-mode: vertical-lr;\r\n    transform: rotate(180deg);\r\n    font-size: 17px;\n}\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -13152,7 +13154,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n[type=\"checkbox\"][data-v-0841da81]:checked {\r\n    background-image: url(\"/images/circle-medium.png\");\n}\n[data-v-0841da81] .simplebar-track.simplebar-vertical {\r\n    background-color: #6ED7D7;\r\n    width: 5px;\r\n    margin-right: 5rem;\r\n    border-radius: 3px;\r\n    margin-bottom: 16px;\r\n    opacity: 1;\r\n    overflow: visible;\r\n    visibility: visible;\n}\n[data-v-0841da81] .simplebar-scrollbar.simplebar-visible::before {\r\n    opacity: 1;\r\n    top: 0 !important;\r\n    bottom: 0 !important;\r\n    left: -2px;\r\n    right: 0;\n}\n[data-v-0841da81] .simplebar-scrollbar:before {\r\n    background-color: #000000;\r\n    width: 9px;\n}\n.clients[data-v-0841da81] {\r\n    -ms-writing-mode: tb-lr;\r\n        writing-mode: vertical-lr;\r\n    transform: rotate(180deg);\r\n    font-size: 20px;\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n[type=\"checkbox\"][data-v-0841da81]:checked {\r\n    background-image: url(\"/images/circle-medium.png\");\n}\n[data-v-0841da81] .simplebar-track.simplebar-vertical {\r\n    background-color: #6ED7D7;\r\n    width: 5px;\r\n    margin-right: 0.5rem;\r\n    border-radius: 3px;\r\n    margin-bottom: 16px;\r\n    opacity: 1;\r\n    overflow: visible;\r\n    visibility: visible;\n}\n[data-v-0841da81] .simplebar-scrollbar.simplebar-visible::before {\r\n    opacity: 1;\r\n    top: 0 !important;\r\n    bottom: 0 !important;\r\n    left: -2px;\r\n    right: 0;\n}\n[data-v-0841da81] .simplebar-scrollbar:before {\r\n    background-color: #000000;\r\n    width: 9px;\n}\n.clients[data-v-0841da81] {\r\n    -ms-writing-mode: tb-lr;\r\n        writing-mode: vertical-lr;\r\n    transform: rotate(180deg);\r\n    font-size: 15px;\n}\n@media(min-width:640px) {\n[data-v-0841da81] .simplebar-track.simplebar-vertical {\r\n        background-color: #6ED7D7;\r\n        width: 5px;\r\n        margin-right: 5rem;\r\n        border-radius: 3px;\r\n        margin-bottom: 16px;\r\n        opacity: 1;\r\n        overflow: visible;\n}\n.clients[data-v-0841da81] {\r\n    -ms-writing-mode: tb-lr;\r\n        writing-mode: vertical-lr;\r\n    transform: rotate(180deg);\r\n    font-size: 10px;\n}\n}\n@media(min-width: 1024px) {\n[data-v-0841da81] .simplebar-track.simplebar-vertical {\r\n        background-color: #6ED7D7;\r\n        width: 5px;\r\n        margin-right: 1.5rem;\r\n        border-radius: 3px;\r\n        margin-bottom: 16px;\r\n        opacity: 1;\r\n        overflow: visible;\n}\n.clients[data-v-0841da81] {\r\n    -ms-writing-mode: tb-lr;\r\n        writing-mode: vertical-lr;\r\n    transform: rotate(180deg);\r\n    font-size: 17px;\n}\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -13176,7 +13178,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n[type=\"checkbox\"][data-v-137df76e]:checked {\r\n    background-image: url(\"/images/circle-medium.png\");\n}\n[data-v-137df76e] .simplebar-track.simplebar-vertical {\r\n    background-color: #73E691;\r\n    width: 5px;\r\n    margin-right: 5rem;\r\n    border-radius: 3px;\r\n    margin-bottom: 16px;\r\n    opacity: 1;\r\n    overflow: visible;\r\n    visibility: visible;\n}\n[data-v-137df76e] .simplebar-scrollbar.simplebar-visible::before {\r\n    opacity: 1;\r\n    top: 0 !important;\r\n    bottom: 0 !important;\r\n    left: -2px;\r\n    right: 0;\n}\n[data-v-137df76e] .simplebar-scrollbar:before {\r\n    background-color: #000000;\r\n    width: 9px;\n}\n.clients[data-v-137df76e] {\r\n    -ms-writing-mode: tb-lr;\r\n        writing-mode: vertical-lr;\r\n    transform: rotate(180deg);\r\n    font-size: 20px;\n}\n.card[data-v-137df76e]:hover {\r\n    opacity: 0.5;\n}\n.circuit[data-v-137df76e]:active,\r\n.circuit[data-v-137df76e]:focus {\r\n    outline: none;\n}\n.circuit[data-v-137df76e]::-moz-focus-inner {\r\n    border: 0;\n}\n.parenting:hover .child[data-v-137df76e],\r\n.parenting:focus .child[data-v-137df76e] {\r\n    transform: scale(1.2);\n}\n.parenting[data-v-137df76e] {\r\n    overflow: hidden;\n}\n.child[data-v-137df76e] {\r\n    transition: all .5s;\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n[type=\"checkbox\"][data-v-137df76e]:checked {\r\n    background-image: url(\"/images/circle-medium.png\");\n}\n[data-v-137df76e] .simplebar-track.simplebar-vertical {\r\n    background-color: #73E691;\r\n    width: 5px;\r\n    margin-right: 0.5rem;\r\n    border-radius: 3px;\r\n    margin-bottom: 16px;\r\n    opacity: 1;\r\n    overflow: visible;\r\n    visibility: visible;\n}\n[data-v-137df76e] .simplebar-scrollbar.simplebar-visible::before {\r\n    opacity: 1;\r\n    top: 0 !important;\r\n    bottom: 0 !important;\r\n    left: -2px;\r\n    right: 0;\n}\n[data-v-137df76e] .simplebar-scrollbar:before {\r\n    background-color: #000000;\r\n    width: 9px;\n}\n.clients[data-v-137df76e] {\r\n    -ms-writing-mode: tb-lr;\r\n        writing-mode: vertical-lr;\r\n    transform: rotate(180deg);\r\n    font-size: 15px;\n}\n.card[data-v-137df76e]:hover {\r\n    opacity: 0.5;\n}\n.circuit[data-v-137df76e]:active,\r\n.circuit[data-v-137df76e]:focus {\r\n    outline: none;\n}\n.circuit[data-v-137df76e]::-moz-focus-inner {\r\n    border: 0;\n}\n.parenting:hover .child[data-v-137df76e],\r\n.parenting:focus .child[data-v-137df76e] {\r\n    transform: scale(1.2);\n}\n.parenting[data-v-137df76e] {\r\n    overflow: hidden;\n}\n.child[data-v-137df76e] {\r\n    transition: all .5s;\n}\n@media(min-width:640px) {\n[data-v-137df76e] .simplebar-track.simplebar-vertical {\r\n        background-color: #73E691;\r\n        width: 5px;\r\n        margin-right: 0.5rem;\r\n        border-radius: 3px;\r\n        margin-bottom: 16px;\r\n        opacity: 1;\r\n        overflow: visible;\n}\n.clients[data-v-137df76e] {\r\n    -ms-writing-mode: tb-lr;\r\n        writing-mode: vertical-lr;\r\n    transform: rotate(180deg);\r\n    font-size: 10px;\n}\n}\n@media(min-width: 1024px) {\n[data-v-137df76e] .simplebar-track.simplebar-vertical {\r\n        background-color: #73E691;\r\n        width: 5px;\r\n        margin-right: -1.5rem; \r\n        border-radius: 3px;\r\n        margin-bottom: 16px;\r\n        opacity: 1;\r\n        overflow: visible;\n}\n.clients[data-v-137df76e] {\r\n    -ms-writing-mode: tb-lr;\r\n        writing-mode: vertical-lr;\r\n    transform: rotate(180deg);\r\n    font-size: 17px;\n}\n}\n@media(min-width: 1024px) {\n[data-v-137df76e] .simplebar-track.simplebar-vertical {\r\n        background-color: #73E691;\r\n        width: 5px;\r\n        margin-right: 1.5rem; \r\n        border-radius: 3px;\r\n        margin-bottom: 16px;\r\n        opacity: 1;\r\n        overflow: visible;\n}\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -41664,7 +41666,7 @@ var render = function() {
                                 {
                                   attrs: {
                                     calss:
-                                      "font-mono font-regular text-sm sm:text-lg tracking-wider"
+                                      "font-mono font-regular tracking-wider"
                                   }
                                 },
                                 [_vm._v("хозяйственные товары")]
@@ -41677,17 +41679,14 @@ var render = function() {
                             {
                               staticClass:
                                 "pr-0.5 sm:pr-5 xl:pr-10 h-screen bg-white flex-auto font-mono",
-                              attrs: {
-                                id: "partners",
-                                "data-simplebar-auto-hide": "false"
-                              }
+                              attrs: { "data-simplebar-auto-hide": "false" }
                             },
                             [
                               _c(
                                 "div",
                                 {
                                   staticClass:
-                                    "grid grid-cols-1 lg:grid-cols-3 xl:grid-cols-4 gap-2 sm:gap-4"
+                                    "grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-4 gap-2 sm:gap-4"
                                 },
                                 [
                                   _c(
@@ -41712,7 +41711,7 @@ var render = function() {
                                             "p",
                                             {
                                               staticClass:
-                                                " font-mono text-sm font-regular pb-2"
+                                                "font-mono text-sm font-regular pb-2"
                                             },
                                             [
                                               _vm._v(
@@ -41725,7 +41724,7 @@ var render = function() {
                                             "h1",
                                             {
                                               staticClass:
-                                                "text-xl sm:text-2xl font-extrabold text-black border-b-2 pb-1 sm:pb-2.5"
+                                                "font-mono text-xl sm:text-2xl font-extrabold text-black border-b-2 pb-1 sm:pb-2.5"
                                             },
                                             [
                                               _vm._v(
@@ -42015,7 +42014,7 @@ var render = function() {
                                                 "span",
                                                 {
                                                   staticClass:
-                                                    "self-center mr-6"
+                                                    "font-mono font-regular self-center mr-6"
                                                 },
                                                 [_vm._v("00000")]
                                               ),
@@ -42376,7 +42375,7 @@ var render = function() {
                                                 "span",
                                                 {
                                                   staticClass:
-                                                    "self-center mr-6"
+                                                    "font-mono font-regular self-center mr-6"
                                                 },
                                                 [_vm._v("00000")]
                                               ),
@@ -42737,7 +42736,7 @@ var render = function() {
                                                 "span",
                                                 {
                                                   staticClass:
-                                                    "self-center mr-6"
+                                                    "font-mono font-regular self-center mr-6"
                                                 },
                                                 [_vm._v("00000")]
                                               ),
@@ -43098,7 +43097,7 @@ var render = function() {
                                                 "span",
                                                 {
                                                   staticClass:
-                                                    "self-center mr-6"
+                                                    "font-mono font-regular self-center mr-6"
                                                 },
                                                 [_vm._v("00000")]
                                               ),
@@ -43459,7 +43458,7 @@ var render = function() {
                                                 "span",
                                                 {
                                                   staticClass:
-                                                    "self-center mr-6"
+                                                    "font-mono font-regular self-center mr-6"
                                                 },
                                                 [_vm._v("00000")]
                                               ),
@@ -48019,20 +48018,23 @@ var render = function() {
         "div",
         {
           staticClass:
-            "rounded-full py-3 px-6 flex items-center justify-between mb-2",
+            "rounded-full py-3 px-4 sm:px-6 flex items-center justify-between mb-2",
           class: [_vm.showRequestCall ? "bg-blue-50" : "bg-black"]
         },
         [
           _c(
             "div",
             {
-              staticClass: "inline-flex space-x-10 items-center",
+              staticClass: "inline-flex space-x-3 sm:space-x-10 items-center",
               class: [_vm.showRequestCall ? "text-black" : "text-white"]
             },
             [
               _c(
                 "svg",
-                { staticClass: "w-7 h-7", attrs: { viewBox: "0 0 24 24" } },
+                {
+                  staticClass: "w-5 h-5 sm:w-7 sm:h-7",
+                  attrs: { viewBox: "0 0 24 24" }
+                },
                 [
                   _c("path", {
                     attrs: {
@@ -48048,7 +48050,7 @@ var render = function() {
                 "span",
                 {
                   staticClass:
-                    "font-mono font-extrabold text-xl tracking-widest"
+                    "font-mono font-extrabold text-sm sm:text-xl tracking-widest"
                 },
                 [_vm._v(" ЗАКАЗАТЬ ЗВОНОК ")]
               )
@@ -48110,7 +48112,7 @@ var render = function() {
                   "div",
                   {
                     staticClass:
-                      "hover:text-black hover:bg-blue-50 flex items-center justify-between bg-black rounded-full py-3 px-6 w-1/2 h-12 indent"
+                      "hover:text-black hover:bg-blue-50 flex items-center justify-between bg-black rounded-full py-3 px-6 w-78 h-12 indent"
                   },
                   [
                     _c("span", { staticClass: "text-white" }, [
@@ -48134,7 +48136,7 @@ var render = function() {
                   "div",
                   {
                     staticClass:
-                      "hover:text-black hover:bg-blue-50 flex items-center justify-between bg-black rounded-full py-3 px-6 w-1/2 h-12 indent"
+                      "hover:text-black hover:bg-blue-50 flex items-center justify-between bg-black rounded-full py-3 px-6 w-78 h-12 indent"
                   },
                   [
                     _c("span", { staticClass: "text-white" }, [
@@ -48155,7 +48157,7 @@ var render = function() {
                   "div",
                   {
                     staticClass:
-                      "hover:text-black hover:bg-blue-50 flex items-center justify-between bg-black rounded-full py-3 px-6 w-1/2 h-12 indent"
+                      "hover:text-black hover:bg-blue-50 flex items-center justify-between bg-black rounded-full py-3 px-6 w-78 h-12 indent"
                   },
                   [
                     _c("span", { staticClass: "text-white" }, [
@@ -48176,7 +48178,7 @@ var render = function() {
                   "button",
                   {
                     staticClass:
-                      "hover:text-black hover:bg-blue-50 w-1/2 h-12 bg-black text-white rounded-full font-mono font-extrabold text-xl"
+                      "hover:text-black hover:bg-blue-50 w-64 h-12 bg-black text-white rounded-full font-mono font-extrabold text-xl"
                   },
                   [_vm._v("Заказать")]
                 )
@@ -48397,20 +48399,23 @@ var render = function() {
         "div",
         {
           staticClass:
-            "rounded-full py-3 px-6 flex items-center justify-between mb-2",
+            "rounded-full py-3 px-4 sm:px-6 flex items-center justify-between mb-2",
           class: [_vm.showSphere ? "bg-aqua-50" : "bg-black"]
         },
         [
           _c(
             "div",
             {
-              staticClass: "inline-flex space-x-10 items-center",
+              staticClass: "inline-flex space-x-3 sm:space-x-10 items-center",
               class: [_vm.showSphere ? "text-black" : "text-white"]
             },
             [
               _c(
                 "svg",
-                { staticClass: "w-7 h-7", attrs: { viewBox: "0 0 24 24" } },
+                {
+                  staticClass: "w-5 h-5 sm:w-7 sm:h-7",
+                  attrs: { viewBox: "0 0 24 24" }
+                },
                 [
                   _c("path", {
                     attrs: {
@@ -48426,7 +48431,7 @@ var render = function() {
                 "span",
                 {
                   staticClass:
-                    "font-mono font-extrabold text-xl tracking-widest"
+                    "font-mono font-extrabold text-sm sm:text-xl tracking-widest"
                 },
                 [_vm._v(" СФЕРА ДЕЯТЕЛЬНОСТИ ")]
               )
@@ -48479,7 +48484,7 @@ var render = function() {
         _vm.showSphere
           ? _c(
               "div",
-              { staticClass: "px-20 bg-white grid grid-cols-1" },
+              { staticClass: "px-2 sm:px-20 bg-white grid grid-cols-1" },
               [
                 _c(
                   "div",
@@ -48492,11 +48497,11 @@ var render = function() {
                       "div",
                       {
                         staticClass:
-                          "text-black inline-flex space-x-10 items-center"
+                          "text-black inline-flex space-x-4 sm:space-x-10 items-center"
                       },
                       [
                         _c("img", {
-                          staticClass: "ml-6",
+                          staticClass: "ml-4 sm:ml-6 w-8 sm:w-12",
                           attrs: {
                             src:
                               "images/FieldOfActivity/cafe_bars_restorants.png"
@@ -48507,7 +48512,7 @@ var render = function() {
                           "span",
                           {
                             staticClass:
-                              "font-mono font-regular text-xl tracking-wider"
+                              "font-mono font-regular text-sm sm:text-xl sm:tracking-wider"
                           },
                           [_vm._v(" КАФЕ / БАРЫ / РЕСТОРАНЫ ")]
                         )
@@ -48568,35 +48573,39 @@ var render = function() {
                 _vm._v(" "),
                 _c("transition", { attrs: { name: "fade" } }, [
                   _vm.showSphere && _vm.showCafeBarsResourants
-                    ? _c("div", { staticClass: "flex pl-20 mb-8" }, [
-                        _c(
-                          "div",
-                          {
-                            staticClass:
-                              "grid grid-cols-3 gap-4 mx-auto items-center font-mono font-regular flex-auto pt-4 pb-8"
-                          },
-                          _vm._l(_vm.settings1, function(items) {
-                            return _c("div", { key: items.id }, [
-                              _c(
-                                "label",
-                                { staticClass: "inline-flex items-auto" },
-                                [
-                                  _c("input", {
-                                    staticClass:
-                                      "form-checkbox rounded-full text-aqua-50 mt-1",
-                                    attrs: { type: "checkbox", checked: "" }
-                                  }),
-                                  _vm._v(" "),
-                                  _c("span", { staticClass: "ml-2" }, [
-                                    _vm._v(_vm._s(items.value))
-                                  ])
-                                ]
-                              )
-                            ])
-                          }),
-                          0
-                        )
-                      ])
+                    ? _c(
+                        "div",
+                        { staticClass: "flex pl-2 sm:pl-20 mb-2 sm:mb-8" },
+                        [
+                          _c(
+                            "div",
+                            {
+                              staticClass:
+                                "grid grid-cols-2 sm:grid-cols-3 gap-2 sm:gap-4 mx-auto items-start font-mono font-regular text-sm sm:text-base flex-auto pt-2 sm:pt-4 pb-2 sm:pb-8"
+                            },
+                            _vm._l(_vm.settings1, function(items) {
+                              return _c("div", { key: items.id }, [
+                                _c(
+                                  "label",
+                                  { staticClass: "inline-flex items-auto" },
+                                  [
+                                    _c("input", {
+                                      staticClass:
+                                        "form-checkbox rounded-full text-aqua-50 mt-1",
+                                      attrs: { type: "checkbox", checked: "" }
+                                    }),
+                                    _vm._v(" "),
+                                    _c("span", { staticClass: "ml-2" }, [
+                                      _vm._v(_vm._s(items.value))
+                                    ])
+                                  ]
+                                )
+                              ])
+                            }),
+                            0
+                          )
+                        ]
+                      )
                     : _vm._e()
                 ]),
                 _vm._v(" "),
@@ -48611,11 +48620,11 @@ var render = function() {
                       "div",
                       {
                         staticClass:
-                          "text-black inline-flex space-x-10  items-center"
+                          "text-black inline-flex space-x-4 sm:space-x-10  items-center"
                       },
                       [
                         _c("img", {
-                          staticClass: "ml-5",
+                          staticClass: "ml-4 sm:ml-5 w-8 sm:w-12",
                           attrs: { src: "images/FieldOfActivity/fastfood.png" }
                         }),
                         _vm._v(" "),
@@ -48623,7 +48632,7 @@ var render = function() {
                           "span",
                           {
                             staticClass:
-                              "font-mono font-regular text-xl tracking-wider"
+                              "font-mono font-regular text-sm sm:text-xl tracking-wider"
                           },
                           [_vm._v(" ТОЧКА ФАСТ-ФУД ")]
                         )
@@ -48684,35 +48693,39 @@ var render = function() {
                 _vm._v(" "),
                 _c("transition", { attrs: { name: "fade" } }, [
                   _vm.showSphere && _vm.showFastFood
-                    ? _c("div", { staticClass: "flex pl-20 mb-8" }, [
-                        _c(
-                          "div",
-                          {
-                            staticClass:
-                              "grid grid-cols-3 gap-4 mx-auto items-center font-mono font-regular flex-auto pt-4 pb-8"
-                          },
-                          _vm._l(_vm.settings2, function(items) {
-                            return _c("div", { key: items.id }, [
-                              _c(
-                                "label",
-                                { staticClass: "inline-flex items-auto" },
-                                [
-                                  _c("input", {
-                                    staticClass:
-                                      "form-checkbox rounded-full text-aqua-50 mt-1",
-                                    attrs: { type: "checkbox", checked: "" }
-                                  }),
-                                  _vm._v(" "),
-                                  _c("span", { staticClass: "ml-2" }, [
-                                    _vm._v(_vm._s(items.value))
-                                  ])
-                                ]
-                              )
-                            ])
-                          }),
-                          0
-                        )
-                      ])
+                    ? _c(
+                        "div",
+                        { staticClass: "flex pl-2 sm:pl-20 mb-2 sm:mb-8" },
+                        [
+                          _c(
+                            "div",
+                            {
+                              staticClass:
+                                "grid grid-cols-2 sm:grid-cols-3 gap-2 sm:gap-4 mx-auto items-start font-mono font-regular text-sm sm:text-base flex-auto pt-2 sm:pt-4 pb-2 sm:pb-8"
+                            },
+                            _vm._l(_vm.settings2, function(items) {
+                              return _c("div", { key: items.id }, [
+                                _c(
+                                  "label",
+                                  { staticClass: "inline-flex items-auto" },
+                                  [
+                                    _c("input", {
+                                      staticClass:
+                                        "form-checkbox rounded-full text-aqua-50 mt-1",
+                                      attrs: { type: "checkbox", checked: "" }
+                                    }),
+                                    _vm._v(" "),
+                                    _c("span", { staticClass: "ml-2" }, [
+                                      _vm._v(_vm._s(items.value))
+                                    ])
+                                  ]
+                                )
+                              ])
+                            }),
+                            0
+                          )
+                        ]
+                      )
                     : _vm._e()
                 ]),
                 _vm._v(" "),
@@ -48727,11 +48740,11 @@ var render = function() {
                       "div",
                       {
                         staticClass:
-                          "text-black inline-flex space-x-10  items-center"
+                          "text-black inline-flex space-x-4 sm:space-x-10  items-center"
                       },
                       [
                         _c("img", {
-                          staticClass: "ml-5",
+                          staticClass: "ml-4 sm:ml-5 w-8 sm:w-12",
                           attrs: { src: "images/FieldOfActivity/canteen.png" }
                         }),
                         _vm._v(" "),
@@ -48739,7 +48752,7 @@ var render = function() {
                           "span",
                           {
                             staticClass:
-                              "font-mono font-regular text-xl tracking-wider"
+                              "font-mono font-regular text-sm sm:text-xl tracking-wider"
                           },
                           [_vm._v(" СТОЛОВАЯ ")]
                         )
@@ -48800,35 +48813,39 @@ var render = function() {
                 _vm._v(" "),
                 _c("transition", { attrs: { name: "fade" } }, [
                   _vm.showSphere && _vm.showCanteen
-                    ? _c("div", { staticClass: "flex pl-20 mb-8" }, [
-                        _c(
-                          "div",
-                          {
-                            staticClass:
-                              "grid grid-cols-3 gap-4 mx-auto items-center font-mono font-regular flex-auto pt-4 pb-8"
-                          },
-                          _vm._l(_vm.settings3, function(items) {
-                            return _c("div", { key: items.id }, [
-                              _c(
-                                "label",
-                                { staticClass: "inline-flex items-auto" },
-                                [
-                                  _c("input", {
-                                    staticClass:
-                                      "form-checkbox rounded-full text-aqua-50 mt-1",
-                                    attrs: { type: "checkbox", checked: "" }
-                                  }),
-                                  _vm._v(" "),
-                                  _c("span", { staticClass: "ml-2" }, [
-                                    _vm._v(_vm._s(items.value))
-                                  ])
-                                ]
-                              )
-                            ])
-                          }),
-                          0
-                        )
-                      ])
+                    ? _c(
+                        "div",
+                        { staticClass: "flex pl-2 sm:pl-20 mb-2 sm:mb-8" },
+                        [
+                          _c(
+                            "div",
+                            {
+                              staticClass:
+                                "grid grid-cols-2 sm:grid-cols-3 gap-2 sm:gap-4 mx-auto items-start font-mono font-regular text-sm sm:text-base flex-auto pt-2 sm:pt-4 pb-2 sm:pb-8"
+                            },
+                            _vm._l(_vm.settings3, function(items) {
+                              return _c("div", { key: items.id }, [
+                                _c(
+                                  "label",
+                                  { staticClass: "inline-flex items-auto" },
+                                  [
+                                    _c("input", {
+                                      staticClass:
+                                        "form-checkbox rounded-full text-aqua-50 mt-1",
+                                      attrs: { type: "checkbox", checked: "" }
+                                    }),
+                                    _vm._v(" "),
+                                    _c("span", { staticClass: "ml-2" }, [
+                                      _vm._v(_vm._s(items.value))
+                                    ])
+                                  ]
+                                )
+                              ])
+                            }),
+                            0
+                          )
+                        ]
+                      )
                     : _vm._e()
                 ]),
                 _vm._v(" "),
@@ -48843,11 +48860,11 @@ var render = function() {
                       "div",
                       {
                         staticClass:
-                          "text-black inline-flex space-x-12 items-center"
+                          "text-black inline-flex space-x-4 sm:space-x-10 items-center"
                       },
                       [
                         _c("img", {
-                          staticClass: "ml-9",
+                          staticClass: "ml-4 sm:ml-5 w-8 sm:w-12",
                           attrs: { src: "images/FieldOfActivity/hotel.png" }
                         }),
                         _vm._v(" "),
@@ -48855,7 +48872,7 @@ var render = function() {
                           "span",
                           {
                             staticClass:
-                              "font-mono font-regular text-xl tracking-wider"
+                              "font-mono font-regular text-sm sm:text-xl tracking-wider"
                           },
                           [_vm._v(" ОТЕЛЬ ")]
                         )
@@ -48916,35 +48933,39 @@ var render = function() {
                 _vm._v(" "),
                 _c("transition", { attrs: { name: "fade" } }, [
                   _vm.showSphere && _vm.showHotel
-                    ? _c("div", { staticClass: "flex pl-20 mb-8" }, [
-                        _c(
-                          "div",
-                          {
-                            staticClass:
-                              "grid grid-cols-3 gap-4 mx-auto items-center font-mono font-regular flex-auto pt-4 pb-8"
-                          },
-                          _vm._l(_vm.settings4, function(items) {
-                            return _c("div", { key: items.id }, [
-                              _c(
-                                "label",
-                                { staticClass: "inline-flex items-auto" },
-                                [
-                                  _c("input", {
-                                    staticClass:
-                                      "form-checkbox rounded-full text-aqua-50 mt-1",
-                                    attrs: { type: "checkbox", checked: "" }
-                                  }),
-                                  _vm._v(" "),
-                                  _c("span", { staticClass: "ml-2" }, [
-                                    _vm._v(_vm._s(items.value))
-                                  ])
-                                ]
-                              )
-                            ])
-                          }),
-                          0
-                        )
-                      ])
+                    ? _c(
+                        "div",
+                        { staticClass: "flex pl-2 sm:pl-20 mb-2 sm:mb-8" },
+                        [
+                          _c(
+                            "div",
+                            {
+                              staticClass:
+                                "grid grid-cols-2 sm:grid-cols-3 gap-2 sm:gap-4 mx-auto items-start font-mono font-regular text-sm sm:text-base flex-auto pt-2 sm:pt-4 pb-2 sm:pb-8"
+                            },
+                            _vm._l(_vm.settings4, function(items) {
+                              return _c("div", { key: items.id }, [
+                                _c(
+                                  "label",
+                                  { staticClass: "inline-flex items-auto" },
+                                  [
+                                    _c("input", {
+                                      staticClass:
+                                        "form-checkbox rounded-full text-aqua-50 mt-1",
+                                      attrs: { type: "checkbox", checked: "" }
+                                    }),
+                                    _vm._v(" "),
+                                    _c("span", { staticClass: "ml-2" }, [
+                                      _vm._v(_vm._s(items.value))
+                                    ])
+                                  ]
+                                )
+                              ])
+                            }),
+                            0
+                          )
+                        ]
+                      )
                     : _vm._e()
                 ]),
                 _vm._v(" "),
@@ -48959,11 +48980,11 @@ var render = function() {
                       "div",
                       {
                         staticClass:
-                          "text-black inline-flex space-x-9 items-center"
+                          "text-black inline-flex space-x-4 sm:space-x-9 items-center"
                       },
                       [
                         _c("img", {
-                          staticClass: "ml-6",
+                          staticClass: "ml-4 sm:ml-6 w-8 sm:w-12",
                           attrs: { src: "images/FieldOfActivity/office.png" }
                         }),
                         _vm._v(" "),
@@ -48971,7 +48992,7 @@ var render = function() {
                           "span",
                           {
                             staticClass:
-                              "font-mono font-regular text-xl tracking-wider"
+                              "font-mono font-regular text-sm sm:text-xl tracking-wider"
                           },
                           [_vm._v(" ОФИС ")]
                         )
@@ -49032,35 +49053,39 @@ var render = function() {
                 _vm._v(" "),
                 _c("transition", { attrs: { name: "fade" } }, [
                   _vm.showSphere && _vm.showOffice
-                    ? _c("div", { staticClass: "flex pl-20 mb-8" }, [
-                        _c(
-                          "div",
-                          {
-                            staticClass:
-                              "grid grid-cols-3 gap-4 mx-auto items-center font-mono font-regular flex-auto pt-4 pb-8"
-                          },
-                          _vm._l(_vm.settings5, function(items) {
-                            return _c("div", { key: items.id }, [
-                              _c(
-                                "label",
-                                { staticClass: "inline-flex items-auto" },
-                                [
-                                  _c("input", {
-                                    staticClass:
-                                      "form-checkbox rounded-full text-aqua-50 mt-1",
-                                    attrs: { type: "checkbox", checked: "" }
-                                  }),
-                                  _vm._v(" "),
-                                  _c("span", { staticClass: "ml-2" }, [
-                                    _vm._v(_vm._s(items.value))
-                                  ])
-                                ]
-                              )
-                            ])
-                          }),
-                          0
-                        )
-                      ])
+                    ? _c(
+                        "div",
+                        { staticClass: "flex pl-2 sm:pl-20 mb-2 sm:mb-8" },
+                        [
+                          _c(
+                            "div",
+                            {
+                              staticClass:
+                                "grid grid-cols-2 sm:grid-cols-3 gap-2 sm:gap-4 mx-auto items-start font-mono font-regular text-sm sm:text-base flex-auto pt-2 sm:pt-4 pb-2 sm:pb-8"
+                            },
+                            _vm._l(_vm.settings5, function(items) {
+                              return _c("div", { key: items.id }, [
+                                _c(
+                                  "label",
+                                  { staticClass: "inline-flex items-auto" },
+                                  [
+                                    _c("input", {
+                                      staticClass:
+                                        "form-checkbox rounded-full text-aqua-50 mt-1",
+                                      attrs: { type: "checkbox", checked: "" }
+                                    }),
+                                    _vm._v(" "),
+                                    _c("span", { staticClass: "ml-2" }, [
+                                      _vm._v(_vm._s(items.value))
+                                    ])
+                                  ]
+                                )
+                              ])
+                            }),
+                            0
+                          )
+                        ]
+                      )
                     : _vm._e()
                 ]),
                 _vm._v(" "),
@@ -49075,11 +49100,11 @@ var render = function() {
                       "div",
                       {
                         staticClass:
-                          "text-black inline-flex space-x-9 items-center"
+                          "text-black inline-flex space-x-4 sm:space-x-9 items-center"
                       },
                       [
                         _c("img", {
-                          staticClass: "ml-6",
+                          staticClass: "ml-4 sm:ml-6 w-8 sm:w-12",
                           attrs: {
                             src:
                               "images/FieldOfActivity/medical_institution.png"
@@ -49090,7 +49115,7 @@ var render = function() {
                           "span",
                           {
                             staticClass:
-                              "font-mono font-regular text-xl tracking-wider"
+                              "font-mono font-regular text-sm sm:text-xl tracking-wider"
                           },
                           [_vm._v(" МЕДИЦИНСКОЕ УЧРЕЖДЕНИЕ ")]
                         )
@@ -49151,35 +49176,39 @@ var render = function() {
                 _vm._v(" "),
                 _c("transition", { attrs: { name: "fade" } }, [
                   _vm.showSphere && _vm.showMedicalInst
-                    ? _c("div", { staticClass: "flex pl-20 mb-8" }, [
-                        _c(
-                          "div",
-                          {
-                            staticClass:
-                              "grid grid-cols-3 gap-4 mx-auto items-center font-mono font-regular flex-auto pt-4 pb-8"
-                          },
-                          _vm._l(_vm.settings6, function(items) {
-                            return _c("div", { key: items.id }, [
-                              _c(
-                                "label",
-                                { staticClass: "inline-flex items-auto" },
-                                [
-                                  _c("input", {
-                                    staticClass:
-                                      "form-checkbox rounded-full text-aqua-50 mt-1",
-                                    attrs: { type: "checkbox", checked: "" }
-                                  }),
-                                  _vm._v(" "),
-                                  _c("span", { staticClass: "ml-2" }, [
-                                    _vm._v(_vm._s(items.value))
-                                  ])
-                                ]
-                              )
-                            ])
-                          }),
-                          0
-                        )
-                      ])
+                    ? _c(
+                        "div",
+                        { staticClass: "flex pl-2 sm:pl-20 mb-2 sm:mb-8" },
+                        [
+                          _c(
+                            "div",
+                            {
+                              staticClass:
+                                "grid grid-cols-2 sm:grid-cols-3 gap-2 sm:gap-4 mx-auto items-start font-mono font-regular text-sm sm:text-base flex-auto pt-2 sm:pt-4 pb-2 sm:pb-8"
+                            },
+                            _vm._l(_vm.settings6, function(items) {
+                              return _c("div", { key: items.id }, [
+                                _c(
+                                  "label",
+                                  { staticClass: "inline-flex items-auto" },
+                                  [
+                                    _c("input", {
+                                      staticClass:
+                                        "form-checkbox rounded-full text-aqua-50 mt-1",
+                                      attrs: { type: "checkbox", checked: "" }
+                                    }),
+                                    _vm._v(" "),
+                                    _c("span", { staticClass: "ml-2" }, [
+                                      _vm._v(_vm._s(items.value))
+                                    ])
+                                  ]
+                                )
+                              ])
+                            }),
+                            0
+                          )
+                        ]
+                      )
                     : _vm._e()
                 ]),
                 _vm._v(" "),
@@ -49194,11 +49223,11 @@ var render = function() {
                       "div",
                       {
                         staticClass:
-                          "text-black inline-flex space-x-9 items-center"
+                          "text-black inline-flex space-x-4 sm:space-x-9 items-center"
                       },
                       [
                         _c("img", {
-                          staticClass: "ml-6",
+                          staticClass: "ml-4 sm:ml-6 w-8 sm:w-12",
                           attrs: {
                             src: "images/FieldOfActivity/beauty_saloon.png"
                           }
@@ -49208,7 +49237,7 @@ var render = function() {
                           "span",
                           {
                             staticClass:
-                              "font-mono font-regular text-xl tracking-wider"
+                              "font-mono font-regular text-sm sm:text-xl tracking-wider"
                           },
                           [_vm._v(" САЛОН КРАСОТЫ ")]
                         )
@@ -49269,35 +49298,39 @@ var render = function() {
                 _vm._v(" "),
                 _c("transition", { attrs: { name: "fade" } }, [
                   _vm.showSphere && _vm.showBeautySaloon
-                    ? _c("div", { staticClass: "flex pl-20 mb-8" }, [
-                        _c(
-                          "div",
-                          {
-                            staticClass:
-                              "grid grid-cols-3 gap-4 mx-auto items-center font-mono font-regular flex-auto pt-4 pb-8"
-                          },
-                          _vm._l(_vm.settings7, function(items) {
-                            return _c("div", { key: items.id }, [
-                              _c(
-                                "label",
-                                { staticClass: "inline-flex items-auto" },
-                                [
-                                  _c("input", {
-                                    staticClass:
-                                      "form-checkbox rounded-full text-aqua-50 mt-1",
-                                    attrs: { type: "checkbox", checked: "" }
-                                  }),
-                                  _vm._v(" "),
-                                  _c("span", { staticClass: "ml-2" }, [
-                                    _vm._v(_vm._s(items.value))
-                                  ])
-                                ]
-                              )
-                            ])
-                          }),
-                          0
-                        )
-                      ])
+                    ? _c(
+                        "div",
+                        { staticClass: "flex pl-2 sm:pl-20 mb-2 sm:mb-8" },
+                        [
+                          _c(
+                            "div",
+                            {
+                              staticClass:
+                                "grid grid-cols-2 sm:grid-cols-3 gap-2 sm:gap-4 mx-auto items-start font-mono font-regular text-sm sm:text-base flex-auto pt-2 sm:pt-4 pb-2 sm:pb-8"
+                            },
+                            _vm._l(_vm.settings7, function(items) {
+                              return _c("div", { key: items.id }, [
+                                _c(
+                                  "label",
+                                  { staticClass: "inline-flex items-auto" },
+                                  [
+                                    _c("input", {
+                                      staticClass:
+                                        "form-checkbox rounded-full text-aqua-50 mt-1",
+                                      attrs: { type: "checkbox", checked: "" }
+                                    }),
+                                    _vm._v(" "),
+                                    _c("span", { staticClass: "ml-2" }, [
+                                      _vm._v(_vm._s(items.value))
+                                    ])
+                                  ]
+                                )
+                              ])
+                            }),
+                            0
+                          )
+                        ]
+                      )
                     : _vm._e()
                 ]),
                 _vm._v(" "),
@@ -49305,21 +49338,24 @@ var render = function() {
                   _vm.showSphere && _vm.showBeautySaloon
                     ? _c(
                         "div",
-                        { staticClass: "flex pl-20 mb-2.5" },
+                        { staticClass: "flex pl-2 sm:pl-10 lg:pl-15 mb-2.5" },
                         [
                           _c(
                             "div",
-                            { staticClass: "clients flex-initial mb-4 mr-4" },
+                            {
+                              staticClass:
+                                "clients flex-initial mb-4 mr-1 sm:mr-4"
+                            },
                             [
                               _c(
                                 "span",
                                 {
                                   attrs: {
                                     calss:
-                                      "font-mono font-regular text-xl tracking-wider"
+                                      "font-mono font-regular tracking-wider"
                                   }
                                 },
-                                [_vm._v("хозяйственные товары")]
+                                [_vm._v("товары для салонов красоты")]
                               )
                             ]
                           ),
@@ -49328,13 +49364,16 @@ var render = function() {
                             "simplebar",
                             {
                               staticClass:
-                                "pr-40 max-h-screen bg-white flex-auto font-mono",
+                                "pr-0.5 sm:pr-5 xl:pr-10 h-screen bg-white flex-auto font-mono",
                               attrs: { "data-simplebar-auto-hide": "false" }
                             },
                             [
                               _c(
                                 "div",
-                                { staticClass: "grid grid-cols-4 gap-4" },
+                                {
+                                  staticClass:
+                                    "grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-4 gap-2 sm:gap-4"
+                                },
                                 [
                                   _c(
                                     "div",
@@ -49349,7 +49388,10 @@ var render = function() {
                                       _vm._v(" "),
                                       _c(
                                         "div",
-                                        { staticClass: "pt-5 pb-5" },
+                                        {
+                                          staticClass:
+                                            "pt-1 sm:pt-5 pb-2 sm:pb-5"
+                                        },
                                         [
                                           _c(
                                             "p",
@@ -49368,7 +49410,7 @@ var render = function() {
                                             "h1",
                                             {
                                               staticClass:
-                                                "font-mono text-2xl font-extrabold text-black border-b-2 pb-2.5"
+                                                "font-mono text-xl sm:text-2xl font-extrabold text-black border-b-2 pb-1 sm:pb-2.5"
                                             },
                                             [
                                               _vm._v(
@@ -49381,7 +49423,7 @@ var render = function() {
                                             "div",
                                             {
                                               staticClass:
-                                                "flex flex-row justify-between mt-2.5 mb-5"
+                                                "flex flex-row justify-between mt-1 sm:mt-2.5 mb-1 sm:mb-5"
                                             },
                                             [
                                               _c(
@@ -49528,7 +49570,10 @@ var render = function() {
                                                     [
                                                       _c(
                                                         "div",
-                                                        { staticClass: "mb-5" },
+                                                        {
+                                                          staticClass:
+                                                            "mb-1 sm:mb-5"
+                                                        },
                                                         [
                                                           _c("span", [
                                                             _vm._v(
@@ -49540,7 +49585,10 @@ var render = function() {
                                                       _vm._v(" "),
                                                       _c(
                                                         "div",
-                                                        { staticClass: "mb-5" },
+                                                        {
+                                                          staticClass:
+                                                            "mb-1 sm:mb-5"
+                                                        },
                                                         [
                                                           _c("span", [
                                                             _vm._v(
@@ -49552,7 +49600,10 @@ var render = function() {
                                                       _vm._v(" "),
                                                       _c(
                                                         "div",
-                                                        { staticClass: "mb-5" },
+                                                        {
+                                                          staticClass:
+                                                            "mb-1 sm:mb-5"
+                                                        },
                                                         [
                                                           _c("span", [
                                                             _vm._v(
@@ -49645,7 +49696,7 @@ var render = function() {
                                             "div",
                                             {
                                               staticClass:
-                                                "flex bg-black text-white rounded-full h-8 w-32 justify-end mt-2.5"
+                                                "flex bg-black text-white rounded-full h-8 w-32 justify-end mt-1 sm:mt-2.5"
                                             },
                                             [
                                               _c(
@@ -49701,13 +49752,16 @@ var render = function() {
                                       _vm._v(" "),
                                       _c(
                                         "div",
-                                        { staticClass: "pt-5 pb-5" },
+                                        {
+                                          staticClass:
+                                            "pt-1 sm:pt-5 pb-2 sm:pb-5"
+                                        },
                                         [
                                           _c(
                                             "p",
                                             {
                                               staticClass:
-                                                "text-sm font-regular pb-2"
+                                                "font-mono text-sm font-regular pb-2"
                                             },
                                             [
                                               _vm._v(
@@ -49720,7 +49774,7 @@ var render = function() {
                                             "h1",
                                             {
                                               staticClass:
-                                                "text-2xl font-extrabold text-black border-b-2 pb-2.5"
+                                                "font-mono text-xl sm:text-2xl font-extrabold text-black border-b-2 pb-1 sm:pb-2.5"
                                             },
                                             [
                                               _vm._v(
@@ -49733,7 +49787,7 @@ var render = function() {
                                             "div",
                                             {
                                               staticClass:
-                                                "flex flex-row justify-between mt-2.5 mb-5"
+                                                "flex flex-row justify-between mt-1 sm:mt-2.5 mb-1 sm:mb-5"
                                             },
                                             [
                                               _c(
@@ -49880,7 +49934,10 @@ var render = function() {
                                                     [
                                                       _c(
                                                         "div",
-                                                        { staticClass: "mb-5" },
+                                                        {
+                                                          staticClass:
+                                                            "mb-1 sm:mb-5"
+                                                        },
                                                         [
                                                           _c("span", [
                                                             _vm._v(
@@ -49892,7 +49949,10 @@ var render = function() {
                                                       _vm._v(" "),
                                                       _c(
                                                         "div",
-                                                        { staticClass: "mb-5" },
+                                                        {
+                                                          staticClass:
+                                                            "mb-1 sm:mb-5"
+                                                        },
                                                         [
                                                           _c("span", [
                                                             _vm._v(
@@ -49904,7 +49964,10 @@ var render = function() {
                                                       _vm._v(" "),
                                                       _c(
                                                         "div",
-                                                        { staticClass: "mb-5" },
+                                                        {
+                                                          staticClass:
+                                                            "mb-1 sm:mb-5"
+                                                        },
                                                         [
                                                           _c("span", [
                                                             _vm._v(
@@ -49997,7 +50060,7 @@ var render = function() {
                                             "div",
                                             {
                                               staticClass:
-                                                "flex bg-black text-white rounded-full h-8 w-32 justify-end mt-2.5"
+                                                "flex bg-black text-white rounded-full h-8 w-32 justify-end mt-1 sm:mt-2.5"
                                             },
                                             [
                                               _c(
@@ -50053,7 +50116,10 @@ var render = function() {
                                       _vm._v(" "),
                                       _c(
                                         "div",
-                                        { staticClass: "pt-5 pb-5" },
+                                        {
+                                          staticClass:
+                                            "pt-1 sm:pt-5 pb-2 sm:pb-5"
+                                        },
                                         [
                                           _c(
                                             "p",
@@ -50072,7 +50138,7 @@ var render = function() {
                                             "h1",
                                             {
                                               staticClass:
-                                                "font-mono text-2xl font-extrabold text-black border-b-2 pb-2.5"
+                                                "font-mono text-xl sm:text-2xl font-extrabold text-black border-b-2 pb-1 sm:pb-2.5"
                                             },
                                             [
                                               _vm._v(
@@ -50085,7 +50151,7 @@ var render = function() {
                                             "div",
                                             {
                                               staticClass:
-                                                "flex flex-row justify-between mt-2.5 mb-5"
+                                                "flex flex-row justify-between mt-1 sm:mt-2.5 mb-1 sm:mb-5"
                                             },
                                             [
                                               _c(
@@ -50232,7 +50298,10 @@ var render = function() {
                                                     [
                                                       _c(
                                                         "div",
-                                                        { staticClass: "mb-5" },
+                                                        {
+                                                          staticClass:
+                                                            "mb-1 sm:mb-5"
+                                                        },
                                                         [
                                                           _c("span", [
                                                             _vm._v(
@@ -50244,7 +50313,10 @@ var render = function() {
                                                       _vm._v(" "),
                                                       _c(
                                                         "div",
-                                                        { staticClass: "mb-5" },
+                                                        {
+                                                          staticClass:
+                                                            "mb-1 sm:mb-5"
+                                                        },
                                                         [
                                                           _c("span", [
                                                             _vm._v(
@@ -50256,7 +50328,10 @@ var render = function() {
                                                       _vm._v(" "),
                                                       _c(
                                                         "div",
-                                                        { staticClass: "mb-5" },
+                                                        {
+                                                          staticClass:
+                                                            "mb-1 sm:mb-5"
+                                                        },
                                                         [
                                                           _c("span", [
                                                             _vm._v(
@@ -50349,7 +50424,7 @@ var render = function() {
                                             "div",
                                             {
                                               staticClass:
-                                                "flex bg-black text-white rounded-full h-8 w-32 justify-end mt-2.5"
+                                                "flex bg-black text-white rounded-full h-8 w-32 justify-end mt-1 sm:mt-2.5"
                                             },
                                             [
                                               _c(
@@ -50405,7 +50480,10 @@ var render = function() {
                                       _vm._v(" "),
                                       _c(
                                         "div",
-                                        { staticClass: "pt-5 pb-5" },
+                                        {
+                                          staticClass:
+                                            "pt-1 sm:pt-5 pb-2 sm:pb-5"
+                                        },
                                         [
                                           _c(
                                             "p",
@@ -50424,7 +50502,7 @@ var render = function() {
                                             "h1",
                                             {
                                               staticClass:
-                                                "font-mono text-2xl font-extrabold text-black border-b-2 pb-2.5"
+                                                "font-mono text-xl sm:text-2xl font-extrabold text-black border-b-2 pb-1 sm:pb-2.5"
                                             },
                                             [
                                               _vm._v(
@@ -50437,7 +50515,7 @@ var render = function() {
                                             "div",
                                             {
                                               staticClass:
-                                                "flex flex-row justify-between mt-2.5 mb-5"
+                                                "flex flex-row justify-between mt-1 sm:mt-2.5 mb-1 sm:mb-5"
                                             },
                                             [
                                               _c(
@@ -50584,7 +50662,10 @@ var render = function() {
                                                     [
                                                       _c(
                                                         "div",
-                                                        { staticClass: "mb-5" },
+                                                        {
+                                                          staticClass:
+                                                            "mb-1 sm:mb-5"
+                                                        },
                                                         [
                                                           _c("span", [
                                                             _vm._v(
@@ -50596,7 +50677,10 @@ var render = function() {
                                                       _vm._v(" "),
                                                       _c(
                                                         "div",
-                                                        { staticClass: "mb-5" },
+                                                        {
+                                                          staticClass:
+                                                            "mb-1 sm:mb-5"
+                                                        },
                                                         [
                                                           _c("span", [
                                                             _vm._v(
@@ -50608,7 +50692,10 @@ var render = function() {
                                                       _vm._v(" "),
                                                       _c(
                                                         "div",
-                                                        { staticClass: "mb-5" },
+                                                        {
+                                                          staticClass:
+                                                            "mb-1 sm:mb-5"
+                                                        },
                                                         [
                                                           _c("span", [
                                                             _vm._v(
@@ -50701,7 +50788,7 @@ var render = function() {
                                             "div",
                                             {
                                               staticClass:
-                                                "flex bg-black text-white rounded-full h-8 w-32 justify-end mt-2.5"
+                                                "flex bg-black text-white rounded-full h-8 w-32 justify-end mt-1 sm:mt-2.5"
                                             },
                                             [
                                               _c(
@@ -50757,7 +50844,10 @@ var render = function() {
                                       _vm._v(" "),
                                       _c(
                                         "div",
-                                        { staticClass: "pt-5 pb-5" },
+                                        {
+                                          staticClass:
+                                            "pt-1 sm:pt-5 pb-2 sm:pb-5"
+                                        },
                                         [
                                           _c(
                                             "p",
@@ -50776,7 +50866,7 @@ var render = function() {
                                             "h1",
                                             {
                                               staticClass:
-                                                "font-mono text-2xl font-extrabold text-black border-b-2 pb-2.5"
+                                                "font-mono text-xl sm:text-2xl font-extrabold text-black border-b-2 pb-1 sm:pb-2.5"
                                             },
                                             [
                                               _vm._v(
@@ -50789,7 +50879,7 @@ var render = function() {
                                             "div",
                                             {
                                               staticClass:
-                                                "flex flex-row justify-between mt-2.5 mb-5"
+                                                "flex flex-row justify-between mt-1 sm:mt-2.5 mb-1 sm:mb-5"
                                             },
                                             [
                                               _c(
@@ -50936,7 +51026,10 @@ var render = function() {
                                                     [
                                                       _c(
                                                         "div",
-                                                        { staticClass: "mb-5" },
+                                                        {
+                                                          staticClass:
+                                                            "mb-1 sm:mb-5"
+                                                        },
                                                         [
                                                           _c("span", [
                                                             _vm._v(
@@ -50948,7 +51041,10 @@ var render = function() {
                                                       _vm._v(" "),
                                                       _c(
                                                         "div",
-                                                        { staticClass: "mb-5" },
+                                                        {
+                                                          staticClass:
+                                                            "mb-1 sm:mb-5"
+                                                        },
                                                         [
                                                           _c("span", [
                                                             _vm._v(
@@ -50960,7 +51056,10 @@ var render = function() {
                                                       _vm._v(" "),
                                                       _c(
                                                         "div",
-                                                        { staticClass: "mb-5" },
+                                                        {
+                                                          staticClass:
+                                                            "mb-1 sm:mb-5"
+                                                        },
                                                         [
                                                           _c("span", [
                                                             _vm._v(
@@ -51053,7 +51152,7 @@ var render = function() {
                                             "div",
                                             {
                                               staticClass:
-                                                "flex bg-black text-white rounded-full h-8 w-32 justify-end mt-2.5"
+                                                "flex bg-black text-white rounded-full h-8 w-32 justify-end mt-1 sm:mt-2.5"
                                             },
                                             [
                                               _c(
@@ -51143,20 +51242,23 @@ var render = function() {
         "div",
         {
           staticClass:
-            "rounded-full py-3 px-6 flex items-center justify-between mb-2",
+            "rounded-full py-3 px-4 sm:px-6 flex items-center justify-between mb-2",
           class: [_vm.showTopPosition ? "bg-green-50" : "bg-black"]
         },
         [
           _c(
             "div",
             {
-              staticClass: "inline-flex space-x-10 items-center",
+              staticClass: "inline-flex space-x-3 sm:space-x-10 items-center",
               class: [_vm.showTopPosition ? "text-black" : "text-white"]
             },
             [
               _c(
                 "svg",
-                { staticClass: "w-7 h-7", attrs: { viewBox: "0 0 24 24" } },
+                {
+                  staticClass: "w-5 h-5 sm:w-7 sm:h-7",
+                  attrs: { viewBox: "0 0 24 24" }
+                },
                 [
                   _c("path", {
                     attrs: {
@@ -51172,7 +51274,7 @@ var render = function() {
                 "span",
                 {
                   staticClass:
-                    "font-mono font-extrabold text-xl tracking-widest"
+                    "font-mono font-extrabold text-sm sm:text-xl tracking-widest"
                 },
                 [_vm._v(" ТОП ПОЗИЦИЙ ")]
               )
@@ -51225,7 +51327,9 @@ var render = function() {
         _vm.showTopPosition
           ? _c(
               "div",
-              { staticClass: "px-20 bg-white grid grid-cols-1" },
+              {
+                staticClass: "px-2 sm:px-10 xl:px-20 bg-white grid grid-cols-1"
+              },
               [
                 _c("transition", { attrs: { name: "fade" } }, [
                   _vm.showTopPosition
@@ -51235,14 +51339,17 @@ var render = function() {
                         [
                           _c(
                             "div",
-                            { staticClass: "clients flex-initial mb-4 mr-4" },
+                            {
+                              staticClass:
+                                "clients flex-initial mb-4 mr-1 xl:mr-4"
+                            },
                             [
                               _c(
                                 "span",
                                 {
                                   attrs: {
                                     calss:
-                                      "font-mono font-regular text-xl tracking-wider"
+                                      "font-mono font-regular tracking-wider"
                                   }
                                 },
                                 [_vm._v("рекомендуемые товары")]
@@ -51254,19 +51361,22 @@ var render = function() {
                             "simplebar",
                             {
                               staticClass:
-                                "pr-40 max-h-screen bg-white flex-auto",
+                                "pr-0.5 sm:pr-5 xl:pr-10 max-h-screen bg-white flex-auto",
                               attrs: { "data-simplebar-auto-hide": "false" }
                             },
                             [
                               _c(
                                 "div",
-                                { staticClass: "grid grid-cols-3 gap-4" },
+                                {
+                                  staticClass:
+                                    "grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-2 sm:gap-4"
+                                },
                                 [
                                   _c(
                                     "div",
                                     {
                                       staticClass:
-                                        "group flex flex-col mr-5 h-96 w-96 relative parenting"
+                                        "group flex flex-col mx-2 h-60 lg:h-80 xl:h-96 w-60 lg:w-80 xl:w-auto relative parenting"
                                     },
                                     [
                                       _c("div", {
@@ -51282,14 +51392,14 @@ var render = function() {
                                         "div",
                                         {
                                           staticClass:
-                                            "opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-20 flex flex-col justify-start items-start text-xs text-white font-mono pl-3 pt-3"
+                                            "opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-20 flex flex-col justify-start items-start text-white font-mono pl-3 pt-3"
                                         },
                                         [
                                           _c(
                                             "div",
                                             {
                                               staticClass:
-                                                "ml-1 text-black font-mono font-regular text-base"
+                                                "ml-1 text-black font-mono font-regular text-sm sm:text-base"
                                             },
                                             [
                                               _vm._v(
@@ -51302,7 +51412,7 @@ var render = function() {
                                             "div",
                                             {
                                               staticClass:
-                                                "font-mono font-extrabold text-2xl font-bold pb-2.5 ml-1 text-black flex items-start"
+                                                "font-mono font-extrabold text-base sm:text-2xl font-bold pb-2.5 ml-1 text-black flex items-start"
                                             },
                                             [_vm._v("Eco cupholder")]
                                           ),
@@ -51311,17 +51421,15 @@ var render = function() {
                                             "button",
                                             {
                                               staticClass:
-                                                "circuit rounded-full h-16 w-16 opacity-100 bg-black absolute bottom-0 right-0 mr-5 mb-5 flex items-center justify-center focus:bg-green-50 focus-within:text-black",
+                                                "circuit rounded-full h-12 sm:h-16 w-12 sm:w-16 opacity-100 bg-black absolute bottom-0 right-0 mr-5 mb-5 flex items-center justify-center focus:bg-green-50 focus-within:text-black",
                                               attrs: { type: "button" }
                                             },
                                             [
                                               _c(
                                                 "svg",
                                                 {
-                                                  staticStyle: {
-                                                    width: "48px",
-                                                    height: "48px"
-                                                  },
+                                                  staticClass:
+                                                    "w-8 sm:w-12 h-8 sm:h-12",
                                                   attrs: {
                                                     viewBox: "0 0 24 24"
                                                   }
@@ -51347,7 +51455,7 @@ var render = function() {
                                     "div",
                                     {
                                       staticClass:
-                                        "group flex flex-col mr-5 h-96 w-96 relative parenting"
+                                        "group flex flex-col mx-2 h-60 lg:h-80 xl:h-96 w-60 lg:w-80 xl:w-auto relative parenting"
                                     },
                                     [
                                       _c("div", {
@@ -51363,14 +51471,14 @@ var render = function() {
                                         "div",
                                         {
                                           staticClass:
-                                            "opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-20 flex flex-col justify-start items-start text-xs text-white font-mono pl-3 pt-3"
+                                            "opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-20 flex flex-col justify-start items-start text-white font-mono pl-3 pt-3"
                                         },
                                         [
                                           _c(
                                             "div",
                                             {
                                               staticClass:
-                                                "ml-1 text-black font-mono font-regular text-base"
+                                                "ml-1 text-black font-mono font-regular text-sm sm:text-base"
                                             },
                                             [
                                               _vm._v(
@@ -51383,7 +51491,7 @@ var render = function() {
                                             "div",
                                             {
                                               staticClass:
-                                                "font-mono font-extrabold text-2xl font-bold pb-2.5 ml-1 text-black flex items-start"
+                                                "font-mono font-extrabold text-base sm:text-2xl font-bold pb-2.5 ml-1 text-black flex items-start"
                                             },
                                             [_vm._v("Eco cupholder")]
                                           ),
@@ -51392,17 +51500,15 @@ var render = function() {
                                             "button",
                                             {
                                               staticClass:
-                                                "circuit rounded-full h-16 w-16 opacity-100 bg-black absolute bottom-0 right-0 mr-5 mb-5 flex items-center justify-center focus:bg-green-50 focus-within:text-black",
+                                                "circuit rounded-full h-12 sm:h-16 w-12 sm:w-16 opacity-100 bg-black absolute bottom-0 right-0 mr-5 mb-5 flex items-center justify-center focus:bg-green-50 focus-within:text-black",
                                               attrs: { type: "button" }
                                             },
                                             [
                                               _c(
                                                 "svg",
                                                 {
-                                                  staticStyle: {
-                                                    width: "48px",
-                                                    height: "48px"
-                                                  },
+                                                  staticClass:
+                                                    "w-8 sm:w-12 h-8 sm:h-12",
                                                   attrs: {
                                                     viewBox: "0 0 24 24"
                                                   }
@@ -51428,7 +51534,7 @@ var render = function() {
                                     "div",
                                     {
                                       staticClass:
-                                        "group flex flex-col mr-5 h-96 w-96 relative parenting"
+                                        "group flex flex-col mx-2 h-60 lg:h-80 xl:h-96 w-60 lg:w-80 xl:w-auto relative parenting"
                                     },
                                     [
                                       _c("div", {
@@ -51444,14 +51550,14 @@ var render = function() {
                                         "div",
                                         {
                                           staticClass:
-                                            "opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-20 flex flex-col justify-start items-start text-xs text-white font-mono pl-3 pt-3"
+                                            "opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-20 flex flex-col justify-start items-start text-white font-mono pl-3 pt-3"
                                         },
                                         [
                                           _c(
                                             "div",
                                             {
                                               staticClass:
-                                                "ml-1 text-black font-mono font-regular text-base"
+                                                "ml-1 text-black font-mono font-regular text-sm sm:text-base"
                                             },
                                             [
                                               _vm._v(
@@ -51464,7 +51570,7 @@ var render = function() {
                                             "div",
                                             {
                                               staticClass:
-                                                "font-mono font-extrabold text-2xl font-bold pb-2.5 ml-1 text-black flex items-start"
+                                                "font-mono font-extrabold text-base sm:text-2xl font-bold pb-2.5 ml-1 text-black flex items-start"
                                             },
                                             [_vm._v("Eco cupholder")]
                                           ),
@@ -51473,17 +51579,15 @@ var render = function() {
                                             "button",
                                             {
                                               staticClass:
-                                                "circuit rounded-full h-16 w-16 opacity-100 bg-black absolute bottom-0 right-0 mr-5 mb-5 flex items-center justify-center focus:bg-green-50 focus-within:text-black",
+                                                "circuit rounded-full h-12 sm:h-16 w-12 sm:w-16 opacity-100 bg-black absolute bottom-0 right-0 mr-5 mb-5 flex items-center justify-center focus:bg-green-50 focus-within:text-black",
                                               attrs: { type: "button" }
                                             },
                                             [
                                               _c(
                                                 "svg",
                                                 {
-                                                  staticStyle: {
-                                                    width: "48px",
-                                                    height: "48px"
-                                                  },
+                                                  staticClass:
+                                                    "w-8 sm:w-12 h-8 sm:h-12",
                                                   attrs: {
                                                     viewBox: "0 0 24 24"
                                                   }
@@ -51509,7 +51613,7 @@ var render = function() {
                                     "div",
                                     {
                                       staticClass:
-                                        "group flex flex-col mr-5 h-96 w-96 relative parenting"
+                                        "group flex flex-col mx-2 h-60 lg:h-80 xl:h-96 w-60 lg:w-80 xl:w-auto relative parenting"
                                     },
                                     [
                                       _c("div", {
@@ -51525,14 +51629,14 @@ var render = function() {
                                         "div",
                                         {
                                           staticClass:
-                                            "opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-20 flex flex-col justify-start items-start text-xs text-white font-mono pl-3 pt-3"
+                                            "opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-20 flex flex-col justify-start items-start text-white font-mono pl-3 pt-3"
                                         },
                                         [
                                           _c(
                                             "div",
                                             {
                                               staticClass:
-                                                "ml-1 text-black font-mono font-regular text-base"
+                                                "ml-1 text-black font-mono font-regular text-sm sm:text-base"
                                             },
                                             [
                                               _vm._v(
@@ -51545,7 +51649,7 @@ var render = function() {
                                             "div",
                                             {
                                               staticClass:
-                                                "font-mono font-extrabold text-2xl font-bold pb-2.5 ml-1 text-black flex items-start"
+                                                "font-mono font-extrabold text-base sm:text-2xl font-bold pb-2.5 ml-1 text-black flex items-start"
                                             },
                                             [_vm._v("Eco cupholder")]
                                           ),
@@ -51554,17 +51658,15 @@ var render = function() {
                                             "button",
                                             {
                                               staticClass:
-                                                "circuit rounded-full h-16 w-16 opacity-100 bg-black absolute bottom-0 right-0 mr-5 mb-5 flex items-center justify-center focus:bg-green-50 focus-within:text-black",
+                                                "circuit rounded-full h-12 sm:h-16 w-12 sm:w-16 opacity-100 bg-black absolute bottom-0 right-0 mr-5 mb-5 flex items-center justify-center focus:bg-green-50 focus-within:text-black",
                                               attrs: { type: "button" }
                                             },
                                             [
                                               _c(
                                                 "svg",
                                                 {
-                                                  staticStyle: {
-                                                    width: "48px",
-                                                    height: "48px"
-                                                  },
+                                                  staticClass:
+                                                    "w-8 sm:w-12 h-8 sm:h-12",
                                                   attrs: {
                                                     viewBox: "0 0 24 24"
                                                   }
@@ -51590,7 +51692,7 @@ var render = function() {
                                     "div",
                                     {
                                       staticClass:
-                                        "group flex flex-col mr-5 h-96 w-96 relative parenting"
+                                        "group flex flex-col mx-2 h-60 lg:h-80 xl:h-96 w-60 lg:w-80 xl:w-auto relative parenting"
                                     },
                                     [
                                       _c("div", {
@@ -51606,14 +51708,14 @@ var render = function() {
                                         "div",
                                         {
                                           staticClass:
-                                            "opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-20 flex flex-col justify-start items-start text-xs text-white font-mono pl-3 pt-3"
+                                            "opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-20 flex flex-col justify-start items-start text-white font-mono pl-3 pt-3"
                                         },
                                         [
                                           _c(
                                             "div",
                                             {
                                               staticClass:
-                                                "ml-1 text-black font-mono font-regular text-base"
+                                                "ml-1 text-black font-mono font-regular text-sm sm:text-base"
                                             },
                                             [
                                               _vm._v(
@@ -51626,7 +51728,7 @@ var render = function() {
                                             "div",
                                             {
                                               staticClass:
-                                                "font-mono font-extrabold text-2xl font-bold pb-2.5 ml-1 text-black flex items-start"
+                                                "font-mono font-extrabold text-base sm:text-2xl font-bold pb-2.5 ml-1 text-black flex items-start"
                                             },
                                             [_vm._v("Eco cupholder")]
                                           ),
@@ -51635,17 +51737,15 @@ var render = function() {
                                             "button",
                                             {
                                               staticClass:
-                                                "circuit rounded-full h-16 w-16 opacity-100 bg-black absolute bottom-0 right-0 mr-5 mb-5 flex items-center justify-center focus:bg-green-50 focus-within:text-black",
+                                                "circuit rounded-full h-12 sm:h-16 w-12 sm:w-16 opacity-100 bg-black absolute bottom-0 right-0 mr-5 mb-5 flex items-center justify-center focus:bg-green-50 focus-within:text-black",
                                               attrs: { type: "button" }
                                             },
                                             [
                                               _c(
                                                 "svg",
                                                 {
-                                                  staticStyle: {
-                                                    width: "48px",
-                                                    height: "48px"
-                                                  },
+                                                  staticClass:
+                                                    "w-8 sm:w-12 h-8 sm:h-12",
                                                   attrs: {
                                                     viewBox: "0 0 24 24"
                                                   }
@@ -51671,7 +51771,7 @@ var render = function() {
                                     "div",
                                     {
                                       staticClass:
-                                        "group flex flex-col mr-5 h-96 w-96 relative parenting"
+                                        "group flex flex-col mx-2 h-60 lg:h-80 xl:h-96 w-60 lg:w-80 xl:w-auto relative parenting"
                                     },
                                     [
                                       _c("div", {
@@ -51687,14 +51787,14 @@ var render = function() {
                                         "div",
                                         {
                                           staticClass:
-                                            "opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-20 flex flex-col justify-start items-start text-xs text-white font-mono pl-3 pt-3"
+                                            "opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-20 flex flex-col justify-start items-start text-white font-mono pl-3 pt-3"
                                         },
                                         [
                                           _c(
                                             "div",
                                             {
                                               staticClass:
-                                                "ml-1 text-black font-mono font-regular text-base"
+                                                "ml-1 text-black font-mono font-regular text-sm sm:text-base"
                                             },
                                             [
                                               _vm._v(
@@ -51707,7 +51807,7 @@ var render = function() {
                                             "div",
                                             {
                                               staticClass:
-                                                "font-mono font-extrabold text-2xl font-bold pb-2.5 ml-1 text-black flex items-start"
+                                                "font-mono font-extrabold text-base sm:text-2xl font-bold pb-2.5 ml-1 text-black flex items-start"
                                             },
                                             [_vm._v("Eco cupholder")]
                                           ),
@@ -51716,17 +51816,15 @@ var render = function() {
                                             "button",
                                             {
                                               staticClass:
-                                                "circuit rounded-full h-16 w-16 opacity-100 bg-black absolute bottom-0 right-0 mr-5 mb-5 flex items-center justify-center focus:bg-green-50 focus-within:text-black",
+                                                "circuit rounded-full h-12 sm:h-16 w-12 sm:w-16 opacity-100 bg-black absolute bottom-0 right-0 mr-5 mb-5 flex items-center justify-center focus:bg-green-50 focus-within:text-black",
                                               attrs: { type: "button" }
                                             },
                                             [
                                               _c(
                                                 "svg",
                                                 {
-                                                  staticStyle: {
-                                                    width: "48px",
-                                                    height: "48px"
-                                                  },
+                                                  staticClass:
+                                                    "w-8 sm:w-12 h-8 sm:h-12",
                                                   attrs: {
                                                     viewBox: "0 0 24 24"
                                                   }
@@ -51752,7 +51850,7 @@ var render = function() {
                                     "div",
                                     {
                                       staticClass:
-                                        "group flex flex-col mr-5 h-96 w-96 relative parenting"
+                                        "group flex flex-col mx-2 h-60 lg:h-80 xl:h-96 w-60 lg:w-80 xl:w-auto relative parenting"
                                     },
                                     [
                                       _c("div", {
@@ -51768,14 +51866,14 @@ var render = function() {
                                         "div",
                                         {
                                           staticClass:
-                                            "opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-20 flex flex-col justify-start items-start text-xs text-white font-mono pl-3 pt-3"
+                                            "opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-20 flex flex-col justify-start items-start text-white font-mono pl-3 pt-3"
                                         },
                                         [
                                           _c(
                                             "div",
                                             {
                                               staticClass:
-                                                "ml-1 text-black font-mono font-regular text-base"
+                                                "ml-1 text-black font-mono font-regular text-sm sm:text-base"
                                             },
                                             [
                                               _vm._v(
@@ -51788,7 +51886,7 @@ var render = function() {
                                             "div",
                                             {
                                               staticClass:
-                                                "font-mono font-extrabold text-2xl font-bold pb-2.5 ml-1 text-black flex items-start"
+                                                "font-mono font-extrabold text-base sm:text-2xl font-bold pb-2.5 ml-1 text-black flex items-start"
                                             },
                                             [_vm._v("Eco cupholder")]
                                           ),
@@ -51797,17 +51895,15 @@ var render = function() {
                                             "button",
                                             {
                                               staticClass:
-                                                "circuit rounded-full h-16 w-16 opacity-100 bg-black absolute bottom-0 right-0 mr-5 mb-5 flex items-center justify-center focus:bg-green-50 focus-within:text-black",
+                                                "circuit rounded-full h-12 sm:h-16 w-12 sm:w-16 opacity-100 bg-black absolute bottom-0 right-0 mr-5 mb-5 flex items-center justify-center focus:bg-green-50 focus-within:text-black",
                                               attrs: { type: "button" }
                                             },
                                             [
                                               _c(
                                                 "svg",
                                                 {
-                                                  staticStyle: {
-                                                    width: "48px",
-                                                    height: "48px"
-                                                  },
+                                                  staticClass:
+                                                    "w-8 sm:w-12 h-8 sm:h-12",
                                                   attrs: {
                                                     viewBox: "0 0 24 24"
                                                   }
